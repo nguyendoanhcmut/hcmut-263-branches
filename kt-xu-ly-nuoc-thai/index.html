@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
   <title>Kỹ thuật Xử lý Nước thải (Wastewater Treatment Engineering) - Deep Tree</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧪</text></svg>">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧪</text></svg>">
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
@@ -14,7 +14,7 @@
   <script>
     (function() {
       try {
-        const stored = localStorage.getItem('markmap-theme');
+        const stored = localStorage.getItem('markmap-theme') || localStorage.getItem('hcmut-theme');
         const theme = (stored === 'dark' || stored === 'light') ? stored : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
         document.documentElement.setAttribute('data-theme', theme);
         if (theme === 'dark') {
@@ -49,6 +49,13 @@
       --markmap-code-color: #0f172a;
       --markmap-a-color: #0369a1;
       --markmap-a-hover-color: #0284c7;
+
+      --search-bg: #ffffff;
+      --search-border: #cbd5e1;
+      --search-focus-border: #0284c7;
+      --search-focus-ring: rgba(2, 132, 199, 0.2);
+      --badge-bg: #f1f5f9;
+      --badge-text: #475569;
     }
 
     [data-theme="dark"],
@@ -76,6 +83,13 @@
       --markmap-code-color: #f8fafc;
       --markmap-a-color: #38bdf8;
       --markmap-a-hover-color: #7dd3fc;
+
+      --search-bg: #1e293b;
+      --search-border: #475569;
+      --search-focus-border: #38bdf8;
+      --search-focus-ring: rgba(56, 189, 248, 0.25);
+      --badge-bg: #334155;
+      --badge-text: #cbd5e1;
     }
 
     * {
@@ -248,6 +262,145 @@
     .markmap-dark #theme-toggle .icon-moon {
       display: none;
     }
+
+    .search-box {
+      display: inline-flex;
+      align-items: center;
+      position: relative;
+      background: var(--search-bg);
+      border: 1px solid var(--search-border);
+      border-radius: 6px;
+      height: 30px;
+      padding: 0 4px 0 6px;
+      gap: 3px;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+    .search-box:focus-within {
+      border-color: var(--search-focus-border);
+      box-shadow: 0 0 0 2px var(--search-focus-ring);
+    }
+    .search-icon {
+      width: 13px;
+      height: 13px;
+      stroke: var(--hint-text);
+      fill: none;
+      stroke-width: 2.2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      flex-shrink: 0;
+      pointer-events: none;
+    }
+    #search-input {
+      border: none;
+      background: transparent;
+      color: var(--text-primary);
+      font-size: 12px;
+      font-family: inherit;
+      width: 105px;
+      outline: none;
+      padding: 0 2px;
+      transition: width 0.2s ease;
+    }
+    #search-input::placeholder {
+      color: var(--hint-text);
+      opacity: 0.8;
+    }
+    .search-count {
+      display: none;
+      font-size: 10px;
+      font-weight: 600;
+      color: var(--badge-text);
+      background: var(--badge-bg);
+      padding: 1px 5px;
+      border-radius: 4px;
+      white-space: nowrap;
+      user-select: none;
+      line-height: 1.4;
+    }
+    .search-count.active {
+      display: inline-block;
+    }
+    .search-nav-btn {
+      display: none;
+      border: none;
+      background: transparent;
+      color: var(--btn-text);
+      cursor: pointer;
+      font-size: 9px;
+      width: 20px;
+      height: 22px;
+      border-radius: 4px;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      line-height: 1;
+      transition: background-color 0.15s ease, color 0.15s ease;
+    }
+    .search-nav-btn:hover {
+      background: var(--btn-hover-bg);
+      color: var(--btn-hover-text);
+    }
+    .search-nav-btn.active {
+      display: inline-flex;
+    }
+    .search-clear-btn {
+      font-size: 11px;
+      color: var(--hint-text);
+    }
+    .search-clear-btn:hover {
+      color: #ef4444;
+    }
+
+    @keyframes markmap-pulse-glow {
+      0% {
+        filter: drop-shadow(0 0 3px #0284c7) drop-shadow(0 0 7px #38bdf8);
+      }
+      50% {
+        filter: drop-shadow(0 0 10px #0284c7) drop-shadow(0 0 18px #38bdf8);
+      }
+      100% {
+        filter: drop-shadow(0 0 3px #0284c7) drop-shadow(0 0 7px #38bdf8);
+      }
+    }
+
+    .markmap-node.search-active {
+      animation: markmap-pulse-glow 1.4s ease-in-out infinite;
+    }
+    .markmap-node.search-active circle {
+      stroke: #0284c7 !important;
+      fill: #f59e0b !important;
+      stroke-width: 3px !important;
+    }
+    .markmap-node.search-active foreignObject,
+    .markmap-node.search-active foreignObject > div {
+      background: rgba(254, 240, 138, 0.6) !important;
+      border-radius: 4px;
+      outline: 2px solid #0284c7;
+      outline-offset: 1px;
+    }
+    [data-theme="dark"] .markmap-node.search-active foreignObject,
+    [data-theme="dark"] .markmap-node.search-active foreignObject > div,
+    .dark .markmap-node.search-active foreignObject,
+    .dark .markmap-node.search-active foreignObject > div,
+    .markmap-dark .markmap-node.search-active foreignObject,
+    .markmap-dark .markmap-node.search-active foreignObject > div {
+      background: rgba(234, 179, 8, 0.35) !important;
+      outline-color: #38bdf8;
+    }
+    .markmap-node.search-match:not(.search-active) foreignObject,
+    .markmap-node.search-match:not(.search-active) foreignObject > div {
+      outline: 1.5px dashed #0284c7;
+      border-radius: 4px;
+    }
+    [data-theme="dark"] .markmap-node.search-match:not(.search-active) foreignObject,
+    [data-theme="dark"] .markmap-node.search-match:not(.search-active) foreignObject > div,
+    .dark .markmap-node.search-match:not(.search-active) foreignObject,
+    .dark .markmap-node.search-match:not(.search-active) foreignObject > div,
+    .markmap-dark .markmap-node.search-match:not(.search-active) foreignObject,
+    .markmap-dark .markmap-node.search-match:not(.search-active) foreignObject > div {
+      outline-color: #38bdf8;
+    }
+
     .title-bar {
       position: fixed;
       bottom: max(14px, env(safe-area-inset-bottom, 14px));
@@ -315,38 +468,128 @@
     .desktop-hint { display: inline; }
     .mobile-hint { display: none; }
 
+    /* Mobile portrait / narrow screens (e.g. phones in portrait <= 640px) */
     @media (max-width: 640px) {
       .toolbar {
         top: max(8px, env(safe-area-inset-top, 8px));
+        left: max(8px, env(safe-area-inset-left, 8px));
         right: max(8px, env(safe-area-inset-right, 8px));
-        gap: 4px;
-        padding: 4px 6px;
-        border-radius: 8px;
+        width: calc(100vw - 16px);
+        max-width: calc(100vw - 16px);
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 6px 4px;
+        padding: 6px 8px;
+        border-radius: 10px;
+        box-sizing: border-box;
+      }
+            .toolbar-home-group {
+        order: 0;
+        display: inline-flex;
+        align-items: center;
+        flex-shrink: 0;
+      }
+      .btn-home {
+        height: 32px;
+        min-width: 32px;
+        padding: 0 6px;
+        justify-content: center;
+      }
+      .btn-home .btn-text {
+        display: none !important;
+      }
+      .toolbar-zoom-group {
+        order: 1;
+        display: inline-flex;
+        align-items: center;
+        gap: 3px;
+        flex-shrink: 0;
       }
       .toolbar-divider {
-        margin: 0 1px;
-        height: 16px;
-      }
-      .toolbar button, .toolbar select {
-        height: 32px;
-        font-size: 12px;
-      }
-      #btn-fit .btn-text {
         display: none;
       }
-      #btn-fit {
-        min-width: 32px;
-        padding: 0;
-      }
-      #btn-zoom-out, #btn-zoom-in {
-        min-width: 28px;
-        font-size: 16px;
+      .toolbar-level-group {
+        order: 2;
+        display: inline-flex;
+        align-items: center;
+        flex-shrink: 0;
       }
       .level-pills {
         display: none;
       }
       .level-select {
         display: inline-flex;
+        height: 32px;
+        max-width: 96px;
+        font-size: 12px;
+        font-weight: 600;
+        padding: 0 4px;
+        border-radius: 6px;
+      }
+      #theme-toggle {
+        order: 3;
+        min-width: 36px;
+        height: 32px;
+        padding: 0 8px;
+        margin-left: auto;
+        flex-shrink: 0;
+      }
+      #theme-toggle svg {
+        width: 16px;
+        height: 16px;
+      }
+      .search-box {
+        order: 4;
+        width: 100%;
+        flex-basis: 100%;
+        height: 36px;
+        padding: 0 6px;
+        gap: 4px;
+        margin-top: 2px;
+        box-sizing: border-box;
+      }
+      .search-icon {
+        width: 15px;
+        height: 15px;
+      }
+      #search-input {
+        flex: 1;
+        min-width: 50px;
+        width: 100%;
+        font-size: 16px; /* 16px prevents iOS Safari from auto-zooming viewport on focus */
+      }
+      .search-box:focus-within #search-input {
+        width: 100%;
+      }
+      .search-count {
+        font-size: 11px;
+        padding: 2px 5px;
+      }
+      .search-nav-btn {
+        min-width: 28px;
+        height: 28px;
+        font-size: 12px;
+      }
+      .search-clear-btn {
+        font-size: 14px;
+      }
+      .toolbar button {
+        height: 32px;
+        font-size: 12px;
+      }
+      #btn-fit {
+        min-width: 32px;
+        padding: 0 6px;
+      }
+      #btn-fit .btn-text {
+        display: none; /* Icon only to prevent Row 1 overflow on narrow screens */
+      }
+      #btn-zoom-out, #btn-zoom-in {
+        min-width: 30px;
+        font-size: 16px;
+        padding: 0 4px;
       }
       .title-bar {
         bottom: max(8px, env(safe-area-inset-bottom, 8px));
@@ -355,6 +598,7 @@
         max-width: calc(100vw - 16px);
         padding: 6px 10px;
         border-radius: 6px;
+        transition: opacity 0.2s ease, background-color 0.25s ease, border-color 0.25s ease;
       }
       .title-collapse-btn {
         display: inline-flex;
@@ -368,6 +612,10 @@
       .title-bar.collapsed h1 {
         margin-bottom: 0;
       }
+      .title-bar.search-focused {
+        opacity: 0.15;
+        pointer-events: none;
+      }
       .title-bar h1 {
         font-size: 12px;
         margin-bottom: 1px;
@@ -378,21 +626,136 @@
       .desktop-hint { display: none; }
       .mobile-hint { display: inline; }
     }
-  
-    .btn-home:hover {
-      background: var(--btn-hover-bg) !important;
-      border-color: var(--btn-hover-border) !important;
-      color: var(--btn-hover-text) !important;
-    }
-    @media (max-width: 640px) {
+
+    /* Mobile landscape (e.g. phones rotated horizontally) */
+    @media (orientation: landscape) and (max-height: 600px) {
+      .toolbar-home-group {
+        order: unset;
+      }
+      .btn-home {
+        height: 28px;
+        min-width: 26px;
+        padding: 0 4px;
+        font-size: 11px;
+      }
       .btn-home .btn-text {
         display: none !important;
       }
-      .btn-home {
-        min-width: 30px !important;
-        padding: 0 6px !important;
-        justify-content: center;
+      .toolbar {
+        top: max(6px, env(safe-area-inset-top, 6px));
+        right: max(6px, env(safe-area-inset-right, 6px));
+        left: auto;
+        width: auto;
+        display: inline-flex;
+        flex-wrap: nowrap;
+        gap: 3px;
+        padding: 3px 6px;
+        border-radius: 8px;
+        max-width: calc(100vw - 12px);
       }
+      .toolbar-divider {
+        display: inline-block;
+        margin: 0 1px;
+        height: 16px;
+      }
+      .toolbar button, .toolbar select {
+        height: 28px;
+        font-size: 11px;
+      }
+      #btn-fit .btn-text {
+        display: none;
+      }
+      #btn-fit {
+        min-width: 26px;
+        padding: 0 4px;
+      }
+      #btn-zoom-out, #btn-zoom-in {
+        min-width: 24px;
+        font-size: 14px;
+        padding: 0 2px;
+      }
+      .level-pills {
+        display: none;
+      }
+      .level-select {
+        display: inline-flex;
+        height: 28px;
+        font-size: 11px;
+        padding: 0 2px;
+        max-width: 90px;
+      }
+      .search-box {
+        order: unset;
+        width: auto;
+        flex-basis: auto;
+        height: 28px;
+        padding: 0 3px 0 4px;
+        gap: 2px;
+        margin-top: 0;
+      }
+      #search-input {
+        width: 80px;
+        font-size: 12px;
+      }
+      .search-box:focus-within #search-input {
+        width: 120px;
+      }
+      .search-count {
+        font-size: 9px;
+        padding: 1px 3px;
+      }
+      .search-nav-btn {
+        width: 20px;
+        height: 22px;
+        font-size: 10px;
+      }
+      .search-clear-btn {
+        font-size: 12px;
+      }
+      #theme-toggle {
+        order: unset;
+        margin-left: 0;
+        min-width: 28px;
+        height: 28px;
+        padding: 0 5px;
+      }
+      #theme-toggle svg {
+        width: 14px;
+        height: 14px;
+      }
+      .title-bar {
+        bottom: max(6px, env(safe-area-inset-bottom, 6px));
+        left: max(6px, env(safe-area-inset-left, 6px));
+        max-width: 320px;
+        padding: 4px 8px;
+      }
+      .title-bar h1 { font-size: 11px; }
+      .title-bar p { display: none; }
+    }
+
+    .btn-home {
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+      color: var(--btn-text);
+      font-size: 12px;
+      font-weight: 600;
+      padding: 0 8px;
+      gap: 4px;
+      border: 1px solid var(--btn-border);
+      background: var(--btn-bg);
+      border-radius: 6px;
+      height: 30px;
+      box-sizing: border-box;
+      transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+    }
+    .btn-home:hover {
+      background: var(--btn-hover-bg);
+      border-color: var(--btn-hover-border);
+      color: var(--btn-hover-text);
+    }
+    .btn-home:active {
+      transform: scale(0.96);
     }
 
   </style>
@@ -400,45 +763,59 @@
 <body>
 
   <div class="toolbar" role="toolbar" aria-label="Mind map controls">
-    <div class="toolbar-group">
-      <a href="../index.html" class="btn-home" aria-label="Trang chủ" title="Về trang chủ Mindmap" style="display:inline-flex;align-items:center;text-decoration:none;color:inherit;font-size:12px;font-weight:600;padding:0 8px;gap:4px;border:1px solid var(--btn-border);background:var(--btn-bg);border-radius:6px;height:28px;transition:background-color 0.15s ease,border-color 0.15s ease,color 0.15s ease;">
-        <span style="font-size:14px;">🏠</span><span class="btn-text">Trang chủ</span>
+    <div class="toolbar-group toolbar-home-group">
+      <a href="../index.html" class="btn-home" aria-label="Trang chủ" title="Về trang chủ Mindmap">
+        <span class="btn-icon" style="font-size:14px;line-height:1;">🏠</span><span class="btn-text">Trang chủ</span>
       </a>
     </div>
-    <div class="toolbar-divider" aria-hidden="true"></div>
 
-    <div class="toolbar-group">
-      <button id="btn-fit" aria-label="Fit view" title="Fit to view (F)" onclick="window.mm && window.mm.fit()">
+    <div class="toolbar-divider" aria-hidden="true"></div>
+    <div class="toolbar-group toolbar-zoom-group">
+      <button id="btn-fit" aria-label="Fit view" title="Vừa khung nhìn (F)" onclick="window.mm && window.mm.fit()">
         <span class="btn-icon">⊞</span><span class="btn-text"> Fit</span>
       </button>
-      <button id="btn-zoom-out" aria-label="Zoom out" title="Zoom out (−)" onclick="window.mm && window.mm.rescale(0.8)">−</button>
-      <button id="btn-zoom-in" aria-label="Zoom in" title="Zoom in (+)" onclick="window.mm && window.mm.rescale(1.25)">+</button>
+      <button id="btn-zoom-out" aria-label="Zoom out" title="Thu nhỏ (−)" onclick="window.mm && window.mm.rescale(0.8)">−</button>
+      <button id="btn-zoom-in" aria-label="Zoom in" title="Phóng to (+)" onclick="window.mm && window.mm.rescale(1.25)">+</button>
     </div>
 
     <div class="toolbar-divider" aria-hidden="true"></div>
 
-    <div class="toolbar-group">
+    <div class="toolbar-group toolbar-level-group">
       <div class="level-pills" role="group" aria-label="Expand level">
         <span class="level-label">Lv</span>
-        <button type="button" class="btn-level" data-level="1" title="Level 1: Root only" onclick="window.__setLevel(1)">L1</button>
-        <button type="button" class="btn-level active" data-level="2" title="Level 2: Chapters" onclick="window.__setLevel(2)">L2</button>
-        <button type="button" class="btn-level" data-level="3" title="Level 3: Sections" onclick="window.__setLevel(3)">L3</button>
-        <button type="button" class="btn-level" data-level="4" title="Level 4: Subsections" onclick="window.__setLevel(4)">L4</button>
-        <button type="button" class="btn-level" data-level="5" title="Level 5: Details" onclick="window.__setLevel(5)">L5</button>
+        <button type="button" class="btn-level" data-level="1" title="Level 1: Gốc" onclick="window.__setLevel(1)">L1</button>
+        <button type="button" class="btn-level active" data-level="2" title="Level 2: Chương" onclick="window.__setLevel(2)">L2</button>
+        <button type="button" class="btn-level" data-level="3" title="Level 3: Mục chính" onclick="window.__setLevel(3)">L3</button>
+        <button type="button" class="btn-level" data-level="4" title="Level 4: Tiểu mục" onclick="window.__setLevel(4)">L4</button>
+        <button type="button" class="btn-level" data-level="5" title="Level 5: Chi tiết" onclick="window.__setLevel(5)">L5</button>
       </div>
       <select id="level-select" class="level-select" aria-label="Expand level" onchange="window.__setLevel(this.value)">
-        <option value="1">L1: Root</option>
-        <option value="2" selected>L2: Chapters</option>
-        <option value="3">L3: Sections</option>
-        <option value="4">L4: Subsections</option>
-        <option value="5">L5: Details</option>
-        <option value="custom" disabled hidden>Custom</option>
+        <option value="1">L1: Gốc</option>
+        <option value="2" selected>L2: Chương</option>
+        <option value="3">L3: Mục</option>
+        <option value="4">L4: Tiểu mục</option>
+        <option value="5">L5: Toàn bộ</option>
+        <option value="custom" disabled hidden>Tùy chỉnh</option>
       </select>
     </div>
 
     <div class="toolbar-divider" aria-hidden="true"></div>
 
-    <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme (T)" onclick="window.__toggleTheme && window.__toggleTheme()">
+    <div class="search-box" id="search-box" role="search">
+      <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="11" cy="11" r="7"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <input type="text" id="search-input" placeholder="Tìm kiếm... (/)" autocomplete="off" spellcheck="false" aria-label="Tìm kiếm trên sơ đồ">
+      <span id="search-count" class="search-count" aria-live="polite"></span>
+      <button type="button" id="btn-search-prev" class="search-nav-btn" aria-label="Previous match" title="Kết quả trước (▲ / Shift+Enter)">▲</button>
+      <button type="button" id="btn-search-next" class="search-nav-btn" aria-label="Next match" title="Kết quả tiếp theo (▼ / Enter)">▼</button>
+      <button type="button" id="btn-search-clear" class="search-nav-btn search-clear-btn" aria-label="Clear search" title="Xóa tìm kiếm (Esc)">✕</button>
+    </div>
+
+    <div class="toolbar-divider" aria-hidden="true"></div>
+
+    <button id="theme-toggle" aria-label="Chuyển giao diện sáng/tối" title="Chuyển giao diện sáng/tối (T)" onclick="window.__toggleTheme && window.__toggleTheme()">
       <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true">
         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
       </svg>
@@ -462,8 +839,8 @@
       <button type="button" id="btn-toggle-title" class="title-collapse-btn" aria-label="Toggle details" title="Toggle details" onclick="document.getElementById('title-bar').classList.toggle('collapsed')">▾</button>
     </div>
     <p>
-      <span class="desktop-hint">Scroll to zoom · Drag to pan · Click ○ to toggle</span>
-      <span class="mobile-hint">Pinch to zoom · Drag to pan · Tap ○ to toggle</span>
+      <span class="desktop-hint">Cuộn chuột để thu phóng · Kéo để di chuyển · Bấm ○ để đóng/mở · Nhấn / để tìm kiếm</span>
+      <span class="mobile-hint">Chạm hai ngón để thu phóng · Kéo để di chuyển · Chạm ○ để đóng/mở</span>
     </p>
   </div>
 
@@ -529,6 +906,8 @@
       applyTheme(next, true);
     };
 
+    let updateHighlightClasses = function() {};
+
     let isUpdatingLevel = false;
     window.__setLevel = async function(lvl) {
       if (isUpdatingLevel || !window.mm || !window.mm.state || !window.mm.state.data) return;
@@ -570,6 +949,9 @@
 
         await window.mm.renderData();
         await window.mm.fit();
+        if (typeof updateHighlightClasses === 'function') {
+          updateHighlightClasses();
+        }
       } catch (err) {
         console.error('Failed to set level:', err);
       } finally {
@@ -678,8 +1060,293 @@
           document.querySelectorAll('.btn-level').forEach(btn => btn.classList.remove('active'));
           const selectEl = document.getElementById('level-select');
           if (selectEl) selectEl.value = 'custom';
+          setTimeout(updateHighlightClasses, 250);
         }
       });
+
+      // ==========================================
+      // Search Engine
+      // ==========================================
+      let searchMatches = [];
+      let currentSearchIndex = -1;
+      let searchDebounceTimer = null;
+
+      function decodeHtmlEntities(str) {
+        if (!str) return '';
+        return str
+          .replace(/&#x([0-9a-fA-F]+);/g, (_, hex) => String.fromCodePoint(parseInt(hex, 16)))
+          .replace(/&#([0-9]+);/g, (_, dec) => String.fromCodePoint(parseInt(dec, 10)))
+          .replace(/&amp;/g, '&')
+          .replace(/&lt;/g, '<')
+          .replace(/&gt;/g, '>')
+          .replace(/&quot;/g, '"')
+          .replace(/&#39;/g, "'")
+          .replace(/&apos;/g, "'")
+          .replace(/&nbsp;/g, ' ');
+      }
+
+      function cleanTextForSearch(str) {
+        if (!str) return '';
+        return decodeHtmlEntities(str.replace(/<[^>]*>/g, ' '))
+          .replace(/\s+/g, ' ')
+          .trim();
+      }
+
+      function removeAccents(str) {
+        if (!str) return '';
+        return str
+          .normalize('NFD')
+          .replace(/[\u0300-\u036f]/g, '')
+          .replace(/đ/g, 'd')
+          .replace(/Đ/g, 'D');
+      }
+
+      function preIndexSearchText(node) {
+        if (!node) return;
+        const text = cleanTextForSearch(node.content);
+        node._textLower = text.toLowerCase();
+        node._textNorm = removeAccents(node._textLower);
+        if (node.children && node.children.length) {
+          for (let i = 0; i < node.children.length; i++) {
+            preIndexSearchText(node.children[i]);
+          }
+        }
+      }
+      preIndexSearchText(rootData);
+
+      updateHighlightClasses = function() {
+        const svg = document.getElementById('markmap-svg');
+        if (!svg) return;
+        svg.querySelectorAll('.search-active').forEach(el => el.classList.remove('search-active'));
+        svg.querySelectorAll('.search-match').forEach(el => el.classList.remove('search-match'));
+
+        if (searchMatches.length === 0 || currentSearchIndex < 0) return;
+
+        const renderedMap = new Map();
+        svg.querySelectorAll('g.markmap-node').forEach(g => {
+          const path = g.getAttribute('data-path');
+          if (path) renderedMap.set(path, g);
+        });
+
+        for (let i = 0; i < searchMatches.length; i++) {
+          const m = searchMatches[i];
+          const path = m.node && m.node.state && m.node.state.path;
+          const gNode = path ? renderedMap.get(path) : null;
+          if (gNode) {
+            if (i === currentSearchIndex) {
+              gNode.classList.add('search-active');
+            } else {
+              gNode.classList.add('search-match');
+            }
+          }
+        }
+      };
+
+      async function zoomToNode(node) {
+        if (!window.mm || !node) return;
+        const elem = window.mm.findElement(node);
+        const itemData = elem ? elem.data : node;
+        if (!itemData || !itemData.state || !itemData.state.rect) return;
+
+        const svgNode = window.mm.svg.node();
+        const relRect = svgNode.getBoundingClientRect();
+        const curTransform = d3.zoomTransform(svgNode);
+
+        const minScale = window.innerWidth < 640 ? 0.85 : 1.0;
+        const k = Math.max(curTransform.k, minScale);
+
+        const cx = relRect.width / 2;
+        const cy = relRect.height / 2;
+        const x0 = itemData.state.rect.x + itemData.state.rect.width / 2;
+        const y0 = itemData.state.rect.y + itemData.state.rect.height / 2;
+
+        const targetTransform = d3.zoomIdentity
+          .translate(cx - x0 * k, cy - y0 * k)
+          .scale(k);
+
+        await window.mm.transition(window.mm.svg).call(window.mm.zoom.transform, targetTransform).end().catch(() => {});
+      }
+
+      async function activateSearchMatch(index) {
+        if (index < 0 || index >= searchMatches.length) return;
+        currentSearchIndex = index;
+
+        const countEl = document.getElementById('search-count');
+        if (countEl) {
+          countEl.textContent = (index + 1) + '/' + searchMatches.length;
+          countEl.classList.add('active');
+        }
+
+        const match = searchMatches[index];
+        let needsRender = false;
+        if (match.ancestors && match.ancestors.length) {
+          for (let i = 0; i < match.ancestors.length; i++) {
+            const a = match.ancestors[i];
+            if (a.payload && a.payload.fold) {
+              a.payload.fold = 0;
+              needsRender = true;
+            }
+          }
+        }
+
+        if (needsRender) {
+          document.querySelectorAll('.btn-level').forEach(btn => btn.classList.remove('active'));
+          const selectEl = document.getElementById('level-select');
+          if (selectEl) selectEl.value = 'custom';
+          await window.mm.renderData();
+        }
+
+        updateHighlightClasses();
+        await zoomToNode(match.node);
+      }
+
+      function clearSearch() {
+        searchMatches = [];
+        currentSearchIndex = -1;
+        const searchInput = document.getElementById('search-input');
+        if (searchInput) searchInput.value = '';
+        const countEl = document.getElementById('search-count');
+        if (countEl) {
+          countEl.textContent = '';
+          countEl.classList.remove('active');
+        }
+        const prevBtn = document.getElementById('btn-search-prev');
+        if (prevBtn) prevBtn.classList.remove('active');
+        const nextBtn = document.getElementById('btn-search-next');
+        if (nextBtn) nextBtn.classList.remove('active');
+        const clearBtn = document.getElementById('btn-search-clear');
+        if (clearBtn) clearBtn.classList.remove('active');
+
+        updateHighlightClasses();
+      }
+
+      async function executeSearch(query) {
+        if (!window.mm || !window.mm.state || !window.mm.state.data) return;
+        const q = (query || '').trim();
+        if (!q) {
+          clearSearch();
+          return;
+        }
+
+        const qLower = q.toLowerCase();
+        const qNorm = removeAccents(qLower);
+
+        const matches = [];
+        function walk(node, ancestors) {
+          if (!node) return;
+          if (node._textLower === undefined) {
+            const text = cleanTextForSearch(node.content);
+            node._textLower = text.toLowerCase();
+            node._textNorm = removeAccents(node._textLower);
+          }
+          if (node._textLower.includes(qLower) || node._textNorm.includes(qNorm)) {
+            matches.push({ node, ancestors });
+          }
+          if (node.children && node.children.length) {
+            const nextAncestors = ancestors.concat(node);
+            for (let i = 0; i < node.children.length; i++) {
+              walk(node.children[i], nextAncestors);
+            }
+          }
+        }
+
+        walk(window.mm.state.data, []);
+        searchMatches = matches;
+
+        const countEl = document.getElementById('search-count');
+        const prevBtn = document.getElementById('btn-search-prev');
+        const nextBtn = document.getElementById('btn-search-next');
+        const clearBtn = document.getElementById('btn-search-clear');
+
+        if (clearBtn) clearBtn.classList.add('active');
+
+        if (matches.length === 0) {
+          currentSearchIndex = -1;
+          if (countEl) {
+            countEl.textContent = '0/0';
+            countEl.classList.add('active');
+          }
+          if (prevBtn) prevBtn.classList.remove('active');
+          if (nextBtn) nextBtn.classList.remove('active');
+          updateHighlightClasses();
+          return;
+        }
+
+        if (prevBtn) prevBtn.classList.add('active');
+        if (nextBtn) nextBtn.classList.add('active');
+
+        await activateSearchMatch(0);
+      }
+
+      async function nextSearchMatch() {
+        if (searchMatches.length === 0) return;
+        const nextIdx = (currentSearchIndex + 1) % searchMatches.length;
+        await activateSearchMatch(nextIdx);
+      }
+
+      async function prevSearchMatch() {
+        if (searchMatches.length === 0) return;
+        const prevIdx = (currentSearchIndex - 1 + searchMatches.length) % searchMatches.length;
+        await activateSearchMatch(prevIdx);
+      }
+
+      const searchInput = document.getElementById('search-input');
+      const prevBtn = document.getElementById('btn-search-prev');
+      const nextBtn = document.getElementById('btn-search-next');
+      const clearBtn = document.getElementById('btn-search-clear');
+
+      if (searchInput) {
+        const titleBarEl = document.getElementById('title-bar');
+        searchInput.addEventListener('focus', () => {
+          if (titleBarEl) titleBarEl.classList.add('search-focused');
+        });
+        searchInput.addEventListener('blur', () => {
+          if (titleBarEl) titleBarEl.classList.remove('search-focused');
+        });
+
+        searchInput.addEventListener('input', (e) => {
+          clearTimeout(searchDebounceTimer);
+          searchDebounceTimer = setTimeout(() => {
+            executeSearch(e.target.value);
+          }, 80);
+        });
+
+        searchInput.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter') {
+            e.preventDefault();
+            if (e.shiftKey) {
+              prevSearchMatch();
+            } else {
+              nextSearchMatch();
+            }
+          } else if (e.key === 'Escape') {
+            e.preventDefault();
+            clearSearch();
+            searchInput.blur();
+          }
+        });
+      }
+
+      if (prevBtn) {
+        prevBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          prevSearchMatch();
+        });
+      }
+
+      if (nextBtn) {
+        nextBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          nextSearchMatch();
+        });
+      }
+
+      if (clearBtn) {
+        clearBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          clearSearch();
+        });
+      }
 
       let resizeTimer;
       window.addEventListener('resize', () => {
@@ -694,6 +1361,9 @@
             });
             await window.mm.renderData();
             await window.mm.fit();
+            if (typeof updateHighlightClasses === 'function') {
+              updateHighlightClasses();
+            }
           }
         }, 150);
       });
@@ -701,6 +1371,15 @@
       window.addEventListener('keydown', (e) => {
         if (e.ctrlKey || e.metaKey || e.altKey) return;
         if (e.target && (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.tagName === 'SELECT')) return;
+        if (e.key === '/') {
+          e.preventDefault();
+          const si = document.getElementById('search-input');
+          if (si) {
+            si.focus();
+            si.select();
+          }
+          return;
+        }
         if (e.key === '1') window.__setLevel(1);
         else if (e.key === '2') window.__setLevel(2);
         else if (e.key === '3') window.__setLevel(3);
