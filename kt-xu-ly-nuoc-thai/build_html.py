@@ -1,8 +1,9 @@
 import os
 import sys
 
-md_path = r"C:\antgravity workplace\hcmut-263\kt xu ly nuoc thai\indexes\test_branches_deep\wastewater_treatment_deep_branches.md"
-html_path = r"C:\antgravity workplace\hcmut-263\kt xu ly nuoc thai\indexes\test_branches_deep\wastewater_treatment_deep_branches.html"
+base_dir = os.path.dirname(os.path.abspath(__file__))
+md_path = os.path.join(base_dir, "wastewater_treatment_deep_branches.md")
+html_path = os.path.join(base_dir, "wastewater_treatment_deep_branches.html")
 
 print(f"Reading markdown from: {md_path}")
 with open(md_path, "r", encoding="utf-8") as f:
