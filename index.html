@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+  <title>HCMUT-263 Mindmap Portal | Bản Đồ Tư Duy Tri Thức Chuyên Sâu</title>
+  <meta name="description" content="Cổng tra cứu bản đồ tư duy tương tác môn học HCMUT-263: Kỹ thuật Xử lý Nước thải, Nước cấp và Kỹ năng Lãnh đạo.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <script>
+    (function() {
+      try {
+        const stored = localStorage.getItem('hcmut-theme');
+        const theme = (stored === 'dark' || stored === 'light') ? stored : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (e) {}
+    })();
+  </script>
+
+  <style>
+    :root {
+      --bg-gradient: radial-gradient(120% 120% at 50% 0%, #f0f9ff 0%, #f8fafc 40%, #ffffff 100%);
+      --card-bg: rgba(255, 255, 255, 0.85);
+      --card-border: rgba(226, 232, 240, 0.8);
+      --card-hover-border: #0284c7;
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --text-hint: #64748b;
+      --primary: #0284c7;
+      --primary-hover: #0369a1;
+      --primary-subtle: #e0f2fe;
+      --badge-bg: #f1f5f9;
+      --badge-text: #334155;
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.05);
+      --shadow-card: 0 10px 25px -5px rgba(15, 23, 42, 0.05), 0 8px 10px -6px rgba(15, 23, 42, 0.03);
+      --shadow-card-hover: 0 20px 30px -10px rgba(2, 132, 199, 0.15), 0 10px 15px -3px rgba(15, 23, 42, 0.05);
+      --tag-bg: #f8fafc;
+      --tag-border: #e2e8f0;
+      --chip-color: #0369a1;
+      --chip-bg: #f0f9ff;
+    }
+
+    [data-theme="dark"] {
+      --bg-gradient: radial-gradient(120% 120% at 50% 0%, #0f172a 0%, #090d16 50%, #050811 100%);
+      --card-bg: rgba(30, 41, 59, 0.7);
+      --card-border: rgba(51, 65, 85, 0.8);
+      --card-hover-border: #38bdf8;
+      --text-main: #f8fafc;
+      --text-muted: #cbd5e1;
+      --text-hint: #94a3b8;
+      --primary: #38bdf8;
+      --primary-hover: #7dd3fc;
+      --primary-subtle: rgba(56, 189, 248, 0.15);
+      --badge-bg: rgba(51, 65, 85, 0.6);
+      --badge-text: #e2e8f0;
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.4);
+      --shadow-card: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
+      --shadow-card-hover: 0 20px 30px -10px rgba(56, 189, 248, 0.2);
+      --tag-bg: #1e293b;
+      --tag-border: #334155;
+      --chip-color: #7dd3fc;
+      --chip-bg: rgba(56, 189, 248, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg-gradient);
+      color: var(--text-main);
+      min-height: 100vh;
+      line-height: 1.5;
+      transition: background 0.3s ease, color 0.3s ease;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* Header Nav */
+    header {
+      padding: 20px 0;
+      border-bottom: 1px solid var(--card-border);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(255, 255, 255, 0.4);
+    }
+    [data-theme="dark"] header {
+      background: rgba(15, 23, 42, 0.5);
+    }
+
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: inherit;
+    }
+    .brand-logo {
+      width: 38px;
+      height: 38px;
+      background: linear-gradient(135deg, #0284c7 0%, #2563eb 100%);
+      color: #fff;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 18px;
+      box-shadow: 0 4px 10px rgba(2, 132, 199, 0.3);
+    }
+    .brand-text h1 {
+      font-size: 16px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+    .brand-text p {
+      font-size: 11px;
+      color: var(--text-hint);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .nav-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 14px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+      color: var(--text-main);
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+    .nav-btn:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+      transform: translateY(-1px);
+    }
+    .theme-btn {
+      padding: 7px 10px;
+    }
+    .theme-btn svg {
+      width: 16px;
+      height: 16px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2;
+    }
+    .icon-sun { display: none; }
+    .icon-moon { display: block; }
+    [data-theme="dark"] .icon-sun { display: block; }
+    [data-theme="dark"] .icon-moon { display: none; }
+
+    /* Hero */
+    .hero {
+      padding: 56px 0 36px;
+      text-align: center;
+    }
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 12px;
+      background: var(--primary-subtle);
+      color: var(--primary);
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    .hero h2 {
+      font-size: clamp(28px, 4vw, 44px);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.15;
+      margin-bottom: 14px;
+      background: linear-gradient(135deg, var(--text-main) 60%, var(--primary) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .hero p {
+      font-size: clamp(14px, 2vw, 17px);
+      color: var(--text-muted);
+      max-width: 720px;
+      margin: 0 auto 28px;
+    }
+
+    /* Filter / Search Bar */
+    .search-wrapper {
+      max-width: 580px;
+      margin: 0 auto;
+      position: relative;
+    }
+    .search-input {
+      width: 100%;
+      padding: 13px 18px 13px 44px;
+      border-radius: 12px;
+      border: 1px solid var(--card-border);
+      background: var(--card-bg);
+      color: var(--text-main);
+      font-size: 14px;
+      outline: none;
+      box-shadow: var(--shadow-sm);
+      transition: all 0.2s ease;
+      font-family: inherit;
+    }
+    .search-input:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px var(--primary-subtle);
+    }
+    .search-icon {
+      position: absolute;
+      left: 15px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-hint);
+      pointer-events: none;
+    }
+
+    /* Cards Grid */
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 24px;
+      margin: 32px 0 48px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: var(--shadow-card);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+    }
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, #0284c7, #38bdf8);
+      opacity: 0;
+      transition: opacity 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: var(--card-hover-border);
+      box-shadow: var(--shadow-card-hover);
+    }
+    .card:hover::before {
+      opacity: 1;
+    }
+
+    .card-top {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      margin-bottom: 16px;
+    }
+    .card-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      background: var(--primary-subtle);
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      flex-shrink: 0;
+    }
+    .card-title-group h3 {
+      font-size: 19px;
+      font-weight: 700;
+      line-height: 1.3;
+      margin-bottom: 4px;
+      letter-spacing: -0.01em;
+    }
+    .card-title-group .sub {
+      font-size: 12px;
+      color: var(--text-hint);
+      font-weight: 600;
+    }
+
+    .card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 14px;
+    }
+    .badge {
+      font-size: 11px;
+      font-weight: 600;
+      padding: 3px 8px;
+      background: var(--badge-bg);
+      color: var(--badge-text);
+      border-radius: 6px;
+    }
+
+    .card-desc {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      line-height: 1.55;
+      margin-bottom: 18px;
+      flex-grow: 1;
+    }
+
+    .chapter-tags {
+      margin-bottom: 20px;
+    }
+    .chapter-tags-title {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-hint);
+      margin-bottom: 8px;
+    }
+    .chips-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+    .chip {
+      font-size: 11px;
+      padding: 3px 7px;
+      background: var(--chip-bg);
+      color: var(--chip-color);
+      border-radius: 5px;
+      font-weight: 500;
+    }
+
+    .card-actions {
+      display: flex;
+      gap: 8px;
+      margin-top: auto;
+    }
+    .btn-main {
+      flex: 1;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      background: var(--primary);
+      color: #ffffff;
+      padding: 10px 14px;
+      border-radius: 10px;
+      font-size: 13.5px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background 0.2s ease, transform 0.15s ease;
+      box-shadow: 0 4px 10px rgba(2, 132, 199, 0.25);
+    }
+    .btn-main:hover {
+      background: var(--primary-hover);
+      transform: translateY(-1px);
+    }
+    [data-theme="dark"] .btn-main {
+      color: #0b0f19;
+    }
+
+    .btn-sec {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 12px;
+      background: var(--tag-bg);
+      border: 1px solid var(--tag-border);
+      color: var(--text-main);
+      border-radius: 10px;
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+    .btn-sec:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+
+    /* Guide Section */
+    .guide-box {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 24px 28px;
+      margin-bottom: 48px;
+      box-shadow: var(--shadow-sm);
+    }
+    .guide-box h4 {
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .guide-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+    }
+    .guide-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    .guide-item-icon {
+      font-size: 18px;
+      line-height: 1;
+    }
+    .guide-item-text h5 {
+      font-size: 13px;
+      font-weight: 700;
+      margin-bottom: 2px;
+    }
+    .guide-item-text p {
+      font-size: 12px;
+      color: var(--text-muted);
+      line-height: 1.45;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: auto;
+      border-top: 1px solid var(--card-border);
+      padding: 24px 0;
+      text-align: center;
+      font-size: 13px;
+      color: var(--text-hint);
+    }
+    footer a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 640px) {
+      .hero {
+        padding: 36px 0 24px;
+      }
+      .cards-grid {
+        grid-template-columns: 1fr;
+      }
+      .card {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <header>
+    <div class="container nav-inner">
+      <a href="#" class="brand">
+        <div class="brand-logo">BK</div>
+        <div class="brand-text">
+          <h1>HCMUT-263 Branches</h1>
+          <p>Academic Knowledge Trees</p>
+        </div>
+      </a>
+      <div class="nav-actions">
+        <a href="https://github.com/nguyendoanhcmut/hcmut-263-branches" target="_blank" rel="noopener" class="nav-btn" title="Xem mã nguồn trên GitHub">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+          </svg>
+          <span>GitHub</span>
+        </a>
+        <button class="nav-btn theme-btn" id="theme-btn" aria-label="Đổi giao diện Sáng / Tối" title="Đổi giao diện">
+          <svg class="icon-moon" viewBox="0 0 24 24">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg class="icon-sun" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Content -->
+  <main class="container">
+    <section class="hero">
+      <div class="hero-badge">Đại Học Bách Khoa TP.HCM · Khoa Môi Trường & Khoa Cơ Khí</div>
+      <h2>Hệ Thống Bản Đồ Tư Duy Kiến Thức Toàn Diện</h2>
+      <p>Bản đồ kiến trúc tư duy chuyên sâu (Subagent Deep Trees) tích hợp định dạng tương tác Markmap, công thức toán học KaTeX và điều hướng đa cấp linh hoạt.</p>
+
+      <div class="search-wrapper">
+        <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="course-search" class="search-input" placeholder="Tìm kiếm môn học, chương, công nghệ (bùn hoạt tính, keo tụ, lãnh đạo nhóm, ASM...)" autocomplete="off">
+      </div>
+    </section>
+
+    <!-- Cards Grid -->
+    <section class="cards-grid" id="cards-container">
+
+      <!-- Course 1: Nuoc Thai -->
+      <article class="card" data-keywords="nước thải wastewater treatment metcalf eddy asm bể hiếu khí kỵ khí ebpr bùn hoạt tính lắng cát daf keo tụ hóa lý điều hòa sinh học">
+        <div class="card-top">
+          <div class="card-icon">🧪</div>
+          <div class="card-title-group">
+            <h3>Kỹ thuật Xử lý Nước thải</h3>
+            <div class="sub">Wastewater Treatment Engineering</div>
+          </div>
+        </div>
+        <div class="card-meta">
+          <span class="badge">10 Chương Toàn Diện</span>
+          <span class="badge">17 Phân Đoạn Chuyên Sâu</span>
+          <span class="badge">Metcalf & Eddy Chuẩn Quốc Tế</span>
+        </div>
+        <p class="card-desc">
+          Toàn bộ lý thuyết và mô hình tính toán công nghệ xử lý cơ học, hóa lý (keo tụ, tạo bông, DAF, lắng, khử trùng), động học vi sinh Monod, bùn hoạt tính hiếu khí (CMAS), phân hủy kỵ khí, khử Nitơ/Photpho nâng cao (EBPR) và xử lý bùn cặn.
+        </p>
+        <div class="chapter-tags">
+          <div class="chapter-tags-title">Các chủ đề trọng tâm</div>
+          <div class="chips-container">
+            <span class="chip">Ch.01 Tổng quan</span>
+            <span class="chip">Ch.02 Bể điều hòa</span>
+            <span class="chip">Ch.03 Cơ học & DAF</span>
+            <span class="chip">Ch.04 Keo tụ & Khử trùng</span>
+            <span class="chip">Ch.05 Động học Monod</span>
+            <span class="chip">Ch.06 Bể CMAS Hiếu khí</span>
+            <span class="chip">Ch.07 Khử Nitrat</span>
+            <span class="chip">Ch.08 Quá trình Kỵ khí</span>
+            <span class="chip">Ch.09 Quá trình EBPR</span>
+            <span class="chip">Ch.10 Xử lý Bùn cặn</span>
+          </div>
+        </div>
+        <div class="card-actions">
+          <a href="./kt-xu-ly-nuoc-thai/" class="btn-main" title="Mở bản đồ tư duy xử lý nước thải">
+            <span>Mở Mindmap</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="./kt-xu-ly-nuoc-thai/wastewater_treatment_deep_branches.md" class="btn-sec" title="Xem tệp nguồn Markdown" download>
+            <span>Tải .MD</span>
+          </a>
+        </div>
+      </article>
+
+      <!-- Course 2: Nuoc Cap -->
+      <article class="card" data-keywords="nước cấp water treatment sawaco qcvn mwh crittenden keo tụ tạo bông lắng lọc nhanh khử trùng clo làm mềm khử sắt mangan mạng lưới">
+        <div class="card-top">
+          <div class="card-icon">🚰</div>
+          <div class="card-title-group">
+            <h3>Kỹ thuật Xử lý Nước cấp</h3>
+            <div class="sub">Water Treatment Engineering</div>
+          </div>
+        </div>
+        <div class="card-meta">
+          <span class="badge">8 Chương Học Thuật</span>
+          <span class="badge">PGS.TS. Đặng Viết Hùng</span>
+          <span class="badge">QCVN 01-1:2018/BYT · SAWACO</span>
+        </div>
+        <p class="card-desc">
+          Chu trình thủy địa hóa, khảo sát chất lượng 4 nguồn nước cấp, cấu trúc mạng lưới phân phối 3 phân khu, động học keo tụ PAC/phèn nhôm, bể lắng vách nghiêng lamella, lọc nhanh vật liệu hạt xốp, khử trùng Clo/UV/Ozone và quy trình xử lý đặc thù.
+        </p>
+        <div class="chapter-tags">
+          <div class="chapter-tags-title">Các chủ đề trọng tâm</div>
+          <div class="chips-container">
+            <span class="chip">Ch.01 Nguồn & Chất lượng nước</span>
+            <span class="chip">Ch.02 Keo tụ - Tạo bông</span>
+            <span class="chip">Ch.03 Lắng Lamella</span>
+            <span class="chip">Ch.04 Lọc nhanh hạt xốp</span>
+            <span class="chip">Ch.05 Khử trùng Clo & UV</span>
+            <span class="chip">Ch.06 Khử Sắt/Mn & Làm mềm</span>
+            <span class="chip">Ch.07 Mạng lưới 3 Phân khu</span>
+            <span class="chip">Ch.08 Nhà máy & Vận hành</span>
+          </div>
+        </div>
+        <div class="card-actions">
+          <a href="./kt-xu-ly-nuoc-cap/" class="btn-main" title="Mở bản đồ tư duy xử lý nước cấp">
+            <span>Mở Mindmap</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="./kt-xu-ly-nuoc-cap/water_treatment_subagent_deep_branches.md" class="btn-sec" title="Xem tệp nguồn Markdown" download>
+            <span>Tải .MD</span>
+          </a>
+        </div>
+      </article>
+
+      <!-- Course 3: Lanh Dao -->
+      <article class="card" data-keywords="lãnh đạo leadership skills me4625 ts phan thành nhân thuyết trình giao tiếp tư duy phản biện ra quyết định động lực nhóm quản trị thay đổi đạo đức">
+        <div class="card-top">
+          <div class="card-icon">👥</div>
+          <div class="card-title-group">
+            <h3>Kỹ Năng Lãnh Đạo</h3>
+            <div class="sub">Leadership Skills (ME4625)</div>
+          </div>
+        </div>
+        <div class="card-meta">
+          <span class="badge">10 Chương Chuẩn Hóa</span>
+          <span class="badge">TS. Phan Thành Nhân</span>
+          <span class="badge">Chuẩn Đào Tạo ABET · 3 Tín Chỉ</span>
+        </div>
+        <p class="card-desc">
+          Toàn diện lý thuyết lãnh đạo đặc điểm & phong cách quản trị hành vi, nghệ thuật giao tiếp và thuyết trình học thuật, tư duy phản biện - ra quyết định quản trị, kỹ năng tạo động lực nhân viên, xây dựng văn hóa đội nhóm và quản trị thay đổi trong thời kỳ biến động.
+        </p>
+        <div class="chapter-tags">
+          <div class="chapter-tags-title">Các chủ đề trọng tâm</div>
+          <div class="chips-container">
+            <span class="chip">Ch.01 Tổng quan vai trò</span>
+            <span class="chip">Ch.02 Lý thuyết Lãnh đạo</span>
+            <span class="chip">Ch.03 Phong cách Lãnh đạo</span>
+            <span class="chip">Ch.04 Giao tiếp - Thuyết trình</span>
+            <span class="chip">Ch.06 Phản biện & Quyết định</span>
+            <span class="chip">Ch.07 Động lực & Truyền cảm hứng</span>
+            <span class="chip">Ch.08 Lãnh đạo Đội nhóm</span>
+            <span class="chip">Ch.09 Quản trị Sự thay đổi</span>
+            <span class="chip">Ch.10 Đạo đức & Trách nhiệm</span>
+          </div>
+        </div>
+        <div class="card-actions">
+          <a href="./lanh-dao/" class="btn-main" title="Mở bản đồ tư duy kỹ năng lãnh đạo">
+            <span>Mở Mindmap</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="./lanh-dao/leadership_skills_subagent_deep_branches.md" class="btn-sec" title="Xem tệp nguồn Markdown" download>
+            <span>Tải .MD</span>
+          </a>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- Quick Guide -->
+    <section class="guide-box">
+      <h4>
+        <span>💡</span> Hướng Dẫn Tương Tác Bản Đồ Tư Duy (Markmap)
+      </h4>
+      <div class="guide-grid">
+        <div class="guide-item">
+          <div class="guide-item-icon">🔍</div>
+          <div class="guide-item-text">
+            <h5>Thu phóng & Di chuyển</h5>
+            <p>Dùng con lăn chuột hoặc 2 ngón tay trên điện thoại để zoom. Bấm giữ chuột trái để kéo sơ đồ.</p>
+          </div>
+        </div>
+        <div class="guide-item">
+          <div class="guide-item-icon">🔘</div>
+          <div class="guide-item-text">
+            <h5>Mở / Thu gọn Nhánh</h5>
+            <p>Nhấp chuột vào hình tròn nhỏ ở mỗi đầu nhánh để mở rộng hoặc thu gọn chi tiết chuyên sâu.</p>
+          </div>
+        </div>
+        <div class="guide-item">
+          <div class="guide-item-icon">⚡</div>
+          <div class="guide-item-text">
+            <h5>Thanh Phím Tắt L1 – L5</h5>
+            <p>Dùng các nút cấp độ L1 (Gốc), L2 (Chương), L3 (Mục), L4 (Tiểu mục), L5 (Chi tiết) trên góc phải màn hình.</p>
+          </div>
+        </div>
+        <div class="guide-item">
+          <div class="guide-item-icon">📱</div>
+          <div class="guide-item-text">
+            <h5>Tối Ưu Mọi Thiết Bị</h5>
+            <p>Tương thích mượt mà trên iPhone, iPad, Android, MacBook và máy tính Windows.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>HCMUT-263 Academic Branches · Trường Đại Học Bách Khoa - ĐHQG-HCM</p>
+      <p style="margin-top: 4px; font-size: 12px;">Được biên soạn và tối ưu tự động bởi Subagent Branches Engine · <a href="https://github.com/nguyendoanhcmut/hcmut-263-branches" target="_blank" rel="noopener">GitHub Repository</a></p>
+    </div>
+  </footer>
+
+  <script>
+    // Theme toggle logic
+    const themeBtn = document.getElementById('theme-btn');
+    function toggleTheme() {
+      const current = document.documentElement.getAttribute('data-theme') || 'light';
+      const next = current === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('hcmut-theme', next);
+      localStorage.setItem('markmap-theme', next);
+    }
+    themeBtn.addEventListener('click', toggleTheme);
+
+    // Search / Filter logic
+    const searchInput = document.getElementById('course-search');
+    const cards = document.querySelectorAll('.card');
+
+    searchInput.addEventListener('input', function(e) {
+      const q = e.target.value.toLowerCase().trim();
+      cards.forEach(card => {
+        const text = (card.textContent + ' ' + (card.getAttribute('data-keywords') || '')).toLowerCase();
+        if (!q || text.includes(q)) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  </script>
+</body>
+</html>
