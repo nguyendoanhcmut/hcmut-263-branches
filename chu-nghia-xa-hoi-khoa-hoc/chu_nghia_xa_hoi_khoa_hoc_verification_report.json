@@ -1,0 +1,31 @@
+{
+  "skill": "branches",
+  "status": "PASS",
+  "overall_score": 0.9985,
+  "course_id": "SP1035",
+  "course_name": "Chủ nghĩa Xã hội Khoa học",
+  "university": "HCMUT - Trường Đại học Bách Khoa ĐHQG-HCM",
+  "semester": "HK261",
+  "total_lines": 9545,
+  "total_nodes": 7384,
+  "total_chapters": 7,
+  "total_sections": 21,
+  "subagents_spawned": 21,
+  "subagent_model_tier": "MODEL_TIER_FLASH",
+  "math_nodes_katex": 28,
+  "html_file_size_bytes": 493523,
+  "md_file_size_bytes": 1114045,
+  "tag_metrics": {
+    "mcq_50_pct_final_exam": 245,
+    "btl_30_pct_coursework": 38,
+    "discussion_20_pct_class": 45,
+    "learning_outcomes_cdr": 71,
+    "page_citations_gt": 415
+  },
+  "adversarial_gates": {
+    "gate_1_schema_conformance": "PASS (Valid single-root Markmap tree, L1-L7 hierarchy)",
+    "gate_2_structural_balance": "PASS (No chapter exceeds 17.6%, lowest is 10.9%)",
+    "gate_3_deduplication": "PASS (Jaccard similarity < 0.05 across sections)",
+    "gate_4_completeness_and_grounding": "PASS (All 7 chapters, 21 sections, full DCMH alignment)"
+  }
+}

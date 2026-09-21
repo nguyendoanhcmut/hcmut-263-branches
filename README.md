@@ -36,6 +36,17 @@ Hệ thống Bản đồ Tư duy Tri thức Chuyên sâu (Subagent Deep Trees) c
 
 ---
 
+### 4. Chủ nghĩa Xã hội Khoa học (Scientific Socialism - SP1035)
+- **Truy cập trực tuyến**: [https://nguyendoanhcmut.github.io/hcmut-263-branches/chu-nghia-xa-hoi-khoa-hoc/](https://nguyendoanhcmut.github.io/hcmut-263-branches/chu-nghia-xa-hoi-khoa-hoc/)
+- **Tệp nguồn Markdown**: [chu-nghia-xa-hoi-khoa-hoc/chu_nghia_xa_hoi_khoa_hoc_branches.md](chu-nghia-xa-hoi-khoa-hoc/chu_nghia_xa_hoi_khoa_hoc_branches.md)
+- **Quy mô**: 7 Chương học thuật toàn diện, 21 phân mục chuyên sâu, 7.384 nút tri thức, hơn 9.500 dòng Markdown.
+- **Nội dung trọng tâm**:
+  - Tích hợp 245 vị trí trọng tâm thi trắc nghiệm (50% MCQ), chuẩn đầu ra L.O.1.1, L.O.2.1, L.O.3.1.
+  - Định hướng 6 đề tài Bài tập lớn (30%) và các chủ đề thảo luận phản biện trên lớp (20%).
+  - Trích dẫn chính xác 415 số trang đối chiếu theo Giáo trình Chuẩn Bộ GD&ĐT 2021 và Đề cương chi tiết HK261.
+
+---
+
 ## 🧭 Cấu trúc Thư mục
 
 ```text
