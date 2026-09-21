@@ -20,10 +20,10 @@ Hệ thống Bản đồ Tư duy Tri thức Chuyên sâu (Subagent Deep Trees) c
 ### 2. Kỹ thuật Xử lý Nước cấp (Water Treatment Engineering)
 - **Truy cập trực tuyến**: [https://nguyendoanhcmut.github.io/hcmut-263-branches/kt-xu-ly-nuoc-cap/](https://nguyendoanhcmut.github.io/hcmut-263-branches/kt-xu-ly-nuoc-cap/)
 - **Tệp nguồn Markdown**: [kt-xu-ly-nuoc-cap/water_treatment_subagent_deep_branches.md](kt-xu-ly-nuoc-cap/water_treatment_subagent_deep_branches.md)
-- **Quy mô**: 8 Chương học thuật, hơn 10.700 dòng Markdown.
+- **Quy mô**: 8 Chương học thuật, 32 chuyên đề phân cấp sâu theo chuẩn ASD-STE100, hơn 15.300 dòng Markdown, 10.840 nodes, 5.967 công thức KaTeX, 86 bài toán kỹ thuật kèm lời giải chi tiết.
 - **Nội dung trọng tâm**:
-  - Khảo sát chất lượng 4 nguồn nước cấp, kiến trúc mạng lưới 3 phân khu, tiêu chuẩn QCVN 01-1:2018/BYT và TCXDVN 33:2006.
-  - Động học keo tụ - tạo bông, bể lắng vách nghiêng lamella, bể lọc nhanh trọng lực hạt xốp, khử trùng Clo tự do / kết hợp, công nghệ khử sắt - mangan và làm mềm nước kết tủa vôi - soda theo giáo trình MWH Crittenden và SAWACO.
+  - Khảo sát chất lượng 4 nguồn nước cấp, kiến trúc mạng lưới 3 phân khu, tiêu chuẩn QCVN 01-1:2018/BYT, QCVN 6-1:2010/BYT và TCXDVN 33:2006.
+  - Động học keo tụ - tạo bông (DLVO, Camp-Stein G), bể lắng ngang Camp và lắng tấm nghiêng Lamella, bể lọc cát nhanh trọng lực (Rose, Ergun, Richardson-Zaki), khử trùng Clo điểm đột biến / Ozone / UV-C, khử sắt - mangan (Lewis-Whitman), làm mềm kết tủa vôi - soda, lọc màng (MF, UF, NF, RO Filmtec) và khử mặn nước biển SWRO.
 
 ### 3. Kỹ năng Lãnh đạo (Leadership Skills - ME4625)
 - **Truy cập trực tuyến**: [https://nguyendoanhcmut.github.io/hcmut-263-branches/lanh-dao/](https://nguyendoanhcmut.github.io/hcmut-263-branches/lanh-dao/)

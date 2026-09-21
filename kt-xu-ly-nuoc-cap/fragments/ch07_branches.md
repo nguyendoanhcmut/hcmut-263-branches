@@ -1,1329 +1,1699 @@
-## Chương 7: Disinfection (Khử trùng Nước cấp)
-
-### 7.1 Tổng quan về Khử trùng Nước cấp & Cơ chế Bất hoạt Vi sinh vật (Overview & Inactivation Mechanisms)
-
-#### 7.1.1 Mục đích, Lịch sử & Vai trò của Khử trùng trong Xử lý Nước cấp
-- Khử trùng (Disinfection) trong kỹ thuật xử lý nước cấp là công đoạn công nghệ mang tính chất bắt buộc và sống còn nhằm tiêu diệt hoặc bất hoạt có chọn lọc các vi sinh vật gây bệnh (pathogenic microorganisms), triệt tiêu hoàn toàn khả năng lây truyền các dịch bệnh truyền nhiễm nguy hiểm qua nguồn nước sinh hoạt (Waterborne Diseases).
-- Khác với quá trình Tiệt trùng (Sterilization) vốn tiêu diệt 100% mọi dạng sống vi sinh vật (kể cả nha bào vô hại), Khử trùng nước cấp chỉ tập trung tiêu diệt các chủng vi sinh vật gây bệnh nguy hiểm đến sức khỏe cộng đồng xuống dưới ngưỡng an toàn theo quy chuẩn y tế.
-- Lịch sử kỹ thuật cấp nước ghi nhận sự kiện khử trùng nước cấp bằng clo hóa liên tục lần đầu tiên tại Jersey City (Hoa Kỳ) vào năm 1908 và tại London (Vương quốc Anh) đã làm sụt giảm ngoạn mục tỷ lệ tử vong do bệnh thương hàn (typhoid fever), tả (cholera) và kiết lỵ, được cộng đồng y tế thế giới công nhận là một trong những bước tiến vĩ đại nhất của lịch sử vệ sinh y tế công cộng nhân loại.
-- Trong hệ thống cấp nước đô thị hiện đại, khử trùng đóng hai vai trò chiến lược: (1) Rào cản vệ sinh sau cùng tại trạm xử lý để nước sạch đạt chuẩn vi sinh trước khi bơm vào mạng lưới; (2) Duy trì nồng độ chất khử trùng dư liên tục trong mạng lưới đường ống truyền tải và phân phối chống lại sự xâm nhập và phát triển của màng sinh học (biofilm) cũng như vi sinh vật tái sinh (bacterial regrowth).
-
-##### 7.1.1.1 Khử trùng Sơ cấp (Primary Disinfection) và Khử trùng Thứ cấp (Secondary Disinfection)
-- Quy trình kiểm soát vi sinh vật trong hệ thống cấp nước đô thị được phân lập thành hai chức năng kỹ thuật chuyên biệt với mục tiêu và tiêu chuẩn vận hành khác nhau:
-
-###### Định nghĩa và Mục tiêu Kỹ thuật của Khử trùng Sơ cấp (Primary Disinfection)
-- **Khử trùng Sơ cấp (Primary Disinfection)**: Là quá trình tiêu diệt hoặc bất hoạt các vi sinh vật gây bệnh (vi khuẩn, virus, u nang động vật nguyên sinh) ngay tại nhà máy xử lý nước cấp, đảm bảo đạt được các chỉ tiêu tín chỉ loại bỏ vi sinh (Log-Inactivation Credits) theo quy chuẩn an toàn trước khi nước đi vào bể chứa nước sạch (clearwell) hoặc mạng lưới cấp nước.
-- Các tác nhân khử trùng sơ cấp phổ biến bao gồm: Khí Clo ($Cl_2$), Sodium Hypochlorite ($NaOCl$), Ozone ($O_3$), Chlorine Dioxide ($ClO_2$) và Bức xạ cực tím (Ultraviolet - UV).
-- Tiêu chí đánh giá hiệu quả: Dựa trên chỉ số tích số nồng độ và thời gian tiếp xúc ($CT = C \cdot t_{10}$) đối với hóa chất oxy hóa, hoặc liều lượng bức xạ ($D_{\text{UV}} = I \cdot t$) đối với tia cực tím.
-
-###### Định nghĩa và Mục tiêu Duy trì Nồng độ Khử trùng Thứ cấp (Secondary Disinfection)
-- **Khử trùng Thứ cấp (Secondary Disinfection)**: Là quá trình duy trì một nồng độ hóa chất khử trùng dư ổn định, bền vững trong suốt thời gian lưu của nước trong các bể chứa điều hòa, trạm bơm tăng áp và mạng lưới đường ống phân phối cho tới tận vòi sử dụng của khách hàng.
-- Mục tiêu kỹ thuật:
-  1. Ngăn chặn sự tái phát triển (regrowth) của vi khuẩn dị dưỡng và vi khuẩn cơ hội.
-  2. Bất hoạt các vi sinh vật xâm nhập cục bộ do hiện tượng áp lực âm, rò rỉ mối nối ống hoặc trong quá trình sửa chữa sự cố đường ống.
-  3. Kiểm soát và ức chế sự hình thành của màng sinh học (biofilm) trên bề mặt thành ống kim loại và ống nhựa.
-- Tác nhân khử trùng thứ cấp phổ biến: Clo tự do (Free Chlorine residual) hoặc Monochloramine ($NH_2Cl$ - có độ bền hóa học cao, tốc độ suy giảm chậm và không tạo mùi nồng gắt tại cuối mạng lưới cấp nước diện rộng). Bức xạ UV và Ozone không thể đóng vai trò khử trùng thứ cấp do chúng không để lại nồng độ tồn dư trong nước.
-
-###### Tiếp cận Đa Hàng rào Bảo vệ (Multi-Barrier Approach) trong Cấp nước Đô thị
-- Khử trùng không phải là biện pháp độc lập mà là mắt xích cuối cùng trong Chiến lược Đa Hàng rào Bảo vệ (Multi-Barrier Approach) bao gồm 4 cấp độ:
-  1. *Bảo vệ nguồn nước và lưu vực (Source Water Protection)*: Quản lý rừng đầu nguồn, kiểm soát xả thải công nghiệp và nông nghiệp để giảm mật độ mầm bệnh ban đầu.
-  2. *Keo tụ - Tạo bông và Lắng trong (Coagulation - Flocculation - Clarification)*: Kết tụ và loại bỏ vật lý từ 1.0 đến 2.5 log vi sinh vật bám dính trên các bông cặn sét và chất hữu cơ.
-  3. *Lọc qua tầng hạt (Granular Media Filtration)*: Lọc giữ lại u nang ký sinh trùng (Giardia, Cryptosporidium) và giảm độ đục nước sau lọc xuống dưới 0.2–0.3 NTU, triệt tiêu các hạt cặn có khả năng che chắn vi sinh vật khỏi tác động của hóa chất khử trùng.
-  4. *Khử trùng Nước (Disinfection)*: Tiêu diệt triệt để các tế bào vi sinh vật tự do còn sót lại và cung cấp nồng độ bảo vệ dư trong mạng lưới đường ống phân phối.
-
-##### 7.1.1.2 Tiêu chí Lựa chọn và Đặc tính của Chất khử trùng Lý tưởng
-- Trong thực tế thiết kế kỹ thuật cấp nước, việc lựa chọn công nghệ khử trùng phải cân nhắc toàn diện giữa hiệu quả diệt khuẩn, tính an toàn vận hành và chi phí kinh tế.
-
-###### 6 Tiêu chí Kỹ thuật - Vận hành Đánh giá Chất khử trùng
-1. **Phổ diệt khuẩn rộng và hiệu lực bất hoạt cao (Broad Germicidal Spectrum)**: Có khả năng bất hoạt nhanh chóng, triệt để mọi nhóm mầm bệnh (vi khuẩn sinh dưỡng, nha bào, virus đường ruột, và u nang ký sinh trùng Giardia/Cryptosporidium) ở nồng độ hợp lý và thời gian tiếp xúc chấp nhận được.
-2. **Khả năng duy trì nồng độ tồn dư bảo vệ (Persistence of Residual)**: Có khả năng duy trì nồng độ dư ổn định trong hệ thống phân phối và dễ dàng đo đạc kiểm soát tự động bằng thiết bị online (Amperometric/Colorimetric DPD).
-3. **Tiềm năng tạo sản phẩm phụ khử trùng thấp (Low DBP Formation Potential)**: Hạn chế tối đa việc tạo thành các hợp chất phụ gây độc tính mãn tính hoặc ung thư (như THMs, HAAs, Bromate, Chlorite) vượt ngưỡng quy chuẩn kỹ thuật quốc gia.
-4. **Độ an toàn lao động và giảm thiểu rủi ro cộng đồng (Occupational & Public Safety)**: Hóa chất ít nguy hiểm, giảm thiểu rủi ro cháy nổ hoặc rò rỉ khí độc hại gây nguy hiểm chết người cho công nhân vận hành và cộng đồng dân cư lân cận.
-5. **Độ bền vững trước các thông số môi trường nước (Environmental Robustness)**: Ít bị suy giảm hoạt tính khi pH dao động, độ đục biến thiên hoặc nhiệt độ nước sụt giảm trong mùa lạnh.
-6. **Chi phí vòng đời hợp lý (Life-Cycle Cost-Effectiveness)**: Chi phí đầu tư thiết bị (CAPEX), chi phí tiêu hao hóa chất, điện năng tiêu thụ và chi phí bảo dưỡng định kỳ (OPEX) phù hợp với quy mô và khả năng tài chính của dự án.
-
-###### Đánh giá Tính Khả thi Kinh tế, An toàn Lao động và Dấu chân Môi trường
-- Hiện nay không có chất khử trùng nào đạt điểm tuyệt đối trên cả 6 tiêu chí: Clo khí có chi phí thấp nhất và tạo clo dư tốt nhưng nguy cơ rò rỉ khí độc chết người rất cao; Ozone và UV bất hoạt mầm bệnh cực mạnh và không tạo halogenated DBPs nhưng chi phí đầu tư rất lớn và hoàn toàn không để lại clo dư bảo vệ mạng lưới; NaOCl an toàn hơn clo khí nhưng giá thành vận hành cao và dễ phân hủy sinh clorat ($ClO_3^-$). Do đó, xu hướng hiện đại là kết hợp đa công nghệ (ví dụ: UV/Ozone sơ cấp + Chloramines thứ cấp).
-
-#### 7.1.2 Cơ chế Sinh lý - Hóa sinh Bất hoạt Mầm bệnh (Pathogen Inactivation Mechanisms)
-- Quá trình bất hoạt vi sinh vật diễn ra thông qua các tương tác vật lý và phản ứng hóa sinh làm tổn thương nghiêm trọng hoặc phá hủy không thể phục hồi các cấu trúc sống còn của tế bào.
-
-##### 7.1.2.1 Phá hủy Thành Tế bào & Thay đổi Tính Thấm Màng Tế bào (Cell Membrane Permeabilization & Lysis)
-- Màng sinh chất của tế bào vi sinh vật là một lớp kép phospholipid bán thấm, chứa các protein kênh vận chuyển ion và duy trì gradient điện hóa sống còn của tế bào.
-
-###### Tác động Oxy hóa Lớp Kép Phospholipid và Protein Kênh Vận chuyển
-- Khi các chất oxy hóa mạnh như Hypochlorous Acid ($HOCl$), Chlorine Dioxide ($ClO_2$) hoặc Ozone ($O_3$) tiếp xúc với bề mặt tế bào, chúng lập tức tấn công các acid béo không no trong lớp kép lipid thông qua chuỗi phản ứng peroxy hóa lipid (lipid peroxidation). Các gốc tự do bẻ gãy mạch hydrocacbon, tạo thành các hydroperoxide và các lỗ rò rỉ phân tử trên màng.
-- Đồng thời, chất oxy hóa biến tính các protein xuyên màng (transport porins), làm mất khả năng điều hòa chọn lọc dòng ion đi qua màng tế bào.
-
-###### Cơ chế Chênh lệch Áp suất Thẩm thấu và Rò rỉ Dịch Nội bào (Intracellular Leakage)
-- Sự gia tăng đột ngột tính thấm màng làm sụp đổ hoàn toàn thế màng sinh học (Membrane Potential Collapse) và lực dẫn động proton (Proton Motive Force - PMF).
-- Áp suất thẩm thấu nội bào vi khuẩn (thường dao động từ 3 đến 5 atm) đẩy ồ ạt dịch nội bào ra ngoài môi trường. Các ion khoáng sống còn ($K^+$, $Mg^{2+}$), các coenzyme, acid amin, ATP và nucleoside bị rò rỉ không thể kiểm soát, dẫn đến sự ly giải tế bào (cell lysis) và chết sinh học hoàn toàn.
-
-##### 7.1.2.2 Biến tính Protein & Ức chế Hệ Thống Enzym Hô hấp (Enzyme Denaturation & Inactivation)
-- Sau khi xuyên qua màng tế bào, các chất khử trùng tiếp tục tấn công các đại phân tử protein cấu trúc và hệ thống enzym xúc tác trong tế bào chất.
-
-###### Tác động Oxy hóa lên Nhóm Sulfhydryl (-SH) và Cầu Disulfide (-S-S-)
-- Các gốc acid amin chứa lưu huỳnh như Cysteine đặc biệt mẫn cảm với chất oxy hóa điện tích trung hòa như $HOCl$. Phản ứng oxy hóa chuyển đổi nhóm sulfhydryl tự do ($-SH$) thành liên kết disulfide ($-S-S-$) hoặc oxy hóa sâu hơn thành acid sulfenic ($-SOH$), sulfinic ($-SO_2H$) và sulfonic ($-SO_3H$):
-  $$2 \text{R-SH} + \text{HOCl} \rightarrow \text{R-S-S-R} + \text{HCl} + \text{H}_2\text{O}$$
-- Quá trình này phá vỡ cấu trúc không gian bậc ba (tertiary folding) của chuỗi polypeptide, làm biến tính trung tâm hoạt động của enzym.
-
-###### Tê liệt Chuỗi Truyền Điện tử Ty thể và Quá trình Phosphoryl hóa Oxy hóa Tổng hợp ATP
-- Các phức hợp enzym quan trọng trong chuỗi hô hấp tế bào (Cytochrome oxidase, NADH dehydrogenase, Succinate dehydrogenase) và enzym tổng hợp năng lượng (ATP Synthase) bị tê liệt tức thì.
-- Vi khuẩn mất khả năng dị hóa cơ chất và tổng hợp năng lượng ATP, đình chỉ toàn bộ hoạt động trao đổi chất nội bào và tử vong nhanh chóng.
-
-##### 7.1.2.3 Tổn thương Quang hóa & Phá hủy Vật chất Di truyền Acid Nucleic (DNA / RNA Damage)
-- Khác với hóa chất oxy hóa, bức xạ cực tím (UV) tác động hoàn toàn theo cơ chế quang hóa vật lý (photochemical damage) nhắm trực diện vào vật chất di truyền của vi sinh vật.
-
-###### Cơ chế Hấp thụ Năng lượng Photon UV-C và Tạo Dimers Pyrimidine Liền kề
-- Acid nucleic (DNA và RNA) có phổ hấp thụ bức xạ cực đại trong khoảng bước sóng 240 – 280 nm (đỉnh hấp thụ quang phổ đạt cực đại tại 260 nm, rất sát bước sóng phát xạ 253.7 nm của đèn UV thủy ngân áp suất thấp).
-- Dưới tác động của photon UV-C năng lượng cao, liên kết đôi $C=C$ tại vị trí carbon số 5 và số 6 của các vòng pyrimidine thơm (Thymine và Cytosine trong DNA; Uracil trong RNA) bị kích thích và phá vỡ, tạo liên kết cộng hóa trị dạng vòng cyclobutane giữa hai bazơ pyrimidine nằm kề cận trên cùng một chuỗi đơn (chủ yếu là Cyclobutane Thymine Dimers - CPD và sản phẩm quang hóa 6-4 pyrimidine-pyrimidone photoproducts).
-
-###### Ức chế Sự Sao chép DNA, Phân bào và Phân biệt Giữa Sát khuẩn Vật lý và Hóa học
-- Sự xuất hiện của các thymine dimers làm biến dạng cục bộ chuỗi xoắn kép DNA. Khi enzyme DNA Polymerase tiến hành sao chép bộ gen để phân chia tế bào, nó bị tắc nghẽn cơ học tại vị trí dimer và quá trình tái bản bị ngừng trệ hoàn toàn.
-- Tế bào vi sinh vật bị bất hoạt: chúng không thể nhân bản, không thể tổng hợp protein truyền nhiễm và bị vô hiệu hóa vĩnh viễn khả năng gây bệnh trong cơ thể vật chủ.
-- Điểm khác biệt mấu chốt: Bức xạ UV ở liều lượng khử trùng nước thông thường không làm vỡ màng tế bào (non-lytic) và không làm biến dạng hình thái bên ngoài của vi sinh vật, nhưng tiêu diệt khả năng sao chép di truyền sống còn của chúng.
-
-#### 7.1.3 Phân loại Vi sinh vật Gây bệnh & Mức độ Đề kháng Tác nhân Khử trùng
-- Nước thô tự nhiên chứa một phổ vi sinh vật đa dạng với cấu trúc sinh học và sức đề kháng đối với các chất khử trùng chênh lệch nhau hàng ngàn lần.
-
-##### 7.1.3.1 Các Nhóm Vi sinh vật Ô nhiễm Điển hình trong Nguồn Nước cấp
-- Các tác nhân sinh học gây bệnh truyền nhiễm qua đường nước được phân thành 4 nhóm chính:
-
-###### Nhóm Vi khuẩn Đường ruột và Vi khuẩn Chỉ thị (E. coli, Coliforms, Salmonella, Shigella, Vibrio)
-- Cấu trúc: Tế bào nhân sơ đơn bào, kích thước 0.5 – 3.0 µm, vách tế bào peptidoglycan.
-- Bệnh lý: Gây bệnh tả (*Vibrio cholerae*), thương hàn (*Salmonella typhi*), lỵ trực trùng (*Shigella dysenteriae*), tiêu chảy cấp (*Escherichia coli* O157:H7).
-- Độ nhạy cảm: Rất nhạy cảm với tất cả các chất khử trùng (dễ dàng bị bất hoạt > 4-log với nồng độ clo tự do 0.2 – 0.5 mg/L sau 5 – 10 phút tiếp xúc).
-
-###### Nhóm Virus Đường ruột Kích thước Nano (Picornaviruses, Rotavirus, Norovirus, Adenovirus)
-- Cấu trúc: Hạt vi rút siêu hiển vi kích thước 20 – 100 nm, không có màng lipid bao bọc (non-enveloped), chỉ gồm lõi acid nucleic (DNA hoặc RNA) được bao bọc bởi vỏ protein capsid bền vững.
-- Bệnh lý: Viêm dạ dày ruột cấp ở trẻ em (Rotavirus, Norovirus), viêm gan truyền nhiễm (Hepatitis A, E), viêm màng não và bại liệt (Poliovirus).
-- Độ nhạy cảm: Nhạy cảm với các chất oxy hóa mạnh như Clo tự do và Ozone; tuy nhiên lại có sức đề kháng rất cao đối với tia cực tím UV (đặc biệt là Adenovirus chứa chuỗi đôi DNA có khả năng tận dụng hệ enzym sửa chữa của tế bào vật chủ, đòi hỏi liều UV lên đến 120–186 mJ/cm2 để đạt 4-log inactivation, gấp 3 đến 4 lần liều UV tiêu chuẩn 40 mJ/cm2).
-
-###### Nhóm Động vật Nguyên sinh Ký sinh Tạo Nang (Giardia lamblia cysts, Cryptosporidium parvum oocysts)
-- Cấu trúc: Sinh vật đơn bào nhân thực (eukaryote), kích thước lớn (u nang *Giardia* 8 – 14 µm hình ovan; noãn nang *Cryptosporidium* 4 – 6 µm hình cầu).
-- Đặc điểm: Khi bài tiết ra môi trường nước, chúng hình thành lớp vỏ bọc u nang (cyst/oocyst) dày đặc cấu tạo từ các sợi chitin liên kết phức tạp với các glycoprotein giàu liên kết chéo disulfide, tạo nên rào cản chống thấm nước và chống oxy hóa gần như tuyệt đối.
-- Bệnh lý: Gây bệnh tiêu chảy kéo dài Giardiasis và Cryptosporidiosis, có thể gây mất nước tử vong ở người già, trẻ nhỏ và bệnh nhân suy giảm miễn dịch.
-
-##### 7.1.3.2 Thứ bậc Đề kháng Tự nhiên và Khả năng Chống chịu Tác nhân Khử trùng
-- Sức đề kháng tương đối của các nhóm vi sinh vật đối với chất khử trùng hóa học thông thường được sắp xếp theo thứ tự tăng dần:
-
-###### Phân tầng Mức độ Kháng Hóa chất: Vi khuẩn < Virus < Giardia cysts < Cryptosporidium oocysts
-$$\text{Vi khuẩn sinh dưỡng (Vegetative Bacteria)} < \text{Virus đường ruột (Enteric Viruses)} < \text{U nang Giardia (Giardia cysts)} \ll \text{Noãn nang Cryptosporidium (Cryptosporidium oocysts)} \approx \text{Nha bào vi khuẩn (Bacterial Endospores)}$$
-
-###### Bất lực của Clo Hóa Học Truyền thống Trước Vỏ Nang Cryptosporidium và Sự Vượt trội của UV/Ozone
-- Vỏ noãn nang *Cryptosporidium* có khả năng kháng Clo tự do đến mức trơ hóa học: Để đạt được mức độ bất hoạt 2-log (99%) *Cryptosporidium* bằng clo tự do ở 20°C, giá trị $CT$ yêu cầu lên tới > 7,000 – 10,000 mg·min/L (đồng nghĩa với việc phải châm 50 mg/L clo trong hơn 3 giờ – điều bất khả thi trong vận hành thực tế vì sẽ tạo ra nồng độ sản phẩm phụ DBP gây ung thư khổng lồ và mùi clo nồng nặc).
-- Trái lại, bức xạ cực tím (UV) có thể xuyên thẳng qua lớp vỏ chitin mà không bị cản trở bởi cấu trúc hóa học của vỏ nang, làm biến tính trực tiếp DNA của ký sinh trùng: Liều UV chỉ cần từ 10 đến 20 mJ/cm2 là đủ để đạt 3-log đến 4-log inactivation đối với *Cryptosporidium*. Ozone cũng có hiệu lực rất cao ($CT$ chỉ khoảng 10–15 mg·min/L). Do đó, các tiêu chuẩn xử lý nước cấp hiện đại bắt buộc phải tích hợp công nghệ UV hoặc Ozone đối với các nguồn nước mặt có nguy cơ nhiễm noãn nang ký sinh trùng.
+## Chương 7: Khử trùng Nước cấp (Disinfection)
 
 
-### 7.2 Cơ sở Lý thuyết & Hóa học Khử trùng Nước cấp (Theoretical Principles & Chemistry of Disinfection)
+### 7.1 Cơ chế Bất hoạt Vi sinh vật và Hóa học Khử trùng bằng Clo (Pathogen Inactivation & Free Chlorine Chemistry)
 
-#### 7.2.1 Hóa học Clo Tự do & Cân bằng Phân ly Hypochlorous Acid (Free Chlorine Chemistry & Speciation)
-- Clo hóa (Chlorination) là phương pháp khử trùng hóa học phổ biến nhất toàn cầu nhờ chi phí hóa chất thấp, phổ diệt khuẩn rộng và khả năng duy trì nồng độ tồn dư bền vững trên mạng lưới đường ống cấp nước.
-- Khi hòa tan vào nước, clo tồn tại dưới dạng Clo tự do (Free Available Chlorine) bao gồm hai dạng hóa học cân bằng động: Axit Hypoclorơ (HOCl) và Ion Hypoclorit (OCl^-).
+#### 7.1.1 Khái niệm và Mục tiêu của Khử trùng Nước cấp (Disinfection Principles & Objectives)
 
-##### 7.2.1.1 Thủy phân Khí Clo (Cl2) và Hòa tan Muối Hypochlorite
-- Tùy thuộc vào loại hóa chất clo được cấp vào nước (khí clo nguyên tố hóa lỏng, dung dịch natri hypoclorit, hoặc bột canxi hypoclorit), các phản ứng hòa tan và thủy phân diễn ra với các đặc tính hóa học riêng biệt:
+##### 7.1.1.1 Phân biệt Khử trùng và Tiệt trùng trong Xử lý Nước
+- Khử trùng (Disinfection) tiêu diệt hoặc bất hoạt có chọn lọc các vi sinh vật gây bệnh (Pathogenic Microorganisms).
+- Khử trùng triệt tiêu khả năng lây truyền các bệnh qua đường nước (Waterborne Diseases).
+- Tiệt trùng (Sterilization) tiêu diệt toàn bộ mọi dạng sống của vi sinh vật, bao gồm cả bào tử vô hại.
+- Kỹ thuật xử lý nước cấp chỉ dùng khử trùng để đưa mật độ mầm bệnh về ngưỡng an toàn quy chuẩn.
 
-###### Phương trình Phản ứng Thủy phân Khí Clo và Động học Phản ứng Cực nhanh
-- Khi khí clo (Cl_2) được định lượng và phun hòa tan vào dòng nước qua thiết bị ejector hút chân không, phản ứng thủy phân diễn ra gần như tức thời (thời gian bán phản ứng t_{1/2} < 1 giây ở nhiệt độ phòng):
-- **Aqueous Chlorine Gas Hydrolysis Reaction** (`eq_ch07_001`): $$\text{Cl}_2(g) + \text{H}_2\text{O} \rightleftharpoons \text{HOCl} + \text{H}^+ + \text{Cl}^-$$
-  - *Biểu thức văn bản*: `Cl2(g) + H2O <=> HOCl + H+ + Cl-`
-  - *Mô tả & Ý nghĩa*: Rapid hydrolysis of elemental chlorine gas in water (t1/2 < 1 s) producing hypochlorous acid (HOCl), hydrogen ion, and chloride ion.
-  - *Bảng biến số & Thứ nguyên*:
-    - $\text{Cl}_2(g)$: Elemental chlorine gas (molecular weight = 70.91 g/mol)
-    - $\text{H}_2\text{O}$: Water solvent
-    - $\text{HOCl}$: Hypochlorous acid, the primary active biocidal disinfectant species
-    - $\text{H}^+$: Hydrogen ion (hydronium), contributing to pH depression
-    - $\text{Cl}^-$: Inert chloride ion
+##### 7.1.1.2 Khử trùng Sơ cấp và Khử trùng Thứ cấp (Primary & Secondary Disinfection)
+- Khử trùng sơ cấp (Primary Disinfection):
+  - Tiêu diệt hoặc bất hoạt mầm bệnh ngay tại trạm xử lý nước cấp.
+  - Quá trình đảm bảo đạt tín chỉ loại bỏ vi sinh vật (Log-Inactivation Credits).
+  - Tác nhân phổ biến gồm khí clo ($Cl_2$), natri hypochlorite ($NaOCl$), ozone ($O_3$), chlorine dioxide ($ClO_2$) và bức xạ cực tím ($UV$).
+  - Kỹ sư đánh giá hiệu quả bằng tích số nồng độ và thời gian tiếp xúc ($CT = C \cdot t_{10}$).
+  - Đối với bức xạ cực tím, kỹ sư đánh giá bằng liều lượng bức xạ ($D_{\text{UV}} = I \cdot t$).
+- Khử trùng thứ cấp (Secondary Disinfection):
+  - Duy trì nồng độ chất khử trùng dư ổn định trong mạng lưới đường ống phân phối.
+  - Ngăn ngừa vi khuẩn tái phát triển (Bacterial Regrowth) trong các nhánh ống truyền tải.
+  - Ức chế màng sinh học (Biofilm) bám dính trên bề mặt thành ống kim loại và ống nhựa.
+  - Bất hoạt vi sinh vật xâm nhập từ các mối nối hở hoặc điểm rò rỉ áp lực âm.
+  - Tác nhân phổ biến gồm clo tự do (Free Chlorine) hoặc monochloramine ($NH_2Cl$).
+  - Bức xạ cực tím và ozone không thể làm chất khử trùng thứ cấp vì không để lại nồng độ tồn dư.
 
-###### Quá trình Hòa tan và Phân ly của Sodium Hypochlorite (NaOCl)
-- Dung dịch Sodium Hypochlorite (thường ở nồng độ thương mại 10% – 12% hoặc dung dịch loãng 0.8% sản xuất tại chỗ bằng điện phân nước muối) phân ly hoàn toàn thành cation natri và anion hypoclorit mà không sinh ra acid tự do ban đầu:
-- **Sodium Hypochlorite Aqueous Dissolution** (`eq_ch07_006`): $$\text{NaOCl} \rightarrow \text{Na}^+ + \text{OCl}^-$$
-  - *Biểu thức văn bản*: `NaOCl -> Na+ + OCl-`
-  - *Mô tả & Ý nghĩa*: Complete ionic dissociation of liquid sodium hypochlorite in water, forming hypochlorite ion without producing hydrogen ions.
-  - *Bảng biến số & Thứ nguyên*:
-    - $\text{NaOCl}$: Sodium hypochlorite (commercial bleach liquid, 10-15% wt)
-    - $\text{Na}^+$: Sodium cation
-    - $\text{OCl}^-$: Hypochlorite anion
-- Sau khi hòa tan, anion OCl^- phản ứng với ion H^+ của nước để thiết lập cân bằng acid-base tạo HOCl, đồng thời giải phóng ion OH^-, làm pH của nước có xu hướng tăng nhẹ.
+##### 7.1.1.3 Rào cản Bảo vệ Đa tầng trong Cấp nước Đô thị (Multi-Barrier Approach)
+- Bảo vệ nguồn nước (Source Water Protection):
+  - Kiểm soát lưu vực sông và hồ chứa nước thô.
+  - Giảm thiểu nước thải sinh hoạt và nước rửa trôi nông nghiệp đổ vào nguồn nước.
+- Keo tụ - Tạo bông và Lắng (Coagulation - Flocculation - Clarification):
+  - Tạo bông cặn để kết tụ chất bẩn.
+  - Loại bỏ từ 1.0 đến 2.5 log vi sinh vật bám dính trên các hạt keo sét hữu cơ.
+- Lọc qua tầng hạt (Granular Media Filtration):
+  - Giữ lại u nang ký sinh trùng (*Giardia*, *Cryptosporidium*).
+  - Đưa độ đục nước sau lọc xuống dưới $0.2\text{--}0.3\text{ NTU}$.
+  - Nước có độ đục thấp giúp hạt cặn không che chắn vi sinh vật khỏi hóa chất khử trùng.
+- Khử trùng (Disinfection):
+  - Tiêu diệt triệt để các tế bào vi sinh vật tự do còn sót lại sau công đoạn lọc.
+  - Cung cấp nồng độ chất khử trùng dư bảo vệ mạng lưới phân phối nước.
 
-###### Quá trình Hòa tan và Phân ly của Calcium Hypochlorite (Ca(OCl)2)
-- Hóa chất High-Test Hypochlorite (HTH, dạng hạt hoặc viên nén chứa 65% – 70% clo hoạt tính) hòa tan hoàn toàn trong nước giải phóng hai đương lượng anion hypoclorit cho mỗi phân tử muối:
-- **Calcium Hypochlorite Aqueous Dissolution** (`eq_ch07_007`): $$\text{Ca(OCl)}_2 \rightarrow \text{Ca}^{2+} + 2\text{OCl}^-$$
-  - *Biểu thức văn bản*: `Ca(OCl)2 -> Ca2+ + 2OCl-`
-  - *Mô tả & Ý nghĩa*: Complete dissolution of solid calcium hypochlorite pellets/granules releasing two hypochlorite ions per mole.
-  - *Bảng biến số & Thứ nguyên*:
-    - $\text{Ca(OCl)}_2$: Calcium hypochlorite (high-test hypochlorite HTH, 65-70% available chlorine)
-    - $\text{Ca}^{2+}$: Calcium cation (contributes hardness)
-    - $\text{OCl}^-$: Hypochlorite anion
-- Lưu ý kỹ thuật: Ca(OCl)_2 bổ sung ion canxi (Ca^{2+}) vào nước, làm gia tăng độ cứng canxi nhẹ và có nguy cơ gây tắc nghẽn đường ống định lượng hóa chất do kết tủa cặn CaCO_3.
+##### 7.1.1.4 Tiêu chí Kỹ thuật Đánh giá Chất khử trùng
+- Sáu tiêu chí kỹ thuật lựa chọn chất khử trùng:
+  1. Phổ diệt khuẩn rộng và tốc độ bất hoạt mầm bệnh cao.
+  2. Khả năng duy trì nồng độ tồn dư ổn định trong đường ống.
+  3. Tiềm năng tạo sản phẩm phụ khử trùng (DBP) thấp dưới ngưỡng quy chuẩn.
+  4. An toàn lao động cao và rủi ro rò rỉ hóa chất độc hại thấp.
+  5. Độ ổn định cao trước dao động pH, nhiệt độ và độ đục của nước.
+  6. Chi phí đầu tư (CAPEX) và chi phí vận hành (OPEX) hợp lý.
 
-###### Tiêu hao Độ kiềm Tự nhiên của Nước do Phản ứng Thủy phân Khí Clo
-- Phản ứng thủy phân khí clo sinh ra 1 mol acid mạnh HCl và 1 mol acid yếu HOCl cho mỗi mol Cl_2 hòa tan. Lượng proton giải phóng sẽ trung hòa hệ đệm bicarbonate tự nhiên của nước:
-- **Alkalinity Consumption by Chlorine Gas Hydrolysis** (`eq_ch07_008`): $$\Delta \text{Alk} = -1.43 \times \text{Dose}_{\text{Cl}_2} \quad (\text{mg/L as } \text{CaCO}_3)$$
-  - *Biểu thức văn bản*: `Delta Alk = -1.43 * Dose_Cl2 (mg/L as CaCO3 per mg/L Cl2 added)`
-  - *Mô tả & Ý nghĩa*: Quantifies the natural bicarbonate alkalinity consumed when gaseous chlorine dissolves and hydrolyzes into strong hydrochloric acid.
-  - *Bảng biến số & Thứ nguyên*:
-    - $\Delta \text{Alk}$: Alkalinity consumed (mg/L as CaCO3)
-    - $\text{Dose}_{\text{Cl}_2}$: Applied chlorine gas dose (mg/L as Cl2)
-    - $1.43$: Stoichiometric factor: (100.09 g CaCO3/mol) / (70.91 g Cl2/mol) = 1.43
-- Về mặt định lượng kỹ thuật: Cứ mỗi 1.0 mg/L khí clo (Cl_2) châm vào nước sẽ tiêu tốn chính xác 1.43 mg/L độ kiềm (tính theo CaCO_3). Đối với các nguồn nước mặt có độ kiềm thấp (Alkalinity < 20–30 mg/L as CaCO_3), việc châm khí clo liều lượng cao có thể làm sụt giảm pH nghiêm trọng (pH < 6.0), gây ăn mòn đường ống và đòi hỏi phải bổ sung vôi (Ca(OH)_2) hoặc xút (NaOH) để cân bằng lại độ kiềm.
+#### 7.1.2 Cơ chế Sinh lý - Hóa sinh Bất hoạt Vi sinh vật (Biochemical Mechanisms of Inactivation)
 
-##### 7.2.1.2 Cân bằng Phân ly Acid-Base của Hypochlorous Acid (HOCl / OCl-)
-- Phân tử acid hypoclorơ (HOCl) sinh ra từ phản ứng thủy phân là một acid yếu đơn chức, phân ly thuận nghịch trong nước phụ thuộc chặt chẽ vào độ pH và nhiệt độ môi trường.
+##### 7.1.2.1 Phá hủy Vách Tế bào và Tăng Tính Thấm Màng (Cell Membrane Permeabilization & Lysis)
+- Tác động oxy hóa màng lipid kép:
+  - Màng sinh chất cấu tạo từ lớp kép phospholipid bán thấm.
+  - Lớp màng này chứa các protein kênh vận chuyển ion và duy trì gradient điện hóa.
+  - Chất oxy hóa ($HOCl, ClO_2, O_3$) tấn công các acid béo không no trong màng lipid.
+  - Chuỗi phản ứng peroxy hóa lipid (Lipid Peroxidation) bẻ gãy mạch hydrocacbon.
+  - Phản ứng tạo ra các lỗ thủng phân tử trên màng tế bào.
+- Biến tính protein kênh màng (Transport Porins):
+  - Hóa chất khử trùng biến tính các phân tử protein xuyên màng.
+  - Màng tế bào mất hoàn toàn khả năng điều hòa chọn lọc dòng ion.
+- Sụp đổ gradient điện thế và ly giải tế bào (Cell Lysis):
+  - Lực dẫn động proton (Proton Motive Force - PMF) sụp đổ tức thì.
+  - Áp suất thẩm thấu nội bào vi khuẩn ($3\text{--}5\text{ atm}$) đẩy dịch nội bào ra ngoài.
+  - Tế bào rò rỉ không thể kiểm soát ion khoáng ($K^+, Mg^{2+}$), amino acid, coenzyme và ATP.
+  - Tế bào vi sinh vật vỡ vụn và chết hoàn toàn.
 
-###### Hằng số Phân ly Acid Ka và Mối Quan hệ với Nhiệt độ
-- **Hypochlorous Acid Acid-Base Dissociation Equilibrium** (`eq_ch07_002`): $$\text{HOCl} \rightleftharpoons \text{H}^+ + \text{OCl}^-$$
-  - *Biểu thức văn bản*: `HOCl <=> H+ + OCl-`
-  - *Mô tả & Ý nghĩa*: Aqueous acid-base equilibrium governing the reversible dissociation of hypochlorous acid into hypochlorite ion and hydrogen ion.
-  - *Bảng biến số & Thứ nguyên*:
-    - $\text{HOCl}$: Undissociated hypochlorous acid (80-100x more germicidal than OCl-)
-    - $\text{H}^+$: Hydrogen ion (pH dependent)
-    - $\text{OCl}^-$: Dissociated hypochlorite ion (weaker disinfectant)
-- **Hypochlorous Acid Acid Dissociation Constant (Ka)** (`eq_ch07_003`): $$K_a = \frac{[\text{H}^+][\text{OCl}^-]}{[\text{HOCl}]} = 2.90 \times 10^{-8} \quad (\text{at } 25^\circ\text{C}, \, pK_a = 7.54)$$
-  - *Biểu thức văn bản*: `Ka = ([H+] * [OCl-]) / [HOCl] = 2.90e-8 (at 25 deg C, pKa = 7.54)`
-  - *Mô tả & Ý nghĩa*: Thermodynamic equilibrium constant defining the ratio of dissociated ions to neutral HOCl as a function of temperature.
-  - *Bảng biến số & Thứ nguyên*:
-    - $K_a$: Acid dissociation constant (2.90 x 10^-8 mol/L at 25°C; 2.61 x 10^-8 at 20°C)
-    - $[\text{H}^+]$: Hydrogen ion molar concentration (mol/L)
-    - $[\text{OCl}^-]$: Hypochlorite ion molar concentration (mol/L)
-    - $[\text{HOCl}]$: Hypochlorous acid molar concentration (mol/L)
-    - $pK_a$: Negative log of Ka = 7.54 at 25°C
-- Ảnh hưởng của nhiệt độ đến hằng số phân ly: Giá trị pK_a của HOCl thay đổi theo nhiệt độ nước: ở 0°C (pK_a = 7.82), ở 10°C (pK_a = 7.69), ở 20°C (pK_a = 7.58), và ở 25°C (pK_a = 7.54). Nhiệt độ nước càng thấp, HOCl càng ít phân ly.
+##### 7.1.2.2 Biến tính Protein và Ức chế Hệ Thống Enzym Hô hấp (Enzyme Inactivation)
+- Oxy hóa nhóm sulfhydryl ($-SH$):
+  - Phân tử $HOCl$ trung hòa điện tích dễ dàng khuếch tán qua màng vào bào tương.
+  - Gốc amino acid Cysteine chứa lưu huỳnh phản ứng nhanh với $HOCl$.
+  - Phản ứng oxy hóa chuyển đổi hai nhóm sulfhydryl ($-SH$) thành cầu disulfide ($-S-S-$):
+    $$2\text{R-SH} + \text{HOCl} \rightarrow \text{R-S-S-R} + \text{HCl} + \text{H}_2\text{O}$$
+  - Chất oxy hóa tiếp tục phản ứng tạo acid sulfenic ($-SOH$), acid sulfinic ($-SO_2H$) và acid sulfonic ($-SO_3H$).
+  - Chuỗi polypeptide mất cấu trúc không gian bậc ba và biến tính tâm hoạt tính của enzym.
+- Tê liệt chuỗi chuyền điện tử hô hấp và tổng hợp năng lượng ATP:
+  - Chất oxy hóa làm tê liệt enzym Cytochrome oxidase, NADH dehydrogenase và Succinate dehydrogenase.
+  - Phức hợp enzym ATP Synthase ngừng hoạt động tổng hợp năng lượng.
+  - Tế bào vi sinh vật mất nguồn năng lượng ATP và ngừng toàn bộ trao đổi chất.
 
-###### Biểu thức Tỷ lệ Phân ly alpha_0 (HOCl) và alpha_1 (OCl-)
-- Tỷ lệ phần mol của dạng acid không phân ly (alpha_0) và dạng ion hypoclorit (alpha_1) được tính toán chính xác thông qua phương trình Henderson-Hasselbalch:
-- **Fraction of Undissociated Hypochlorous Acid (alpha_0)** (`eq_ch07_004`): $$\alpha_0 = \frac{[\text{HOCl}]}{[\text{HOCl}] + [\text{OCl}^-]} = \frac{[\text{H}^+]}{[\text{H}^+] + K_a} = \frac{1}{1 + \frac{K_a}{[\text{H}^+]}} = \frac{1}{1 + 10^{\text{pH} - pK_a}}$$
-  - *Biểu thức văn bản*: `alpha_0 = [HOCl] / ([HOCl] + [OCl-]) = [H+] / ([H+] + Ka) = 1 / (1 + Ka / [H+]) = 1 / (1 + 10^(pH - pKa))`
-  - *Mô tả & Ý nghĩa*: Calculates the decimal fraction of free available chlorine existing as potent undissociated hypochlorous acid.
-  - *Bảng biến số & Thứ nguyên*:
-    - $\alpha_0$: Fraction of free chlorine as HOCl (0.0 to 1.0)
-    - $[\text{H}^+]$: Hydrogen ion molarity = 10^-pH
-    - $K_a$: Dissociation constant of HOCl (2.90 x 10^-8 at 25°C)
-    - $\text{pH}$: Solution pH (-log[H+])
-    - $pK_a$: Logarithmic acid dissociation constant (7.54 at 25°C)
-- **Fraction of Hypochlorite Ion (alpha_1)** (`eq_ch07_005`): $$\alpha_1 = \frac{[\text{OCl}^-]}{[\text{HOCl}] + [\text{OCl}^-]} = \frac{K_a}{[\text{H}^+] + K_a} = 1 - \alpha_0$$
-  - *Biểu thức văn bản*: `alpha_1 = [OCl-] / ([HOCl] + [OCl-]) = Ka / ([H+] + Ka) = 1 - alpha_0`
-  - *Mô tả & Ý nghĩa*: Calculates the decimal fraction of free available chlorine existing as hypochlorite ion (OCl-).
-  - *Bảng biến số & Thứ nguyên*:
-    - $\alpha_1$: Fraction of free chlorine as OCl- (0.0 to 1.0)
-    - $\alpha_0$: Fraction of free chlorine as HOCl
-    - $K_a$: Dissociation constant of HOCl
-    - $[\text{H}^+]$: Hydrogen ion concentration
-- Phân tích đường cong phân bố speciation:
-  - Khi pH < 6.0: Hơn 97% clo tự do tồn tại dưới dạng HOCl.
-  - Khi pH = pK_a = 7.54 (ở 25°C): Tỷ lệ hai dạng cân bằng bằng nhau, nghĩa là 50% HOCl và 50% OCl^-.
-  - Khi pH = 8.0: HOCl chỉ còn chiếm khoảng 25%, và 75% clo tồn tại dưới dạng ion OCl^-.
-  - Khi pH > 9.0: Hơn 97% clo tự do bị ion hóa thành OCl^-.
+##### 7.1.2.3 Tổn thương Quang hóa và Phá hủy Acid Nucleic do Tia Cực tím (DNA / RNA Damage)
+- Hấp thụ photon bức xạ cực tím bước sóng ngắn (UV-C):
+  - Phân tử DNA và RNA hấp thụ mạnh bức xạ cực tím trong khoảng bước sóng $240\text{--}280\text{ nm}$.
+  - Đỉnh hấp thụ quang phổ đạt cực đại ở bước sóng $260\text{ nm}$.
+  - Bước sóng này rất gần vạch phát xạ $253.7\text{ nm}$ của đèn thủy ngân áp suất thấp.
+- Cơ chế hình thành Dimers Pyrimidine liền kề:
+  - Photon UV bẻ gãy liên kết đôi $C=C$ tại carbon số 5 và số 6 của vòng pyrimidine (Thymine, Cytosine).
+  - Hai bazơ pyrimidine kề nhau trên cùng một chuỗi liên kết cộng hóa trị với nhau.
+  - Phản ứng tạo ra vòng cyclobutane pyrimidine dimer (CPD) và các sản phẩm 6-4 photoproducts.
+- Ức chế sao chép bộ gen và phân bào:
+  - Cấu trúc chuỗi xoắn kép DNA bị biến dạng cơ học tại vị trí xuất hiện dimer.
+  - Enzyme DNA Polymerase bị tắc nghẽn khi đi qua vị trí tổn thương.
+  - Quá trình tái bản DNA và tổng hợp protein truyền bệnh bị ngừng trệ.
+  - Bức xạ cực tím không làm vỡ màng tế bào (Non-lytic) nhưng vô hiệu hóa vĩnh viễn khả năng sinh sản của mầm bệnh.
 
-###### Cơ chế Chênh lệch Hoạt tính Diệt khuẩn: Phân tử Trung hòa Điện tích HOCl vs Anion OCl-
-- Hiệu quả diệt khuẩn của HOCl mạnh gấp **80 đến 100 lần** so với ion OCl^- đối với vi khuẩn và virus:
-  1. *Cơ chế lực đẩy tĩnh điện*: Bề mặt màng sinh chất của vi sinh vật luôn tích điện tích âm ở dải pH trung tính (do sự phân ly của các nhóm phosphate và carboxylate trong màng). Ion hypoclorit (OCl^-) mang điện tích âm cùng dấu nên bị lực đẩy tĩnh điện cản trở mạnh mẽ, rất khó tiếp cận và khuếch tán qua lớp kép lipid.
-  2. *Cơ chế phân tử trung hòa điện tích*: Phân tử HOCl có kích thước rất nhỏ và trung hòa về điện tích (tương tự như phân tử nước H_2O), do đó nó dễ dàng khuếch tán thụ động qua lớp màng lipid kỵ nước của tế bào, xâm nhập nhanh chóng vào nội bào để tấn công hệ enzym sống còn.
-- Kết luận kỹ thuật: Quá trình khử trùng bằng clo đạt hiệu quả tối ưu trong dải pH từ **6.5 đến 7.5**. Vận hành ở pH > 8.0 sẽ làm sụt giảm nghiêm trọng hiệu lực diệt khuẩn và đòi hỏi phải tăng nồng độ hoặc thời gian tiếp xúc lên gấp 3–4 lần.
+#### 7.1.3 Phân loại Mầm bệnh và Thứ bậc Đề kháng Chất khử trùng (Pathogen Hierarchy & Resistance)
 
-##### 7.2.1.3 Cân bằng Khối lượng Clo: Liều lượng, Nhu cầu và Clo Dư
-- Khi châm clo vào nguồn nước thô hoặc nước sau lọc, một phần clo sẽ phản ứng ngay với các hợp chất khử, chất hữu cơ và vi sinh vật. Mối quan hệ vật chất được thiết lập thông qua phương trình bảo toàn khối lượng:
-- **Mass Balance of Chlorine Dose, Demand, and Residual** (`eq_ch07_009`): $$\text{Chlorine Dose} = \text{Chlorine Demand} + \text{Chlorine Residual}$$
-  - *Biểu thức văn bản*: `Chlorine Dose = Chlorine Demand + Chlorine Residual`
-  - *Mô tả & Ý nghĩa*: Fundamental mass balance relationship governing chemical water chlorination.
-  - *Bảng biến số & Thứ nguyên*:
-    - $\text{Chlorine Dose}$: Total mass concentration of chlorine applied to water (mg/L)
-    - $\text{Chlorine Demand}$: Amount of chlorine consumed by inorganic reducing agents, NOM, and pathogens (mg/L)
-    - $\text{Chlorine Residual}$: Unreacted available chlorine remaining after specified contact time (mg/L)
-- Trong đó:
-  - **Liều lượng Clo (Chlorine Dose)**: Tổng nồng độ clo được cấp vào nước qua hệ thống châm hóa chất (mg/L).
-  - **Nhu cầu Clo (Chlorine Demand)**: Lượng clo bị tiêu hao nhanh chóng bởi: (1) Các chất khử vô cơ dễ bị oxy hóa (Fe^{2+}, Mn^{2+}, H_2S, NO_2^-); (2) Chất hữu cơ tự nhiên (NOM humic/fulvic); (3) Sinh khối vi sinh vật.
-  - **Clo Dư (Chlorine Residual)**: Lượng clo còn hoạt động sinh học tồn tại sau một khoảng thời gian tiếp xúc nhất định (thường chuẩn hóa sau 15–30 phút).
+##### 7.1.3.1 Các Nhóm Vi sinh vật Ô nhiễm Điển hình trong Nước
+- Vi khuẩn đường ruột (Enteric Bacteria):
+  - Các chủng phổ biến gồm *Escherichia coli*, *Salmonella typhi*, *Shigella dysenteriae*, *Vibrio cholerae*.
+  - Cấu trúc gồm tế bào nhân sơ đơn bào, kích thước $0.5\text{--}3.0\ \mu\text{m}$, vách peptidoglycan.
+  - Vi khuẩn đường ruột nhạy cảm nhất với mọi chất khử trùng.
+  - Clo tự do nồng độ $0.2\text{--}0.5\text{ mg/L}$ tiêu diệt trên 4-log vi khuẩn sau $5\text{--}10\text{ phút}$.
+- Virus đường ruột (Enteric Viruses):
+  - Các chủng phổ biến gồm Rotavirus, Norovirus, Poliovirus, Hepatitis A, Adenovirus.
+  - Hạt virus kích thước hiển vi $20\text{--}100\text{ nm}$, không có màng vỏ lipid bao bọc.
+  - Cấu trúc chỉ gồm lõi acid nucleic bọc trong vỏ protein capsid.
+  - Virus nhạy cảm với clo tự do và ozone nhưng đề kháng rất cao với tia cực tím.
+  - Adenovirus chuỗi đôi DNA cần liều UV lên đến $120\text{--}186\text{ mJ/cm}^2$ để đạt 4-log bất hoạt.
+- Động vật nguyên sinh tạo nang (Protozoan Parasites):
+  - Các loài điển hình gồm u nang *Giardia lamblia* ($8\text{--}14\ \mu\text{m}$) và noãn nang *Cryptosporidium parvum* ($4\text{--}6\ \mu\text{m}$).
+  - Vỏ nang cấu tạo từ mạng lưới sợi chitin liên kết với glycoprotein chứa nhiều cầu nối disulfide.
+  - Lớp vỏ dày tạo thành rào cản chống thấm nước và chống oxy hóa.
 
-###### Các Điểm Châm Clo Điển hình trong Trạm Xử lý Nước cấp
-- Trong dây chuyền công nghệ nhà máy nước, clo có thể được châm tại nhiều vị trí khác nhau để phục vụ các mục tiêu công nghệ chuyên biệt:
-**Bảng TBL_CH07_01 (`tbl_ch07_01`): Typical Chlorine Dosages and Applications in Municipal Water Treatment Plants (Slide 10)**
+##### 7.1.3.2 Thứ bậc Đề kháng Tác nhân Khử trùng Hóa học
+- Trật tự tăng dần mức độ đề kháng chất khử trùng:
+  $$\text{Vi khuẩn sinh dưỡng} < \text{Virus đường ruột} < \text{U nang Giardia} \ll \text{Noãn nang Cryptosporidium} \approx \text{Nha bào vi khuẩn}$$
+- Khả năng chống chịu của *Cryptosporidium* và giải pháp công nghệ:
+  - Vỏ noãn nang *Cryptosporidium* trơ hóa học với clo tự do.
+  - Bất hoạt 2-log (99%) *Cryptosporidium* bằng clo tự do ở $20^\circ\text{C}$ đòi hỏi $CT > 7,000\text{--}10,000\text{ mg}\cdot\text{min/L}$.
+  - Vận hành thực tế không thể châm clo liều cao vì tạo ra lượng lớn phụ phẩm độc hại DBP.
+  - Tia UV xuyên thẳng qua vỏ chitin và phá hủy DNA với liều chỉ cần $10\text{--}20\text{ mJ/cm}^2$ để đạt 3-log đến 4-log bất hoạt.
+  - Ozone bất hoạt *Cryptosporidium* ở giá trị $CT \approx 10\text{--}15\text{ mg}\cdot\text{min/L}$.
+  - Nhà máy cấp nước mặt bắt buộc dùng UV hoặc ozone khi nguồn nước có nguy cơ nhiễm ký sinh trùng.
 
-| Process Application | Typical Chlorine Dose Range (mg/L) | Primary Objectives & Mechanism | Key Operational Controls |
+#### 7.1.4 Hóa học Khử trùng bằng Clo Tự do (Free Chlorine Chemistry & Speciation)
+
+##### 7.1.4.1 Phản ứng Hòa tan Khí Clo và Muối Hypochlorite
+- Phản ứng thủy phân khí clo ($Cl_2$):
+  - Thiết bị ejector chân không hòa tan khí clo vào nước.
+  - Phản ứng thủy phân diễn ra tức thời với thời gian bán phản ứng $t_{1/2} < 1\text{ s}$ ở nhiệt độ phòng:
+    $$\text{Cl}_2(g) + \text{H}_2\text{O} \rightleftharpoons \text{HOCl} + \text{H}^+ + \text{Cl}^-$$
+    - $\text{Cl}_2(g)$: Khí clo nguyên tố hòa tan ($\text{M} = 70.906\text{ g/mol}$).
+    - $\text{H}_2\text{O}$: Phân tử nước dung môi.
+    - $\text{HOCl}$: Acid hypochlorous, chất khử trùng chính có hoạt tính diệt khuẩn cao.
+    - $\text{H}^+$: Ion hydro, làm giảm giá trị pH của nước.
+    - $\text{Cl}^-$: Ion chloride trơ, không có hoạt tính khử trùng.
+- Quá trình hòa tan natri hypochlorite ($NaOCl$):
+  - Dung dịch $NaOCl$ thương mại ($10\text{--}12\%$) hoặc sản xuất tại chỗ ($0.8\%$) phân ly hoàn toàn:
+    $$\text{NaOCl} \rightarrow \text{Na}^+ + \text{OCl}^-$$
+    - $\text{NaOCl}$: Natri hypochlorite dạng lỏng.
+    - $\text{Na}^+$: Cation natri.
+    - $\text{OCl}^-$: Anion hypochlorite.
+  - Anion $\text{OCl}^-$ nhận proton của nước tạo thành $\text{HOCl}$ và giải phóng ion hydroxide:
+    $$\text{OCl}^- + \text{H}_2\text{O} \rightleftharpoons \text{HOCl} + \text{OH}^-$$
+  - Phản ứng này làm pH của nước tăng nhẹ sau khi châm hóa chất.
+- Quá trình hòa tan canxi hypochlorite ($Ca(OCl)_2$):
+  - Hóa chất $Ca(OCl)_2$ dạng hạt hoặc viên nén (HTH chứa $65\text{--}70\%$ clo hoạt tính) phân ly hoàn toàn:
+    $$\text{Ca(OCl)}_2 \rightarrow \text{Ca}^{2+} + 2\text{OCl}^-$$
+    - $\text{Ca(OCl)}_2$: Canxi hypochlorite.
+    - $\text{Ca}^{2+}$: Cation canxi, làm tăng độ cứng của nước.
+    - $\text{OCl}^-$: Anion hypochlorite.
+  - Cation canxi có thể phản ứng với carbonate tạo cặn $CaCO_3$ làm nghẹt bơm và ống châm hóa chất.
+
+##### 7.1.4.2 Tiêu hao Độ kiềm Tự nhiên của Nước do Khí Clo
+- Phản ứng thủy phân khí clo giải phóng ion acid mạnh $H^+$:
+  - Cứ mỗi mol $\text{Cl}_2$ hòa tan sinh ra một mol ion $H^+$ từ acid hydrochloric ($HCl$).
+  - Ion $H^+$ trung hòa hệ đệm bicarbonate ($\text{HCO}_3^-$) tự nhiên của nước:
+    $$\text{H}^+ + \text{HCO}_3^- \rightleftharpoons \text{CO}_2 \uparrow + \text{H}_2\text{O}$$
+- Phương trình tính lượng độ kiềm bị tiêu hao:
+  $$\Delta \text{Alk} = -1.43 \times \text{Dose}_{\text{Cl}_2} \quad (\text{mg/L tính theo } \text{CaCO}_3)$$
+  - $\Delta \text{Alk}$: Lượng độ kiềm bị suy giảm ($\text{mg/L tính theo } \text{CaCO}_3$).
+  - $\text{Dose}_{\text{Cl}_2}$: Liều lượng khí clo châm vào nước ($\text{mg/L tính theo } \text{Cl}_2$).
+  - $1.43$: Hệ số đương lượng hóa học giữa $\text{CaCO}_3$ và $\text{Cl}_2$:
+    $$\frac{100.09\text{ g/mol } \text{CaCO}_3}{70.906\text{ g/mol } \text{Cl}_2} = 1.4115 \approx 1.43$$
+- Ý nghĩa kỹ thuật vận hành:
+  - Châm $1.0\text{ mg/L } \text{Cl}_2$ làm giảm đúng $1.43\text{ mg/L}$ độ kiềm tính theo $\text{CaCO}_3$.
+  - Khi nước nguồn có độ kiềm thấp ($< 20\text{--}30\text{ mg/L as CaCO}_3$), pH nước sẽ giảm sâu dưới 6.0.
+  - Nước có tính acid gây ăn mòn đường ống phân phối. Kỹ sư phải châm thêm xút ($NaOH$) hoặc vôi ($Ca(OH)_2$).
+
+##### 7.1.4.3 Cân bằng Phân ly Acid-Bazơ của Acid Hypochlorous theo pH và Nhiệt độ
+- Phương trình phân ly thuận nghịch của acid hypochlorous:
+  $$\text{HOCl} \rightleftharpoons \text{H}^+ + \text{OCl}^-$$
+- Hằng số phân ly acid ($K_a$):
+  $$K_a = \frac{[\text{H}^+][\text{OCl}^-]}{[\text{HOCl}]} = 2.90 \times 10^{-8}\text{ mol/L} \quad (\text{ở } 25^\circ\text{C}, \, pK_a = 7.54)$$
+  - $[\text{H}^+]$: Nồng độ mol ion hydro ($\text{mol/L}$).
+  - $[\text{OCl}^-]$: Nồng độ mol ion hypochlorite ($\text{mol/L}$).
+  - $[\text{HOCl}]$: Nồng độ mol phân tử acid hypochlorous chưa phân ly ($\text{mol/L}$).
+  - $pK_a = -\log_{10}(K_a) = 7.54$ ở $25^\circ\text{C}$.
+- Ảnh hưởng của nhiệt độ nước lên hằng số $pK_a$:
+  - Ở $0^\circ\text{C}$: $pK_a = 7.82$ ($K_a = 1.51 \times 10^{-8}\text{ mol/L}$).
+  - Ở $10^\circ\text{C}$: $pK_a = 7.69$ ($K_a = 2.04 \times 10^{-8}\text{ mol/L}$).
+  - Ở $20^\circ\text{C}$: $pK_a = 7.58$ ($K_a = 2.61 \times 10^{-8}\text{ mol/L}$).
+  - Ở $25^\circ\text{C}$: $pK_a = 7.54$ ($K_a = 2.90 \times 10^{-8}\text{ mol/L}$).
+  - Nhiệt độ nước giảm làm giảm hằng số $K_a$, giữ tỷ lệ phân tử $HOCl$ chưa phân ly cao hơn.
+
+##### 7.1.4.4 Tỷ lệ Phân bố Dạng Tồn tại $\alpha_0$ ($HOCl$) và $\alpha_1$ ($OCl^-$)
+- Phân số tồn tại của dạng acid chưa phân ly ($\alpha_0$):
+  $$\alpha_0 = \frac{[\text{HOCl}]}{[\text{HOCl}] + [\text{OCl}^-]} = \frac{[\text{H}^+]}{[\text{H}^+] + K_a} = \frac{1}{1 + \frac{K_a}{[\text{H}^+]}} = \frac{1}{1 + 10^{\text{pH} - pK_a}}$$
+  - $\alpha_0$: Tỷ lệ mol của $HOCl$ trên tổng clo tự do ($0.0 \le \alpha_0 \le 1.0$).
+  - $[\text{H}^+] = 10^{-\text{pH}}$: Nồng độ mol ion hydro.
+- Phân số tồn tại của ion hypochlorite ($\alpha_1$):
+  $$\alpha_1 = \frac{[\text{OCl}^-]}{[\text{HOCl}] + [\text{OCl}^-]} = \frac{K_a}{[\text{H}^+] + K_a} = 1 - \alpha_0$$
+  - $\alpha_1$: Tỷ lệ mol của $OCl^-$ trên tổng clo tự do ($0.0 \le \alpha_1 \le 1.0$).
+- Đặc tính phân bố dạng clo tự do theo giá trị pH ở $25^\circ\text{C}$:
+  - Khi $\text{pH} < 6.0$: Dạng $HOCl$ chiếm trên $97\%$.
+  - Khi $\text{pH} = 7.0$: Dạng $HOCl$ chiếm $77.5\%$; ion $OCl^-$ chiếm $22.5\%$.
+  - Khi $\text{pH} = pK_a = 7.54$: Tỷ lệ hai dạng bằng nhau ($50\% \text{ HOCl}$ và $50\% \text{ OCl}^-$).
+  - Khi $\text{pH} = 8.0$: Dạng $HOCl$ giảm còn $25\%$; ion $OCl^-$ chiếm $75\%$.
+  - Khi $\text{pH} > 9.0$: Ion $OCl^-$ chiếm trên $97\%$.
+
+##### 7.1.4.5 So sánh Hoạt tính Diệt khuẩn giữa $HOCl$ và $OCl^-$
+- Hiệu quả diệt khuẩn của phân tử $HOCl$ mạnh gấp **80 đến 100 lần** so với ion $OCl^-$.
+- Cơ chế giải thích:
+  1. Lực đẩy tĩnh điện trên màng tế bào:
+     - Màng sinh chất vi sinh vật tích điện âm ở pH trung tính.
+     - Anion $OCl^-$ mang điện tích âm nên bị lực đẩy tĩnh điện cản trở tiếp cận màng tế bào.
+     - Anion $OCl^-$ rất khó khuếch tán qua lớp kép phospholipid.
+  2. Khả năng thẩm thấu của phân tử trung hòa điện:
+     - Phân tử $HOCl$ trung hòa điện tích và có kích thước nhỏ tương đương phân tử $H_2O$.
+     - $HOCl$ khuếch tán thụ động nhanh chóng qua lớp lipid kỵ nước của màng sinh chất.
+     - $HOCl$ xâm nhập sâu vào tế bào chất và oxy hóa hệ enzym sống còn.
+- Kết luận kỹ thuật:
+  - Quá trình khử trùng bằng clo đạt hiệu quả cao nhất trong dải pH từ **6.5 đến 7.5**.
+  - Khi $\text{pH} > 8.0$, hoạt tính diệt khuẩn giảm mạnh, đòi hỏi tăng liều clo hoặc tăng thời gian tiếp xúc gấp 3 đến 4 lần.
+
+##### 7.1.4.6 Cân bằng Khối lượng Clo: Liều lượng, Nhu cầu và Clo Dư
+- Phương trình cân bằng vật chất cơ bản:
+  $$\text{Chlorine Dose} = \text{Chlorine Demand} + \text{Chlorine Residual}$$
+  - $\text{Chlorine Dose}$: Liều lượng clo châm vào nước ($\text{mg/L}$).
+  - $\text{Chlorine Demand}$: Nhu cầu clo bị tiêu hao bởi chất khử vô cơ, chất hữu cơ và vi sinh vật ($\text{mg/L}$).
+  - $\text{Chlorine Residual}$: Nồng độ clo dư còn hoạt tính sau thời gian tiếp xúc quy định ($\text{mg/L}$).
+- Cân bằng tổng nồng độ clo dư:
+  $$\text{Total Chlorine Residual} = \text{Free Chlorine Residual} + \text{Combined Chlorine Residual}$$
+  - $\text{Free Chlorine Residual}$: Clo dư tự do gồm tổng $[\text{HOCl}] + [\text{OCl}^-]$.
+  - $\text{Combined Chlorine Residual}$: Clo dư liên kết gồm tổng chloramines ($[\text{NH}_2\text{Cl}] + [\text{NHCl}_2] + [\text{NCl}_3]$).
+- Các vị trí châm clo trong trạm xử lý nước cấp:
+  - Châm trước lắng (Prechlorination): Liều $1.0\text{--}5.0\text{ mg/L}$ để kiểm soát rêu tảo và oxy hóa sắt, mangan.
+  - Trợ keo tụ (Coagulation Aid): Liều $1.0\text{--}3.0\text{ mg/L}$ trước bể trộn nhanh để phá vỡ phức hữu cơ.
+  - Châm trước lọc (Pre-Filtration): Liều $0.5\text{--}2.0\text{ mg/L}$ để giữ sạch lớp cát lọc và ngăn màng nhầy.
+  - Khử trùng sau lọc (Postchlorination): Liều $1.5\text{--}4.0\text{ mg/L}$ để khử trùng sơ cấp đạt thời gian lưu $t_{10} \ge 30\text{ phút}$.
+  - Châm điểm uốn (Breakpoint Chlorination): Liều $5.0\text{--}20.0\text{ mg/L}$ để oxy hóa phá hủy amoniac.
+  - Khử trùng xung điện hoặc đường ống mới (Superchlorination): Liều $10.0\text{--}50.0\text{ mg/L}$ để khử trùng mạng lưới mới lắp đặt.
+
+#### 7.1.5 Hóa học Clo hóa Điểm uốn với Amoniac (Breakpoint Chlorination Chemistry)
+
+##### 7.1.5.1 Động học Hình thành Các Dạng Chloramines
+- Khi nước chứa amoniac ($NH_3 / NH_4^+$), $HOCl$ phản ứng tạo thành các hợp chất chloramines (clo liên kết).
+- Phản ứng tạo Monochloramine ($NH_2Cl$):
+  $$\text{NH}_3 + \text{HOCl} \rightarrow \text{NH}_2\text{Cl} + \text{H}_2\text{O}$$
+  - Điều kiện ưu tiên: Dải pH kiềm yếu ($7.5\text{--}9.0$) và tỷ lệ khối lượng $\text{Cl}_2:\text{NH}_3\text{-N} < 5:1$.
+  - Đặc tính: Bền vững hóa học cao, tốc độ suy giảm chậm, vị thanh nhẹ, không gây mùi nồng.
+  - Ứng dụng: Dùng làm chất khử trùng thứ cấp lý tưởng duy trì nồng độ bảo vệ trên mạng lưới rộng.
+- Phản ứng tạo Dichloramine ($NHCl_2$):
+  $$\text{NH}_2\text{Cl} + \text{HOCl} \rightarrow \text{NHCl}_2 + \text{H}_2\text{O}$$
+  - Điều kiện ưu tiên: Tỷ lệ khối lượng $\text{Cl}_2:\text{NH}_3\text{-N}$ từ $5:1$ đến $7.6:1$, hoặc pH acid nhẹ ($4.5\text{--}6.0$).
+  - Đặc tính: Gây mùi clo nồng hắc khó chịu và kích ứng mắt người sử dụng.
+- Phản ứng tạo Nitrogen Trichloride ($NCl_3$ hay Trichloramine):
+  $$\text{NHCl}_2 + \text{HOCl} \rightarrow \text{NCl}_3 + \text{H}_2\text{O}$$
+  - Điều kiện ưu tiên: Môi trường acid mạnh ($\text{pH} < 4.5$) hoặc tỷ lệ clo rất cao ($\text{Cl}_2:\text{N} > 10:1$).
+  - Đặc tính: Chất khí dễ bay hơi, gây mùi hôi cay nồng cực mạnh và làm cay chảy nước mắt (Lachrymator).
+
+##### 7.1.5.2 Phân tích Đồ thị Đường cong Điểm uốn qua Bốn Giai đoạn
+- Đồ thị Breakpoint thể hiện biến thiên nồng độ clo dư theo liều lượng clo châm vào mẫu nước chứa amoniac:
+- Vùng 1 (Zone 1 - Tiêu hao chất khử vô cơ):
+  - Khoảng liều châm: Từ $0$ đến ngưỡng nhu cầu vô cơ ban đầu.
+  - Phản ứng: Clo bị tiêu hao tức thời bởi chất khử vô cơ ($Fe^{2+} \rightarrow Fe^{3+}$, $Mn^{2+} \rightarrow MnO_2$, $H_2S \rightarrow SO_4^{2-}$).
+  - Toàn bộ clo châm vào chuyển thành ion chloride ($Cl^-$) không có hoạt tính khử trùng.
+  - Nồng độ clo dư đo được bằng $0$.
+- Vùng 2 (Zone 2 - Hình thành chloramines và đạt đỉnh cực đại):
+  - Khoảng liều châm: Tỷ lệ khối lượng $\text{Cl}_2:\text{NH}_3\text{-N}$ từ $0$ đến khoảng $5:1$.
+  - Phản ứng: Clo phản ứng với amoniac tự do tạo thành $NH_2Cl$ và một phần $NHCl_2$.
+  - Nồng độ clo liên kết tăng tuyến tính theo liều clo châm vào.
+  - Đỉnh cực đại xuất hiện tại tỷ lệ khối lượng $\text{Cl}_2:\text{NH}_3\text{-N} \approx 5:1$ (tương ứng tỷ lệ mol $1:1$, khi amoniac đã tạo hết thành $NH_2Cl$).
+- Vùng 3 (Zone 3 - Oxy hóa chloramines và sụt giảm clo dư về điểm uốn):
+  - Khoảng liều châm: Tỷ lệ khối lượng $\text{Cl}_2:\text{NH}_3\text{-N}$ từ $5:1$ đến $7.6:1$.
+  - Phản ứng: Clo tiếp tục châm vào sẽ oxy hóa phá hủy chính các hợp chất chloramines vừa sinh ra.
+  - Phản ứng tổng thể chuyển hóa amoniac thành khí nitơ ($N_2$) bay lên khí quyển:
+    $$2\text{NH}_3 + 3\text{Cl}_2 \rightarrow \text{N}_2 \uparrow + 6\text{HCl} \quad \left( \text{hoặc } 2\text{NH}_3 + 3\text{HOCl} \rightarrow \text{N}_2 \uparrow + 3\text{H}_2\text{O} + 3\text{HCl} \right)$$
+  - Hiện tượng: Nồng độ tổng clo dư sụt giảm nhanh chóng dù liều lượng clo cấp vào tăng lên.
+  - Đáy trũng sụt giảm gọi là **Điểm uốn (Breakpoint)**, tại đó toàn bộ amoniac đã bị oxy hóa hoàn toàn.
+- Vùng 4 (Zone 4 - Phục hồi clo dư tự do tuyến tính sau điểm uốn):
+  - Khoảng liều châm: Vượt qua điểm uốn ($\text{Cl}_2:\text{NH}_3\text{-N} > 7.6:1$).
+  - Toàn bộ amoniac và nhu cầu clo nền đã bị triệt tiêu hoàn toàn.
+  - Mọi lượng clo châm thêm tồn tại hoàn toàn dưới dạng clo dư tự do ($HOCl$ và $OCl^-$).
+  - Đường cong tăng tuyến tính với hệ số góc bằng đúng $1.0$ (châm thêm $1.0\text{ mg/L } Cl_2$ làm tăng thêm $1.0\text{ mg/L}$ clo tự do).
+
+##### 7.1.5.3 So sánh Hóa học Lượng tính Giữa Tạo Khí $N_2$ và Tạo Nitrate $NO_3^-$
+- Con đường phản ứng (1) tạo khí nitơ ($N_2$):
+  $$2\text{NH}_3 + 3\text{Cl}_2 \rightarrow \text{N}_2 \uparrow + 6\text{HCl}$$
+  - Tỷ lệ mol: $3\text{ mol } Cl_2$ phản ứng với $2\text{ mol } N$.
+  - Tỷ lệ khối lượng lý thuyết:
+    $$R_{\text{mass, } N_2} = \frac{3 \times 70.906\text{ g } \text{Cl}_2}{2 \times 14.007\text{ g } \text{N}} = \frac{212.718}{28.014} = 7.5933 \approx 7.60\text{ mg } \text{Cl}_2 / \text{mg } \text{NH}_3\text{-N}$$
+- Con đường phản ứng (2) tạo ion nitrate ($NO_3^-$):
+  $$\text{NH}_3 + 4\text{Cl}_2 + 3\text{H}_2\text{O} \rightarrow \text{HNO}_3 + 8\text{HCl}$$
+  - Tỷ lệ mol: $4\text{ mol } Cl_2$ phản ứng với $1\text{ mol } N$.
+  - Tỷ lệ khối lượng lý thuyết:
+    $$R_{\text{mass, } NO_3} = \frac{4 \times 70.906\text{ g } \text{Cl}_2}{1 \times 14.007\text{ g } \text{N}} = \frac{283.624}{14.007} = 20.2487 \approx 20.25\text{ mg } \text{Cl}_2 / \text{mg } \text{NH}_3\text{-N}$$
+- Đánh giá kỹ thuật:
+  - Phản ứng tạo khí $N_2$ là cơ chế chủ đạo trong khử trùng nước cấp thực tế.
+  - Con đường tạo $N_2$ tiêu tốn $7.60\text{ mg Cl}_2/\text{mg N}$, ít hơn $12.65\text{ mg Cl}_2/\text{mg N}$ so với con đường tạo nitrate ($20.25\text{ mg Cl}_2/\text{mg N}$).
+  - Quá trình này giúp tiết kiệm $62.5\%$ lượng clo châm vào và không làm tăng nitrate trong nước sạch.
+  - Trong vận hành thực tế, tỷ lệ châm clo điểm uốn thường dao động từ $8:1$ đến $10:1$ do tiêu hao bởi chất hữu cơ tự nhiên (NOM).
+
+#### 7.1.6 Quy trình Kỹ thuật Tính toán và Vận hành (Standard Engineering Procedures)
+
+##### 7.1.6.1 Quy trình Tính toán Phân bố Speciation của Acid Hypochlorous
+1. Đo nhiệt độ vận hành $T$ ($^\circ\text{C}$) và giá trị pH của nước sau khử trùng.
+2. Tra cứu hằng số phân ly acid $K_a$ của $HOCl$ ở nhiệt độ $T$ ($K_a = 2.90 \times 10^{-8}$ ở $25^\circ\text{C}$; $K_a = 2.61 \times 10^{-8}$ ở $20^\circ\text{C}$).
+3. Tính nồng độ mol ion hydro theo công thức: $[\text{H}^+] = 10^{-\text{pH}}$.
+4. Tính tỷ lệ phân số acid hypochlorous chưa phân ly ($\alpha_0$):
+   $$\alpha_0 = \frac{[\text{H}^+]}{[\text{H}^+] + K_a} = \frac{1}{1 + \frac{K_a}{[\text{H}^+]}}$$
+5. Tính tỷ lệ phân số ion hypochlorite phân ly ($\alpha_1$):
+   $$\alpha_1 = 1 - \alpha_0$$
+6. Tính nồng độ clo hoạt tính diệt khuẩn cao theo công thức:
+   $$C_{\text{HOCl}} = \alpha_0 \times C_{\text{free}}$$
+7. Nếu tỷ lệ $\alpha_0 < 0.50$ ($\text{pH} > 7.54$), châm hóa chất acid để đưa pH về khoảng tối ưu $6.5\text{--}7.5$.
+
+##### 7.1.6.2 Quy trình Xác định Điểm uốn và Liều lượng Châm Clo Vận hành
+1. Đo nồng độ amoniac ($\text{NH}_3\text{-N}$), sắt ($Fe^{2+}$), mangan ($Mn^{2+}$), sulfide ($H_2S$) và chất hữu cơ ($\text{DOC}$).
+2. Tính nhu cầu clo lý thuyết cho chất khử vô cơ ($0.64\text{ mg Cl}_2/\text{mg Fe}^{2+}$; $1.29\text{ mg Cl}_2/\text{mg Mn}^{2+}$; $2.08\text{ mg Cl}_2/\text{mg H}_2\text{S}$).
+3. Tính liều clo hóa học lượng tính để oxy hóa amoniac đến điểm uốn:
+   $$\text{Dose}_{\text{breakpoint, stoichiometric}} = 7.60 \times [\text{NH}_3\text{-N}] \quad (\text{mg/L})$$
+4. Thực hiện thí nghiệm Jar test clo hóa điểm uốn với dải liều châm tăng dần từ $0$ đến $15\text{ mg/L}$ và thời gian tiếp xúc $30\text{ phút}$.
+5. Đo nồng độ clo tự do, clo liên kết và tổng clo dư bằng phương pháp so màu DPD.
+6. Vẽ đồ thị đường cong điểm uốn và xác định liều châm thực tế tại điểm đáy uốn.
+7. Thiết lập liều châm vận hành tại trạm xử lý:
+   $$\text{Dose}_{\text{plant}} = \text{Dose}_{\text{breakpoint}} + C_{\text{free, target}} + \text{Safety Margin}$$
+   - Trong đó $C_{\text{free, target}} = 0.5\text{--}1.0\text{ mg/L}$ là nồng độ clo dư tự do mục tiêu cấp vào mạng lưới.
+
+#### 7.1.7 Bài tập Tính toán Kỹ thuật Mẫu (Worked Engineering Examples)
+
+<!-- exercise-start: Ví dụ 7-1: Cân bằng Phân ly và Tỷ lệ Phần trăm Acid Hypochlorous Chưa Phân ly (HOCl) -->
+- **Ví dụ 7-1: Cân bằng Phân ly và Tỷ lệ Phần trăm Acid Hypochlorous Chưa Phân ly (HOCl)**
+  - Cho:
+    - Liều lượng acid hypochlorous thêm vào nước: $C_{\text{total}} = 15.0\text{ mg/L tính theo } \text{Cl}_2$
+    - Giá trị pH đo được của nước sau xử lý: $\text{pH} = 7.00$
+    - Nhiệt độ nước: $T = 25.0^\circ\text{C}$
+    - Hằng số phân ly acid của $HOCl$ ở $25^\circ\text{C}$: $K_a = 2.90 \times 10^{-8}\text{ mol/L}$ ($pK_a = 7.54$)
+  - Tìm:
+    - Tỷ lệ phần trăm acid hypochlorous chưa phân ly ($\alpha_0$).
+    - Nồng độ $HOCl$ chưa phân ly và nồng độ ion $OCl^-$ phân ly trong nước ($\text{mg/L tính theo } \text{Cl}_2$).
+  - Phương trình áp dụng:
+    $$[\text{H}^+] = 10^{-\text{pH}}$$
+    $$\alpha_0 = \frac{[\text{H}^+]}{[\text{H}^+] + K_a} = \frac{1}{1 + \frac{K_a}{[\text{H}^+]}} = \frac{1}{1 + 10^{\text{pH} - pK_a}}$$
+    $$\alpha_1 = 1 - \alpha_0$$
+    $$C_{\text{HOCl}} = \alpha_0 \times C_{\text{total}}$$
+    $$C_{\text{OCl}^-} = \alpha_1 \times C_{\text{total}}$$
+  - Các bước giải:
+    1. Bước 1: Tính nồng độ ion hydro $[\text{H}^+]$:
+       $$[\text{H}^+] = 10^{-7.00} = 1.00 \times 10^{-7}\text{ mol/L}$$
+    2. Bước 2: Tính tỷ lệ phần trăm $HOCl$ chưa phân ly ($\alpha_0$):
+       $$\alpha_0 = \frac{1.00 \times 10^{-7}}{1.00 \times 10^{-7} + 2.90 \times 10^{-8}} = \frac{1.00 \times 10^{-7}}{1.29 \times 10^{-7}} = 0.77519 = 77.52\% \approx 77.5\%$$
+    3. Bước 3: Tính tỷ lệ phần trăm ion $OCl^-$ phân ly ($\alpha_1$):
+       $$\alpha_1 = 1 - 0.77519 = 0.22481 = 22.48\% \approx 22.5\%$$
+    4. Bước 4: Tính nồng độ từng cấu tử clo tự do trong nước:
+       - Nồng độ $HOCl$ chưa phân ly:
+         $$C_{\text{HOCl}} = 15.0\text{ mg/L} \times 0.77519 = 11.63\text{ mg/L (tính theo } \text{Cl}_2\text{)}$$
+       - Nồng độ ion $OCl^-$ phân ly:
+         $$C_{\text{OCl}^-} = 15.0\text{ mg/L} \times 0.22481 = 3.37\text{ mg/L (tính theo } \text{Cl}_2\text{)}$$
+  - **Đáp số**:
+    - Tỷ lệ chưa phân ly: `77.5% HOCl` ($11.63\text{ mg/L tính theo } \text{Cl}_2$).
+    - Tỷ lệ phân ly: `22.5% OCl-` ($3.37\text{ mg/L tính theo } \text{Cl}_2$).
+<!-- exercise-end -->
+
+<!-- exercise-start: Ví dụ 7-2: Liều lượng Clo Hóa học Lượng tính Điểm uốn để Chuyển hóa Amoniac -->
+- **Ví dụ 7-2: Liều lượng Clo Hóa học Lượng tính Điểm uốn để Chuyển hóa Amoniac**
+  - Cho:
+    - Nồng độ amoniac trong mẫu nước tinh khiết: $[\text{NH}_3\text{-N}] = 1.0\text{ mg/L tính theo } \text{N}$
+    - Khối lượng nguyên tử của Nitơ: $M_N = 14.007\text{ g/mol}$
+    - Khối lượng phân tử của Khí clo: $M_{\text{Cl}_2} = 70.906\text{ g/mol}$
+    - Điều kiện phản ứng (1): Toàn bộ amoniac chuyển hóa thành khí nitơ ($N_2$).
+    - Điều kiện phản ứng (2): Toàn bộ amoniac chuyển hóa thành ion nitrate ($NO_3^-$).
+  - Tìm:
+    - Liều lượng clo cần thiết ($\text{mg/L } Cl_2$) cho phản ứng (1) và phản ứng (2).
+    - So sánh phản ứng nào tiêu thụ ít clo hơn và tính tỷ lệ phần trăm tiết kiệm.
+  - Phương trình áp dụng:
+    - Phản ứng (1):
+      $$2\text{NH}_3 + 3\text{Cl}_2 \rightarrow \text{N}_2 \uparrow + 6\text{HCl}$$
+    - Phản ứng (2):
+      $$\text{NH}_3 + 4\text{Cl}_2 + 3\text{H}_2\text{O} \rightarrow \text{HNO}_3 + 8\text{HCl}$$
+  - Các bước giải:
+    1. Bước 1: Tính liều lượng clo cho phản ứng (1) chuyển hóa amoniac thành khí $N_2$:
+       - Tỷ lệ mol: $3\text{ mol } Cl_2$ cho $2\text{ mol } N$.
+       - Tỷ lệ khối lượng:
+         $$R_{\text{mass, 1}} = \frac{3 \times 70.906\text{ g } \text{Cl}_2}{2 \times 14.007\text{ g } \text{N}} = \frac{212.718}{28.014} = 7.5933\text{ mg } \text{Cl}_2 / \text{mg } \text{N} \approx 7.60\text{ mg } \text{Cl}_2 / \text{mg } \text{N}$$
+       - Liều lượng clo cần châm:
+         $$\text{Dose}_{\text{Cl}_2, 1} = 1.0\text{ mg N/L} \times 7.5933\text{ mg } \text{Cl}_2/\text{mg N} = 7.5933\text{ mg/L} \approx 7.60\text{ mg/L } \text{Cl}_2$$
+    2. Bước 2: Tính liều lượng clo cho phản ứng (2) chuyển hóa amoniac thành ion $NO_3^-$:
+       - Tỷ lệ mol: $4\text{ mol } Cl_2$ cho $1\text{ mol } N$.
+       - Tỷ lệ khối lượng:
+         $$R_{\text{mass, 2}} = \frac{4 \times 70.906\text{ g } \text{Cl}_2}{1 \times 14.007\text{ g } \text{N}} = \frac{283.624}{14.007} = 20.2487\text{ mg } \text{Cl}_2 / \text{mg } \text{N} \approx 20.25\text{ mg } \text{Cl}_2 / \text{mg } \text{N}$$
+       - Liều lượng clo cần châm:
+         $$\text{Dose}_{\text{Cl}_2, 2} = 1.0\text{ mg N/L} \times 20.2487\text{ mg } \text{Cl}_2/\text{mg N} = 20.2487\text{ mg/L} \approx 20.25\text{ mg/L } \text{Cl}_2$$
+    3. Bước 3: So sánh mức tiêu hao hóa chất clo giữa hai phản ứng:
+       - Lượng clo chênh lệch giữa hai phản ứng:
+         $$\Delta \text{Dose} = 20.2487 - 7.5933 = 12.6554\text{ mg/L } \text{Cl}_2 \approx 12.65\text{ mg/L}$$
+       - Tỷ lệ phần trăm lượng clo tiết kiệm được:
+         $$\% \text{ Tiết kiệm} = \frac{20.2487 - 7.5933}{20.2487} \times 100\% = 62.50\% \approx 62.5\%$$
+  - **Đáp số**:
+    - Phản ứng (1) tạo $N_2$: `7.60 mg/L Cl2`.
+    - Phản ứng (2) tạo $NO_3^-$: `20.25 mg/L Cl2`.
+    - Kết luận: `Phản ứng (1) tạo khí N2 tiêu hao ít hơn 62.5% lượng clo so với phản ứng (2).`
+<!-- exercise-end -->
+
+#### 7.1.8 Hướng dẫn Vận hành và Xử lý Sự cố Kỹ thuật (Operational Troubleshooting)
+
+##### 7.1.8.1 Sự cố Suy giảm Nhanh Nồng độ Clo Dư trên Mạng lưới Phân phối
+- Dấu hiệu nhận biết:
+  - Nồng độ clo dư tự do tại điểm cuối mạng lưới đo được dưới $0.2\text{ mg/L}$.
+  - Mẫu nước xuất hiện vi khuẩn dị dưỡng hoặc chỉ tiêu vi sinh không đạt chuẩn QCVN 01-1:2018/BYT.
+- Nguyên nhân gốc rễ:
+  - Nước sau lọc còn nhiều chất hữu cơ tự nhiên ($\text{TOC} > 2.0\text{ mg/L}$) tiếp tục tiêu hao clo dư.
+  - Tích tụ cặn lắng và màng sinh học (Biofilm) lâu năm trong đường ống cấp nước cũ.
+  - Thời gian lưu nước trong bể chứa và mạng lưới đường ống vượt quá $48\text{--}72\text{ giờ}$.
+  - Hiện tượng nitrate hóa (Nitrification) xảy ra trong mạng lưới dùng chloramine làm phân hủy nhanh chất khử trùng.
+- Biện pháp kỹ thuật khắc phục:
+  1. Thực hiện sục rửa thủy lực một chiều (Unidirectional Flushing) mạng lưới đường ống để làm sạch màng sinh học.
+  2. Nâng cao hiệu quả keo tụ tăng cường (Enhanced Coagulation) để hạ nồng độ $\text{TOC} < 1.5\text{--}2.0\text{ mg/L}$ trước khi châm clo.
+  3. Vận hành luân phiên các ngăn bể chứa nước sạch để duy trì thời gian lưu nước dưới $24\text{--}48\text{ giờ}$.
+  4. Lắp đặt trạm châm clo bổ sung tự động (Booster Chlorination) tại các điểm nút xa nguồn.
+  5. Khi mạng lưới dùng chloramine bị nitrate hóa, chuyển tạm thời sang dùng clo tự do trong $2\text{--}4\text{ tuần}$ để diệt vi khuẩn nitrate hóa.
+
+##### 7.1.8.2 Sự cố Suy giảm Hiệu quả Diệt khuẩn do Biến động pH và Nhiệt độ Nước
+- Dấu hiệu nhận biết:
+  - Mẫu nước sau bể tiếp xúc không đạt chỉ tiêu vi sinh dù vẫn duy trì nồng độ clo dư theo định mức.
+- Nguyên nhân gốc rễ:
+  - Độ pH của nước tăng cao trên 8.0 sau công đoạn làm mềm vôi hoặc châm kiềm, làm tỷ lệ $HOCl$ giảm sâu dưới $25\%$.
+  - Nhiệt độ nước mùa lạnh giảm dưới $10^\circ\text{C}$, làm chậm tốc độ diệt khuẩn và tăng yêu cầu giá trị $CT$.
+  - Nước thô có độ kiềm thấp bị giảm mạnh pH sau khi châm khí clo, gây ăn mòn kim loại.
+- Biện pháp kỹ thuật khắc phục:
+  1. Kiểm soát và điều chỉnh giá trị pH nước trong bể tiếp xúc khử trùng duy trì trong dải tối ưu $6.5\text{--}7.5$.
+  2. Nếu $\text{pH} > 8.0$, châm acid sulfuric ($H_2SO_4$) hoặc sục khí $CO_2$ để hạ pH về dải tối ưu trước khi châm clo.
+  3. Khi nhiệt độ nước mùa đông xuống thấp, tăng liều châm clo hoặc tăng thời gian tiếp xúc $t_{10}$ để bù trừ suy giảm động học.
+  4. Châm bổ sung vôi ($Ca(OH)_2$) hoặc xút ($NaOH$) để bù đắp lượng kiềm tiêu hao $1.43\text{ mg/L as CaCO}_3$ cho mỗi $\text{mg/L } Cl_2$ khí châm vào.
+
+### 7.2 Các Công nghệ Khử trùng Thay thế (Alternative Disinfection Technologies)
+
+#### 7.2.1 Khử trùng bằng Chlorine Dioxide ($ClO_2$) (Chlorine Dioxide Disinfection)
+
+##### 7.2.1.1 Cấu tạo Phân tử và Tính chất Hóa lý của $ClO_2$
+- **Cấu trúc điện tử phân tử tự do**:
+  - Phân tử $ClO_2$ chứa 19 electron hóa trị.
+  - Phân tử là một gốc tự do thuận từ ổn định.
+  - Nguyên tử clo có trạng thái oxy hóa +4.
+- **Hòa tan vật lý không thủy phân**:
+  - Khí $ClO_2$ hòa tan trong nước dưới dạng phân tử khí tự do.
+  - Phân tử không phản ứng thủy phân tạo axit hypoclorơ.
+  - Phân tử không phân ly thành các ion acid-base.
+  - Hoạt tính diệt khuẩn không phụ thuộc vào độ pH trong dải 6.0 đến 9.0.
+- **Đặc tính phản ứng chọn lọc**:
+  - $ClO_2$ không phản ứng với amoniac tự do. Quá trình không tạo thành chloramines gây mùi hăng.
+  - $ClO_2$ không phản ứng thế halogen với chất hữu cơ tự nhiên (NOM).
+  - Quá trình không sinh ra Trihalomethanes (THMs) và Haloacetic Acids (HAAs).
+  - $ClO_2$ phá hủy màng tế bào bằng phản ứng chuyển electron.
+  - $ClO_2$ oxy hóa nhanh các hợp chất gây mùi vị phenol và sulfide.
+  - Hiệu quả bất hoạt u nang *Cryptosporidium* cao hơn clo tự do từ 10 đến 50 lần.
+
+##### 7.2.1.2 Các Phản ứng Điều chế $ClO_2$ Tại Chỗ (On-Site Generation)
+- **Yêu cầu điều chế tại chỗ**:
+  - Khí $ClO_2$ đậm đặc rất không ổn định.
+  - Khí tự phân hủy nổ khi nồng độ vượt quá 10% thể tích trong không khí.
+  - Khí tự nổ khi áp suất riêng phần vượt quá $300\text{ mmHg}$.
+  - Kỹ sư không thể nén hóa lỏng $ClO_2$ vào bình thép để vận chuyển.
+  - Nhà máy phải sản xuất $ClO_2$ trực tiếp tại trạm ở dạng dung dịch nước loãng ($1,000 - 3,000\text{ mg/L}$).
+- **Ba phản ứng điều chế tiêu chuẩn**:
+  1. *Con đường Khí clo và Natri clorit (Gas:Chlorite Route)*:
+     $$2\text{NaClO}_2 + \text{Cl}_2(g) \rightarrow 2\text{ClO}_2(g) + 2\text{NaCl}$$
+     - Natri clorit ($\text{NaClO}_2$ dung dịch 25% – 31%).
+     - Khí clo ($\text{Cl}_2$ cấp qua bộ hút chân không).
+     - Khí chlorine dioxide ($\text{ClO}_2$ hòa tan trong nước).
+     - Natri clorua ($\text{NaCl}$ phụ phẩm).
+     - Hiệu suất chuyển hóa đạt từ 95% đến 98%. Phản ứng áp dụng cho nhà máy cấp nước quy mô lớn.
+  2. *Con đường Axit Hypoclorơ và Natri clorit (Hypo:Chlorite Route)*:
+     $$2\text{NaClO}_2 + \text{HOCl} \rightarrow 2\text{ClO}_2(g) + \text{NaCl} + \text{NaOH}$$
+     - Natri clorit ($\text{NaClO}_2$).
+     - Axit hypoclorơ ($\text{HOCl}$ từ dung dịch $\text{NaOCl}$ axit hóa).
+     - Khí chlorine dioxide ($\text{ClO}_2$).
+     - Natri hydroxit ($\text{NaOH}$ làm tăng nhẹ pH).
+     - Phản ứng áp dụng khi trạm tránh dùng khí clo hóa lỏng.
+  3. *Con đường Axit Clohydric và Natri clorit (Acid:Chlorite Route)*:
+     $$5\text{NaClO}_2 + 4\text{HCl} \rightarrow 4\text{ClO}_2(g) + 5\text{NaCl} + 2\text{H}_2\text{O}$$
+     - Natri clorit ($\text{NaClO}_2$ dung dịch 25% – 31%).
+     - Axit clohydric ($\text{HCl}$ công nghiệp 30% – 33%).
+     - Khí chlorine dioxide ($\text{ClO}_2$).
+     - Nước và muối natri clorua phụ phẩm.
+     - Phản ứng loại bỏ hoàn toàn khí clo nguyên tố. Phổ biến trong các cụm thiết bị module tự động.
+
+##### 7.2.1.3 Cơ chế Oxy hóa và Tiêu chuẩn Kiểm soát Ion Clorit ($ClO_2^-$)
+- **Cơ chế nhận một electron**:
+  - $ClO_2$ nhận một electron trong phản ứng khử ở dải pH trung tính:
+    $$\text{ClO}_2 + e^- \rightarrow \text{ClO}_2^-$$
+  - Khoảng 50% đến 70% liều $ClO_2$ châm vào nước chuyển thành ion clorit ($\text{ClO}_2^-$).
+  - Một lượng nhỏ bị oxy hóa tiếp thành ion clorat ($\text{ClO}_3^-$).
+- **Độc tính sinh học của phụ phẩm clorit**:
+  - Ion $\text{ClO}_2^-$ oxy hóa ion sắt(II) trong phân tử hemoglobin thành sắt(III).
+  - Hiện tượng này tạo thành methemoglobin trong máu.
+  - Methemoglobin làm giảm khả năng vận chuyển oxy của hồng cầu.
+  - Phụ phẩm gây thiếu máu tán huyết ở bệnh nhân lọc thận và trẻ sơ sinh.
+- **Tiêu chuẩn quy chuẩn kỹ thuật**:
+  - Giới hạn nồng độ tối đa (MCL) của ion clorit ($\text{ClO}_2^-$): $\le 1.0\text{ mg/L}$ ($1,000\ \mu\text{g/L}$).
+  - Giới hạn chất khử trùng dư tối đa (MRDL) của $ClO_2$: $\le 0.8\text{ mg/L}$.
+  - Giới hạn khuyến cáo của WHO cho ion clorat ($\text{ClO}_3^-$): $\le 0.7\text{ mg/L}$.
+- **Giải pháp kiểm soát và xử lý clorit**:
+  - Khống chế liều châm $ClO_2$ tối đa trong nước sạch: $\le 1.2 - 1.4\text{ mg/L}$.
+  - Tối ưu hóa phản ứng điều chế để hiệu suất đạt trên 95%. Tránh tồn dư hóa chất tiền chất $\text{NaClO}_2$.
+  - Khử ion clorit dư sau tiếp xúc bằng muối sắt(II) sunfat ($\text{FeSO}_4$):
+    $$\text{ClO}_2^- + 4\text{Fe}^{2+} + 10\text{H}_2\text{O} \rightarrow \text{Cl}^- + 4\text{Fe(OH)}_3 \downarrow + 8\text{H}^+$$
+  - Khử ion clorit dư bằng natri bisulfit ($\text{NaHSO}_3$):
+    $$\text{ClO}_2^- + 2\text{SO}_3^{2-} \rightarrow \text{Cl}^- + 2\text{SO}_4^{2-}$$
+
+##### 7.2.1.4 Quy định An toàn Vận hành và Thiết bị Châm $ClO_2$
+- **Kiến trúc cụm thiết bị điều chế module (Packaged ClO2 Skids)**:
+  - Bơm định lượng màng đôi hút trực tiếp tiền chất lỏng.
+  - Buồng phản ứng chế tạo từ vật liệu PVDF hoặc thủy tinh borosilicate chịu ăn mòn.
+  - Thiết bị vận hành hoàn toàn dưới áp suất chân không do ejector tạo ra.
+  - Cảm biến lưu lượng tự động ngắt cấp hóa chất khi mất dòng nước động lực.
+  - Cảm biến quang phổ online giám sát liên tục nồng độ $ClO_2$ đầu ra.
+- **Quy tắc an toàn chống cháy nổ**:
+  - Giữ nồng độ khí $ClO_2$ trong buồng tạo khí luôn dưới mức 5% đến 8%.
+  - Duy trì hệ thống thông gió cưỡng bức chống tích tụ khí rò rỉ.
+  - Che chắn bồn chứa natri clorit khỏi nguồn nhiệt và tia lửa điện.
+
+---
+
+#### 7.2.2 Khử trùng bằng Khí Ozone ($O_3$) (Ozone Disinfection)
+
+##### 7.2.2.1 Cấu tạo Phân tử và Đặc tính Oxy hóa của Khí Ozone
+- **Cấu trúc phân tử tam giác**:
+  - Phân tử ozone cấu tạo từ 3 nguyên tử oxy.
+  - Góc liên kết giữa các nguyên tử đạt $116.8^\circ$.
+  - Chiều dài liên kết oxy-oxy đạt $0.128\text{ nm}$.
+- **Thế oxy hóa khử tiêu chuẩn cực cao**:
+  - Thế oxy hóa khử tiêu chuẩn của ozone: $E^0 = +2.07\text{ V}$.
+  - Giá trị này cao hơn axit hypoclorơ ($E^0 = +1.48\text{ V}$) và khí clo ($E^0 = +1.36\text{ V}$).
+  - Ozone là chất oxy hóa hóa học mạnh nhất trong kỹ thuật xử lý nước cấp.
+- **Độ hòa tan và tính kém bền**:
+  - Độ hòa tan của ozone trong nước thấp hơn clo khoảng 12.5 lần ở $20^\circ\text{C}$.
+  - Hằng số định luật Henry đối với ozone đạt khoảng $3,900\text{ atm}\cdot\text{mol/mol}$ tại $20^\circ\text{C}$.
+  - Ozone phân hủy nhanh trong nước với thời gian bán hủy từ 10 đến 30 phút.
+  - Quá trình không để lại nồng độ khử trùng tồn dư trên mạng lưới đường ống.
+
+##### 7.2.2.2 Cơ chế Oxy hóa Song song: Trực tiếp và Gián tiếp (Direct vs Indirect Pathway)
+- **Hai con đường oxy hóa song song**:
+  - Khi hòa tan vào nước, ozone phản ứng theo hai cơ chế hóa học đồng thời:
+    1. *Cơ chế oxy hóa trực tiếp (Direct Ozonolysis)*:
+       - Phân tử $O_3$ phản ứng trực tiếp với chất ô nhiễm.
+       - Phản ứng có tính chọn lọc cao.
+       - Tác nhân tấn công liên kết đôi carbon-carbon không no, nhân thơm mang nhóm hydroxyl, và amin.
+       - Cơ chế chiếm ưu thế ở pH thấp ($\text{pH} < 7.0$).
+       - Hằng số tốc độ phản ứng: $k_D = 1.0 - 10^3\text{ M}^{-1}\text{s}^{-1}$.
+    2. *Cơ chế oxy hóa gián tiếp qua gốc tự do Hydroxyl (Indirect Radical Pathway)*:
+       - Ion hydroxide ($\text{OH}^-$) kích hoạt chuỗi phản ứng phân hủy phân tử $O_3$.
+       - Phản ứng sinh ra các gốc tự do hydroxyl ($\cdot\text{OH}$).
+       - Gốc $\cdot\text{OH}$ có thế oxy hóa cực cao ($E^0 = +2.80\text{ V}$).
+       - Phản ứng không chọn lọc với tốc độ cực nhanh: $k_R = 10^8 - 10^{10}\text{ M}^{-1}\text{s}^{-1}$.
+       - Cơ chế chiếm ưu thế ở pH cao ($\text{pH} > 8.0$) hoặc khi kết hợp với tia cực tím và $\text{H}_2\text{O}_2$.
+
+##### 7.2.2.3 Nguyên lý Máy Phóng điện Hào quang Corona (Corona Discharge Generator)
+- **Cơ chế phân ly điện trường cao áp**:
+  - Khí chứa oxy đi qua khe hở phóng điện hẹp (kích thước $0.5 - 1.0\text{ mm}$).
+  - Khe hở nằm giữa hai điện cực đặt dưới điện áp xoay chiều $5,000 - 15,000\text{ V}$.
+  - Tần số dòng điện trung bình từ 500 đến $2,000\text{ Hz}$.
+  - Điện trường bắn phá phân ly phân tử $\text{O}_2$ thành các nguyên tử oxy tự do:
+    $$e^- + \text{O}_2 \rightarrow 2\text{O} + e^-$$
+  - Nguyên tử oxy kết hợp tức thời với phân tử oxy lân cận tạo thành ozone:
+    $$\text{O} + \text{O}_2 \rightarrow \text{O}_3$$
+- **Cân bằng năng lượng và giải nhiệt**:
+  - Khoảng 10% điện năng chuyển hóa thành năng lượng hóa học của ozone.
+  - 90% điện năng chuyển thành nhiệt năng làm nóng buồng phóng điện.
+  - Nhiệt độ cao làm phân hủy ngược ozone thành oxy phân tử.
+  - Thiết bị bắt buộc có áo nước làm mát giải nhiệt liên tục ($T_{\text{water}} \le 15 - 20^\circ\text{C}$).
+
+##### 7.2.2.4 Chuẩn bị Nguồn Khí Cấp và Yêu cầu Sấy Khô Triệt để ($T_{dew} \le -60^\circ\text{C}$)
+- **So sánh hai nguồn khí nạp**:
+  - *Nguồn không khí khô (Ambient Air Feed)*:
+    - Nồng độ ozone tạo thành đạt 1% đến 3% theo khối lượng.
+    - Suất tiêu hao điện năng: $15 - 22\text{ kWh/kg } \text{O}_3$.
+    - Đòi hỏi dây chuyền nén khí và tháp sấy hút ẩm phức tạp.
+  - *Nguồn oxy lỏng tinh khiết (Liquid Oxygen - LOX Feed)*:
+    - Nồng độ ozone tạo thành đạt 6% đến 12% theo khối lượng.
+    - Suất tiêu hao điện năng: $8 - 12\text{ kWh/kg } \text{O}_3$.
+    - Giảm 50% thể tích công trình tiếp xúc và loại trừ nguy cơ tạo axit nitric.
+- **Nguy cơ tạo Axit Nitric ($\text{HNO}_3$) ăn mòn**:
+  - Không khí xung quanh chứa 78% khí nitơ ($\text{N}_2$).
+  - Nếu khí nạp còn chứa hơi ẩm, phóng điện hoa sẽ kích hoạt phản ứng phụ:
+    $$2\text{N}_2 + 5\text{O}_2 + 2\text{H}_2\text{O} \xrightarrow{\text{corona discharge}} 4\text{HNO}_3$$
+  - Hơi axit nitric ngưng tụ ăn mòn thủng điện cực thép không gỉ 316L.
+  - Hơi axit phá hủy ống điện môi thủy tinh và gây nổ thiết bị phóng điện.
+- **Tiêu chuẩn điểm sương khí nạp**:
+  - Điểm sương của khí nạp bắt buộc phải đạt: $T_{dew} \le -60^\circ\text{C}$.
+  - Mức nhiệt độ này tương đương hàm lượng hơi ẩm dưới $10\text{ ppm}$ thể tích.
+  - Dây chuyền chuẩn bị khí gồm: Máy nén khí $\rightarrow$ Bộ lọc tách dầu hạt bụi $\rightarrow$ Máy sấy lạnh ngưng tụ ($+4^\circ\text{C}$) $\rightarrow$ Tháp sấy hạt hút ẩm kép (Alumina hoạt tính hoặc rây phân tử).
+  - Cảm biến ẩm online tự động ngắt điện nguồn máy phát khi $T_{dew} > -50^\circ\text{C}$.
+
+##### 7.2.2.5 Cơ chế Hình thành và Kiểm soát Sản phẩm Phụ Bromat ($BrO_3^-$)
+- **Cơ chế tạo thành bromat trong nước chứa bromide**:
+  - Khi nước thô chứa ion bromide ($\text{Br}^-$), ozone oxy hóa qua chuỗi phản ứng:
+    $$\text{Br}^- + \text{O}_3 \rightarrow \text{OBr}^- + \text{O}_2$$
+    $$\text{OBr}^- + 2\text{O}_3 \rightarrow \text{BrO}_3^- + 2\text{O}_2$$
+  - Gốc hydroxyl cũng tham gia oxy hóa $\text{Br}^-$ thành ion bromat ($\text{BrO}_3^-$).
+- **Độc tính và quy chuẩn pháp lý**:
+  - Ion bromat là chất gây ung thư nhóm B2 (gây u thận và ung thư tuyến giáp).
+  - Giới hạn tối đa (MCL) của $\text{BrO}_3^-$: $\le 10\ \mu\text{g/L}$ ($0.010\text{ mg/L}$) theo USEPA và QCVN 01-1:2018/BYT.
+- **Biện pháp kỹ thuật kiểm soát bromat**:
+  1. *Kiểm soát pH*: Châm axit sulfuric hoặc $\text{CO}_2$ hạ pH nước xuống 6.0 – 6.5. Môi trường axit chuyển $\text{OBr}^-$ thành $\text{HOBr}$ ($pK_a = 8.8$), giảm tốc độ tạo bromat.
+  2. *Châm amoniac liều nhỏ ($0.1 - 0.3\text{ mg/L}$)*: Amoniac phản ứng nhanh với $\text{HOBr}$ tạo monobromamine ($\text{NH}_2\text{Br}$), cắt đứt chuỗi phản ứng oxy hóa lên bromat.
+  3. *Tối ưu hóa liều châm ozone*: Khống chế nồng độ ozone vừa đủ đáp ứng giá trị $CT$ mục tiêu.
+  4. *Lọc than hoạt tính sinh học (BAC)*: Bố trí bể than hoạt tính sau ozone để hấp phụ và khử sinh học ion bromat.
+
+##### 7.2.2.6 Cấu tạo Công trình Tiếp xúc và Thiết bị Phá hủy Ozone Thừa
+- **Hai cấu hình công trình tiếp xúc ozone**:
+  1. *Bể sục khí cột sâu (Deep Bubble Diffuser Basin)*:
+     - Chiều sâu cột nước lớn: 5.5 đến 6.5 m.
+     - Áp suất thủy tĩnh đáy bể tăng độ tan của ozone theo định luật Henry.
+     - Đĩa sứ xốp ceramic tạo bọt mịn kích thước $1.5 - 3.0\text{ mm}$.
+     - Bể chia từ 2 đến 4 ngăn vách hướng dòng trên - dưới (Over-Under Baffles). Dòng nước chảy ngược chiều với dòng bọt khí.
+     - Thời gian lưu nước tiếp xúc: 5 đến 15 phút.
+  2. *Hệ thống hòa tan nhánh phụ Venturi (Sidestream Venturi Injection - SSI)*:
+     - Tách dòng phụ chiếm 10% đến 15% tổng lưu lượng nước xử lý.
+     - Bơm tăng áp đẩy nước qua vòi phun venturi tạo độ chân không hút khí ozone.
+     - Thiết bị trộn tĩnh flash reactor hòa tan trên 95% lượng khí vào nước.
+     - Bình tách khí degas loại bỏ bọt khí oxy trơ trước khi tái nhập dòng chính.
+- **Thiết bị phá hủy ozone thừa (Thermal-Catalytic Ozone Destructor)**:
+  - Khí ozone thoát trên đỉnh bể tiếp xúc chứa nồng độ $0.1\%$ đến $0.5\%$ thể tích.
+  - Ngưỡng giới hạn tiếp xúc nghề nghiệp của OSHA: $\le 0.1\text{ ppm}$ trong 8 giờ làm việc.
+  - Toàn bộ nắp bể tiếp xúc phải đậy kín tuyệt đối và duy trì áp suất âm nhẹ.
+  - Quạt hút dẫn khí thải qua khối xúc tác hỗn hợp $\text{MnO}_2 / \text{CuO}$ (Carulite®).
+  - Thanh gia nhiệt điện trở nâng nhiệt độ lên $50 - 60^\circ\text{C}$ để phân hủy triệt để ozone thành oxy phân tử vô hại.
+
+---
+
+#### 7.2.3 Khử trùng bằng Bức xạ Cực tím (UV Radiation) (Ultraviolet Disinfection)
+
+##### 7.2.3.1 Bản chất Quang học và Phổ Bức xạ Diệt khuẩn UV-C
+- **Bốn dải bức xạ cực tím**:
+  - Dải bức xạ chân không (Vacuum UV): Bước sóng 100 đến 200 nm.
+  - Dải UV-C: Bước sóng 200 đến 280 nm.
+  - Dải UV-B: Bước sóng 280 đến 315 nm.
+  - Dải UV-A: Bước sóng 315 đến 400 nm.
+- **Vùng bức xạ diệt khuẩn tối ưu**:
+  - Dải bức xạ có hiệu lực diệt khuẩn (Germicidal Range) nằm trọn trong vùng UV-C (200 – 280 nm).
+  - Phổ hấp thụ của phân tử axit nucleic (ADN và ARN) đạt cực đại tại bước sóng 260 nm.
+  - Bước sóng phát xạ cộng hưởng của hơi thủy ngân áp suất thấp đạt $253.7\text{ nm}$ ($\approx 254\text{ nm}$).
+  - Vạch phổ $253.7\text{ nm}$ đạt xấp xỉ 90% hiệu suất diệt khuẩn lý thuyết cực đại.
+- **Ưu điểm cốt lõi**:
+  - Quá trình khử trùng thuần túy vật lý, không cần châm hóa chất độc hại.
+  - Bức xạ không tạo ra sản phẩm phụ halogen hóa như THMs và HAAs.
+  - Quá trình không làm thay đổi mùi vị và tính chất hóa học của nước.
+
+##### 7.2.3.2 Cơ chế Tạo Thymine Dimer Phá vỡ Chuỗi ADN/ARN
+- **Cơ chế kích thích quang hóa**:
+  - Photon UV-C năng lượng cao bẻ gãy liên kết đôi $C=C$ tại vị trí carbon số 5 và 6 của vòng pyrimidine thơm.
+  - Năng lượng ánh sáng kích hoạt phản ứng cộng vòng giữa hai bazơ Thymine nằm kề cận trên cùng một chuỗi ADN đơn.
+  - Phản ứng tạo thành liên kết cộng hóa trị Cyclobutane Pyrimidine Dimers (CPD) hoặc sản phẩm quang hóa 6-4 photoproducts.
+- **Bất hoạt khả năng nhân đôi di truyền**:
+  - Cấu trúc dimer làm biến dạng không gian của chuỗi xoắn kép ADN.
+  - Enzyme ADN polymerase bị tắc nghẽn cơ học tại vị trí dimer. Quá trình sao chép bộ gen bị dừng lại hoàn toàn.
+  - Tế bào vi sinh vật mất khả năng phân bào và tổng hợp protein gây bệnh.
+  - Vi sinh vật bị bất hoạt vĩnh viễn mà không làm vỡ màng sinh chất (cơ chế non-lytic).
+
+##### 7.2.3.3 Liều Bức xạ UV (Fluence) và Định luật Beer-Lambert
+- **Phương trình liều bức xạ UV (UV Fluence / Dose)**:
+  - Liều bức xạ là tích số giữa cường độ phát xạ và thời gian phơi sáng:
+    $$D = I \cdot t$$
+    - $D$: Liều lượng bức xạ cực tím ($\text{mJ/cm}^2$ hoặc $\text{J/m}^2$; quy đổi: $1\text{ mJ/cm}^2 = 10\text{ J/m}^2$).
+    - $I$: Cường độ bức xạ UV-C trung bình trên tiết diện buồng phản ứng ($\text{mW/cm}^2$ hoặc $\text{W/m}^2$).
+    - $t$: Thời gian lưu phơi sáng của dòng nước qua buồng chiếu (giây).
+- **Tiêu chuẩn liều bức xạ quy chuẩn**:
+  - Liều UV chuẩn theo hướng dẫn USEPA UVDGM và tiêu chuẩn DVGW: $D = 40\text{ mJ/cm}^2$ ($400\text{ J/m}^2$).
+  - Mức liều $40\text{ mJ/cm}^2$ đảm bảo đạt tín chỉ khử trùng $\ge 4.0\text{-log}$ đối với *Cryptosporidium* và *Giardia*.
+  - Mức liều này đảm bảo đạt $\ge 3.0\text{-log}$ đối với hầu hết vi khuẩn đường ruột và virus thông thường.
+  - Riêng Adenovirus (chứa chuỗi ADN đôi bền vững) đòi hỏi liều từ 120 đến $186\text{ mJ/cm}^2$ để đạt $4.0\text{-log}$.
+- **Định luật Beer-Lambert và Độ truyền quang (%UVT)**:
+  - Cường độ ánh sáng suy giảm khi truyền qua môi trường nước theo định luật Beer-Lambert:
+    $$I(x) = I_0 \cdot 10^{-A_{254} \cdot x}$$
+  - Độ truyền quang của nước ở bước sóng 254 nm (%UVT) tính qua cuvette dày $1.0\text{ cm}$:
+    $$\%\text{UVT} = 100 \times 10^{-A_{254}}$$
+- **Yêu cầu chất lượng nước cấp cho hệ thống UV**:
+  - Độ truyền quang bắt buộc: $\%\text{UVT} \ge 85\% - 90\%$.
+  - Độ đục nước cấp sau lọc: duy trì $\le 0.3 - 0.5\text{ NTU}$. Các hạt cặn lơ lửng che chắn vi sinh vật khỏi tia UV.
+  - Giới hạn hàm lượng sắt tổng: $\text{Fe} < 0.1\text{ mg/L}$.
+  - Giới hạn hàm lượng mangan tổng: $\text{Mn} < 0.02\text{ mg/L}$.
+  - Giới hạn độ cứng: tránh kết tủa cáu cặn canxi cacbonat ($\text{CaCO}_3$) trên bề mặt nóng của ống thạch anh.
+
+##### 7.2.3.4 Phân loại và Đặc tính Kỹ thuật Các Dòng Đèn Thủy ngân UV
+- **Đặc điểm ba dòng công nghệ đèn thủy ngân**:
+  1. *Đèn Áp suất Thấp - Cường độ Thấp (LPLI)*:
+     - Áp suất hơi thủy ngân rất thấp: $10^{-3} - 10^{-2}\text{ mmHg}$.
+     - Phát xạ đơn sắc tuyệt đối tại bước sóng $253.7\text{ nm}$.
+     - Công suất bóng nhỏ: 40 đến 100 W/đèn.
+     - Nhiệt độ bề mặt bóng thấp: 40 đến $60^\circ\text{C}$.
+     - Hiệu suất chuyển đổi điện năng sang UV-C cao: 35% đến 40%.
+     - Tuổi thọ bóng định mức: 8,000 đến 10,000 giờ. Phù hợp cho trạm nước quy mô nhỏ.
+  2. *Đèn Áp suất Thấp - Công suất Cao / Hỗn hống Amalgam (LPHO)*:
+     - Dùng hợp kim thủy ngân - indium (amalgam) ổn định áp suất hơi.
+     - Phát xạ đơn sắc tại $253.7\text{ nm}$.
+     - Công suất bóng trung bình - lớn: 150 đến 500 W/đèn.
+     - Cường độ phát xạ quang thông gấp 3 đến 5 lần đèn LPLI.
+     - Nhiệt độ bề mặt bóng: 90 đến $120^\circ\text{C}$.
+     - Hiệu suất năng lượng UV-C: 30% đến 35%.
+     - Tuổi thọ bóng định mức cao nhất: 12,000 đến 16,000 giờ. Đây là dòng đèn tiêu chuẩn phổ biến nhất hiện nay.
+  3. *Đèn Áp suất Trung bình - Cường độ Cao (MPHI)*:
+     - Áp suất hơi thủy ngân cao: $10^2 - 10^4\text{ mmHg}$.
+     - Phát xạ dải phổ đa sắc liên tục từ 200 đến 400 nm.
+     - Công suất bóng cực lớn: 1,000 đến 10,000 W/đèn.
+     - Nhiệt độ bề mặt bóng rất nóng: 600 đến $900^\circ\text{C}$. Bắt buộc trang bị vòng gạt cơ học chống cháy bám cặn.
+     - Hiệu suất năng lượng UV-C thấp hơn: 10% đến 15%.
+     - Tuổi thọ bóng định mức: 5,000 đến 8,000 giờ.
+     - Ưu thế vượt trội: Mật độ năng lượng cao giúp thu nhỏ kích thước buồng phản ứng. Phổ đa sắc phá hủy enzyme photolyase của vi khuẩn, triệt tiêu hiện tượng phục hồi quang học.
+
+| Tiêu chí Kỹ thuật | Đèn Áp suất Thấp (LPLI) | Đèn Amalgam (LPHO) | Đèn Áp suất Trung bình (MPHI) |
 |---|---|---|---|
-| Prechlorination | 1.0 – 5.0 | Algae control, biological growth inhibition, oxidation of dissolved Fe/Mn and taste/odor compounds | Monitor raw TOC to minimize early DBP formation |
-| Flash Mixing / Coagulation Aid | 1.0 – 3.0 | Aids in destabilizing organic-colloidal complexes and oxidizing reducing agents | Apply ahead of rapid mix basins |
-| Pre-Filtration Chlorination | 0.5 – 2.0 | Maintains clean filter media, prevents slime accumulation on sand/anthracite | Maintain residual < 0.5 mg/L on GAC filters to avoid carbon attrition |
-| Postchlorination (Primary Disinfection) | 1.5 – 4.0 | Destruction of pathogenic bacteria, viruses, and Giardia cysts; provides distribution residual | Ensure minimum contact time t10 >= 30 min under peak flow |
-| Breakpoint Chlorination | 5.0 – 20.0 | Complete destruction of ammonia nitrogen (Cl2:N ratio 8:1 to 10:1) to produce free chlorine | Verify free chlorine residual and monitor for trichloramine formation |
-| Superchlorination / Shock Dosing | 10.0 – 50.0 | Disinfection of newly laid or repaired mains, emergency microbial decontamination | Heavily flush and neutralize before releasing water into service |
+| Phổ phát xạ quang học | Đơn sắc ($253.7\text{ nm}$) | Đơn sắc ($253.7\text{ nm}$) | Đa sắc liên tục ($200 - 400\text{ nm}$) |
+| Công suất điện mỗi bóng | $40 - 100\text{ W}$ | $150 - 500\text{ W}$ | $1,000 - 10,000\text{ W}$ |
+| Cường độ phát xạ bề mặt | $10 - 50\text{ W/m}^2$ | $50 - 200\text{ W/m}^2$ | $1,000 - 5,000\text{ W/m}^2$ |
+| Hiệu suất chuyển đổi UV-C | $35\% - 40\%$ | $30\% - 35\%$ | $10\% - 15\%$ |
+| Nhiệt độ bề mặt ống đèn | $40 - 60^\circ\text{C}$ | $90 - 120^\circ\text{C}$ | $600 - 900^\circ\text{C}$ |
+| Tuổi thọ vận hành định mức | $8,000 - 10,000\text{ h}$ | $12,000 - 16,000\text{ h}$ | $5,000 - 8,000\text{ h}$ |
+| Nguy cơ phục hồi quang học | Có xảy ra | Có xảy ra | Rất thấp (phá hủy enzym phục hồi) |
 
-*Ghi chú thiết kế: Chlorine doses must be tailored to raw water oxidant demand, ammonia content, temperature, and regulatory DBP compliance limits.*
-
-##### 7.2.1.4 Quy trình Tính toán Phân bố Speciation của Acid Hypochlorous
-##### Quy trình Kỹ thuật: Hypochlorous Acid Speciation and Disinfection Fraction Calculation Procedure
-- 1. Obtain treated water field parameters: operating temperature T (°C) and equilibrium pH.
-- 2. Determine the thermodynamic acid dissociation constant Ka at temperature T (Ka = 2.90 x 10^-8 at 25°C, pKa = 7.54; Ka = 2.61 x 10^-8 at 20°C, pKa = 7.58).
-- 3. Calculate the hydrogen ion molar concentration: [H+] = 10^-pH.
-- 4. Compute the undissociated hypochlorous acid fraction: alpha_0 = [H+] / ([H+] + Ka) = 1 / (1 + Ka / [H+]).
-- 5. Compute the dissociated hypochlorite ion fraction: alpha_1 = 1 - alpha_0 = Ka / ([H+] + Ka).
-- 6. Calculate the effective germicidal concentration of undissociated HOCl: C_HOCl = alpha_0 * C_free (where C_free is free available chlorine residual).
-- 7. If alpha_0 < 0.50 (pH > 7.54), evaluate chemical acid dosing adjustment to optimize germicidal efficacy within the design pH window 6.5–7.5.
-
----
-
-#### 7.2.2 Hóa học Clo Liên kết & Đường cong Khử trùng Điểm Đột biến (Combined Chlorine & Breakpoint Chlorination)
-- Khi nguồn nước chứa ammonia tự nhiên (NH_3 / NH_4^+) từ phân bón nông nghiệp, nước thải sinh hoạt hoặc bùn hữu cơ đáy sông hồ, clo tự do (HOCl) phản ứng nhanh chóng với ammonia để tạo thành các hợp chất chloramines, được gọi chung là Clo liên kết (Combined Available Chlorine).
-
-##### 7.2.2.1 Động học Hình thành và Phân bố Các Loài Chloramines
-- Chuỗi phản ứng giữa HOCl và NH_3 diễn ra theo ba bước liên tiếp thay thế từng nguyên tử hydro bằng nguyên tử clo:
-
-###### Phản ứng Tạo Monochloramine (NH2Cl)
-- **Monochloramine Formation Reaction** (`eq_ch07_011`): $$\text{NH}_3 + \text{HOCl} \rightarrow \text{NH}_2\text{Cl} + \text{H}_2\text{O}$$
-  - *Biểu thức văn bản*: `NH3 + HOCl -> NH2Cl + H2O`
-  - *Mô tả & Ý nghĩa*: Rapid reaction between ammonia and hypochlorous acid forming monochloramine, predominant at pH 7.5-9.0 and Cl2:N mass ratios < 5:1.
-  - *Bảng biến số & Thứ nguyên*:
-    - $\text{NH}_3$: Aqueous ammonia / ammonium ion
-    - $\text{HOCl}$: Hypochlorous acid
-    - $\text{NH}_2\text{Cl}$: Monochloramine (stable secondary disinfectant)
-    - $\text{H}_2\text{O}$: Water byproduct
-- Monochloramine (NH_2Cl) là dạng clo liên kết ưu tiên và mong muốn nhất trong khử trùng thứ cấp. Phản ứng tạo NH_2Cl chiếm ưu thế tuyệt đối ở dải pH kiềm yếu (pH 7.5 – 9.0) và tỷ lệ khối lượng Cl_2:NH_3-N < 5:1. NH_2Cl có vị ngọt nhẹ, không gây mùi clo hắc và rất bền vững trên mạng lưới.
-
-###### Phản ứng Tạo Dichloramine (NHCl2)
-- **Dichloramine Formation Reaction** (`eq_ch07_012`): $$\text{NH}_2\text{Cl} + \text{HOCl} \rightarrow \text{NHCl}_2 + \text{H}_2\text{O}$$
-  - *Biểu thức văn bản*: `NH2Cl + HOCl -> NHCl2 + H2O`
-  - *Mô tả & Ý nghĩa*: Reaction of monochloramine with additional hypochlorous acid to form dichloramine, favored at lower pH (4.0-6.0) and Cl2:N ratios 5:1 to 7.6:1.
-  - *Bảng biến số & Thứ nguyên*:
-    - $\text{NH}_2\text{Cl}$: Monochloramine
-    - $\text{HOCl}$: Hypochlorous acid
-    - $\text{NHCl}_2$: Dichloramine (causes unpleasant swimming pool odors and taste)
-    - $\text{H}_2\text{O}$: Water byproduct
-- Dichloramine (NHCl_2) hình thành khi tỷ lệ khối lượng Cl_2:NH_3-N nằm trong khoảng 5:1 đến 7.6:1 hoặc trong môi trường nước có tính acid nhẹ (pH 4.5 – 6.0). NHCl_2 có mùi hăng nồng khó chịu và là nguyên nhân chính gây mùi clo nồng trong các bể bơi và mạng lưới cấp nước bị sự cố.
-
-###### Phản ứng Tạo Nitrogen Trichloride (NCl3)
-- **Nitrogen Trichloride Formation Reaction** (`eq_ch07_013`): $$\text{NHCl}_2 + \text{HOCl} \rightarrow \text{NCl}_3 + \text{H}_2\text{O}$$
-  - *Biểu thức văn bản*: `NHCl2 + HOCl -> NCl3 + H2O`
-  - *Mô tả & Ý nghĩa*: Formation of volatile nitrogen trichloride (trichloramine) under strongly acidic conditions (pH < 4.5) or very high chlorine to ammonia ratios.
-  - *Bảng biến số & Thứ nguyên*:
-    - $\text{NHCl}_2$: Dichloramine
-    - $\text{HOCl}$: Hypochlorous acid
-    - $\text{NCl}_3$: Nitrogen trichloride (lachrymator, pungent eye-irritating gas)
-    - $\text{H}_2\text{O}$: Water byproduct
-- Nitrogen trichloride (NCl_3, hay trichloramine) chỉ hình thành ở môi trường rất acid (pH < 4.5) hoặc khi tỷ lệ clo vượt rất cao so với ammonia (Cl_2:N > 10:1). NCl_3 là một chất lỏng dễ bay hơi, có mùi hôi cay nồng cực mạnh, gây kích ứng mắt và đường hô hấp (lachrymator).
-
-###### Cân bằng Giữa Clo Tự do và Clo Liên kết (Total Chlorine Residual)
-- Tổng lượng clo đo được trong mẫu nước bằng phương pháp so màu quang phổ DPD được định nghĩa là Tổng clo dư:
-- **Total Chlorine Residual Mass Balance** (`eq_ch07_010`): $$\text{Total Chlorine Residual} = \text{Free Chlorine Residual} + \text{Combined Chlorine Residual}$$
-  - *Biểu thức văn bản*: `Total Chlorine Residual = Free Chlorine Residual + Combined Chlorine Residual`
-  - *Mô tả & Ý nghĩa*: Defines total chlorine residual as the sum of free available chlorine and combined chlorine species (chloramines).
-  - *Bảng biến số & Thứ nguyên*:
-    - $\text{Total Chlorine Residual}$: Total residual oxidants measured by DPD method (mg/L as Cl2)
-    - $\text{Free Chlorine Residual}$: Sum of unreacted HOCl and OCl- (mg/L as Cl2)
-    - $\text{Combined Chlorine Residual}$: Sum of monochloramine, dichloramine, and nitrogen trichloride (mg/L as Cl2)
-
-##### 7.2.2.2 Động học & Phân tích Đồ thị Đường cong Breakpoint Chlorination qua 4 Giai đoạn
-- Hiện tượng Khử trùng Điểm Đột biến (Breakpoint Chlorination) là nền tảng kinh điển trong hóa học nước, mô tả sự biến thiên của nồng độ clo dư khi tăng dần liều lượng clo châm vào nguồn nước có chứa ammonia. Đồ thị được chia thành 4 vùng động học rõ rệt:
-
-###### Vùng 1 (Zone 1): Tiêu hao Clo do Phản ứng Oxy hóa Khử Chất vô cơ (Fe2+, Mn2+, H2S)
-- Liều lượng clo châm vào từ 0 đến ngưỡng nhu cầu vô cơ ban đầu.
-- Clo phản ứng tức thời với các chất khử mạnh vô cơ (Fe^{2+} -> Fe^{3+}, Mn^{2+} -> MnO_2, H_2S -> SO_4^{2-}). Toàn bộ clo châm vào bị khử thành ion chloride (Cl^-) không có hoạt tính diệt khuẩn. Nồng độ clo dư đo được trong vùng 1 bằng 0.
-
-###### Vùng 2 (Zone 2): Hình thành Chloramines và Đỉnh Clo Liên kết Tối đa
-- Khi các chất khử vô cơ đã bị oxy hóa hết, clo phản ứng với ammonia tự do tạo thành các hợp chất chloramines (chủ yếu là NH_2Cl và một phần NHCl_2).
-- Nồng độ Clo liên kết tăng tuyến tính theo liều châm clo cho tới khi đạt đỉnh cực đại tại tỷ lệ khối lượng Cl_2:NH_3-N xấp xỉ 5:1 (tương ứng với tỷ lệ mol 1:1, khi toàn bộ ammonia đã chuyển hết thành monochloramine).
-
-###### Vùng 3 (Zone 3): Oxy hóa Chloramines, Tạo Khí N2 và Sụt giảm Nồng độ Clo Dư về Điểm Đột biến
-- Khi tiếp tục tăng liều lượng clo vượt qua tỷ lệ 5:1, clo tự do dư thừa bắt đầu oxy hóa phân hủy chính các hợp chất chloramines vừa tạo thành:
-- **Breakpoint Chlorination to Nitrogen Gas Stoichiometry** (`eq_ch07_014`): $$2\text{NH}_3 + 3\text{Cl}_2 \rightarrow \text{N}_2 \uparrow + 6\text{HCl} \quad \left( \text{or } 2\text{NH}_3 + 3\text{HOCl} \rightarrow \text{N}_2 \uparrow + 3\text{H}_2\text{O} + 3\text{HCl} \right)$$
-  - *Biểu thức văn bản*: `2NH3 + 3Cl2 -> N2 + 6HCl (Stoichiometric mass ratio = 7.60 mg Cl2 per mg NH3-N)`
-  - *Mô tả & Ý nghĩa*: Overall stoichiometric oxidation reaction converting ammonia into inert nitrogen gas at the breakpoint (stoichiometric weight ratio = 7.60:1 Cl2 to NH3-N).
-  - *Bảng biến số & Thứ nguyên*:
-    - $\text{NH}_3$: Ammonia (molar mass = 17.03 g/mol, N = 14.01 g/mol)
-    - $\text{Cl}_2$: Chlorine gas (molar mass = 70.91 g/mol)
-    - $\text{N}_2$: Inert nitrogen gas evolved into atmosphere
-    - $\text{HCl}$: Hydrochloric acid byproduct
-    - $7.60$: Stoichiometric mass ratio: (3 * 70.91 g Cl2) / (2 * 14.01 g N) = 7.593 ≈ 7.60 mg Cl2 / mg NH3-N
-- Các phản ứng oxy hóa bẻ gãy liên kết N-Cl, chuyển hóa nitrogen thành khí nitơ (N_2) thoát ra khỏi dung dịch nước và giải phóng ion chloride cùng proton acid.
-- Kết quả kỳ lạ: Mặc dù liều lượng clo châm vào tiếp tục tăng, nồng độ tổng clo dư lại sụt giảm dốc đứng cho đến khi đạt điểm cực tiểu gọi là **Điểm Đột biến (Breakpoint)**. Tại điểm Breakpoint, toàn bộ ammonia đã bị phá hủy hoàn toàn.
-
-###### Vùng 4 (Zone 4): Phục hồi Clo Dư Tự do Tuyến tính Sau Điểm Đột biến (Slope = 1.0)
-- Sau khi vượt qua điểm đột biến, toàn bộ nhu cầu clo và ammonia đã bị triệt tiêu hoàn toàn. Bất kỳ lượng clo nào châm thêm vào nước sẽ tồn tại hoàn toàn dưới dạng **Clo Tự do (Free Chlorine Residual: HOCl + OCl^-)**.
-- Đường cong clo dư tăng tuyến tính với hệ số góc bằng đúng 1.0 (cứ châm thêm 1.0 mg/L clo thì clo dư tự do tăng thêm 1.0 mg/L). Vận hành nhà máy nước cấp thường duy trì ở vùng 4 để đảm bảo có clo tự do diệt khuẩn mạnh và ổn định.
-
-##### 7.2.2.3 So sánh Tỷ lệ Hóa học Cl2:N giữa Con đường Tạo N2 và Nitrate NO3-
-- Tùy thuộc vào nồng độ chất phản ứng và điều kiện xúc tác, ammonia có thể bị oxy hóa theo hai hướng stoichiometric khác nhau:
-
-###### Cơ chế Chuyển hóa Sang Nitrate ở Liều lượng Clo Cực cao
-- **Excess Chlorine Ammonia Oxidation to Nitrate Stoichiometry** (`eq_ch07_015`): $$\text{NH}_3 + 4\text{Cl}_2 + 3\text{H}_2\text{O} \rightarrow \text{HNO}_3 + 8\text{HCl}$$
-  - *Biểu thức văn bản*: `NH3 + 4Cl2 + 3H2O -> HNO3 + 8HCl (Stoichiometric mass ratio = 20.25 mg Cl2 per mg NH3-N)`
-  - *Mô tả & Ý nghĩa*: Complete oxidation of ammonia to nitrate ion occurring at very high chlorine dosages (stoichiometric weight ratio = 20.25:1 Cl2 to NH3-N).
-  - *Bảng biến số & Thứ nguyên*:
-    - $\text{NH}_3$: Ammonia
-    - $\text{Cl}_2$: Chlorine gas
-    - $\text{HNO}_3$: Nitric acid (nitrate ion)
-    - $\text{HCl}$: Hydrochloric acid byproduct
-    - $20.25$: Stoichiometric mass ratio: (4 * 70.91 g Cl2) / (1 * 14.01 g N) = 20.246 ≈ 20.25 mg Cl2 / mg NH3-N
-
-###### So sánh Định lượng: 7.60 mg Cl2 / mg N vs 20.25 mg Cl2 / mg N (Tiết kiệm 62.5% Clo)
-- Hướng phản ứng (1) tạo khí nitơ (N_2): Đòi hỏi 3 mol Cl_2 cho 2 mol N, tương ứng tỷ lệ khối lượng:
-  $$R_{\text{mass, 1}} = \frac{3 \times 70.906}{2 \times 14.007} = 7.593 \approx 7.60 \text{ mg } \text{Cl}_2 / \text{mg } \text{NH}_3\text{-N}$$
-- Hướng phản ứng (2) tạo nitrate (NO_3^-): Đòi hỏi 4 mol Cl_2 cho 1 mol N, tương ứng tỷ lệ khối lượng:
-  $$R_{\text{mass, 2}} = \frac{4 \times 70.906}{1 \times 14.007} = 20.249 \approx 20.25 \text{ mg } \text{Cl}_2 / \text{mg } \text{NH}_3\text{-N}$$
-- Ý nghĩa kỹ thuật: Phản ứng chuyển hóa thành khí N_2 là cơ chế chủ đạo ở điều kiện xử lý nước cấp thực tế. Quá trình này giúp tiết kiệm 62.5% hóa chất clo (7.60 mg so với 20.25 mg Cl2 trên mỗi mg N) và không làm tăng nồng độ nitrate trong nước sinh hoạt. Trong vận hành thực tế, tỷ lệ châm thường từ 8:1 đến 10:1 do có thêm nhu cầu tiêu hao từ chất hữu cơ nền.
-
-##### 7.2.2.4 Quy trình Xác định Điểm Đột biến và Liều lượng Châm Clo Thực tế
-##### Quy trình Kỹ thuật: Breakpoint Chlorination and Chemical Dosing Determination Procedure
-- 1. Measure raw/filtered water quality parameters: ammonia nitrogen (NH3-N, mg/L), organic nitrogen, Fe2+, Mn2+, sulfide (H2S), and TOC/DOC.
-- 2. Calculate theoretical stoichiometric chlorine demand for inorganic reducing agents (Fe2+: 0.64 mg Cl2/mg Fe; Mn2+: 1.29 mg Cl2/mg Mn; H2S: 2.08–8.3 mg Cl2/mg S).
-- 3. Compute stoichiometric chlorine dose required to oxidize ammonia to nitrogen gas at the breakpoint: Dose_NH3 = 7.60 * [NH3-N] (mg/L Cl2).
-- 4. Perform laboratory bench-scale breakpoint chlorination titration by dosing incremental chlorine concentrations (0 to 15 mg/L) into sample aliquots with a 30-min contact time.
-- 5. Plot the breakpoint chlorination curve: measured Free Chlorine, Combined Chlorine, and Total Chlorine residuals versus Applied Chlorine Dose.
-- 6. Identify the breakpoint threshold where combined residual drops to minimum and free chlorine residual begins to increase linearly with slope ≈ 1.0.
-- 7. Select plant operating dose: Dose_plant = Breakpoint Dose + Desired Finished Water Free Residual (0.5–1.0 mg/L) + Safety Factor.
+##### 7.2.3.5 Cấu tạo Module Phản ứng UV và Hiện tượng Phục hồi Quang học
+- **Cấu hình buồng phản ứng công nghiệp**:
+  - *Buồng phản ứng áp lực vỏ thép (Closed Vessel)*: Chế tạo bằng thép không gỉ 316L, chịu áp lực làm việc từ 10 đến 16 bar. Đèn lắp vuông góc hoặc song song với dòng chảy.
+  - *Hệ thống mương hở (Open Channel)*: Cụm module đèn thả chìm trong mương bê tông hở sau bể lọc cát. Mực nước kiểm soát bằng đập tràn tự động.
+- **Trang bị phần cứng bắt buộc**:
+  - Ống bao bọc bảo vệ bằng thạch anh tinh khiết (Quartz Sleeves) có độ truyền quang tại 254 nm trên 90%.
+  - Cụm vòng gạt rửa cơ học tự động (Automated Wiper Rings) bằng vật liệu Teflon hoặc silicone, định kỳ lau sạch cặn bám mỗi 15 đến 60 phút.
+  - Cảm biến cường độ UV trực tuyến (Duty Sensor) gắn trên thành buồng phản ứng để liên tục đo liều chiếu xạ thực tế.
+- **Hiện tượng phục hồi quang học (Photoreactivation)**:
+  - Vi sinh vật bị chiếu xạ bởi đèn đơn sắc có thể sửa chữa ADN khi tiếp xúc với ánh sáng khả kiến (bước sóng 310 đến 500 nm).
+  - Enzyme photolyase hấp thụ photon ánh sáng khả kiến để xúc tác cắt đứt liên kết cyclobutane dimer, hồi sinh tế bào.
+  - Biện pháp ngăn chặn: Sử dụng đèn áp suất trung bình MPHI, che tối hoàn toàn đường ống sau khử trùng UV, hoặc châm clo thứ cấp để tiêu diệt tế bào đang suy yếu.
 
 ---
 
-#### 7.2.3 Hóa học & Công nghệ Khử trùng bằng Chlorine Dioxide (ClO2)
-- Chlorine Dioxide (ClO_2) là một chất oxy hóa khử trùng hiệu năng cao, được ứng dụng rộng rãi thay thế clo truyền thống trong các trường hợp nước thô giàu tiền chất hữu cơ hoặc cần kiểm soát mùi vị phức tạp.
+#### 7.2.4 Ma trận Đánh giá So sánh Đa Tiêu chí Giữa 5 Chất Khử trùng (Technology Comparison Matrix)
 
-##### 7.2.3.1 Cấu trúc Phân tử, Tính chất Lý hóa & Ưu việt Kỹ thuật của ClO2
-###### Đặc tính Cấu trúc Điện tử Phân tử Tự do (Odd-Electron Radical)
-- Phân tử ClO_2 chứa tổng cộng 19 electron hóa trị, là một gốc tự do ổn định (stable paramagnetic free radical) với một electron chưa ghép đôi ở orbital ngoài cùng. Trạng thái oxy hóa của nguyên tử clo trong ClO_2 là +4.
-- Khác với khí clo, ClO_2 tồn tại trong nước hoàn toàn dưới dạng khí hòa tan đơn phân tử, không bị thủy phân và không bị phân ly acid-base.
+##### 7.2.4.1 Bảng So sánh Đa Tiêu chí Giữa 5 Chất Khử trùng
+- Bảng dưới đây đối chiếu đặc tính kỹ thuật, hiệu quả diệt mầm bệnh, sản phẩm phụ, chi phí và mức độ an toàn của 5 công nghệ khử trùng chủ đạo trong ngành cấp nước:
 
-###### Khả năng Hòa tan Không Thủy phân và Hoạt tính Ổn định trong Dải pH Rộng (pH 6.0 - 9.0)
-- Vì không phản ứng thủy phân tạo H^+, hoạt tính diệt khuẩn của ClO_2 hoàn toàn không bị suy giảm khi pH nước tăng từ 6.0 lên đến 9.0. Đây là ưu thế vượt trội của ClO_2 so với clo tự do tại các trạm xử lý nước cấp có độ pH kiềm tự nhiên cao hoặc sau công đoạn làm mềm nước.
-- Đặc biệt, ClO_2 không phản ứng với ammonia để tạo chloramines, và không phản ứng thế halogen với chất hữu cơ tự nhiên (NOM) để tạo thành Trihalomethanes (THMs) hay Haloacetic Acids (HAAs).
-
-##### 7.2.3.2 Các Phương pháp Điều chế ClO2 Tại Chỗ trong Trạm Xử lý
-- Do khí ClO_2 đậm đặc rất không ổn định và có thể tự phân hủy nổ ở áp suất > 300 mmHg, ClO_2 không thể nén hóa lỏng trong bình chứa để vận chuyển thương mại mà bắt buộc phải điều chế trực tiếp tại chỗ (On-site Generation) trong dung dịch nước loãng (nồng độ 1,000 – 3,000 mg/L) thông qua các phản ứng hóa học tiêu chuẩn:
-
-###### Con đường Khí Clo + Sodium Chlorite (Gas:Chlorite Route)
-- **Chlorine Dioxide Synthesis via Chlorine Gas & Sodium Chlorite** (`eq_ch07_016`): $$2\text{NaClO}_2 + \text{Cl}_2(g) \rightarrow 2\text{ClO}_2(g) + 2\text{NaCl}$$
-  - *Biểu thức văn bản*: `2NaClO2 + Cl2(g) -> 2ClO2(g) + 2NaCl`
-  - *Mô tả & Ý nghĩa*: Gas:chlorite generation method for high-yield chlorine dioxide synthesis without acid addition.
-  - *Bảng biến số & Thứ nguyên*:
-    - $\text{NaClO}_2$: Sodium chlorite (25-31% aqueous solution)
-    - $\text{Cl}_2(g)$: Chlorine gas feed
-    - $\text{ClO}_2(g)$: Chlorine dioxide gas dissolved into water stream
-    - $\text{NaCl}$: Sodium chloride byproduct
-- Đây là phương pháp phổ biến nhất trong các nhà máy cấp nước quy mô lớn, đạt hiệu suất chuyển hóa rất cao (> 95% – 98%).
-
-###### Con đường Acid Hypochlorous + Sodium Chlorite (Hypo:Acid Route)
-- **Chlorine Dioxide Synthesis via Hypochlorous Acid & Sodium Chlorite** (`eq_ch07_017`): $$2\text{NaClO}_2 + \text{HOCl} \rightarrow 2\text{ClO}_2(g) + \text{NaCl} + \text{NaOH}$$
-  - *Biểu thức văn bản*: `2NaClO2 + HOCl -> 2ClO2(g) + NaCl + NaOH`
-  - *Mô tả & Ý nghĩa*: Alternative on-site ClO2 synthesis using acidified sodium hypochlorite (HOCl) and sodium chlorite.
-  - *Bảng biến số & Thứ nguyên*:
-    - $\text{NaClO}_2$: Sodium chlorite
-    - $\text{HOCl}$: Hypochlorous acid
-    - $\text{ClO}_2(g)$: Chlorine dioxide gas
-    - $\text{NaCl}$: Sodium chloride
-    - $\text{NaOH}$: Sodium hydroxide
-- Ứng dụng khi trạm xử lý không sử dụng clo khí mà dùng dung dịch NaOCl kết hợp acid để tạo HOCl phản ứng với sodium chlorite.
-
-###### Con đường Acid Clohydric + Sodium Chlorite (Acid:Chlorite Route)
-- **Chlorine Dioxide Synthesis via Hydrochloric Acid & Sodium Chlorite** (`eq_ch07_018`): $$5\text{NaClO}_2 + 4\text{HCl} \rightarrow 4\text{ClO}_2(g) + 5\text{NaCl} + 2\text{H}_2\text{O}$$
-  - *Biểu thức văn bản*: `5NaClO2 + 4HCl -> 4ClO2(g) + 5NaCl + 2H2O`
-  - *Mô tả & Ý nghĩa*: Acid-chlorite generation route commonly used in packaged ClO2 skids to avoid handling elemental chlorine gas cylinders.
-  - *Bảng biến số & Thứ nguyên*:
-    - $\text{NaClO}_2$: Sodium chlorite
-    - $\text{HCl}$: Hydrochloric acid (30-35% technical grade)
-    - $\text{ClO}_2(g)$: Chlorine dioxide gas
-    - $\text{NaCl}$: Sodium chloride
-    - $\text{H}_2\text{O}$: Water byproduct
-- Phương pháp sử dụng phổ biến trong các cụm thiết bị generator dạng module nhỏ và vừa, loại bỏ hoàn toàn việc sử dụng khí clo độc hại, chỉ dùng 2 hóa chất lỏng là HCl (30–33%) và NaClO_2 (25–31%).
-
-##### 7.2.3.3 Bán Phản ứng Khử Một Điện tử & Kiểm soát Sản phẩm Phụ Chlorite / Chlorate
-###### Bán phản ứng Khử Một Điện tử Sinh ra Ion Chlorite (ClO2-)
-- Trong điều kiện xử lý nước cấp thông thường (pH trung tính), ClO_2 phản ứng khử theo cơ chế nhận 1 electron:
-- **Chlorine Dioxide Aqueous Reduction Reaction** (`eq_ch07_019`): $$\text{ClO}_2 + e^- \rightarrow \text{ClO}_2^-$$
-  - *Biểu thức văn bản*: `ClO2 + e- -> ClO2-`
-  - *Mô tả & Ý nghĩa*: Primary one-electron reduction mechanism of chlorine dioxide during water oxidation, producing chlorite ion as the primary inorganic byproduct.
-  - *Bảng biến số & Thứ nguyên*:
-    - $\text{ClO}_2$: Chlorine dioxide (+4 oxidation state of chlorine)
-    - $e^-$: Transferred electron from contaminant
-    - $\text{ClO}_2^-$: Chlorite anion (+3 oxidation state, regulated DBP)
-- Khoảng 50% đến 70% lượng ClO_2 châm vào nước sẽ chuyển hóa thành ion Chlorite (ClO_2^-), và một phần nhỏ bị oxy hóa lên Chlorate (ClO_3^-). Cả hai ion này đều là các chất gây độc tính tạo methemoglobin trong máu và phá hủy hồng cầu, bị kiểm soát nghiêm ngặt theo tiêu chuẩn an toàn (giới hạn MCL của ClO_2^- là 1.0 mg/L). Do đó, liều châm ClO_2 tối đa trong cấp nước thường bị khống chế nghiêm ngặt <= 1.2 - 1.4 mg/L.
-
-###### An toàn Kỹ thuật: Giới hạn Nổ của ClO2 (> 10% trong không khí) và Biện pháp Phòng ngừa
-- Khí ClO_2 ở nồng độ > 10% theo thể tích trong không khí có thể tự phát nổ khi gặp nhiệt độ cao hoặc tia lửa điện. Các buồng phản ứng generator luôn được thiết kế vận hành trong điều kiện hút chân không tuyệt đối bằng ejector nước, và buồng chứa khí luôn được thông khí pha loãng duy trì nồng độ khí ClO_2 dưới 5% – 8%.
-
----
-
-#### 7.2.4 Hóa học & Công nghệ Khử trùng bằng Ozone (O3)
-- Ozone (O_3) là tác nhân khử trùng hóa học mạnh nhất được sử dụng trong kỹ thuật xử lý nước cấp hiện đại, mang lại hiệu quả bất hoạt vượt trội đối với mọi mầm bệnh, bao gồm cả virus đường ruột và noãn nang Cryptosporidium.
-
-##### 7.2.4.1 Đặc tính Oxy hóa của Phân tử Triatomic Ozone
-###### Thế Oxy hóa Khử Cực cao (E0 = 2.07 V) và Cơ chế Phản ứng Hai Pha
-- Phân tử ozone cấu tạo bởi 3 nguyên tử oxy liên kết không thẳng hàng với góc liên kết 116.8°, có thế oxy hóa khử tiêu chuẩn E^0 = +2.07 V (so với E^0 = +1.48 V của HOCl và +1.36 V của Cl_2).
-- Khi hòa tan vào nước, ozone phân hủy và oxy hóa chất ô nhiễm theo hai cơ chế song song:
-  1. *Cơ chế Phản ứng Trực tiếp (Direct Ozonolysis)*: Phân tử O_3 tấn công có chọn lọc vào các liên kết đôi carbon-carbon thơm, các hợp chất chứa lưu huỳnh và các amin. Cơ chế này chiếm ưu thế ở pH thấp (pH < 7.0).
-  2. *Cơ chế Phản ứng Gián tiếp qua Gốc Tự do Hydroxyl (Indirect Radical Pathway)*: Ozone tự phân hủy trong nước tạo thành các gốc tự do Hydroxyl (·OH) có thế oxy hóa khử cực đại (E^0 = +2.80 V). Gốc ·OH phản ứng không chọn lọc với tốc độ cực nhanh (k > 10^8 - 10^{10} M^{-1} s^{-1}) với hầu hết các chất hữu cơ. Phản ứng gián tiếp chiếm ưu thế khi pH > 8.0.
-
-##### 7.2.4.2 Nguyên lý Tạo Khí Ozone bằng Phóng điện Hoa (Corona Discharge)
-- Do phân tử ozone có độ bền kém và phân rã rất nhanh trong không khí (thời gian bán hủy khoảng 20–30 phút ở nhiệt độ thường và vài phút trong nước), ozone không thể lưu trữ hay nén bình mà bắt buộc phải sản xuất tại chỗ bằng phương pháp phóng điện hoa (Corona Discharge):
-- **Ozone Formation via Corona Discharge Dissociation** (`eq_ch07_020`): $$\text{O} + \text{O}_2 \rightarrow \text{O}_3$$
-  - *Biểu thức văn bản*: `O + O2 -> O3`
-  - *Mô tả & Ý nghĩa*: Electrochemical formation of ozone in a high-voltage corona discharge gap where high-energy electrons dissociate molecular oxygen into atomic oxygen radicals that recombine with diatomic oxygen.
-  - *Bảng biến số & Thứ nguyên*:
-    - $\text{O}$: Atomic oxygen free radical
-    - $\text{O}_2$: Molecular oxygen feed gas
-    - $\text{O}_3$: Triatomic ozone gas
-- Khí nạp chứa oxy đi qua khe hở hẹp (0.5 – 1.0 mm) giữa hai điện cực được đặt dưới điện áp xoay chiều cao thế (5,000 – 15,000 V) tần số trung bình (500 – 2,000 Hz). Năng lượng điện trường bắn phá phân ly phân tử O_2 thành các gốc oxy tự do, các gốc này kết hợp với phân tử O_2 lân cận tạo thành O_3. Quá trình này tỏa nhiều nhiệt, chỉ khoảng 10% điện năng chuyển thành ozone, 90% chuyển thành nhiệt năng đòi hỏi áo nước làm mát giải nhiệt liên tục.
-
-###### Lựa chọn Nguồn Khí Cấp: Không khí Khô (Ambient Air) vs Oxy lỏng (LOX)
-- *Nguồn Không khí Khô (Ambient Air Feed)*: Cần hệ thống máy nén khí, lọc bụi, máy sấy lạnh và tháp sấy hạt hút ẩm desiccant phức tạp. Nồng độ ozone tạo thành thấp (1% – 3% theo khối lượng).
-- *Nguồn Oxy Lỏng (Liquid Oxygen - LOX Feed)*: Bốc hơi từ bồn chứa oxy lỏng cryogenic tinh khiết > 99.5%. Nồng độ ozone sinh ra rất cao (6% – 12% theo khối lượng), giảm 50% kích thước thiết bị tiếp xúc và loại bỏ hoàn toàn nguy cơ sinh acid nitric.
-
-###### Nguy cơ Tạo Axit Nitric (HNO3) Ăn mòn Thiết bị do Độ ẩm Khí Nạp
-- **Corrosive Nitric Acid Formation in Moisture-Containing Air-Fed Ozonators** (`eq_ch07_021`): $$2\text{N}_2 + 5\text{O}_2 + 2\text{H}_2\text{O} \xrightarrow{\text{corona discharge}} 4\text{HNO}_3$$
-  - *Biểu thức văn bản*: `2N2 + 5O2 + 2H2O -> 4HNO3`
-  - *Mô tả & Ý nghĩa*: Side reaction occurring in ambient air-fed ozone generators where trace moisture reacts with atmospheric nitrogen and oxygen under electrical corona discharge to produce corrosive nitric acid vapor.
-  - *Bảng biến số & Thứ nguyên*:
-    - $\text{N}_2$: Atmospheric nitrogen in feed air
-    - $\text{O}_2$: Atmospheric oxygen
-    - $\text{H}_2\text{O}$: Residual water moisture (dew point > -60°C)
-    - $\text{HNO}_3$: Nitric acid, causing severe generator electrode corrosion
-- Nếu sử dụng nguồn khí nạp từ không khí xung quanh mà hệ thống máy sấy khí gặp sự cố để lọt hơi ẩm (điểm sương Dew Point > -50°C), khí nitrogen và oxy dưới tác động của phóng điện hoa sẽ phản ứng với hơi nước tạo thành hơi acid nitric (HNO_3) cực kỳ ăn mòn. Acid này ăn mòn thủng điện cực thép không gỉ 316L, phá hủy lớp điện môi thủy tinh và gây cháy nổ máy phát ozone. Do đó, tiêu chuẩn kỹ thuật bắt buộc điểm sương của khí nạp phải **<= -60°C** (tương đương độ ẩm < 10 ppm).
-
-##### 7.2.4.3 Quy trình Thiết kế Hệ thống Ozone và Xử lý Khí Nạp Sấy khô Triệt để
-##### Quy trình Kỹ thuật: Ozone Disinfection System and Ambient Air Preparation Sizing Procedure
-- 1. Determine ozone design dosage Dose_O3 (0.5 to 2.0 mg/L) and ozone gas generation capacity: M_O3 = Q_max * Dose_O3 * 10^-3 (kg/h).
-- 2. Select feed gas source: Liquid Oxygen (LOX, yielding 5–8 wt% O3) or Ambient Air (yielding 1–3 wt% O3).
-- 3. If ambient air is used, design multi-stage air preparation train: air compressor, particulate pre-filter, refrigeration chiller (+4°C), and dual-tower desiccant air dryers to achieve dew point <= -60°C (preventing HNO3 corrosion).
-- 4. Size corona discharge ozone generator vessel with high-dielectric glass/ceramic tubes and chilled water cooling jacket (heat dissipation ~15–20 kWh/kg O3 generated).
-- 5. Design side-stream venturi injection skid (motive water flow ~10–15% of main plant flow) or direct multi-stage over-under bubble contact chamber with fine-pore ceramic diffusers (pore size 10–50 µm).
-- 6. Provide minimum 2 to 3 contact stages with total detention time 5 to 10 minutes.
-- 7. Size thermal-catalytic ozone destruct unit on contactor off-gas vent to reduce discharge O3 < 0.1 ppm OSHA threshold.
-
-
-#### 7.2.5 Vật lý & Công nghệ Khử trùng bằng Bức xạ Cực tím (UV Radiation)
-- Bức xạ cực tím (Ultraviolet - UV) là công nghệ khử trùng vật lý không sử dụng hóa chất, ngày càng trở nên quan trọng trong xử lý nước cấp hiện đại nhờ khả năng bất hoạt noãn nang *Cryptosporidium* và *Giardia* với hiệu suất vượt bậc mà không tạo ra bất kỳ sản phẩm phụ halogen hóa nào (như THMs hay HAAs).
-
-##### 7.2.5.1 Bản chất Quang hóa & Phổ Bức xạ Khử trùng UV-C
-###### Dải Bước sóng Diệt khuẩn Tối ưu (Peak tại 253.7 nm ~ 254 nm)
-- Bức xạ điện từ cực tím được phân chia thành 4 dải bước sóng: Vacuum UV (100–200 nm), UV-C (200–280 nm), UV-B (280–315 nm), và UV-A (315–400 nm).
-- Dải bước sóng có hiệu lực diệt khuẩn (Germicidal Range) nằm trọn trong vùng **UV-C (200 – 280 nm)**. Hiệu quả diệt khuẩn tương đối đạt đỉnh cực đại trùng khớp với phổ hấp thụ của acid nucleic ở dải 255 – 265 nm (đỉnh tại ~260 nm). Bước sóng phát xạ cộng hưởng tự nhiên của hơi thủy ngân ở áp suất thấp là **253.7 nm**, đạt tới 90% hiệu suất diệt khuẩn cực đại lý thuyết.
-
-###### Cơ chế Tạo Dimers Giữa Các Bazơ Nitơ Liền kề trên Phân tử DNA/RNA
-- Năng lượng photon UV-C bẻ gãy liên kết đôi nội vòng của các phân tử pyrimidine, xúc tác phản ứng cộng vòng tạo liên kết cyclobutane giữa hai bazơ Thymine liền kề (Thymine Dimers) hoặc giữa Thymine và Cytosine trên cùng một sợi DNA đơn.
-- Các liên kết bất thường này bóp méo hình học không gian của chuỗi xoắn kép, ngăn cản enzyme polymerase thực hiện quá trình sao chép di truyền, khiến vi sinh vật bị bất hoạt vĩnh viễn (mất khả năng phân chia và nhân đôi).
-
-##### 7.2.5.2 Liều lượng Bức xạ UV (Fluence / Dose) và Sự Suy giảm Bức xạ
-- Liều lượng khử trùng cực tím (UV Dose hoặc UV Fluence) là tích số của cường độ bức xạ và thời gian phơi sáng của nước:
-- **Ultraviolet Disinfection Fluence (UV Dose) Equation** (`eq_ch07_023`): $$D = I \cdot t$$
-  - *Biểu thức văn bản*: `D = I * t`
-  - *Mô tả & Ý nghĩa*: Calculates the total ultraviolet radiant exposure (fluence or UV dose) delivered to microorganisms as the product of average germicidal irradiance and exposure residence time.
-  - *Bảng biến số & Thứ nguyên*:
-    - $D$: UV Fluence / Dose (mJ/cm2 or J/m2; 1 mJ/cm2 = 10 J/m2)
-    - $I$: Average germicidal UV irradiance at 254 nm (mW/cm2 or W/m2)
-    - $t$: Exposure / residence time (s)
-- Tiêu chuẩn quy định: Theo hướng dẫn chuẩn hóa của USEPA (UVDGM), liều UV tiêu chuẩn **D_{UV} = 40 mJ/cm^2** (tương đương 400 J/m^2) đảm bảo đạt tín chỉ bất hoạt >= 4.0-log đối với *Cryptosporidium* và *Giardia*, và >= 3.0-log đối với hầu hết các vi khuẩn và virus đường ruột thông thường.
-
-###### Định luật Beer-Lambert, Độ truyền quang UVT% và Ảnh hưởng của Độ đục Nước cấp
-- Khi chùm bức xạ UV truyền qua môi trường nước, cường độ quang thông bị suy giảm theo Định luật Beer-Lambert:
-  $$I(x) = I_0 \cdot e^{-\alpha \cdot x} = I_0 \cdot 10^{-A_{254} \cdot x}$$
-  Trong đó alpha là hệ số hấp thụ ánh sáng (cm^{-1}), A_{254} là độ hấp thụ quang tại bước sóng 254 nm, và x là chiều dài đường truyền quang qua lớp nước (cm).
-- **Độ truyền quang UV (UV Transmittance - %UVT)**: Là tỷ lệ phần trăm bức xạ xuyên qua một cuvette nước dày 1.0 cm:
-  $$\%\text{UVT} = 100 \times 10^{-A_{254}}$$
-- Yêu cầu chất lượng nước cho khử trùng UV:
-  - Nước sau lọc phải có %UVT >= 85% - 90% để đảm bảo tia UV truyền sâu vào tâm dòng chảy.
-  - Độ đục nước cấp phải duy trì <= 0.3 - 0.5 NTU. Các hạt cặn lơ lửng và chất hữu cơ không chỉ hấp thụ photon mà còn tạo ra hiện tượng "che chắn quang học" (particulate shielding), bao bọc vi khuẩn bên trong và bảo vệ chúng khỏi sự chiếu xạ của tia UV.
-  - Hàm lượng sắt (Fe < 0.1 mg/L) và mangan (Mn < 0.02 mg/L) phải được kiểm soát chặt chẽ vì chúng kết tủa và bám dính thành lớp màng đen cản quang trên bề mặt ống thạch anh.
-
-##### 7.2.5.3 Phân loại và Đặc tính Kỹ thuật Các Dòng Đèn Thủy ngân UV
-- Công nghệ đèn phát bức xạ UV trong xử lý nước cấp hiện nay bao gồm 3 dòng công nghệ đèn thủy ngân chính:
-
-###### Đèn Thủy ngân Áp suất Thấp Cường độ Thấp (LPLI) và Công suất Cao (LPHO / Amalgam)
-1. **Đèn Áp suất Thấp - Cường độ Thấp (LPLI - Low Pressure Low Intensity)**:
-   - Áp suất hơi thủy ngân bên trong ống đèn rất thấp (10^{-3} đến 10^{-2} mmHg).
-   - Phát xạ đơn sắc (monochromatic) tại bước sóng chính xác 253.7 nm.
-   - Nhiệt độ bề mặt bóng thấp (40 – 60°C). Hiệu suất chuyển đổi điện năng sang UV-C rất cao (35% – 40%).
-   - Công suất bóng nhỏ (40 – 100 W/đèn), đòi hỏi số lượng đèn rất lớn nếu dùng cho nhà máy quy mô lớn.
-2. **Đèn Áp suất Thấp - Công suất Cao / Hỗn hống Amalgam (LPHO - Low Pressure High Output)**:
-   - Sử dụng hợp kim hỗn hống thủy ngân-indium (amalgam) để kiểm soát áp suất hơi thủy ngân ổn định ở dải nhiệt độ rộng hơn.
-   - Phát xạ đơn sắc 253.7 nm với công suất bóng lớn (150 – 500 W/đèn), cường độ quang thông cao gấp 3–5 lần so với LPLI.
-   - Tuổi thọ bóng rất cao (12,000 – 16,000 giờ), hiệu suất điện năng đạt 30% – 35%. Đây là giải pháp tiêu chuẩn phổ biến nhất trong xử lý nước sạch hiện nay.
-
-###### Đèn Thủy ngân Áp suất Trung bình Cường độ Cao (MPHI / Polychromatic)
-3. **Đèn Áp suất Trung bình - Cường độ Cao (MPHI - Medium Pressure High Intensity)**:
-   - Áp suất hơi thủy ngân bên trong ống đèn rất cao (10^2 đến 10^4 mmHg).
-   - Phát xạ đa sắc liên tục (polychromatic broad-spectrum) trải dài từ 200 nm đến 400 nm và sang cả vùng ánh sáng khả kiến.
-   - Nhiệt độ bề mặt đèn rất nóng (600 – 900°C), đòi hỏi hệ thống gạt rửa cơ học tự động chống cháy dính cáu cặn.
-   - Công suất bóng cực lớn (1,000 – 10,000 W/đèn), mật độ năng lượng cực cao giúp giảm thiểu tối đa số lượng bóng đèn và diện tích chiếm đất của buồng phản ứng.
-   - Hiệu suất chuyển đổi điện năng sang UV-C thấp hơn (10% – 15%), tuổi thọ bóng ngắn hơn (5,000 – 8,000 giờ), nhưng có ưu thế bất hoạt enzyme phục hồi quang học (Photo-reactivation) của vi khuẩn nhờ tác động trên dải phổ đa sắc.
-
-###### Bảng So sánh Kỹ thuật Các Thế hệ Đèn Thủy ngân UV
-| Đặc tính Kỹ thuật | Đèn Áp suất Thấp (LPLI) | Đèn Amalgam (LPHO) | Đèn Áp suất Trung bình (MPHI) |
-|---|---|---|---|
-| Phổ phát xạ quang học | Đơn sắc (253.7 nm) | Đơn sắc (253.7 nm) | Đa sắc (200 – 400 nm) |
-| Công suất điện mỗi đèn | 40 – 100 W | 150 – 500 W | 1,000 – 10,000 W |
-| Cường độ phát xạ UV-C | Thấp (10 - 50 W/m^2) | Trung bình-Cao (50 - 200 W/m^2) | Cực cao (1,000 - 5,000 W/m^2) |
-| Hiệu suất năng lượng UV-C | 35% – 40% | 30% – 35% | 10% – 15% |
-| Nhiệt độ bề mặt vỏ đèn | 40 – 60°C | 90 – 120°C | 600 – 900°C |
-| Tuổi thọ bóng định mức | 8,000 – 10,000 giờ | 12,000 – 16,000 giờ | 5,000 – 8,000 giờ |
-| Nguy cơ Phục hồi quang (Photoreactivation) | Có thể xảy ra | Có thể xảy ra | Rất thấp (phá hủy enzym phục hồi) |
-
-##### 7.2.5.4 Quy trình Thiết kế & Tính toán Hệ thống Khử trùng UV Chuẩn hóa USEPA UVDGM
-##### Quy trình Kỹ thuật: Ultraviolet (UV) Irradiation Reactor Design and Sizing Procedure
-- 1. Measure design water quality envelope: minimum UV Transmittance at 254 nm (% UVT >= 85–90%), peak flow rate Q_max, and suspended solids/turbidity (<= 0.5–1.0 NTU).
-- 2. Establish target validated reduction equivalent dose (RED): D_UV = 40 mJ/cm^2 (400 J/m^2) for 4-log Cryptosporidium/Giardia/virus inactivation under USEPA UVDGM.
-- 3. Select lamp technology: Low-Pressure High-Output (LPHI/amalgam) for small-to-medium plants or Medium-Pressure (MPHI) for large/compact installations.
-- 4. Size reactor vessel geometry (closed-pipe pressurized stainless steel 316L vessel or open concrete channel).
-- 5. Calculate total required germicidal lamp count incorporating lamp aging factor (0.80–0.85) and quartz sleeve fouling factor (0.80–0.90).
-- 6. Equip reactor with automated mechanical wiper rings (silicone or PTFE) and UV intensity sensor ports calibrated per DVGW / USEPA standards.
-- 7. Size downstream secondary chemical chlorination (free chlorine 0.2–1.0 mg/L or chloramines) to provide residual distribution network protection.
-
----
-
-#### 7.2.6 Ma trận Đánh giá & Lựa chọn Đa Tiêu chí Công nghệ Khử trùng (Technology Selection Matrix)
-- Lựa chọn giải pháp khử trùng tối ưu đòi hỏi phải so sánh đối đầu toàn diện 5 công nghệ khử trùng chủ đạo trên các tiêu chí sinh học, hóa học, an toàn vận hành và chi phí kinh tế.
-
-##### 7.2.6.1 So sánh Hiệu lực Diệt khuẩn trên 4 Nhóm Vi sinh vật
-###### Năng lực Bất hoạt Vi khuẩn, Virus, Giardia lamblia và Cryptosporidium
-- **Vi khuẩn (Bacteria)**: Tất cả 5 công nghệ đều đạt hiệu quả xuất sắc (dễ dàng đạt > 4-log).
-- **Virus đường ruột (Enteric Viruses)**: Ozone và Clo tự do có hiệu lực vượt trội nhất (CT yêu cầu cực nhỏ); ClO2 đạt hiệu quả tốt; Bức xạ UV cần liều cao đối với Adenovirus; Chloramines có hiệu lực yếu nhất.
-- **U nang Giardia**: Ozone đạt hiệu quả nhanh nhất; ClO2 và UV đạt hiệu quả rất cao; Clo tự do đòi hỏi thời gian tiếp xúc dài; Chloramines rất kém.
-- **Noãn nang Cryptosporidium**: Bức xạ UV và Ozone đạt hiệu quả tiêu diệt vượt trội; ClO2 đạt mức độ trung bình; Clo tự do và Chloramines hoàn toàn bất lực trong thực tế xử lý.
-
-##### 7.2.6.2 Khả năng Duy trì Clo Dư, Chi phí Đầu tư & Vận hành, Rủi ro An toàn
-**Bảng TBL_CH07_02 (`tbl_ch07_02`): Multi-Criteria Engineering Comparison Matrix of Disinfection Technologies (Slide 22)**
-
-| Disinfection Technology | Bacteria Inactivation | Virus Inactivation | Protozoa Inactivation (Giardia / Cryptosporidium) | Distribution Residual Stability | Primary Disinfection By-Products (DBPs) | Capital / O&M Cost | Safety & Operational Risk |
-|---|---|---|---|---|---|---|---|
-| Free Chlorine (Cl2 / NaOCl) | Excellent (4-log+) | Excellent (4-log+) | Good for Giardia / Ineffective for Cryptosporidium | Persistent free residual (0.2–1.0 mg/L) | TTHMs (CHCl3), HAAs (DCAA, TCAA) | Low / Low | High (toxic gas leak) or Low (liquid NaOCl) |
-| Chloramines (NH2Cl) | Good (slower kinetics) | Fair to Poor | Poor for Giardia / Ineffective for Cryptosporidium | Highly persistent combined residual | NDMA, cyanogen halides, dihaloacetic acids | Low-Moderate / Low-Moderate | Moderate (ammonia handling, nitrification risk) |
-| Chlorine Dioxide (ClO2) | Excellent (rapid kill) | Excellent | Good for Giardia / Fair for Cryptosporidium | Moderate (unstable in large networks) | Chlorite (ClO2-), Chlorate (ClO3-) | Moderate / Moderate-High | High (on-site generation, explosive at > 10% in air) |
-| Ozone (O3) | Excellent (fastest chemical) | Excellent (superior) | Excellent for Giardia & Cryptosporidium | No persistent residual (decays in minutes) | Bromate (BrO3- in bromide waters), aldehydes | High / High | High (toxic gas, LOX handling, off-gas destructors) |
-| Ultraviolet (UV) Radiation | Excellent (physical) | Good (high dose for Adenovirus) | Excellent for Cryptosporidium & Giardia | No chemical residual formed | No halogenated DBPs formed | Moderate-High / Moderate | Low (electrical safety, quartz sleeve fouling) |
-
-*Ghi chú thiết kế: Multi-barrier disinfection (e.g. UV/Ozone primary followed by chloramines or free chlorine secondary) is widely adopted for comprehensive pathogen control and DBP minimization.*
-
-##### 7.2.6.3 Chiến lược Kết hợp Đa Hàng rào Bảo vệ (Multi-Barrier Disinfection Strategy)
-- Do mỗi công nghệ đều có thế mạnh và điểm hạn chế riêng, chiến lược công nghệ hiện đại áp dụng mô hình **Khử trùng Đa Tầng (Multi-Barrier Disinfection Architecture)**:
-  1. *Khử trùng Sơ cấp (Primary Disinfection)*: Sử dụng Bức xạ UV hoặc Ozone ngay sau bể lọc cát để đạt tín chỉ loại bỏ 3-log Giardia và 4-log Cryptosporidium/virus mà không sinh ra phụ phẩm trihalomethane.
-  2. *Khử trùng Thứ cấp (Secondary Disinfection)*: Bổ sung một liều nhỏ Clo tự do (0.5 – 1.0 mg/L) hoặc Monochloramine (1.5 – 2.5 mg/L) trước khi bơm vào mạng lưới phân phối để bảo vệ nguồn nước khỏi vi khuẩn tái sinh và màng sinh học bám ống suốt quãng đường truyền dẫn dài.
-
----
-
-#### 7.2.7 Động học Khử trùng, Phân rã Hóa chất & Khái niệm USEPA CT
-- Động học bất hoạt mầm bệnh mô tả tốc độ suy giảm mật độ vi sinh vật theo thời gian tiếp xúc và nồng độ chất khử trùng.
-
-##### 7.2.7.1 Các Mô hình Toán học Mô tả Động học Bất hoạt Mầm bệnh
-###### Định luật Chick về Động học Bậc Một của Quá trình Bất hoạt Vi sinh vật
-- Năm 1908, Harriette Chick thiết lập mô hình toán học đầu tiên giả định rằng quá trình khử trùng tuân theo động học phản ứng hóa học bậc 1:
-- **Chick's Law of Disinfection Kinetics** (`eq_ch07_024`): $$\ln\left(\frac{N_t}{N_0}\right) = -k \cdot t \quad \text{or} \quad \frac{dN}{dt} = -k \cdot N$$
-  - *Biểu thức văn bản*: `ln(Nt / N0) = -k * t or dN/dt = -k * N`
-  - *Mô tả & Ý nghĩa*: Classical first-order kinetic formulation (Harriette Chick, 1908) stating that the rate of microorganism inactivation is directly proportional to the concentration of remaining viable organisms.
-  - *Bảng biến số & Thứ nguyên*:
-    - $N_t$: Number of viable surviving microorganisms at contact time t (CFU/mL or organisms/L)
-    - $N_0$: Initial number of viable microorganisms at t = 0
-    - $k$: Inactivation rate constant (time^-1)
-    - $t$: Contact exposure time (min or s)
-
-###### Mô hình Chick-Watson Kết hợp Nồng độ Hóa chất và Hệ số Pha loãng
-- Năm 1908, H.E. Watson mở rộng định luật Chick để tích hợp nồng độ của chất khử trùng (C) và hệ số pha loãng (n - coefficient of dilution):
-- **Chick-Watson Law of Disinfection Kinetics** (`eq_ch07_025`): $$\ln\left(\frac{N_t}{N_0}\right) = -k_{cw} \cdot C^n \cdot t \quad \text{or} \quad \ln\left(\frac{N_t}{N_0}\right) = -\Lambda \cdot C^n \cdot t$$
-  - *Biểu thức văn bản*: `ln(Nt / N0) = -kcw * C^n * t or ln(Nt / N0) = -Lambda * C^n * t`
-  - *Mô tả & Ý nghĩa*: Watson's empirical modification of Chick's Law incorporating disinfectant concentration (C) and dilution coefficient (n) into the inactivation rate.
-  - *Bảng biến số & Thứ nguyên*:
-    - $N_t / N_0$: Survival ratio of microorganisms
-    - $k_{cw}$: Chick-Watson rate constant (L^n / (mg^n · min))
-    - $C$: Disinfectant residual concentration (mg/L)
-    - $n$: Coefficient of dilution (typically n ≈ 1.0 for free chlorine)
-    - $t$: Contact time (min)
-- Ý nghĩa của hệ số pha loãng n:
-  - Khi n = 1.0: Nồng độ hóa chất (C) và thời gian tiếp xúc (t) có vai trò và trọng số đóng góp ngang nhau vào hiệu quả diệt khuẩn (đây là giả định nền tảng cho Khái niệm CT của USEPA).
-  - Khi n > 1.0: Nồng độ chất khử trùng có vai trò chi phối mạnh hơn thời gian tiếp xúc.
-  - Khi n < 1.0: Thời gian tiếp xúc có vai trò quan trọng hơn việc tăng nồng độ hóa chất.
-
-###### Mô hình Mở rộng Hom và Hiện tượng Giai đoạn Trễ (Shoulder) / Giảm tốc Động học (Tailing)
-- Trong thực tế, đường cong bất hoạt thường không thẳng tuyệt đối trên đồ thị bán logarit mà xuất hiện hai hiện tượng phi tuyến tính:
-  1. *Giai đoạn Trễ (Shoulder Effect)*: Ở giai đoạn đầu, đồ thị cong xuống chậm chạp do vi sinh vật cần thời gian để chất khử trùng khuếch tán qua màng hoặc cần tích lũy đủ các vết thương phân tử trước khi chết (đặc trưng của tia UV và u nang protozoa).
-  2. *Hiện tượng Giảm tốc / Đuôi dài (Tailing Effect)*: Ở giai đoạn cuối, tốc độ bất hoạt chậm lại tạo thành đường cong tiệm cận phẳng, nguyên nhân do sự tồn tại của một quần thể vi sinh vật có sức đề kháng cao bất thường hoặc do vi sinh vật bị bọc kết tụ bên trong các hạt cặn lơ lửng.
-- Mô hình Hom hiệu chỉnh hai hiện tượng trên bằng hàm số mũ thời gian:
-  $$\ln\left(\frac{N_t}{N_0}\right) = -k \cdot C^n \cdot t^m$$
-  Khi m > 1, mô hình mô tả hiện tượng Shoulder; khi m < 1, mô tả hiện tượng Tailing.
-
-##### 7.2.7.2 Động học Suy giảm Nồng độ Chất Khử trùng (Chemical Disinfectant Decay Kinetics)
-- Nồng độ chất khử trùng trong bể phản ứng và trên đường ống phân phối không cố định mà suy giảm dần theo thời gian do phản ứng với chất hữu cơ và thành ống:
-
-###### Động học Phân rã Bậc Một của Clo Tự do, Chloramines và ClO2
-- **First-Order Chemical Disinfectant Decay Kinetics** (`eq_ch07_026`): $$\frac{dC}{dt} = -k_d \cdot C \implies C(t) = C_0 \cdot e^{-k_d \cdot t}$$
-  - *Biểu thức văn bản*: `dC/dt = -kd * C => C(t) = C0 * exp(-kd * t)`
-  - *Mô tả & Ý nghĩa*: Models the first-order or pseudo-first-order rate of disinfectant concentration decay over time for free chlorine, combined chlorine, and chlorine dioxide.
-  - *Bảng biến số & Thứ nguyên*:
-    - $C(t)$: Disinfectant concentration at time t (mg/L)
-    - $C_0$: Initial disinfectant concentration at t = 0 (mg/L)
-    - $k_d$: First-order decay rate constant (time^-1, min^-1 or d^-1)
-    - $t$: Elapsed time (min or days)
-
-###### Động học Phân rã Bậc Hai của Dung dịch Hypochlorite Đậm đặc và Ozone trong Nước
-- **Second-Order Disinfectant Decay Kinetics** (`eq_ch07_027`): $$\frac{dC}{dt} = -k_{2d} \cdot C^2 \implies \frac{1}{C(t)} - \frac{1}{C_0} = k_{2d} \cdot t \implies C(t) = \frac{C_0}{1 + k_{2d} \cdot C_0 \cdot t}$$
-  - *Biểu thức văn bản*: `dC/dt = -k2d * C^2 => 1/C(t) - 1/C0 = k2d * t => C(t) = C0 / (1 + k2d * C0 * t)`
-  - *Mô tả & Ý nghĩa*: Models second-order decay kinetics characteristic of concentrated hypochlorite storage decomposition and fast aqueous ozone self-decomposition.
-  - *Bảng biến số & Thứ nguyên*:
-    - $C(t)$: Disinfectant concentration at time t (mg/L)
-    - $C_0$: Initial disinfectant concentration at t = 0 (mg/L)
-    - $k_{2d}$: Second-order decay rate constant (L / (mg · s) or L / (mg · min))
-    - $t$: Elapsed reaction time (s or min)
-
-##### 7.2.7.3 Khái niệm Nồng độ - Thời gian Tiếp xúc (CT Concept) và Tín chỉ Log Inactivation
-###### Định nghĩa Tích số Nồng độ và Thời gian Tiếp xúc (CT Metric)
-- Cục Bảo vệ Môi trường Hoa Kỳ (USEPA) chuẩn hóa khái niệm **CT (Concentration x Time)** làm thước đo pháp lý duy nhất để định cỡ các công trình khử trùng hóa học:
-- **USEPA Concentration-Time (CT) Disinfection Metric** (`eq_ch07_030`): $$CT = C \cdot t_{10}$$
-  - *Biểu thức văn bản*: `CT = C * t_10`
-  - *Mô tả & Ý nghĩa*: The standardized USEPA metric establishing the product of residual disinfectant concentration (C in mg/L) and effective contact time (t10 in minutes) required to achieve specified microbial log-inactivations.
-  - *Bảng biến số & Thứ nguyên*:
-    - $CT$: Disinfection credit metric (mg·min/L)
-    - $C$: Residual disinfectant concentration measured at reactor outlet (mg/L)
-    - $t_{10}$: Time required for 10% of the water volume to pass through the reactor (min)
-- Trong đó:
-  - C là nồng độ chất khử trùng tồn dư đo được tại cửa ra của bể tiếp xúc (mg/L).
-  - t_{10} là thời gian tiếp xúc hiệu dụng (phút), tính là thời gian để 10% lượng nước đầu tiên đi qua bể (đại diện cho phần tử nước chuyển động nhanh nhất bị đoản mạch).
-
-###### Mối liên hệ Giữa Tín chỉ Log Inactivation và Hiệu suất Phần trăm Loại bỏ
-- **Microbial Log Inactivation / Log Removal Equation** (`eq_ch07_028`): $$\text{Log Inactivation} = \log_{10}\left(\frac{N_0}{N_t}\right) = -\log_{10}\left(1 - \frac{\% \text{ Removal}}{100}\right)$$
-  - *Biểu thức văn bản*: `Log Inactivation = log10(N0 / Nt) = -log10(1 - %Removal / 100)`
-  - *Mô tả & Ý nghĩa*: Quantifies the order-of-magnitude reduction in pathogen concentration achieved by water treatment and disinfection processes.
-  - *Bảng biến số & Thứ nguyên*:
-    - $\text{Log Inactivation}$: Order of magnitude inactivation credit (e.g., 2.0-log = 99%, 3.0-log = 99.9%, 4.0-log = 99.99%)
-    - $N_0$: Influent or initial pathogen count
-    - $N_t$: Effluent or surviving pathogen count
-    - $\% \text{ Removal}$: Percentage pathogen inactivation (0 to 100%)
-- **Percentage Inactivation from Log Credit** (`eq_ch07_029`): $$\% \text{ Inactivation} = \left(1 - \frac{N_t}{N_0}\right) \times 100\% = \left(1 - 10^{-\text{Log Inactivation}}\right) \times 100\%$$
-  - *Biểu thức văn bản*: `% Inactivation = (1 - Nt / N0) * 100% = (1 - 10^(-Log Inactivation)) * 100%`
-  - *Mô tả & Ý nghĩa*: Converts regulatory log-inactivation credits into percentage pathogen reduction values.
-  - *Bảng biến số & Thứ nguyên*:
-    - $\% \text{ Inactivation}$: Calculated percentage inactivation
-    - $\text{Log Inactivation}$: Log reduction credit (e.g. 1-log = 90%, 2-log = 99%, 3-log = 99.9%, 4-log = 99.99%)
-- Quy đổi tương đương chuẩn:
-  - 1.0-log Inactivation = 90.0% hiệu quả loại bỏ.
-  - 2.0-log Inactivation = 99.0% hiệu quả loại bỏ.
-  - 3.0-log Inactivation = 99.9% hiệu quả loại bỏ.
-  - 4.0-log Inactivation = 99.99% hiệu quả loại bỏ.
-
-###### Bảng Giá trị CT Quy chuẩn của USEPA Bất hoạt Giardia và Virus theo pH và Nhiệt độ
-**Bảng TBL_CH07_03 (`tbl_ch07_03`): USEPA Disinfection CT Requirements for 3-log (99.9%) Giardia lamblia Cyst Inactivation at Various Water Temperatures and pH (Slide 26)**
-
-| Disinfectant Species | Disinfectant Residual (mg/L) | pH Range | CT at 0.5 °C (mg·min/L) | CT at 5.0 °C (mg·min/L) | CT at 10.0 °C (mg·min/L) | CT at 15.0 °C (mg·min/L) | CT at 20.0 °C (mg·min/L) | CT at 25.0 °C (mg·min/L) |
-|---|---|---|---|---|---|---|---|---|
-| Free Chlorine (HOCl/OCl-) | 1.0 | 7.0 | 216 | 154 | 115 | 77 | 58 | 38 |
-| Free Chlorine (HOCl/OCl-) | 1.0 | 7.5 | 264 | 189 | 142 | 95 | 71 | 47 |
-| Free Chlorine (HOCl/OCl-) | 1.0 | 8.0 | 312 | 221 | 166 | 111 | 83 | 55 |
-| Chlorine Dioxide (ClO2) | Any (0.5–2.0) | 6.0 – 9.0 | 63 | 26 | 23 | 19 | 15 | 11 |
-| Ozone (O3) | Any (0.2–1.5) | 6.0 – 9.0 | 2.9 | 1.9 | 1.4 | 0.95 | 0.72 | 0.48 |
-| Chloramines (Preformed NH2Cl) | Any (1.0–3.0) | 6.0 – 9.0 | 3800 | 2200 | 1850 | 1500 | 1100 | 750 |
-
-*Ghi chú thiết kế: Derived from USEPA Surface Water Treatment Rule guidance manuals. Note that ozone is > 100x more potent than free chlorine and > 1000x more potent than chloramines for Giardia inactivation.*
-
-##### 7.2.7.4 Quy trình Tính toán Tuân thủ CT Đa Hàng rào theo Tiêu chuẩn USEPA SWTR
-##### Quy trình Kỹ thuật: USEPA CT Multi-Barrier Microbial Inactivation Sizing Procedure
-- 1. Determine target pathogen reduction credits: 3-log (99.9%) for Giardia lamblia and 4-log (99.99%) for enteric viruses under the Surface Water Treatment Rule.
-- 2. Subtract physical removal log-credits achieved upstream by conventional sedimentation and granular filtration (typically 2.5-log for Giardia and 2.0-log for viruses).
-- 3. Establish remaining required disinfection log-inactivation (e.g. 0.5-log for Giardia, 2.0-log for viruses).
-- 4. Measure minimum winter water temperature (°C), maximum expected pH, and target disinfectant residual C (mg/L) at contactor outlet.
-- 5. Extract required CT_req from USEPA regulatory lookup tables for the specified disinfectant (free chlorine, ozone, ClO2, chloramines).
-- 6. Determine required effective contact time: t10_req = CT_req / C.
-- 7. Determine the contactor baffling factor BF (t10/t0) based on basin geometry (0.1 unbaffled to 0.7 superior).
-- 8. Calculate required nominal hydraulic residence time: t0 = t10_req / BF.
-- 9. Size contact basin net liquid volume: V = Q_peak * t0.
-- 10. Verify actual operating CT_calc = C * (BF * V / Q_peak) >= CT_req (ensuring Disinfection Ratio CT_calc / CT_req >= 1.0).
-
----
-
-#### 7.2.8 Sản phẩm Phụ Khử trùng (DBPs) & Tiêu chuẩn Sức khỏe Cộng đồng
-- Khi các chất oxy hóa mạnh (đặc biệt là clo tự do) phản ứng với các hợp chất hữu cơ hòa tan tự nhiên trong nước thô, một loạt các hợp chất hóa học thứ cấp có độc tính cao được hình thành, gọi là **Sản phẩm Phụ Khử trùng (Disinfection By-Products - DBPs)**.
-
-##### 7.2.8.1 Cơ chế Hình thành Trihalomethanes (THMs) và Haloacetic Acids (HAAs)
-###### Bản chất Tiền chất Chất hữu cơ Tự nhiên (NOM Humic & Fulvic Acids)
-- Tiền chất chính hình thành DBP là Chất hữu cơ Tự nhiên (Natural Organic Matter - NOM), chủ yếu gồm Acid Humic và Acid Fulvic sinh ra từ sự phân rã mùn bã thực vật trong lưu vực rừng và đất phù sa.
-- Các phân tử hữu cơ này chứa các vòng thơm có gắn nhóm hydroxyl phenolic và các nhóm cấu trúc beta-dicarbonyl giàu electron, rất nhạy cảm với các phản ứng tấn công ái điện tử của clo.
-
-###### Chuỗi Phản ứng Halogen hóa Tấn công Nhóm Phenolic và Beta-Dicarbonyl
-- Phản ứng tạo THM (điển hình là phản ứng Haloform) diễn ra theo chuỗi liên tiếp:
-  1. *Phản ứng Halogen hóa (Halogenation)*: HOCl thế nguyên tử hydro trên liên kết carbon hoạt hóa.
-  2. *Phản ứng Thủy phân Bazo (Alkaline Hydrolysis)*: Dưới tác động của ion OH^-, liên kết carbon-carbon bị cắt đứt, giải phóng phân tử Trihalomethane dạng CHX_3 (với X = Cl, Br).
-- Do phản ứng thủy phân bazo phụ thuộc vào OH^-, tốc độ hình thành **THMs tăng rất mạnh khi pH tăng cao** (ngược lại, tốc độ hình thành HAAs lại có xu hướng cao hơn ở pH acid nhẹ).
-
-###### Sự Phân bố Tỷ lệ Các Loài THM theo Hàm lượng Bromide trong Nước
-- Nếu nguồn nước thô có chứa vết ion Bromide (Br^-) từ nước ngầm khoáng hóa hoặc xâm nhập mặn ven biển, HOCl sẽ oxy hóa tức thời Br^- thành Acid Hypobromơ (HOBr):
-  $$\text{HOCl} + \text{Br}^- \rightarrow \text{HOBr} + \text{Cl}^-$$
-- Phân tử HOBr có tốc độ phản ứng thế halogen nhanh hơn HOCl từ 10 đến 20 lần. Kết quả là tạo ra 4 loài Trihalomethanes (Total THMs - TTHMs):
-  1. Chloroform (CHCl_3)
-  2. Bromodichloromethane (CHBrCl_2)
-  3. Dibromochloromethane (CHBr_2Cl)
-  4. Bromoform (CHBr_3)
-- Các loài THM chứa brom có độc tính và nguy cơ gây ung thư cao hơn nhiều lần so với chloroform gốc clo thuần túy. Tương tự, 5 loài Haloacetic Acids (HAA5) gồm: Monochloroacetic acid (MCAA), Dichloroacetic acid (DCAA), Trichloroacetic acid (TCAA), Monobromoacetic acid (MBAA), và Dibromoacetic acid (DBAA).
-
-##### 7.2.8.2 Các Sản phẩm Phụ Vô cơ Độc hại và DBP Mới nổi (Emerging DBPs)
-###### Độc chất Bromate (BrO3-) Sinh ra trong Quá trình Ozon hóa Nước chứa Bromide
-- Khi áp dụng công nghệ Ozone (O_3) cho nguồn nước có chứa ion Bromide (Br^- > 20 - 50 µg/L), ozone phân tử và gốc hydroxyl sẽ oxy hóa liên tiếp Br^- qua các trạng thái trung gian hypobromite (OBr^-) và bromite (BrO_2^-) để tạo thành **Ion Bromate (BrO_3^-)**.
-- Bromate là chất gây ung thư thận nhóm 2B ở động vật thí nghiệm, bị giới hạn ở ngưỡng cực thấp: **MCL = 10 µg/L (0.010 mg/L)**.
-
-###### Độc tính Oxy hóa của Ion Chlorite (ClO2-) và Chlorate (ClO3-)
-- Sử dụng Chlorine Dioxide (ClO_2) tạo ra sản phẩm phụ vô cơ chủ yếu là **Chlorite (ClO_2^-)** với tỷ lệ 50–70% liều châm. Chlorite gây thiếu máu tán huyết và ức chế hệ thần kinh trung ương ở trẻ sơ sinh, bị giới hạn MCL = 1.0 mg/L.
-- Phân hủy dung dịch Javel trữ lâu ngày dưới ánh nắng mặt trời tạo ra ion **Chlorate (ClO_3^-)**, gây tổn thương tuyến giáp.
-
-###### Hợp chất Nitrosamine Gây ung thư Cực mạnh (NDMA) từ Quá trình Chloramination
-- Khi sử dụng monochloramine cho các nguồn nước bị ô nhiễm nước thải sinh hoạt chứa các hợp chất dimethylamine, phản ứng phụ sẽ sinh ra N-Nitrosodimethylamine (NDMA). NDMA là chất gây ung thư cực mạnh với giới hạn rủi ro 1 phần triệu tương đương nồng độ cực vi lượng chỉ vài nanogam/lít (ng/L).
-
-##### 7.2.8.3 Phân loại Nguy cơ Gây ung thư và Bảng Giới hạn Pháp lý Nồng độ DBP
-###### Khung Đánh giá Trọng số Bằng chứng Ung thư của USEPA (Nhóm A đến Nhóm E)
-- Nhóm A: Chất gây ung thư chắc chắn cho người (Carcinogenic to humans).
-- Nhóm B: Chất có khả năng gây ung thư cho người (B1: bằng chứng hạn chế ở người; B2: bằng chứng đầy đủ ở động vật thí nghiệm).
-- Nhóm C: Chất có thể gây ung thư cho người (Possible human carcinogen).
-- Nhóm D: Chất chưa thể phân loại về khả năng gây ung thư (Not classifiable).
-- Nhóm E: Chất có bằng chứng không gây ung thư (Evidence of non-carcinogenicity).
-- Trong các DBP: Bromate và DCAA thuộc Nhóm B2; Chloroform, BDCM và TCAA thuộc Nhóm B2/C.
-
-###### Bảng Giới hạn Cho phép Tối đa (MCL) và Giới hạn Clo Dư Tối đa (MRDL)
-**Bảng TBL_CH07_04 (`tbl_ch07_04`): Disinfection By-Products (DBPs), Maximum Contaminant Levels (MCL/MRDL), and Health Standards (Slide 29, 30)**
-
-| Disinfectant / DBP Group | Chemical Species / Formula | Primary Precursors & Mechanism | Regulated Limit (MCL / MRDL) | EPA Carcinogen Group | Major Chronic Toxicological Effects |
+| Tiêu chí So sánh | Clo Tự do (Free Chlorine, $\text{Cl}_2$ / $\text{NaOCl}$) | Chloramines ($\text{NH}_2\text{Cl}$) | Chlorine Dioxide ($\text{ClO}_2$) | Ozone ($\text{O}_3$) | Bức xạ Cực tím (UV) |
 |---|---|---|---|---|---|
-| Total Trihalomethanes (TTHMs) | CHCl3, CHBrCl2, CHBr2Cl, CHBr3 | NOM humic/fulvic acids + Free Chlorine + Bromide | MCL = 80 µg/L (0.080 mg/L) | Group B2 / C | Liver and kidney toxicity, increased risk of bladder and colorectal cancer |
-| Haloacetic Acids (HAA5) | MCAA, DCAA, TCAA, MBAA, DBAA | NOM humic/fulvic acids + Free Chlorine + Bromide | MCL = 60 µg/L (0.060 mg/L) | Group B2 / C | Hepatotoxicity, nervous system effects, reproductive and developmental toxicity |
-| Bromate Ion | BrO3^- | Aqueous Ozone oxidation of natural Bromide (Br-) | MCL = 10 µg/L (0.010 mg/L) | Group B2 | Known animal carcinogen, renal tumors, thyroid damage |
-| Chlorite Ion | ClO2^- | One-electron reduction of Chlorine Dioxide (ClO2) | MCL = 1.0 mg/L (1000 µg/L) | Group D | Hemolytic anemia, methemoglobinemia, nervous system effects in infants |
-| Chlorate Ion | ClO3^- | Decomposition of hypochlorite solutions / ClO2 byproduct | Guideline = 0.7 mg/L | Group D | Thyroid iodine uptake inhibition, red blood cell damage |
-| Free Chlorine Residual | HOCl + OCl^- | Direct chemical addition for distribution disinfection | MRDL = 4.0 mg/L (min 0.2–1.0) | Not classifiable | Eye/nose irritation, stomach discomfort, aesthetic odor |
-| Chloramine Residual | NH2Cl + NHCl2 | Ammonia + Chlorine addition for secondary residual | MRDL = 4.0 mg/L (min 0.5–2.0) | Group D | Eye and nasal irritation, hemolytic anemia in dialysis patients |
-| Chlorine Dioxide Residual | ClO2 | Direct chemical addition for oxidation / disinfection | MRDL = 0.8 mg/L | Group D | Anemia, neurodevelopmental delays in infants and fetuses |
+| **Bất hoạt Vi khuẩn** | Xuất sắc ($> 4\text{-log}$) | Tốt (động học chậm) | Xuất sắc (diệt nhanh) | Xuất sắc (nhanh nhất) | Xuất sắc (quang hóa) |
+| **Bất hoạt Virus** | Xuất sắc ($> 4\text{-log}$) | Kém đến Trung bình | Xuất sắc | Xuất sắc | Tốt (Adenovirus cần liều cao) |
+| **Bất hoạt Giardia** | Tốt (cần thời gian tiếp xúc) | Rất kém ($CT$ rất lớn) | Rất tốt ($CT$ nhỏ) | Xuất sắc ($CT$ cực nhỏ) | Xuất sắc (liều nhỏ $40\text{ mJ/cm}^2$) |
+| **Bất hoạt Cryptosporidium** | Bất lực trong thực tế | Bất lực hoàn toàn | Trung bình | Xuất sắc | Xuất sắc (liều nhỏ $40\text{ mJ/cm}^2$) |
+| **Độ bền Clo Dư Mạng lưới** | Tồn lưu ổn định ($0.2 - 1.0\text{ mg/L}$) | Tồn lưu rất bền vững | Trung bình (kém bền ở mạng xa) | Không có clo dư | Không có chất dư |
+| **Sản phẩm Phụ Chính (DBPs)** | THMs, HAAs, Chloral hydrate | NDMA, Cyanogen halides | Ion clorit ($\text{ClO}_2^-$), clorat | Ion bromat ($\text{BrO}_3^-$), aldehydes | Không tạo THMs/HAAs |
+| **Chi phí Đầu tư (CAPEX)** | Thấp | Thấp đến Trung bình | Trung bình | Rất cao | Trung bình đến Cao |
+| **Chi phí Vận hành (OPEX)** | Thấp | Thấp đến Trung bình | Trung bình đến Cao | Rất cao (điện năng lớn) | Trung bình (thay đèn, điện) |
+| **Rủi ro An toàn Vận hành** | Khí clo: Rất cao; $\text{NaOCl}$: Thấp | Trung bình (hơi amoniac) | Cao (nguy cơ tự nổ khí đậm đặc) | Rất cao (khí độc, oxy lỏng) | Thấp (an toàn điện, bóng vỡ) |
 
-*Ghi chú thiết kế: Compliance governed under USEPA Stage 2 Disinfectants and Disinfection Byproducts Rule (D/DBPR) and Vietnamese National Standard QCVN 01-1:2018/BYT.*
+##### 7.2.4.2 So sánh Giá trị $CT$ Bất hoạt Giardia và Enteric Virus
+- Bảng dưới đây so sánh giá trị $CT$ yêu cầu theo tiêu chuẩn USEPA SWTR ở nhiệt độ nước $10^\circ\text{C}$ để minh chứng hiệu lực tương đối giữa các chất oxy hóa:
 
-##### 7.2.8.4 Biện pháp Kỹ thuật Giảm thiểu và Kiểm soát Phát sinh DBP
-- Để tuân thủ các quy định khắt khe về DBP mà vẫn đảm bảo an toàn diệt khuẩn, các nhà máy nước áp dụng 4 chiến lược kỹ thuật:
-  1. **Keo tụ Nâng cao (Enhanced Coagulation)**: Hạ pH keo tụ xuống 5.5 – 6.3 bằng phèn nhôm hoặc phèn sắt để tối đa hóa hiệu suất kết tủa chất hữu cơ NOM, loại bỏ 45% – 65% TOC trước khi nước tiếp xúc với hóa chất khử trùng.
-  2. **Dời điểm châm Clo sơ cấp (Elimination of Prechlorination)**: Bỏ hoàn toàn việc châm clo tại công trình thu nước thô; chỉ châm clo sau khi nước đã qua bể lọc cát để triệt tiêu tiền chất hữu cơ.
-  3. **Thay đổi chất khử trùng (Alternative Disinfectants)**: Thay thế clo tự do bằng tia UV hoặc Ozone làm khử trùng sơ cấp, và chuyển sang dùng Monochloramine làm chất khử trùng thứ cấp trên mạng lưới (giảm 80–90% THM formation).
-  4. **Thổi khí làm bay hơi THMs (Tank Aeration)**: Lắp đặt hệ thống sục khí khuếch tán hoặc quạt thông gió cưỡng bức tại các bể chứa nước sạch phân phối để loại bỏ các phân tử chloroform dễ bay hơi ra khỏi nước.
-
-
-### 7.3 Thiết kế Kỹ thuật Công trình & Thiết bị Khử trùng (Engineering Practice & Reactor Design)
-
-#### 7.3.1 Thủy lực Bể Tiếp xúc & Hệ thống Phân loại Baffle (Contactor Hydraulics & Baffling Classification)
-- Hiệu quả bất hoạt vi sinh vật trong thực tế không chỉ phụ thuộc vào nồng độ hóa chất khử trùng mà phụ thuộc cốt lõi vào đặc tính thủy lực của công trình tiếp xúc. Bể tiếp xúc lý tưởng phải đảm bảo mọi phần tử nước đều có thời gian lưu tiếp xúc đồng đều với hóa chất, triệt tiêu hoàn toàn hiện tượng ngắn mạch dòng chảy (hydraulic short-circuiting) và các vùng xoáy chết (dead spaces).
-
-##### 7.3.1.1 Động học Thủy lực Dòng Chảy PFR và Hiện tượng Ngắn mạch Dòng
-- Trong kỹ thuật phản ứng dòng chảy, có hai mô hình giới hạn:
-  1. *Bể phản ứng khuấy trộn hoàn chỉnh (Continuously Stirred Tank Reactor - CSTR)*: Nước vào bị hòa trộn tức thời với toàn bộ thể tích bể. Một phần tử nước có thể đi tắt ra cửa thoát chỉ sau vài giây, dẫn đến hiệu quả khử trùng cực kém.
-  2. *Bể phản ứng dòng chảy nút / dòng piston (Plug Flow Reactor - PFR)*: Các phần tử nước chuyển động song song cùng vận tốc dọc theo chiều dài bể như một nút piston mà không có sự xáo trộn dọc trục. Đây là trạng thái thủy lực lý tưởng tuyệt đối cho quá trình khử trùng.
-
-###### Hàm Phân bố Thời gian Lưu (RTD) và Đường cong Chất chỉ thị Tracer F-Curve, E-Curve
-- Để đánh giá đặc tính thủy lực thực tế của một bể tiếp xúc, kỹ sư thực hiện thí nghiệm bơm chất chỉ thị màu (Tracer Test, sử dụng muối NaCl, LiCl hoặc chất huỳnh quang Rhodamine WT) tại cửa vào và quan sát nồng độ chất chỉ thị tại cửa ra theo thời gian:
-  - **Đường cong E-Curve (Residence Time Distribution - RTD)**: Biểu thị mật độ xác suất thời gian lưu của các phần tử nước. Đỉnh phân bố càng hẹp và nhọn, bể càng tiệm cận mô hình PFR hoàn hảo.
-  - **Đường cong F-Curve (Cumulative Step Response)**: Thể hiện tỷ lệ tích lũy phần trăm chất chỉ thị đã thoát ra khỏi bể theo thời gian không thứ nguyên theta = t / t_0.
-
-###### Định nghĩa Thời gian Tiếp xúc Hiệu dụng t10 và Hệ số Baffle (BF = t10/t0)
-- Trong đánh giá quy chuẩn USEPA SWTR, giá trị thời gian lưu lý thuyết danh định t_0 = V / Q không được phép sử dụng trực tiếp để tính CT vì nó bỏ qua hiện tượng đoản mạch. Thay vào đó, quy chuẩn bắt buộc sử dụng **Thời gian tiếp xúc hiệu dụng t_{10}**:
-- **Effective Detention Time via Baffling Factor (t10)** (`eq_ch07_031`): $$t_{10} = \text{BF} \cdot t_0 = \left( \frac{t_{10}}{t_0} \right) \cdot \left( \frac{V}{Q} \right)$$
-  - *Biểu thức văn bản*: `t_10 = BF * t_0 = (t10 / t0) * (V / Q)`
-  - *Mô tả & Ý nghĩa*: Relates the effective 90th percentile exposure contact time (t10) to the theoretical hydraulic residence time (t0) using the dimensionless baffling factor (BF = t10/t0).
-  - *Bảng biến số & Thứ nguyên*:
-    - $t_{10}$: Effective disinfection detention time (min)
-    - $\text{BF} = t_{10}/t_0$: Baffling factor (0.1 for unbaffled, 0.3 for poor, 0.5 for average, 0.7 for superior, 1.0 for ideal plug flow)
-    - $t_0$: Theoretical hydraulic residence time (min)
-    - $V$: Liquid basin volume (m3)
-    - $Q$: Volumetric water flow rate (m3/min)
-- **Theoretical Hydraulic Detention Time (t0)** (`eq_ch07_032`): $$t_0 = \frac{V}{Q}$$
-  - *Biểu thức văn bản*: `t_0 = V / Q`
-  - *Mô tả & Ý nghĩa*: Computes the nominal average hydraulic residence time of water in a disinfection contact basin or pipeline.
-  - *Bảng biến số & Thứ nguyên*:
-    - $t_0$: Nominal hydraulic detention time (min or s)
-    - $V$: Reactor active volume (m3)
-    - $Q$: Plant volumetric flow rate (m3/min or m3/s)
-- **Ý nghĩa vật lý của t_{10}**: Là khoảng thời gian tính từ lúc bắt đầu bơm chất chỉ thị cho đến khi đúng 10% lượng chất chỉ thị đầu tiên xuất hiện tại cửa ra của bể (tương ứng với thời điểm F(theta) = 0.10). Nói cách khác, t_{10} đại diện cho thời gian lưu của 10% phần tử nước chuyển động nhanh nhất trong bể (phần tử bị đoản mạch nặng nhất).
-- **Hệ số Baffle (Baffling Factor - BF = t_{10} / t_0)**: Là tỷ số không thứ nguyên phản ánh mức độ hoàn hảo về mặt thủy lực của bể tiếp xúc, dao động từ 0.1 (rất kém) đến 1.0 (hoàn hảo).
-
-##### 7.3.1.2 Bảng Phân loại Baffle Chuẩn hóa của USEPA và Đặc tính Thủy lực Basins
-- USEPA phân chia các bể tiếp xúc thành 5 cấp độ thủy lực chuẩn hóa dựa trên cấu tạo hình học vách ngăn:
-**Bảng TBL_CH07_05 (`tbl_ch07_05`): Hydraulic Baffling Classification and t10/t0 Detention Time Ratios for Disinfection Contactor Sizing (Slide 34, 35, 36)**
-
-| Baffling Classification | Baffling Factor (BF = t10/t0) | Typical Hydraulic Basin Geometry & Physical Characteristics | Flow Dispersion Index (d) | Dead Space Fraction |
+| Chất Khử trùng | pH Vận hành | $CT$ Bất hoạt $3\text{-log}$ Giardia ($\text{mg}\cdot\text{min/L}$) | $CT$ Bất hoạt $4\text{-log}$ Virus ($\text{mg}\cdot\text{min/L}$) | Nhận xét Hiệu lực Tương đối |
 |---|---|---|---|---|
-| Unbaffled (Mixed Flow) | 0.10 | Single inlet/outlet unbaffled storage tank, open circular or square basin with severe short-circuiting | > 0.20 | >= 70 – 90% |
-| Poor Baffling | 0.30 | Single or minimal interior baffles, rectangular basin with length-to-width ratio L:W < 5:1 | 0.10 – 0.20 | ~50 – 70% |
-| Average Baffling | 0.50 | Intra-basin baffling with intermediate cross-baffles or serpentine passes with L:W = 10:1 to 20:1 | 0.03 – 0.10 | ~30 – 50% |
-| Superior Baffling | 0.70 | Longitudinal-serpentine basin with multi-pass guide walls (L_path:W_c >= 40:1) or perforated diffuser walls | 0.005 – 0.03 | ~10 – 30% |
-| Perfect Plug Flow (Ideal) | 1.00 | Infinite length straight transmission pipeline without bends or dead zones (plug flow reactor PFR) | 0.000 | 0% |
-
-*Ghi chú thiết kế: Standardized baffling factors defined by USEPA Surface Water Treatment Rule guidance manual for converting nominal detention time t0 = V/Q into regulatory contact time t10.*
-
-###### Đánh giá Chi tiết 5 Cấp độ Baffle: Unbaffled (0.1), Poor (0.3), Average (0.5), Superior (0.7), Ideal (1.0)
-- **Cấp độ Unbaffled (BF = 0.10)**: Bể chứa tròn hoặc chữ nhật hở không có vách ngăn, cửa vào và cửa ra bố trí đối diện nhau. Dòng tia nước vào (inlet jet) bắn thẳng qua bể ra cửa thoát, tạo ra các vùng xoáy chết chiếm tới 70–90% thể tích bể. Thời gian tiếp xúc thực tế chỉ bằng 10% thời gian tính toán lý thuyết.
-- **Cấp độ Poor Baffling (BF = 0.30)**: Bể có một hoặc hai vách ngăn đơn giản, tỷ lệ dài/rộng L:W < 5:1. Dòng chảy vẫn bị phân tách và tạo xoáy quẩn ở các góc bể.
-- **Cấp độ Average Baffling (BF = 0.50)**: Bể có vách ngăn trung gian uốn lượn với tỷ lệ L:W từ 10:1 đến 20:1, hoặc các bể lắng ngang có cửa thu nước phân phối tương đối đều.
-- **Cấp độ Superior Baffling (BF = 0.70)**: Bể tiếp xúc kênh serpentine kéo dài nhiều ngăn với tỷ lệ chiều dài hành trình trên bề rộng kênh >= 40:1, có bố trí vách hướng dòng tại các góc quay. Vùng chết giảm xuống dưới 10–20%.
-- **Cấp độ Ideal Plug Flow (BF = 1.00)**: Dòng chảy piston lý tưởng tuyệt đối không có sự phân tán dọc (d = 0). Trong thực tế xây dựng công trình bể, không thể đạt được BF = 1.0; mức này chỉ có thể tiệm cận trong các đường ống truyền tải dài có dòng chảy rối hoàn toàn.
-
-###### Tương quan Giữa Chỉ số Phân tán Dòng (d) và Tỷ lệ Thể tích Vùng Chết (Dead Space Fraction)
-- Chỉ số phân tán dòng chảy (Dispersion Index - d = D / (u * L)): Là đại lượng đặc trưng cho cường độ khuếch tán dọc trục trong mô hình phân tán PFR. Khi d -> 0, dòng chảy là PFR hoàn hảo; khi d -> vô cùng, dòng chảy biến thành CSTR khuấy trộn hoàn toàn.
-- Bể có hệ số baffle càng thấp thì tỷ lệ thể tích vùng chết (V_{dead} / V) càng lớn, đòi hỏi phải xây dựng dung tích bể to gấp nhiều lần để đáp ứng cùng một giá trị t_{10} yêu cầu.
-
-##### 7.3.1.3 Thiết kế Hình học Bể Tiếp xúc Kênh Serpentine Kéo dài (Longitudinal-Serpentine Basin)
-- Để đạt được chứng nhận cấp thủy lực Superior (BF = 0.70), bể tiếp xúc clo phải được thiết kế theo dạng mê cung kênh ngoằn ngoèo kéo dài (Longitudinal Serpentine Contactor).
-
-###### Tiêu chuẩn Tỷ lệ Hình học Chiều dài Dòng chảy trên Bề rộng Kênh (Aspect Ratio L_path/W_channel >= 40:1)
-- **Serpentine Basin Flow Path Aspect Ratio Criteria** (`eq_ch07_034`): $$\text{Aspect Ratio} = \frac{L_{\text{path}}}{W_{\text{channel}}} \ge 40:1$$
-  - *Biểu thức văn bản*: `L_path / W_channel >= 40:1`
-  - *Mô tả & Ý nghĩa*: Geometric criterion for longitudinal-serpentine chlorine contact basins specifying that total flow path length must be at least 40 times the channel width to suppress dead zones and approach plug flow.
-  - *Bảng biến số & Thứ nguyên*:
-    - $L_{\text{path}}$: Total wetted centerline flow path length through all serpentine channels (m)
-    - $W_{\text{channel}}$: Individual channel width (m)
-    - $40:1$: Minimum recommended aspect ratio for superior baffling factor BF = 0.70
-- Quy chuẩn thiết kế bắt buộc tổng chiều dài hành trình dòng chảy qua tất cả các kênh rẽ nhánh (L_{path}) phải gấp tối thiểu **40 lần** bề rộng mặt cắt kênh (W_{channel}). Tỷ lệ này triệt tiêu hoàn toàn sự chênh lệch vận tốc ngang dòng và ngăn chặn sự tạo xoáy ngược.
-
-###### Thiết kế Cánh Hướng dòng (Turning Vanes) Triệt tiêu Vùng Xoáy Chết tại Khúc quanh 180 Độ
-- Khi dòng nước di chuyển tới khúc quanh 180° ở cuối mỗi vách ngăn để chuyển sang kênh tiếp theo, lực ly tâm sẽ ép dòng nước vào thành ngoài, để lại một vùng xoáy quẩn chết (eddy vortex dead zone) rất lớn ở góc trong vách ngăn.
-- Giải pháp kỹ thuật: Lắp đặt các **Cánh hướng dòng bán nguyệt (Curved Turning Vanes)** bằng thép không gỉ hoặc composite tại các khúc quay 180°. Cánh hướng dòng chia nhỏ dòng quay thành các luồng song song có bán kính cong đều nhau, triệt tiêu 95% vùng chết và giảm thiểu tổn thất áp lực cục bộ.
-
-##### 7.3.1.4 Tính toán Thủy lực Khử trùng trên Đường ống Dẫn (Pipeline Disinfection Contactor)
-- Tuyến ống truyền tải nước sạch từ nhà máy về trung tâm đô thị là một công trình tiếp xúc khử trùng lý tưởng có hệ số baffle tiệm cận hoàn hảo (BF xấp xỉ 0.90 - 1.0).
-
-###### Công thức Xác định Chiều dài Tuyến Ống Đảm bảo Thời gian Lưu PFR Hoàn hảo
-- **Pipeline Disinfection Reactor Length Formulation** (`eq_ch07_033`): $$L = v \cdot t_0 = \left( \frac{Q}{\frac{\pi}{4} D_{\text{pipe}}^2} \right) \cdot t_0$$
-  - *Biểu thức văn bản*: `L = v * t_0 = (Q / (pi/4 * D_pipe^2)) * t_0`
-  - *Mô tả & Ý nghĩa*: Calculates the required physical length of a transmission pipeline to serve as an ideal plug-flow disinfection contactor.
-  - *Bảng biến số & Thứ nguyên*:
-    - $L$: Required pipeline contact length (m)
-    - $v$: Mean flow velocity in pipeline (m/s; recommended v >= 0.6 m/s)
-    - $t_0$: Required contact time (s; e.g. 30 min = 1,800 s)
-    - $Q$: Volumetric flow rate (m3/s)
-    - $D_{\text{pipe}}$: Internal pipeline diameter (m)
-
-###### Điều kiện Vận tốc Tối thiểu v >= 0.6 m/s và Tiêu chuẩn Dòng Chảy Rối Turbulent (Re > 10,000)
-- Để đảm bảo dòng chảy trong ống đạt trạng thái PFR nút lý tưởng, vận tốc dòng chảy tối thiểu phải duy trì v >= 0.6 m/s (thông thường từ 0.8 đến 1.5 m/s). Vận tốc này đảm bảo chuẩn số Reynolds:
-  $$Re = \frac{v \cdot D}{\nu} > 10,000 - 50,000$$
-- Ở chế độ chảy rối hoàn toàn (turbulent flow), trắc diện vận tốc dòng chảy rất phẳng ngang qua tiết diện ống (vận tốc trung bình xấp xỉ 85–90% vận tốc tâm ống), triệt tiêu sự phân tán dọc trục và loại bỏ hoàn toàn hiện tượng đoản mạch.
-- Giới hạn ứng dụng: Khử trùng trên đường ống chỉ khả thi khi khoảng cách từ trạm bơm đến hộ tiêu thụ đầu tiên đủ dài (thường > 1–2 km) và lưu lượng cấp nước lớn (Q > 0.044 m^3/s xấp xỉ 3,800 m^3/d).
-
-##### 7.3.1.5 Quy trình Kỹ thuật Định cỡ Bể Tiếp xúc Clo Serpentine Hoàn chỉnh
-##### Quy trình Kỹ thuật: Longitudinal-Serpentine Chlorine Contact Chamber Sizing Procedure
-- 1. Identify peak hourly design flow rate Q (m^3/d or m^3/min) and target t10 based on required CT and design chlorine residual C.
-- 2. Select superior baffling classification (BF = t10/t0 = 0.7) achieved via longitudinal serpentine flow channels with intra-channel turning vanes.
-- 3. Compute required theoretical hydraulic residence time: t0 = t10 / 0.7.
-- 4. Calculate required net chamber volume: V = Q * t0.
-- 5. Select water depth H (typically 2.5 to 4.0 m) based on civil site constraints and clearwell hydraulics.
-- 6. Calculate total surface area: A_surface = V / H.
-- 7. Select channel width W (typically 1.5 to 3.0 m) and number of serpentine passes N_channels.
-- 8. Verify total flow path length: L_path = A_surface / W.
-- 9. Check length-to-width aspect ratio: verify L_path / W >= 40:1. If < 40:1, reduce channel width W or increase baffle pass count.
-- 10. Add turning vanes at 180° channel bends to eliminate hydraulic dead zones and prevent short-circuiting; add 0.3–0.5 m freeboard above water surface.
-
----
-
-#### 7.3.2 Công trình Tiếp xúc & Hòa tan Ozone (Ozone Contactors & Dissolution Systems)
-- Do khí ozone có độ hòa tan trong nước thấp hơn clo khoảng 12.5 lần và có tính ăn mòn cực mạnh, công trình tiếp xúc ozone đòi hỏi cấu tạo hình học đặc biệt và các thiết bị phân tán bọt khí hiệu năng cao.
-
-##### 7.3.2.1 Bể Tiếp xúc Khí Ozone Dạng Cột Sâu với Đĩa Xốp Phân bọt Khí Mịn (Deep Bubble Diffuser Basin)
-- Đây là công nghệ kinh điển được áp dụng tại các nhà máy nước công suất lớn trên thế giới:
-  - **Chiều sâu bể nước rất sâu (5.5 – 6.5 m)**: Nhằm gia tăng áp suất thủy tĩnh đáy bể (P_{bottom} xấp xỉ 1.5 - 1.6 atm), tăng độ hòa tan bão hòa của ozone theo Định luật Henry và kéo dài thời gian bọt khí nổi lên bề mặt (thời gian tiếp xúc bọt khí > 10–15 giây).
-  - **Đĩa xốp phân bọt gốm ceramic (Ceramic Porous Diffusers)**: Có kích thước lỗ xốp 10 – 50 µm, tạo ra hàng triệu bọt khí siêu mịn đường kính 1.5 – 3.0 mm, tối đa hóa diện tích bề mặt tiếp xúc pha khí-lỏng (a, m^2/m^3).
-  - **Chế độ chảy ngược dòng (Counter-Current Flow)**: Nước sạch chảy từ trên xuống dưới trong khi bọt khí ozone nổi từ đáy lên trên, tạo động lực chênh lệch nồng độ cực đại dọc theo chiều cao bể.
-
-###### Bố trí Vách ngăn Lượn sóng Dạng Trên - Dưới (Over-Under Baffle System)
-- Bể ozone được chia thành 2 đến 4 ngăn phản ứng nối tiếp nhau bằng các vách ngăn lượn sóng trên - dưới (Over-Under Baffles) để nước luân phiên đi xuống rồi đi lên. Ngăn đầu tiên thường châm 60–70% tổng liều ozone để triệt tiêu nhu cầu ozone ban đầu (Ozone Demand), các ngăn tiếp theo châm 30–40% còn lại để duy trì nồng độ ozone hòa tan đạt giá trị CT diệt khuẩn mục tiêu.
-
-##### 7.3.2.2 Hệ thống Châm Phun Sidestream Venturi & Thiết bị Trộn Thủy lực Flash Reactor
-- Đối với các trạm cấp nước hiện đại đòi hỏi diện tích xây dựng nhỏ gọn, công nghệ Châm hòa tan Nhánh phụ (Sidestream Injection - SSI) được ưa chuộng:
-  - Một dòng nước phụ chiếm khoảng **10% đến 15%** tổng lưu lượng nhà máy được tách ra và tăng áp qua bơm cao áp (áp lực 3.0 – 5.0 bar).
-  - Dòng nước cao áp đi qua ống thu hẹp Venturi Injector tạo độ chân không hút kiệt dòng khí ozone vào tâm dòng nước với tỷ lệ khí-lỏng tối ưu.
-  - Hỗn hợp khí-lỏng đi qua buồng phản ứng nhanh (Flash Reactor / Static Mixer) tạo lực cắt thủy lực cực mạnh, hòa tan > 95% lượng ozone trong vài giây.
-  - Hỗn hợp sau đó đi qua Bình tách khí thoát (Degas Separator) để loại bỏ bọt khí oxy trơ trước khi tái hòa trộn vào dòng nước chính.
-
-##### 7.3.2.3 Hệ thống Thu gom Khí Đỉnh và Phá hủy Ozone Thừa (Thermal-Catalytic Ozone Destructor)
-- Do khí ozone cực kỳ độc hại đối với hệ hô hấp của con người (ngưỡng giới hạn tiếp xúc nghề nghiệp của OSHA là **0.1 ppm** trong 8 giờ làm việc), toàn bộ nắp bể tiếp xúc ozone phải được đậy kín tuyệt đối và duy trì áp suất âm nhẹ.
-- Khí thoát trên khoảng không đỉnh bể (off-gas) chứa 0.1% – 0.5% ozone dư chưa hòa tan được quạt hút gom dẫn qua **Thiết bị Phá hủy Ozone Thừa (Ozone Destructor)**.
-- Cơ chế phá hủy: Sử dụng chất xúc tác hỗn hợp Mangan Dioxide và Đồng Oxide (MnO_2 / CuO, Carulite®) kết hợp gia nhiệt điện trở lên 50 – 60°C để phân hủy tức thời phân tử O_3 trở lại thành khí oxy O_2 vô hại trước khi thải ra khí quyển.
-
----
-
-#### 7.3.3 Kiến trúc Phần cứng & Thiết bị Châm Khử trùng (Equipment Hardware Architecture)
-- Thiết kế hệ thống khử trùng đòi hỏi sự am hiểu sâu sắc về kiến trúc cơ khí, vật liệu chống ăn mòn và các mạch vòng tự động hóa an toàn.
-
-##### 7.3.3.1 Hệ thống Châm Khí Clo Chân không An toàn (Direct Vacuum Solution Feed Gas Chlorinators)
-- Để loại bỏ rủi ro rò rỉ khí clo áp lực cao vào nhà hóa chất, toàn bộ các hệ thống châm clo hiện đại đều ứng dụng **Nguyên lý Châm Dung dịch Chân không Trực tiếp (Direct Vacuum Solution Feed)**:
-  1. *Bình chứa khí clo (Chlorine Containers)*: Chai thép 68 kg (150-lb cylinders) hoặc bồn chứa thép 1.0 tấn (ton containers) chứa clo lỏng bão hòa ở áp suất 6 – 8 bar.
-  2. *Cụm kẹp van đầu bình và Bộ điều áp chân không (Vacuum Regulator)*: Gá trực tiếp lên van bình clo. Khí clo cao áp chỉ tồn tại trong vài centimet đầu van; bộ điều áp lập tức chuyển đổi áp suất dương thành trạng thái áp suất âm (chân không). Nếu ống dẫn khí bị vỡ hoặc rò rỉ, không khí bên ngoài sẽ bị hút vào trong chứ khí clo không thể xì ra ngoài.
-  3. *Ống đo lưu lượng khí Rotameter và Van tinh chỉnh V-Notch*: Đo lưu lượng khí clo theo vạch khắc chuẩn và tự động điều chỉnh lưu lượng châm thông qua động cơ servo kết nối với tín hiệu điều khiển lưu lượng nước (Q) và nồng độ clo dư hồi tiếp (PID).
-  4. *Bộ phun Ejector Venturi*: Nước có áp lực cao (nước động lực motive water) chảy qua họng venturi tạo độ chân không hút khí clo, hòa tan khí thành dung dịch nước clo đậm đặc (HOCl + HCl) có nồng độ 1,000 – 3,500 mg/L trước khi dẫn vào điểm châm bể tiếp xúc.
-
-##### 7.3.3.2 Hệ thống Điện phân Dung dịch Nước Muối Tạo Sodium Hypochlorite Tại Chỗ (OSHG Skid)
-- Để loại bỏ hoàn toàn việc vận chuyển và lưu trữ các bình khí clo độc hại trong khu đô thị đông dân cư, công nghệ **Điện phân Muối ăn Tạo Javel Tại Chỗ (On-Site Hypochlorite Generation - OSHG)** được ứng dụng:
-- **On-Site Electrolytic Sodium Hypochlorite Generation** (`eq_ch07_022`): $$2\text{NaCl} + 2\text{H}_2\text{O} \xrightarrow{\text{electrolysis}} 2\text{NaOH} + \text{Cl}_2 + \text{H}_2 \uparrow \rightarrow \text{NaOCl} + \text{NaCl} + \text{H}_2\text{O} + \text{H}_2 \uparrow$$
-  - *Biểu thức văn bản*: `2NaCl + 2H2O -> 2NaOH + Cl2 + H2 -> NaOCl + NaCl + H2O + H2`
-  - *Mô tả & Ý nghĩa*: Overall electrochemical reaction for the on-site generation of 0.8% dilute sodium hypochlorite solution from food-grade brine in an undivided electrolytic cell, producing explosive hydrogen gas as a vented byproduct.
-  - *Bảng biến số & Thứ nguyên*:
-    - $\text{NaCl}$: Sodium chloride salt (brine solution)
-    - $\text{H}_2\text{O}$: Softened feed water
-    - $\text{NaOCl}$: Sodium hypochlorite disinfectant (~0.8% active Cl2)
-    - $\text{H}_2$: Hydrogen gas byproduct (flammable, must be diluted below 2% in exhaust air)
-- Cấu tạo thiết bị OSHG:
-  - Bồn hòa tan muối tinh khiết (NaCl > 99.5%) và cột làm mềm nước cấp để loại bỏ triệt để ion canxi/magie (ngăn chặn đóng cặn CaCO_3/Mg(OH)_2 trên bề mặt điện cực).
-  - Buồng điện phân không màng ngăn (Undivided Electrolytic Cell): Cực dương Anode bằng titan phủ lớp hỗn hợp oxit kim loại quý (Mixed Metal Oxide - MMO RuO_2/IrO_2), cực âm Cathode bằng hợp kim Hastelloy hoặc Titan. Nguồn điện một chiều DC hạ áp (12–24 V, dòng điện hàng trăm ampe) điện phân dung dịch brine 3% tạo ra dung dịch Javel loãng **0.8% active chlorine** (dưới ngưỡng 1.0% an toàn không bị phân loại là hóa chất nguy hiểm).
-  - Bình tách khí Hydro (Hydrogen Degassing Cyclone): Phản ứng điện phân sinh ra khí hydro (H_2) dễ cháy nổ (1 mol H_2 cho mỗi mol NaOCl). Hệ thống quạt thổi khí cưỡng bức liên tục pha loãng nồng độ khí hydro xuống **dưới 1.0% – 2.0%** (rất an toàn dưới giới hạn nổ LEL = 4.0% trong không khí) trước khi xả ra đỉnh mái trạm.
-
-##### 7.3.3.3 Trạm Pha chế & Châm Chlorine Dioxide Tự động (Packaged ClO2 Generation Skids)
-- Trạm tạo ClO_2 chế tạo sẵn dạng skid kín hoàn toàn, trang bị:
-  - Bơm định lượng màng điện từ đôi hút hóa chất tiền chất (NaClO_2 và HCl).
-  - Buồng phản ứng bằng thủy tinh borosilicate hoặc PVDF được bọc vỏ bảo vệ, vận hành dưới điều kiện hút chân không bằng dòng nước động lực.
-  - Cảm biến phát hiện dòng chảy và cảm biến quang phổ hấp thụ online đo trực tiếp nồng độ ClO_2 sinh ra, tự động dừng khẩn cấp khi mất lưu lượng nước hòa tan.
-
-##### 7.3.3.4 Máy Phát Ozone Phóng điện Hoa Công nghiệp (Industrial Corona Discharge Ozonators)
-- Cấu trúc buồng phóng điện kiểu ống chùm (Shell-and-Tube Heat Exchanger):
-  - Bên trong là hàng trăm ống lưỡng cực điện môi (Dielectric Tubes) bằng thủy tinh borosilicate hoặc gốm tinh khiết cao đặt đồng tâm bên trong các ống thép không gỉ 316L.
-  - Khí oxy khô chảy qua khe hở hình xuyến siêu mỏng giữa ống thủy tinh và ống thép dưới điện trường cao thế.
-  - Nước làm mát tuần hoàn khép kín chảy liên tục bên ngoài vỏ ống chùm để tản nhiệt, duy trì nhiệt độ khí nạp < 25–30°C nhằm ngăn chặn sự tự phân hủy nhiệt của phân tử ozone.
-
-##### 7.3.3.5 Cụm Mô-đun Khử trùng Tia Cực tím UV (In-Channel Open Flume & Closed Pressure Vessel)
-- Thiết bị khử trùng UV trong xử lý nước sạch được cấu hình theo hai dạng kiến trúc chính:
-  1. *Bình áp lực bằng thép không gỉ (Closed Vessel Reactor)*: Toàn bộ dàn đèn UV đặt bên trong ống thép áp lực 316L kết nối mặt bích trực tiếp vào tuyến ống nước sau lọc. Cụm đèn bố trí vuông góc hoặc song song với dòng chảy, chịu được áp lực làm việc lên tới 10–16 bar.
-  2. *Hệ thống Mương hở (Open Channel Flume)*: Dàn đèn UV lắp trên các khung treo module thả chìm xuống kênh dẫn nước bê tông hở sau lọc cát, sử dụng đập tràn kiểm soát mực nước tự động.
-- Trang bị tiêu chuẩn bắt buộc:
-  - Vỏ bọc bảo vệ bằng ống thạch anh tinh khiết (High-Purity Quartz Sleeves) có độ truyền quang UV254 >= 90%.
-  - Cụm vòng gạt rửa cơ học tự động (Automated Wiper Rings) bằng vật liệu Teflon/Silicone, định kỳ chuyển động tịnh tiến lau sạch cáu cặn khoáng bám trên bề mặt ống thạch anh mà không cần dừng hệ thống.
-  - Cảm biến đo cường độ bức xạ UV trực tuyến (Duty UV Sensor) hiệu chuẩn theo tiêu chuẩn DVGW/USEPA gắn trên thành buồng phản ứng để liên tục giám sát liều khử trùng thực tế.
-
-
-### 7.4 Bài tập Tính toán Kỹ thuật & Thiết kế Điển hình (Engineering Calculations & Design Examples)
-- Phần này trình bày 3 bài toán tính toán kỹ thuật và thiết kế công trình khử trùng kinh điển trong chương trình đào tạo Kỹ sư Kỹ thuật Môi trường / Kỹ thuật Cấp thoát nước, bao gồm tính toán cân bằng hóa học phân ly speciation, tính toán định lượng nhu cầu clo khử trùng điểm đột biến, và tính toán thiết kế hình học - thủy lực chi tiết của bể tiếp xúc clo dạng kênh serpentine kéo dài.
-
-#### 7.4.1 Ví dụ Tính toán Cân bằng Phân ly & Tỷ lệ HOCl (Example 7-1: WaWE, 13-3)
-##### 7.4.1.1 Đề bài & Dữ liệu Kỹ thuật Ban đầu (Problem Statement & Input Parameters)
-##### 7.4.1.2 Trình tự Các Bước Tính toán Toán học Chi tiết
-###### Bước 1: Xác định Nồng độ Ion Hydrogen [H+] từ pH Môi trường
-###### Bước 2: Thiết lập Cân bằng Phân ly Acid Hypochlorous theo Nhiệt độ
-###### Bước 3: Tính toán Phân số Không Phân ly alpha_0 của HOCl
-###### Bước 4: Tính toán Phân số Phân ly alpha_1 của Ion Hypochlorite OCl-
-###### Bước 5: Xác định Nồng độ Thực tế của Từng Loài Clo trong Dung dịch
-##### 7.4.1.3 Kết quả Tính toán & Đánh giá Ý nghĩa Kỹ thuật Vận hành
-- **Mã định danh bài tập**: `EX-CH07-01`
-- **Ngữ cảnh bài toán**: 7.4.1 Hypochlorous Acid Dissociation Equilibrium (Example 7-1)
-- **Loại bài tập**: `calculation`
-- **Đề bài chi tiết**:
-  > If 15 mg/L of HOCl is added to a potable water for disinfection and the final measured pH is 7.0, what percent of the HOCl is not dissociated? Assume the temperature is 25°C.
-
-**Bảng thông số kỹ thuật đầu vào (Given Data Table)**:
-
-| Tên thông số / Ý nghĩa vật lý | Ký hiệu / Mô tả | Giá trị | Đơn vị |
-|---|---|---|---|
-| Total added hypochlorous acid dose (HOCl as Cl2) | `Total added hypochlorous acid dose (HOCl as Cl2)` | 15.0 | `mg/L` |
-| Final measured water pH | `Final measured water pH` | 7.0 | `-` |
-| Water temperature (T) | `Water temperature (T)` | 25.0 | `°C` |
-| Acid dissociation constant (Ka) of HOCl at 25°C | `Acid dissociation constant (Ka) of HOCl at 25°C` | 2.9e-08 | `mol/L` |
-| Logarithmic acid dissociation constant (pKa) at 25°C | `Logarithmic acid dissociation constant (pKa) at 25°C` | 7.537 | `-` |
-
-**Các bước tính toán toán học chi tiết (Step-by-Step Mathematical Calculation)**:
-
-```text
-Step 1: Calculate hydrogen ion molar concentration [H+] from pH:
-[H+] = 10^(-pH) = 10^(-7.00) = 1.00 × 10^-7 mol/L (M).
-
-Step 2: Hypochlorous acid aqueous dissociation equilibrium:
-HOCl <=> H+ + OCl- with Ka = ([H+][OCl-]) / [HOCl] = 2.90 × 10^-8 mol/L (pKa = 7.54 at 25°C).
-
-Step 3: Calculate the fraction of undissociated hypochlorous acid (alpha_0):
-alpha_0 = [HOCl] / ([HOCl] + [OCl-]) = [H+] / ([H+] + Ka) = 1 / (1 + Ka / [H+]) = 1 / (1 + 10^(pH - pKa))
-alpha_0 = (1.00 × 10^-7) / (1.00 × 10^-7 + 2.90 × 10^-8) = 1.00 × 10^-7 / 1.29 × 10^-7 = 0.77519 = 77.52% ≈ 77.5%.
-
-Step 4: Calculate the fraction of dissociated hypochlorite ion (alpha_1):
-alpha_1 = 1 - alpha_0 = 1 - 0.77519 = 0.22481 = 22.48% ≈ 22.5%.
-
-Step 5: Concentration speciation breakdown for 15.0 mg/L total chlorine dose:
-- Undissociated HOCl = 15.0 mg/L × 0.77519 = 11.63 mg/L (as Cl2)
-- Dissociated OCl- = 15.0 mg/L × 0.22481 = 3.37 mg/L (as Cl2)
-
-Final Answer: 77.5% undissociated HOCl (11.63 mg/L HOCl as Cl2; 22.5% dissociated as OCl-).
-```
-
-- **Đáp số cuối cùng**: **77.5% undissociated HOCl (11.63 mg/L HOCl as Cl2; 22.5% dissociated as OCl-)**
-- **Phương trình lý thuyết chi phối**:
-  - `eq_ch07_002: HOCl <=> H+ + OCl-`
-  - `eq_ch07_003: Ka = ([H+][OCl-]) / [HOCl] = 2.90e-8`
-  - `eq_ch07_004: alpha_0 = [H+] / ([H+] + Ka) = 1 / (1 + 10^(pH - pKa))`
-  - `eq_ch07_005: alpha_1 = Ka / ([H+] + Ka) = 1 - alpha_0`
-
----
-
-#### 7.4.2 Ví dụ Tính toán Liều lượng Clo Khử trùng Điểm Đột biến (Example 7-2: PoWT, 326)
-##### 7.4.2.1 Đề bài & Dữ liệu Kỹ thuật Ban đầu (Problem Statement & Input Parameters)
-##### 7.4.2.2 Trình tự Các Bước Tính toán Stoichiometry Chi tiết
-###### Trường hợp 1: Phản ứng Chuyển hóa Toàn bộ Ammonia thành Khí N2
-###### Trường hợp 2: Phản ứng Oxy hóa Hoàn toàn Ammonia thành Ion Nitrate NO3-
-###### Đánh giá Định lượng Sự Chênh lệch Nhu cầu Clo giữa Hai Phản ứng
-##### 7.4.2.3 Kết quả Tính toán & Kết luận Kỹ thuật Lựa chọn Quy trình
-- **Mã định danh bài tập**: `EX-CH07-02`
-- **Ngữ cảnh bài toán**: 7.4.2 Breakpoint Chlorination Stoichiometric Dosing (Example 7-2)
-- **Loại bài tập**: `calculation`
-- **Đề bài chi tiết**:
-  > Ammonia is added to pure water in the laboratory to reach a concentration of 1 mg/L as N. Estimate the chlorine dose needed to reach breakpoint for the following conditions: (1) all the ammonia is converted to nitrogen gas (N2) and (2) all the ammonia is converted to nitrate ion (NO3-). Which reaction requires less chlorine?
-
-**Bảng thông số kỹ thuật đầu vào (Given Data Table)**:
-
-| Tên thông số / Ý nghĩa vật lý | Ký hiệu / Mô tả | Giá trị | Đơn vị |
-|---|---|---|---|
-| Ammonia-nitrogen concentration ([NH3-N]) | `Ammonia-nitrogen concentration ([NH3-N])` | 1.0 | `mg/L as N` |
-| Atomic weight of Nitrogen (N) | `Atomic weight of Nitrogen (N)` | 14.007 | `g/mol` |
-| Molecular weight of Chlorine gas (Cl2) | `Molecular weight of Chlorine gas (Cl2)` | 70.906 | `g/mol` |
-| Reaction 1 Stoichiometric molar ratio (mol Cl2 / mol N) | `Reaction 1 Stoichiometric molar ratio (mol Cl2 / mol N)` | 1.5 | `mol/mol` |
-| Reaction 2 Stoichiometric molar ratio (mol Cl2 / mol N) | `Reaction 2 Stoichiometric molar ratio (mol Cl2 / mol N)` | 4.0 | `mol/mol` |
-
-**Các bước tính toán toán học chi tiết (Step-by-Step Mathematical Calculation)**:
-
-```text
-Step 1: Stoichiometric Evaluation for Condition (1) - Conversion to Nitrogen Gas (N2):
-- Chemical equation: 2 NH3 + 3 Cl2 -> N2 + 6 HCl (or 2 NH3 + 3 HOCl -> N2 + 3 H2O + 3 HCl)
-- Molar stoichiometry: 3 moles of Cl2 (3 × 70.906 = 212.718 g Cl2) react with 2 moles of NH3-N (2 × 14.007 = 28.014 g N).
-- Stoichiometric mass ratio: R_mass,1 = (3 × 70.906 g Cl2) / (2 × 14.007 g N) = 212.718 / 28.014 = 7.5933 mg Cl2 / mg NH3-N ≈ 7.60 mg Cl2 / mg N.
-- Required chlorine dose for 1.0 mg/L NH3-N: Dose_Cl2,1 = 1.0 mg N/L × 7.5933 mg Cl2/mg N = 7.5933 mg/L ≈ 7.60 mg/L Cl2.
-
-Step 2: Stoichiometric Evaluation for Condition (2) - Conversion to Nitrate Ion (NO3-):
-- Chemical equation: NH3 + 4 Cl2 + 3 H2O -> HNO3 + 8 HCl (or NH3 + 4 HOCl -> HNO3 + 4 HCl + H2O)
-- Molar stoichiometry: 4 moles of Cl2 (4 × 70.906 = 283.624 g Cl2) react with 1 mole of NH3-N (1 × 14.007 = 14.007 g N).
-- Stoichiometric mass ratio: R_mass,2 = (4 × 70.906 g Cl2) / (1 × 14.007 g N) = 283.624 / 14.007 = 20.2487 mg Cl2 / mg NH3-N ≈ 20.25 mg Cl2 / mg N.
-- Required chlorine dose for 1.0 mg/L NH3-N: Dose_Cl2,2 = 1.0 mg N/L × 20.2487 mg Cl2/mg N = 20.2487 mg/L ≈ 20.25 mg/L Cl2.
-
-Step 3: Engineering Comparison and Selection:
-- Condition (1) converting ammonia to nitrogen gas (N2) requires 7.60 mg/L Cl2.
-- Condition (2) converting ammonia to nitrate (NO3-) requires 20.25 mg/L Cl2.
-- Reaction (1) requires substantially less chlorine (less by 12.65 mg/L, or 62.5% lower chlorine consumption, factor of 2.67 lower).
-
-Final Answer: (1) N2 gas conversion requires 7.60 mg/L Cl2; (2) NO3- conversion requires 20.25 mg/L Cl2. Reaction (1) converting ammonia to N2 gas requires 62.5% less chlorine (7.60 mg/L vs 20.25 mg/L).
-```
-
-- **Đáp số cuối cùng**: **(1) N2 formation requires 7.60 mg/L Cl2; (2) NO3- formation requires 20.25 mg/L Cl2. Reaction 1 (conversion to N2 gas) requires substantially less chlorine (7.60 mg/L vs 20.25 mg/L).**
-- **Phương trình lý thuyết chi phối**:
-  - `eq_ch07_014: 2NH3 + 3Cl2 -> N2 + 6HCl (Stoichiometric mass ratio = 7.60 mg Cl2 / mg N)`
-  - `eq_ch07_015: NH3 + 4Cl2 + 3H2O -> HNO3 + 8HCl (Stoichiometric mass ratio = 20.25 mg Cl2 / mg N)`
-
----
-
-#### 7.4.3 Ví dụ Tính toán Thiết kế Toàn diện Bể Tiếp xúc Serpentine (Example 7-3: WaWE, 13-32)
-##### 7.4.3.1 Đề bài & Dữ liệu Kỹ thuật Ban đầu (Problem Statement & Input Parameters)
-##### 7.4.3.2 Trình tự 6 Bước Tính toán Kỹ thuật & Thủy lực Công trình Chi tiết
-###### Bước 1: Quy đổi Lưu lượng Thiết kế Q sang Các Đơn vị Thời gian
-###### Bước 2: Tính toán Thời gian Lưu Lý thuyết t0 và Thể tích Hữu ích của Bể
-###### Bước 3: Xác định Diện tích Mặt bằng và Chiều sâu Xây dựng Bể Tiếp xúc
-###### Bước 4: Thiết kế Hình học Kênh Dòng chảy Serpentine và Kiểm tra Tỷ lệ Dài/Rộng Aspect Ratio
-###### Bước 5: Tính toán Vận tốc Thủy lực, Bán kính Thủy lực và Kiểm tra Chế độ Chảy Rối (Re, Fr)
-###### Bước 6: Tính toán Tổn thất Cột nước do Ma sát (Manning) và Tổn thất Cục bộ tại Khúc quay 180 Độ
-##### 7.4.3.3 Bảng Tổng hợp Kết quả Thiết kế & Thông số Kỹ thuật Công trình Hoàn chỉnh
-- **Mã định danh bài tập**: `EX-CH07-03`
-- **Ngữ cảnh bài toán**: 7.4.3 Longitudinal-Serpentine Contact Chamber Design (Example 7-3)
-- **Loại bài tập**: `calculation`
-- **Đề bài chi tiết**:
-  > Design a longitudinal-serpentine chlorine contact chamber for a design flow of 18,400 m3/d. The required t10 to achieve a C.t of 200 is 100 min. The design must provide superior performance, that is t10/t0 = 0.7.
-
-**Bảng thông số kỹ thuật đầu vào (Given Data Table)**:
-
-| Tên thông số / Ý nghĩa vật lý | Ký hiệu / Mô tả | Giá trị | Đơn vị |
-|---|---|---|---|
-| Design daily flow rate (Q) | `Design daily flow rate (Q)` | 18400.0 | `m^3/d` |
-| Design hourly flow rate (Q) | `Design hourly flow rate (Q)` | 766.67 | `m^3/h` |
-| Design minute flow rate (Q) | `Design minute flow rate (Q)` | 12.778 | `m^3/min` |
-| Design second flow rate (Q) | `Design second flow rate (Q)` | 0.213 | `m^3/s` |
-| Required 90th percentile contact time (t10) | `Required 90th percentile contact time (t10)` | 100.0 | `min` |
-| Disinfection credit requirement (C·t) | `Disinfection credit requirement (C·t)` | 200.0 | `mg·min/L` |
-| Target free chlorine residual (C) | `Target free chlorine residual (C)` | 2.0 | `mg/L` |
-| Superior baffling factor (BF = t10/t0) | `Superior baffling factor (BF = t10/t0)` | 0.7 | `-` |
-| Minimum flow path length-to-channel width ratio (L_path/W_c) | `Minimum flow path length-to-channel width ratio (L_path/W_c)` | 40.0 | `-` |
-| Selected liquid water depth (H) | `Selected liquid water depth (H)` | 3.0 | `m` |
-| Selected freeboard height | `Selected freeboard height` | 0.5 | `m` |
-| Selected channel width (W_c) | `Selected channel width (W_c)` | 2.5 | `m` |
-| Number of serpentine channel passes (N_channels) | `Number of serpentine channel passes (N_channels)` | 6 | `channels` |
-| Interior baffle wall thickness (t_wall) | `Interior baffle wall thickness (t_wall)` | 0.2 | `m` |
-| Manning roughness coefficient (n) | `Manning roughness coefficient (n)` | 0.013 | `-` |
-| 180-degree bend minor loss coefficient (K_b) | `180-degree bend minor loss coefficient (K_b)` | 2.5 | `-` |
-| Kinematic viscosity of water at 20°C (nu) | `Kinematic viscosity of water at 20°C (nu)` | 1.004e-06 | `m^2/s` |
-| Acceleration of gravity (g) | `Acceleration of gravity (g)` | 9.81 | `m/s^2` |
-
-**Các bước tính toán toán học chi tiết (Step-by-Step Mathematical Calculation)**:
-
-```text
-Step 1: Design Flow Rate and Unit Conversions:
-Design flow Q = 18,400 m^3/d = 766.67 m^3/h = 12.7778 m^3/min = 0.21296 m^3/s.
-
-Step 2: Theoretical Detention Time (t0) and Basin Volume (V):
-- Required t_10 = 100.0 min (satisfies C·t = 200 mg·min/L at disinfectant residual C = 2.0 mg/L).
-- Superior baffling factor (Slide 36): BF = t_10 / t_0 = 0.70.
-- Theoretical hydraulic detention time t_0 = t_10 / 0.70 = 100.0 min / 0.70 = 142.857 min ≈ 142.9 min (2.381 h = 8,571.4 s).
-- Required liquid basin volume V = Q × t_0 = (12.7778 m^3/min) × (142.857 min) = 1,825.40 m^3.
-
-Step 3: Basin Surface Area and Depth Sizing:
-- Select standard water depth H = 3.00 m (standard practice 2.5–4.0 m).
-- Required surface area A_s = V / H = 1,825.40 m^3 / 3.00 m = 608.47 m^2.
-- Total basin structural depth with 0.50 m freeboard: H_total = 3.00 + 0.50 = 3.50 m.
-
-Step 4: Longitudinal-Serpentine Channel Geometry and Baffling Layout:
-- To guarantee superior plug flow (Slide 33), maintain aspect ratio L_path / W_c >= 40:1.
-- Select channel width W_c = 2.50 m.
-- Total flow path length L_path = A_s / W_c = 608.47 m^2 / 2.50 m = 243.39 m ≈ 243.4 m.
-- Aspect ratio verification: L_path / W_c = 243.39 / 2.50 = 97.36 >> 40 (superior plug flow performance confirmed).
-- Select N_c = 6 parallel serpentine passes.
-- Length of each channel pass L_c = L_path / N_c = 243.39 m / 6 = 40.565 m ≈ 40.60 m.
-- Overall Basin Width W_basin = (6 channels × 2.50 m) + (5 baffle walls × 0.20 m) = 15.00 m + 1.00 m = 16.00 m.
-- Inside Basin Plan Dimensions: Length L = 40.60 m, Width W = 16.00 m, Total Depth H = 3.50 m.
-
-Step 5: Flow Hydraulics and Flow Regime Check:
-- Cross-sectional flow area A_x = W_c × H = 2.50 m × 3.00 m = 7.50 m^2.
-- Mean horizontal flow velocity v_h = Q / A_x = (0.21296 m^3/s) / (7.50 m^2) = 0.02840 m/s = 2.84 cm/s (1.70 m/min).
-- Wetted perimeter P = W_c + 2×H = 2.50 + 2(3.00) = 8.50 m.
-- Hydraulic radius R_h = A_x / P = 7.50 / 8.50 = 0.8824 m.
-- Reynolds number Re = (v_h × 4×R_h) / nu = [0.02840 × (4 × 0.8824)] / (1.004 × 10^-6) = 99,850 (turbulent flow, suppresses dead zones and short-circuiting).
-- Froude number Fr = v_h^2 / (g × R_h) = (0.02840)^2 / (9.81 × 0.8824) = 9.32 × 10^-5 << 1 (stable subcritical flow).
-
-Step 6: Total Hydraulic Headloss Assessment:
-- Friction loss h_f via Manning equation (n = 0.013):
-  h_f = L_path × [(n × v_h) / (R_h^(2/3))]^2 = 243.4 × [(0.013 × 0.02840) / (0.8824)^(2/3)]^2 = 243.4 × [0.0003692 / 0.9198]^2 = 3.92 × 10^-5 m ≈ 0.04 mm.
-- Minor headloss at five 180° turns (N_c - 1 = 5 turns, K_b = 2.5):
-  h_m = 5 × K_b × (v_h^2 / (2×g)) = 5 × 2.5 × [(0.02840)^2 / (2 × 9.81)] = 12.5 × [0.0008066 / 19.62] = 5.14 × 10^-4 m = 0.51 mm.
-- Total hydraulic headloss h_L = h_f + h_m = 0.04 mm + 0.51 mm = 0.55 mm ≈ 0.001 m (gravity headloss is minimal and acceptable).
-
-Final Answers:
-- Theoretical detention time t_0 = 142.9 min (2.38 hours = 8,571 s)
-- Basin volume V = 1,825.4 m^3
-- Basin dimensions: Length L = 40.60 m, Width W = 16.00 m, Water depth H = 3.00 m (Total depth = 3.50 m with 0.5 m freeboard)
-- Number of channel passes = 6 passes @ 2.50 m channel width (5 baffle walls @ 0.20 m)
-- Total flow path length L_path = 243.4 m (L_path / W_c = 97.4 >= 40)
-- Horizontal velocity v_h = 0.0284 m/s (2.84 cm/s = 1.70 m/min)
-- Reynolds number Re = 99,850
-- Total hydraulic headloss h_L = 0.55 mm ≈ 0.001 m.
-```
-
-- **Đáp số cuối cùng**: **Theoretical detention time t_0 = 142.9 min (2.38 h); Basin volume V = 1,825.4 m^3; Dimensions: 40.60 m (L) x 16.00 m (W) x 3.50 m (H total, 3.0 m water depth + 0.5 m freeboard); 6 serpentine channels @ 2.50 m width; Total flow path L_path = 243.4 m (L_path/W_c = 97.4); Horizontal velocity v_h = 0.0284 m/s (2.84 cm/s); Reynolds number Re = 99,850; Total headloss h_L = 0.55 mm (0.001 m).**
-- **Phương trình lý thuyết chi phối**:
-  - `eq_ch07_030: CT = C * t_10`
-  - `eq_ch07_031: t_10 = BF * t_0 = (t10/t0) * (V/Q)`
-  - `eq_ch07_032: t_0 = V / Q`
-  - `eq_ch07_034: Aspect Ratio = L_path / W_channel >= 40:1`
-
-
-### 7.5 Vận hành, Xử lý Sự cố & Tiêu chuẩn Quy chuẩn Kỹ thuật (Operation, Troubleshooting & Regulations)
-
-#### 7.5.1 Cẩm nang Chẩn đoán & Xử lý Sự cố Kỹ thuật Trạm Khử trùng (Troubleshooting Matrix)
-- Trong quá trình quản lý vận hành trạm khử trùng nước cấp và mạng lưới phân phối, người vận hành thường đối mặt với các sự cố bất thường liên quan đến hóa lý, vi sinh và hư hỏng phần cứng thiết bị. Dưới đây là bảng chẩn đoán nguyên nhân gốc rễ và quy trình khắc phục kỹ thuật cho 6 sự cố điển hình:
-
-##### 7.5.1.1 Sự cố 1: Tụt giảm Clo Dư Đột ngột ở Cuối Mạng lưới Phân phối (Rapid Chlorine Residual Depletion)
-- **Hiện tượng & Sự cố ghi nhận**: Rapid Chlorine Residual Depletion and Loss in Distribution Network Extremities
-###### Nguyên nhân Gốc rễ & Triệu chứng Nhận biết
-- High biofouling or sediment accumulation in old distribution pipes; nitrification occurring in chloraminated networks where free ammonia accelerates chloramine decay; excessive unreacted TOC/DOC reacting as secondary chlorine demand; or water age exceeding hydraulic turnover capacity (> 48–72 hours).
-###### Giải pháp Kỹ thuật & Biện pháp Khắc phục Triệt để
-- Implement systematic unidirectional main flushing to purge pipe biofilm and accumulated tuberculation; convert chloraminated system temporarily to free chlorine ('burn' cycle) to eradicate nitrifying bacteria; optimize upstream coagulation/PAC dosing to lower TOC < 2.0 mg/L; manage finished water storage tank turnover to maintain water age < 24–48 hours; install automated booster chlorination stations at network extremities.
-
-##### 7.5.1.2 Sự cố 2: Nồng độ Sản phẩm phụ TTHM và HAA5 Vượt ngưỡng Quy chuẩn (DBP Exceedance)
-- **Hiện tượng & Sự cố ghi nhận**: Exceedance of Maximum Contaminant Levels for TTHMs (> 80 µg/L) and HAA5 (> 60 µg/L)
-###### Nguyên nhân Gốc rễ & Triệu chứng Nhận biết
-- Excessive Natural Organic Matter (NOM) humic/fulvic precursors in raw water reacting with free chlorine; prechlorination applied at plant headworks before coagulation/settling; elevated summer water temperatures and high finished water pH (> 8.0) promoting THM formation kinetics; or extended detention times in clearwells and storage reservoirs.
-###### Giải pháp Kỹ thuật & Biện pháp Khắc phục Triệt để
-- Relocate chlorine dosing point from raw water intake to post-filtration (eliminate prechlorination); practice Enhanced Coagulation (lower coagulation pH to 5.5–6.3 using alum/ferric) to achieve 45–60% TOC removal prior to chlorination; switch primary disinfection to Ozone or UV while utilizing chloramines (monochloramine) for secondary distribution residual; implement tank aeration/air-stripping in distribution reservoirs to volatilize THMs.
-
-##### 7.5.1.3 Sự cố 3: Không Đạt Chỉ số Tích số CT theo Tiêu chuẩn Diệt khuẩn (CT Compliance Failure)
-- **Hiện tượng & Sự cố ghi nhận**: Inadequate Disinfection CT Value / Regulatory Microbial Compliance Failure
-###### Nguyên nhân Gốc rễ & Triệu chứng Nhận biết
-- Severe hydraulic short-circuiting in unbaffled contact basins (actual t10 much lower than theoretical t0); sudden winter water temperature drop (< 5°C) drastically increasing required CT values; elevated pH (> 8.0) shifting free chlorine from HOCl to weak OCl-; or peak hydraulic flow exceeding design capacity.
-###### Giải pháp Kỹ thuật & Biện pháp Khắc phục Triệt để
-- Retrofit contact basins with longitudinal baffle walls and turning vanes to upgrade baffling factor from poor (0.3) to superior (0.7); adjust seasonal chlorine dosage upward to compensate for low water temperatures; inject sulfuric acid or carbon dioxide to control chlorination pH within optimal 6.5–7.2 window; utilize multiple disinfectant barriers (e.g. UV primary + chlorine secondary).
-
-##### 7.5.1.4 Sự cố 4: Nổ / Hư hỏng Điện cực và Ăn mòn Buồng Phóng điện Máy Ozone (Ozone Generator Failure)
-- **Hiện tượng & Sự cố ghi nhận**: Ozone Generator Dielectric Failure and Severe Equipment Corrosion
-###### Nguyên nhân Gốc rễ & Triệu chứng Nhận biết
-- Desiccant air dryer failure or chiller malfunction delivering moist ambient air (dew point > -50°C) into the corona discharge gap, causing electron bombardment of nitrogen and moisture to generate highly corrosive nitric acid (HNO3) vapor that dissolves stainless steel electrodes and cracks glass dielectric tubes.
-###### Giải pháp Kỹ thuật & Biện pháp Khắc phục Triệt để
-- Immediately shut down generator; replace depleted desiccant alumina/molecular sieve beds; repair refrigeration pre-chiller; install automated inline moisture dew-point hygrometers with interlocked auto-shutdown if dew point rises above -60°C; flush dielectric assemblies with dry nitrogen and replace cracked tubes; consider converting feed gas infrastructure to Liquid Oxygen (LOX).
-
-##### 7.5.1.5 Sự cố 5: Vượt Giới hạn Cho phép của Ion Chlorite (ClO2- > 1.0 mg/L) trong Hệ thống ClO2
-- **Hiện tượng & Sự cố ghi nhận**: Chlorite (ClO2-) Exceedance (> 1.0 mg/L) in Chlorine Dioxide Systems
-###### Nguyên nhân Gốc rễ & Triệu chứng Nhận biết
-- Overdosing chlorine dioxide (dose > 1.2–1.5 mg/L) to treat high-demand raw waters; poor chemical generator conversion efficiency (< 95%) leaving excess unreacted chlorite or chlorine; or lack of ferrous iron / sulfite reducing quench.
-###### Giải pháp Kỹ thuật & Biện pháp Khắc phục Triệt để
-- Optimize ClO2 generator tuning and stoichiometric reactant ratio (HCl:NaClO2 or Cl2:NaClO2) to ensure > 95–98% conversion efficiency; cap maximum ClO2 dose ≤ 1.2 mg/L; dose 1.0 to 1.5 mg/L Ferrous Iron (FeSO4) or Sodium Bisulfite (NaHSO3) post-contact to rapidly reduce chlorite ion (ClO2-) to harmless chloride (Cl-).
-
-##### 7.5.1.6 Sự cố 6: Suy giảm Cường độ Bức xạ và Đóng cặn Ống Thạch anh Đèn UV (UV Lamp Degradation & Scaling)
-- **Hiện tượng & Sự cố ghi nhận**: UV Reactor Lamp Output Degradation and Quartz Sleeve Mineral Scaling
-###### Nguyên nhân Gốc rễ & Triệu chứng Nhận biết
-- Precipitation of calcium carbonate (hardness scaling) and iron/manganese oxide films on the exterior surface of hot quartz sleeves; solarization and aging of mercury arc lamps exceeding rated operational life (typically > 8,000–12,000 hours); or upstream coagulant carryover dropping water UV Transmittance (% UVT < 80%).
-###### Giải pháp Kỹ thuật & Biện pháp Khắc phục Triệt để
-- Program automated mechanical wiper rings to cycle every 15–60 minutes; execute periodic off-line chemical cleaning of quartz sleeves using 5% citric acid or phosphoric acid solution; replace mercury lamps reaching 80% initial intensity; optimize upstream coagulation/filtration to maintain effluent turbidity < 0.2 NTU and % UVT > 88–92%.
-
-#### 7.5.2 Hệ thống Quy chuẩn, Tiêu chuẩn Kỹ thuật Quốc gia & Quốc tế (Regulatory Standards)
-- Công tác khử trùng nước cấp chịu sự điều chỉnh pháp lý bắt buộc của các quy chuẩn vệ sinh y tế và tiêu chuẩn thiết kế xây dựng chuyên ngành:
-
-##### 7.5.2.1 Quy chuẩn Kỹ thuật Quốc gia QCVN 01-1:2018/BYT về Chất lượng Nước sạch Sử dụng cho Mục đích Sinh hoạt
-- **Mã tiêu chuẩn**: `QCVN 01-1:2018/BYT`
-- **Tên quy chuẩn / tiêu chuẩn**: National Technical Regulation on Domestic Water Quality (Quy chuẩn kỹ thuật quốc gia về chất lượng nước sạch sử dụng cho mục đích sinh hoạt)
-- **Cơ quan ban hành**: Ministry of Health of Vietnam (Bộ Y tế)
-- **Phạm vi áp dụng**: Mandatory national drinking water standard establishing chemical, physical, and microbiological limits for tap water supplied by water treatment utilities.
-###### Bảng Giới hạn Bắt buộc về Clo Dư, Chỉ số Vi sinh Coliform/E.coli và Các Loài DBP
-| Chỉ tiêu kiểm soát | Ngưỡng giới hạn quy chuẩn | Đơn vị tính / Ghi chú |
-|---|---|---|
-| `Free_Chlorine_Residual_at_Tap` | **0.2 – 1.0 mg/L (min 0.2 mg/L at all distribution points)** | Tuân thủ bắt buộc |
-| `Total_Coliforms` | **0 CFU / 100 mL** | Tuân thủ bắt buộc |
-| `Escherichia_coli` | **0 CFU / 100 mL** | Tuân thủ bắt buộc |
-| `Total_Trihalomethanes_TTHM` | **<= 100 µg/L (0.10 mg/L)** | Tuân thủ bắt buộc |
-| `Chloroform` | **<= 300 µg/L** | Tuân thủ bắt buộc |
-| `Bromoform` | **<= 100 µg/L** | Tuân thủ bắt buộc |
-| `Dibromochloromethane` | **<= 100 µg/L** | Tuân thủ bắt buộc |
-| `Bromodichloromethane` | **<= 60 µg/L** | Tuân thủ bắt buộc |
-
-##### 7.5.2.2 Tiêu chuẩn Thiết kế TCXDVN 33:2006 của Bộ Xây dựng Việt Nam (Cấp nước - Mạng lưới đường ống và công trình)
-- **Mã tiêu chuẩn**: `TCXDVN 33:2006`
-- **Tên quy chuẩn / tiêu chuẩn**: Water Supply – Distribution System and Facilities: Standard Design (Cấp nước – Mạng lưới đường ống và công trình – Tiêu chuẩn thiết kế)
-- **Cơ quan ban hành**: Ministry of Construction of Vietnam (Bộ Xây dựng)
-- **Phạm vi áp dụng**: National standard governing hydraulic design, contact chamber geometry, chlorine dosing capacity, storage safety, and contact time criteria for municipal water treatment plants.
-###### Quy định về Thời gian Tiếp xúc Tối thiểu (>= 30 phút), Dự phòng Thiết bị 100% và An toàn Khí Clo
-| Chỉ tiêu kiểm soát | Ngưỡng giới hạn quy chuẩn | Đơn vị tính / Ghi chú |
-|---|---|---|
-| `Chlorine_Contact_Time` | **Minimum >= 30 minutes at maximum hourly design flow rate** | Tuân thủ bắt buộc |
-| `Clearwell_Contact_Provision` | **Integrated contact baffle walls required to prevent short-circuiting** | Tuân thủ bắt buộc |
-| `Chlorine_Dosing_System_Redundancy` | **100% standby chlorinator capacity required (N+1)** | Tuân thủ bắt buộc |
-| `Chlorine_Storage_Safety` | **Dedicated leak containment, emergency scrubber, and auto-shutoff valves** | Tuân thủ bắt buộc |
-
-##### 7.5.2.3 Khung Pháp lý Quốc tế: USEPA Surface Water Treatment Rule (SWTR) & Disinfection Byproducts Rules (D/DBPR)
-- **Mã tiêu chuẩn**: `USEPA SWTR & Stage 1 / Stage 2 D/DBPR`
-- **Tên quy chuẩn / tiêu chuẩn**: USEPA Surface Water Treatment Rule (SWTR) and Disinfectants and Disinfection Byproducts Rules (D/DBPR)
-- **Cơ quan ban hành**: United States Environmental Protection Agency (USEPA)
-- **Phạm vi áp dụng**: Comprehensive federal standards governing microbial pathogen log-inactivation (Giardia, Cryptosporidium, viruses) via CT tables and Maximum Contaminant Levels (MCL/MRDL) for chemical disinfectants and DBPs.
-###### Quy định Tín chỉ Log Bất hoạt Mầm bệnh (Giardia, Crypto, Virus) và Tính toán Trung bình Động LRAA
-| Chỉ tiêu kiểm soát | Ngưỡng giới hạn quy chuẩn | Đơn vị tính / Ghi chú |
-|---|---|---|
-| `Giardia_lamblia_Inactivation` | **>= 3-log (99.9%) reduction credit through combined filtration and disinfection** | Tuân thủ bắt buộc |
-| `Enteric_Virus_Inactivation` | **>= 4-log (99.99%) reduction credit** | Tuân thủ bắt buộc |
-| `Cryptosporidium_Inactivation` | **>= 2-log to 4-log reduction via UV (40 mJ/cm2) or ozone** | Tuân thủ bắt buộc |
-| `Total_Trihalomethanes_TTHM_MCL` | **<= 80 µg/L (0.080 mg/L) calculated on Locational Running Annual Average (LRAA)** | Tuân thủ bắt buộc |
-| `Haloacetic_Acids_HAA5_MCL` | **<= 60 µg/L (0.060 mg/L) calculated on LRAA** | Tuân thủ bắt buộc |
-| `Bromate_MCL` | **<= 10 µg/L (0.010 mg/L)** | Tuân thủ bắt buộc |
-| `Chlorite_MCL` | **<= 1.0 mg/L** | Tuân thủ bắt buộc |
-| `MRDL_Free_Chlorine_and_Chloramines` | **4.0 mg/L as Cl2** | Tuân thủ bắt buộc |
-| `MRDL_Chlorine_Dioxide` | **0.8 mg/L as ClO2** | Tuân thủ bắt buộc |
-
-#### 7.5.3 Bảng Danh mục Tổng hợp 33 Thông số Kỹ thuật Thiết kế (Design Parameter Catalog)
-- Bảng tổng hợp toàn bộ 33 thông số kỹ thuật thiết kế và giới hạn kiểm soát vận hành cốt lõi trong công nghệ khử trùng nước cấp:
-
-| STT | Tên thông số kỹ thuật | Ký hiệu | Giá trị khuyến nghị / Giới hạn | Đơn vị | Quy trình công nghệ | Slide | Ghi chú thiết kế kỹ thuật |
+| **Khí Ozone ($\text{O}_3$)** | 6.0 – 9.0 | **1.4** | **1.0** | Hiệu lực oxy hóa mạnh nhất. Giá trị $CT$ nhỏ hơn clo tự do 80 đến 100 lần. |
+| **Chlorine Dioxide ($\text{ClO}_2$)** | 6.0 – 9.0 | **23.0** | **25.1** | Hiệu lực ổn định không phụ thuộc pH. Tác dụng với Giardia tốt hơn clo tự do 5 lần. |
+| **Clo Tự do ($\text{HOCl/OCl}^-$)** | 7.0 | **115.0** | **6.0** | Diệt virus rất nhanh nhưng đòi hỏi thời gian tiếp xúc dài để diệt u nang Giardia. |
+| **Clo Tự do ($\text{HOCl/OCl}^-$)** | 8.0 | **166.0** | **15.0** | Hiệu lực giảm mạnh khi pH tăng do $\text{HOCl}$ phân ly thành $\text{OCl}^-$. |
+| **Chloramines ($\text{NH}_2\text{Cl}$)** | 6.0 – 9.0 | **1,850.0** | **1,491.0** | Động học diệt khuẩn rất chậm. Chỉ dùng duy trì nồng độ bảo vệ thứ cấp trên mạng lưới. |
+
+##### 7.2.4.3 Kiến trúc Khử trùng Đa Hàng rào Bảo vệ (Multi-Barrier Approach)
+- Không có một công nghệ đơn lẻ nào đáp ứng hoàn hảo cả hai yêu cầu: diệt triệt để ký sinh trùng và duy trì clo dư mạng lưới.
+- Nhà máy nước hiện đại triển khai kiến trúc Khử trùng Hai Cấp (Dual-Stage Disinfection):
+  1. *Khử trùng Sơ cấp (Primary Disinfection)*:
+     - Bố trí ngay sau bể lọc hạt cát hoặc màng siêu lọc.
+     - Áp dụng Bức xạ cực tím UV ($D = 40\text{ mJ/cm}^2$) hoặc Ozone ($Dose = 1.0 - 2.0\text{ mg/L}$).
+     - Mục tiêu: Đạt tín chỉ tiêu diệt $\ge 3.0\text{-log}$ Giardia và $\ge 4.0\text{-log}$ Cryptosporidium và virus.
+     - Lợi ích: Triệt tiêu nguy cơ phát sinh phụ phẩm THMs và HAAs do không châm clo tự do liều cao vào nước.
+  2. *Khử trùng Thứ cấp (Secondary Disinfection)*:
+     - Châm vào dòng nước sạch trước khi vào bể chứa hoặc trạm bơm cấp nước mạng lưới.
+     - Áp dụng Clo tự do liều nhỏ ($0.5 - 1.0\text{ mg/L}$) hoặc Monochloramine ($1.5 - 2.5\text{ mg/L}$).
+     - Mục tiêu: Duy trì nồng độ khử trùng dư từ $0.2\text{ mg/L}$ đến $0.5\text{ mg/L}$ tại mọi điểm tiêu thụ xa nhất.
+     - Lợi ích: Ức chế vi khuẩn tái sinh và ngăn chặn sự phát triển của màng sinh học trong lòng ống dẫn.
+
+##### 7.2.4.4 Quy trình Kỹ thuật Vận hành và Xử lý Sự cố Hệ thống Khử trùng Thay thế
+- **Quy trình 5 bước lựa chọn công nghệ khử trùng**:
+  1. Khảo sát chất lượng nước thô: Đo TOC, độ màu, độ đục. Xác định nồng độ ion bromide ($\text{Br}^-$) và u nang ký sinh trùng.
+  2. Đánh giá nguy cơ tạo phụ phẩm DBP: Bỏ clo sơ cấp nếu $\text{TOC} > 2.0\text{ mg/L}$. Cẩn trọng với ozone nếu $\text{Br}^- > 50\ \mu\text{g/L}$.
+  3. Chọn khử trùng sơ cấp: Chọn UV khi $\%\text{UVT} \ge 85\%$. Chọn Ozone khi cần xử lý thêm màu và mùi phenol.
+  4. Chọn khử trùng thứ cấp: Chọn Monochloramine cho mạng lưới truyền tải dài. Chọn Clo tự do cho mạng lưới nhỏ gọn.
+  5. Định cỡ thiết bị: Tính dung tích bể theo chỉ số $CT$. Tính dàn đèn UV theo liều bức xạ $D$.
+- **Quy trình xử lý 4 sự cố kỹ thuật đặc thù**:
+  1. *Sự cố khí ẩm lọt vào máy phát ozone sinh axit nitric ($\text{HNO}_3$)*:
+     - Dấu hiệu: Cảm biến báo $T_{dew} > -50^\circ\text{C}$. Dòng điện hồ quang sụt giảm. Vết ăn mòn xanh xuất hiện trên điện cực.
+     - Nguyên nhân: Hạt hút ẩm desiccant bị no nước. Hoặc máy sấy lạnh hỏng lốc nén làm lạnh.
+     - Khắc phục: Ngắt điện hệ thống phóng điện. Thay mới hạt hút ẩm alumina. Sấy buồng phóng điện bằng khí nitơ khô trước khi bật lại.
+  2. *Sự cố nồng độ clorit ($\text{ClO}_2^-$) vượt ngưỡng $> 1.0\text{ mg/L}$ ở hệ thống $ClO_2$*:
+     - Dấu hiệu: Đo kiểm quang phổ ghi nhận $\text{ClO}_2^- > 1.0\text{ mg/L}$.
+     - Nguyên nhân: Liều châm $ClO_2$ vượt quá $1.4\text{ mg/L}$. Hoặc hiệu suất tạo khí giảm dưới 90% làm dư $\text{NaClO}_2$.
+     - Khắc phục: Chỉnh đúng tỷ lệ cấp hóa chất. Giảm liều châm $ClO_2 \le 1.2\text{ mg/L}$. Châm $1.0 - 1.5\text{ mg/L}\ \text{FeSO}_4$ để khử ion clorit.
+  3. *Sự cố suy giảm cường độ bức xạ và đóng cặn trên ống thạch anh đèn UV*:
+     - Dấu hiệu: Cảm biến UV báo cường độ bức xạ giảm dưới 70% mức thiết kế. Còi báo động phát tín hiệu.
+     - Nguyên nhân: Cáu cặn canxi hoặc sắt bám trên ống thạch anh. Hoặc bóng đèn đã hết tuổi thọ.
+     - Khắc phục: Tăng chu kỳ gạt rửa lên 15 phút một lần. Tẩy cặn định kỳ bằng axit citric 5%. Thay bóng đèn khi hết tuổi thọ định mức.
+  4. *Sự cố nồng độ bromat ($\text{BrO}_3^-$) vượt ngưỡng $> 10\ \mu\text{g/L}$ ở hệ thống Ozone*:
+     - Dấu hiệu: Nước sau xử lý có hàm lượng $\text{BrO}_3^- > 0.010\text{ mg/L}$.
+     - Nguyên nhân: Nước nguồn nhiễm mặn chứa nhiều ion $\text{Br}^-$. Hoặc hệ thống châm ozone tại pH cao ($\text{pH} > 7.5$).
+     - Khắc phục: Châm axit sulfuric chỉnh pH xuống $6.0 - 6.5$. Châm $0.2\text{ mg/L}$ amoniac trước bể ozone để chặn tạo bromat.
+
+### 7.3 Động học Bất hoạt, Tiêu chuẩn USEPA CT và Kiểm soát Sản phẩm Phụ Khử trùng DBP (Disinfection Kinetics, USEPA CT Criteria & DBP Control)
+
+#### 7.3.1 Ma trận So sánh và Lựa chọn Đa Tiêu chí Công nghệ Khử trùng (Disinfectant Multi-Criteria Selection Matrix)
+
+##### 7.3.1.1 Đánh giá Hiệu lực Diệt khuẩn trên Bốn Nhóm Vi sinh vật Mục tiêu
+- **Nhóm vi khuẩn sinh dưỡng (Vegetative Bacteria)**:
+  - Clo tự do, chloramines, chlorine dioxide, ozone và tia cực tím đều bất hoạt vi khuẩn hiệu quả.
+  - Các công nghệ này dễ dàng đạt mức giảm lớn hơn 4-log ở liều lượng thông thường.
+  - Vi khuẩn đường ruột gồm *Escherichia coli*, *Salmonella typhi*, *Shigella dysenteriae* và *Vibrio cholerae*.
+- **Nhóm virus đường ruột (Enteric Viruses)**:
+  - Ozone và clo tự do có tốc độ bất hoạt virus nhanh nhất.
+  - Chlorine dioxide đạt hiệu quả xử lý virus cao.
+  - Tia cực tím cần liều bức xạ cao để bất hoạt *Adenovirus* có cấu trúc DNA sợi đôi.
+  - Chloramines có hiệu lực diệt virus yếu nhất và cần thời gian tiếp xúc rất dài.
+- **Nhóm u nang động vật nguyên sinh Giardia lamblia (Giardia cysts)**:
+  - Ozone bất hoạt u nang *Giardia* với tốc độ nhanh nhất.
+  - Chlorine dioxide và tia cực tím đạt hiệu quả bất hoạt rất cao.
+  - Clo tự do cần nồng độ cao và thời gian tiếp xúc dài để diệt u nang *Giardia*.
+  - Chloramines có hiệu lực rất kém và không phù hợp làm chất khử trùng sơ cấp đối với *Giardia*.
+- **Nhóm noãn nang Cryptosporidium parvum (Cryptosporidium oocysts)**:
+  - Tia cực tím và ozone bất hoạt noãn nang *Cryptosporidium* hiệu quả nhất.
+  - Bức xạ UV phá hủy vật chất di truyền của noãn nang ở liều thấp ($10\text{ đến }20\text{ mJ/cm}^2$).
+  - Chlorine dioxide đạt hiệu quả trung bình đối với noãn nang.
+  - Clo tự do và chloramines hoàn toàn bất lực trước lớp vỏ noãn nang *Cryptosporidium*.
+
+##### 7.3.1.2 Bảng So sánh Đa Tiêu chí Các Công nghệ Khử trùng Nước cấp
+- **Bảng ma trận đánh giá kỹ thuật các chất khử trùng**:
+
+| Công nghệ khử trùng | Bất hoạt vi khuẩn | Bất hoạt virus | Bất hoạt u nang (*Giardia* / *Crypto*) | Độ bền nồng độ tồn dư | Sản phẩm phụ khử trùng chính (DBP) | Chi phí đầu tư / Vận hành | Rủi ro an toàn vận hành |
 |---|---|---|---|---|---|---|---|
-| 1 | **Finished Water Free Chlorine Distribution Residual** | $C_{\text{free,dist}}$ | 0.2 – 1.0 (minimum 0.2 at extremities, target 0.5 – 0.8) | `mg/L as Cl2` | Distribution Network Sanitization | 6 | Mandated by QCVN 01-1:2018/BYT and EPA SWTR to prevent microbial regrowth in distribution mains. |
-| 2 | **Primary Chlorine Contact Chamber Detention Time** | $t_{\text{contact}}$ | 15 – 30 (minimum >= 30 at design peak flow under TCXDVN 33:2006) | `min` | Contact Basin Sizing | 33 | Ensures adequate CT for pathogen destruction before water enters the clearwell or distribution grid. |
-| 3 | **Design pH Range for Water Chlorination** | $\text{pH}_{\text{design}}$ | 6.5 – 7.5 | `pH units` | Chemical Dosing & Speciation Control | 6 | Optimizes biocidal HOCl concentration (50–90% HOCl) while preventing excessive pipe corrosivity. |
-| 4 | **Breakpoint Chlorination Cl2:NH3-N Mass Ratio** | $\text{Cl}_2:\text{N}_{\text{mass}}$ | 7.6:1 (theoretical stoichiometric) – 8:1 to 10:1 (actual operational) | `mg Cl2 / mg NH3-N` | Breakpoint Chlorination Process | 12 | Higher operational ratio accounts for organic nitrogen and concurrent inorganic reducing demands. |
-| 5 | **UV Disinfection Germicidal Fluence (Dose)** | $D_{\text{UV}}$ | 40.0 (general range 20.0 – 40.0; 40 mJ/cm2 provides 4-log Cryptosporidium/Giardia/virus inactivation) | `mJ/cm2 (or J/m2)` | Ultraviolet Irradiation | 19 | Standard regulatory dose validated under USEPA UV Disinfection Guidance Manual (UVDGM). |
-| 6 | **Germicidal UV Wavelength Spectrum Band** | $\lambda_{\text{UVC}}$ | 200 – 280 (peak DNA absorption at 253.7 ≈ 254) | `nm` | UVC Irradiation | 20 | Photochemically induces cyclobutane pyrimidine dimers in microbial nucleic acids. |
-| 7 | **Ozone Dosage for Primary Disinfection** | $\text{Dose}_{\text{O}_3}$ | 0.5 – 2.0 (contact time 2 – 10 min) | `mg/L` | Ozonation Contactor | 17 | Rapidly destroys Cryptosporidium and viruses; oxidizes taste/odor compounds. |
-| 8 | **Ozone Concentration in Off-Gas from LOX Feed** | $\%\text{O}_{3,\text{LOX}}$ | 5.0% – 8.0% (by volume/weight) | `% by weight` | Corona Discharge Ozone Generation | 17 | Liquid oxygen feed yields higher ozone concentration and smaller contactor footprint than air feed. |
-| 9 | **Ambient Air Feed Dew Point for Ozone Generators** | $T_{\text{dew}}$ | <= -60 (typically -60 to -80) | `°C` | Air Feed Preparation System | 17 | Extreme desiccant drying is mandatory to eliminate moisture and prevent corrosive HNO3 generation. |
-| 10 | **Chlorine Dioxide Disinfection Dosing Envelope** | $\text{Dose}_{\text{ClO}_2}$ | 0.2 – 1.5 (maximum residual constrained by MRDL = 0.8) | `mg/L` | Chlorine Dioxide Treatment | 15 | Avoids chlorinated THM/HAA formation; effective against protozoan cysts. |
-| 11 | **Total Trihalomethanes (TTHM) Maximum Contaminant Level** | $\text{MCL}_{\text{TTHM}}$ | <= 0.080 (80 µg/L; Vietnamese QCVN target <= 100 µg/L) | `mg/L` | DBP Regulatory Compliance | 29 | Sum of chloroform, BDCM, DBCM, and bromoform concentrations. |
-| 12 | **Haloacetic Acids (HAA5) Maximum Contaminant Level** | $\text{MCL}_{\text{HAA5}}$ | <= 0.060 (60 µg/L) | `mg/L` | DBP Regulatory Compliance | 29 | Sum of mono-, di-, trichloroacetic acids and mono-, dibromoacetic acids. |
-| 13 | **Bromate Ion (BrO3-) Maximum Contaminant Level** | $\text{MCL}_{\text{BrO}_3}$ | <= 0.010 (10 µg/L) | `mg/L` | Ozone Byproduct Control | 29 | Formed during ozonation of waters containing raw bromide (Br- > 50 µg/L). |
-| 14 | **Chlorite Ion (ClO2-) Maximum Contaminant Level** | $\text{MCL}_{\text{ClO}_2^-}$ | <= 1.0 (1,000 µg/L) | `mg/L` | Chlorine Dioxide Byproduct Control | 29 | Inorganic reduction byproduct of ClO2; causes oxidative stress and methemoglobinemia. |
-| 15 | **Maximum Residual Disinfectant Level (MRDL) - Free Chlorine** | $\text{MRDL}_{\text{Cl}_2}$ | 4.0 | `mg/L as Cl2` | Finished Water Safety | 29 | Enforceable USEPA limit to protect against eye/nose irritation and stomach discomfort. |
-| 16 | **Maximum Residual Disinfectant Level (MRDL) - Chloramines** | $\text{MRDL}_{\text{NH}_2\text{Cl}}$ | 4.0 | `mg/L as Cl2` | Combined Residual Regulation | 29 | Sum of monochloramine, dichloramine, and trichloramine. |
-| 17 | **Maximum Residual Disinfectant Level (MRDL) - Chlorine Dioxide** | $\text{MRDL}_{\text{ClO}_2}$ | 0.8 | `mg/L as ClO2` | Residual Protection | 29 | Prevents chlorite/chlorate accumulation and anemia. |
-| 18 | **CT Requirement for 3-log (99.9%) Giardia Inactivation (Free Chlorine, pH 7.0, 10°C)** | $CT_{\text{Giardia,Cl}_2}$ | 104 (at C = 1.0 mg/L; ranges from 73 to 143 across C = 0.4 to 3.0 mg/L) | `mg·min/L` | USEPA SWTR Compliance | 26 | CT requirements increase significantly at higher pH and lower water temperatures. |
-| 19 | **CT Requirement for 3-log (99.9%) Giardia Inactivation (Ozone, 10°C)** | $CT_{\text{Giardia,O}_3}$ | 1.43 (1.4 – 1.9) | `mg·min/L` | Ozone Inactivation Sizing | 26 | Ozone is ~70 times more potent than free chlorine against Giardia cysts. |
-| 20 | **CT Requirement for 3-log (99.9%) Giardia Inactivation (Chlorine Dioxide, 10°C)** | $CT_{\text{Giardia,ClO}_2}$ | 23.0 (17 – 26) | `mg·min/L` | ClO2 Inactivation Sizing | 26 | Chlorine dioxide is ~4 to 5 times more effective than free chlorine against Giardia. |
-| 21 | **CT Requirement for 3-log (99.9%) Giardia Inactivation (Chloramines, 10°C)** | $CT_{\text{Giardia,NH}_2\text{Cl}}$ | 1,850 (1,500 – 2,200) | `mg·min/L` | Chloramine Process Assessment | 26 | Chloramines are poor primary disinfectants for Giardia/Crypto; suited only for secondary residual. |
-| 22 | **CT Requirement for 4-log (99.99%) Virus Inactivation (Free Chlorine, pH 7.0, 10°C)** | $CT_{\text{Virus,Cl}_2}$ | 6.0 (4.0 – 8.0) | `mg·min/L` | Virus Inactivation Sizing | 25 | Free chlorine is exceptionally lethal to enteric viruses. |
-| 23 | **CT Requirement for 4-log (99.99%) Virus Inactivation (Ozone, 10°C)** | $CT_{\text{Virus,O}_3}$ | 1.0 (0.8 – 1.4) | `mg·min/L` | Ozone Virus Barrier | 25 | Provides rapid virus destruction within short contact times. |
-| 24 | **CT Requirement for 4-log (99.99%) Virus Inactivation (Chlorine Dioxide, 10°C)** | $CT_{\text{Virus,ClO}_2}$ | 25.1 (17.1 – 33.4) | `mg·min/L` | ClO2 Virus Inactivation | 25 | Moderate CT requirement for complete virus barrier. |
-| 25 | **CT Requirement for 4-log (99.99%) Virus Inactivation (Chloramines, 10°C)** | $CT_{\text{Virus,NH}_2\text{Cl}}$ | 1,491 (1,100 – 2,000) | `mg·min/L` | Chloramine Virus Inactivation | 25 | Requires extended contact time or high chloramine concentration. |
-| 26 | **Baffling Factor - Poor Baffling / Unbaffled** | $\text{BF}_{\text{poor}}$ | 0.1 – 0.3 (unbaffled = 0.1, poor baffling = 0.3) | `dimensionless (t10/t0)` | Contactor Hydraulics | 34 | Unbaffled rectangular tanks or open clearwells with inlet/outlet short-circuiting. |
-| 27 | **Baffling Factor - Average Baffling** | $\text{BF}_{\text{average}}$ | 0.5 | `dimensionless (t10/t0)` | Contactor Hydraulics | 35 | Basins with cross-baffles or partial intra-basin guide walls. |
-| 28 | **Baffling Factor - Superior Baffling** | $\text{BF}_{\text{superior}}$ | 0.7 (ideal plug flow = 1.0) | `dimensionless (t10/t0)` | Contactor Hydraulics | 36 | Longitudinal serpentine basins with turning vanes and L:W >= 40:1, or pipelines. |
-| 29 | **Longitudinal-Serpentine Contactor Aspect Ratio** | $L:W_{\text{serpentine}}$ | >= 40:1 | `ratio` | Contact Chamber Civil Geometry | 33 | Total flow path length divided by channel width to suppress transverse dispersion. |
-| 30 | **Pipeline Contactor Minimum Flow Velocity** | $v_{\text{pipe}}$ | > 0.6 (typically 0.6 – 1.5) | `m/s` | Pipeline Reactor Hydraulics | 33 | Ensures turbulent Reynolds regime (Re > 10,000) for plug-flow conditions. |
-| 31 | **Pipeline Contactor Minimum Flow Rate** | $Q_{\text{pipe}}$ | > 0.044 (3,800 m3/d) | `m3/s` | Pipeline Reactor Sizing | 33 | Threshold capacity ensuring economic and hydraulic feasibility for ~1 km pipeline reactor. |
-| 32 | **Chlorine Dioxide Lower Explosive Limit (LEL)** | $\text{LEL}_{\text{ClO}_2}$ | 10% – 39% | `% by volume in air` | ClO2 Safety Engineering | 15 | Mandates on-site chemical synthesis and dilution below 8–10% in gas phase. |
-| 33 | **Alkalinity Loss from Chlorine Gas Addition** | $\Delta \text{Alk}_{\text{Cl}_2}$ | 1.4 (1.43 theoretical) | `mg/L as CaCO3 per mg/L Cl2` | pH & Buffer Chemistry | 6 | Must be buffered with caustic soda (NaOH) or lime (Ca(OH)2) in low-alkalinity waters. |
+| Clo tự do ($\text{Cl}_2$ / $\text{NaOCl}$) | Xuất sắc (> 4-log) | Xuất sắc (> 4-log) | Tốt với *Giardia* / Không hiệu quả với *Crypto* | Bền vững ($0.2\text{--}1.0\text{ mg/L}$) | TTHMs, HAA5 | Thấp / Thấp | Cao với khí $\text{Cl}_2$ hóa lỏng; Thấp với $\text{NaOCl}$ |
+| Chloramines ($\text{NH}_2\text{Cl}$) | Tốt (tốc độ chậm) | Trung bình đến kém | Kém với *Giardia* / Không hiệu quả với *Crypto* | Rất bền vững, suy giảm chậm | NDMA, THMs và HAAs nồng độ rất thấp | Trung bình / Trung bình | Trung bình (nguy cơ nitrat hóa trên mạng lưới) |
+| Chlorine Dioxide ($\text{ClO}_2$) | Xuất sắc | Xuất sắc | Tốt với *Giardia* / Trung bình với *Crypto* | Trung bình (kém bền trong mạng lưới lớn) | Chlorite ($\text{ClO}_2^-$), Chlorate ($\text{ClO}_3^-$) | Trung bình / Trung bình - Cao | Cao (nguy cơ nổ pha khí khi nồng độ vượt $10\%$) |
+| Ozone ($\text{O}_3$) | Xuất sắc (nhanh nhất) | Xuất sắc | Xuất sắc với cả *Giardia* và *Cryptosporidium* | Không có (phân rã sau vài phút) | Bromate ($\text{BrO}_3^-$), aldehydes | Cao / Cao | Cao (khí độc hại, thiết bị phóng điện cao thế) |
+| Tia cực tím (UV) | Xuất sắc (vật lý) | Tốt (*Adenovirus* cần liều cao) | Xuất sắc với cả *Cryptosporidium* và *Giardia* | Hoàn toàn không có nồng độ tồn dư | Không tạo sản phẩm phụ halogen hóa | Trung bình - Cao / Trung bình | Thấp (chỉ cần đảm bảo an toàn điện và vỏ thạch anh) |
+
+##### 7.3.1.3 Chiến lược Khử trùng Đa Hàng rào Bảo vệ (Multi-Barrier Disinfection Strategy)
+- **Cấu trúc khử trùng kết hợp hai bậc**:
+  - Không có chất khử trùng đơn lẻ nào đáp ứng toàn diện mọi yêu cầu kỹ thuật.
+  - Công nghệ hiện đại kết hợp khử trùng sơ cấp và khử trùng thứ cấp.
+  - Bậc sơ cấp dùng tia UV hoặc ozone ngay sau bể lọc hạt.
+  - Bậc sơ cấp tiêu diệt nhanh noãn nang *Cryptosporidium*, u nang *Giardia* và virus mà không tạo ra THMs.
+  - Bậc thứ cấp châm clo tự do hoặc chloramines vào bể chứa nước sạch.
+  - Bậc thứ cấp duy trì nồng độ dư bảo vệ mạng lưới phân phối chống vi khuẩn tái sinh.
+
+---
+
+#### 7.3.2 Động học Bất hoạt Vi sinh vật và Suy giảm Hóa chất Khử trùng (Disinfection Inactivation Kinetics & Chemical Decay)
+
+##### 7.3.2.1 Mô hình Động học Bậc Một Chick (Chick's Law)
+- **Nguyên lý động học Chick**:
+  - Năm 1908, Harriette Chick đề xuất mô hình bất hoạt vi sinh vật đầu tiên.
+  - Mô hình giả định tốc độ tiêu diệt vi sinh vật tuân theo động học phản ứng bậc 1.
+  - Tốc độ chết tỷ lệ thuận trực tiếp với số lượng tế bào còn sống tại thời điểm khảo sát.
+- **Phương trình vi phân và dạng tích phân**:
+  $$\frac{dN}{dt} = -k \cdot N$$
+  $$\ln\left(\frac{N_t}{N_0}\right) = -k \cdot t$$
+  - Biến số và đơn vị:
+    - $N_0$: Mật độ vi sinh vật ban đầu tại thời điểm $t = 0$ ($\text{CFU/mL}$ hoặc $\text{tế bào/L}$).
+    - $N_t$: Mật độ vi sinh vật còn sống sót tại thời điểm tiếp xúc $t$ ($\text{CFU/mL}$ hoặc $\text{tế bào/L}$).
+    - $k$: Hằng số tốc độ bất hoạt vi sinh vật ($\text{min}^{-1}$ hoặc $\text{s}^{-1}$).
+    - $t$: Thời gian tiếp xúc khử trùng ($\text{min}$ hoặc $\text{s}$).
+
+##### 7.3.2.2 Mô hình Động học Chick-Watson và Ý nghĩa Hệ số Pha loãng
+- **Nguyên lý mở rộng Chick-Watson**:
+  - Năm 1908, H.E. Watson bổ sung nồng độ chất khử trùng vào phương trình Chick.
+  - Mô hình tích hợp nồng độ chất khử trùng $C$ và hệ số pha loãng $n$.
+- **Phương trình Chick-Watson**:
+  $$\ln\left(\frac{N_t}{N_0}\right) = -k_{cw} \cdot C^n \cdot t$$
+  $$\ln\left(\frac{N_t}{N_0}\right) = -\Lambda \cdot C^n \cdot t$$
+  - Biến số và đơn vị:
+    - $N_t / N_0$: Tỷ số vi sinh vật sống sót (không thứ nguyên).
+    - $k_{cw}$ (hoặc $\Lambda$): Hằng số tốc độ diệt khuẩn chuyên biệt Chick-Watson ($\text{L}^n / (\text{mg}^n \cdot \text{min})$).
+    - $C$: Nồng độ chất khử trùng tồn dư ($\text{mg/L}$).
+    - $n$: Hệ số pha loãng (Coefficient of dilution, không thứ nguyên).
+    - $t$: Thời gian tiếp xúc khử trùng ($\text{min}$).
+- **Ý nghĩa kỹ thuật của hệ số pha loãng $n$**:
+  - Trường hợp $n = 1.0$:
+    - Nồng độ hóa chất $C$ và thời gian $t$ có vai trò ngang nhau.
+    - Tích số $C \cdot t$ giữ giá trị không đổi đối với một mức độ tiêu diệt xác định.
+    - Đây là giả định nền tảng cho tiêu chuẩn $CT$ của USEPA.
+  - Trường hợp $n > 1.0$:
+    - Nồng độ hóa chất chi phối mạnh hơn thời gian tiếp xúc.
+    - Giảm nồng độ hóa chất đòi hỏi tăng thời gian tiếp xúc rất nhiều để bù đắp.
+  - Trường hợp $n < 1.0$:
+    - Thời gian tiếp xúc chi phối hiệu quả diệt khuẩn mạnh hơn nồng độ hóa chất.
+
+##### 7.3.2.3 Mô hình Động học Hom và Hiện tượng Phi tuyến
+- **Các hiện tượng sai lệch thực nghiệm**:
+  - Đường cong bất hoạt thực tế thường lệch khỏi đường thẳng logarit bậc một.
+  - Hiện tượng giai đoạn trễ (Shoulder Effect):
+    - Đồ thị bất hoạt đi ngang trong giai đoạn đầu tiếp xúc.
+    - Hóa chất cần thời gian khuếch tán qua vỏ tế bào hoặc tích lũy đủ tổn thương.
+    - Hiện tượng này phổ biến khi khử trùng bằng tia UV và bất hoạt u nang protozoa.
+  - Hiện tượng giảm tốc đuôi dài (Tailing Effect):
+    - Tốc độ diệt khuẩn chậm lại rõ rệt ở giai đoạn sau.
+    - Nguyên nhân do một bộ phận vi sinh vật có sức đề kháng vượt trội.
+    - Nguyên nhân khác do vi sinh vật ẩn nấp bên trong các hạt cặn lơ lửng.
+- **Phương trình mô hình Hom**:
+  $$\ln\left(\frac{N_t}{N_0}\right) = -k \cdot C^n \cdot t^m$$
+  - Biến số và đơn vị:
+    - $m$: Số mũ thực nghiệm phụ thuộc thời gian (không thứ nguyên).
+    - Khi $m > 1$: Mô hình mô tả hiện tượng giai đoạn trễ (Shoulder).
+    - Khi $m = 1$: Mô hình quy về dạng Chick-Watson tuyến tính.
+    - Khi $m < 1$: Mô hình mô tả hiện tượng giảm tốc đuôi dài (Tailing).
+
+##### 7.3.2.4 Động học Phân hủy Hóa chất Khử trùng Bậc Một (First-Order Chemical Decay)
+- **Phạm vi áp dụng**:
+  - Áp dụng cho clo tự do nồng độ thấp trong nước, chloramines và chlorine dioxide.
+  - Tốc độ phân hủy tỷ lệ thuận với nồng độ chất khử trùng hiện diện.
+- **Phương trình vi phân và dạng tích phân**:
+  $$\frac{dC}{dt} = -k_d \cdot C$$
+  $$C(t) = C_0 \cdot e^{-k_d \cdot t}$$
+  - Biến số và đơn vị:
+    - $C(t)$: Nồng độ chất khử trùng tại thời điểm $t$ ($\text{mg/L}$).
+    - $C_0$: Nồng độ chất khử trùng ban đầu tại $t = 0$ ($\text{mg/L}$).
+    - $k_d$: Hằng số tốc độ phân hủy bậc một ($\text{min}^{-1}$ hoặc $\text{ngày}^{-1}$).
+    - $t$: Thời gian phản ứng trôi qua ($\text{min}$ hoặc $\text{ngày}$).
+- **Thời gian bán hủy bậc một ($t_{1/2}$)**:
+  $$t_{1/2} = \frac{\ln(2)}{k_d} = \frac{0.693}{k_d}$$
+  - $t_{1/2}$: Thời gian cần thiết để nồng độ hóa chất giảm đi một nửa ($\text{min}$ hoặc $\text{ngày}$).
+
+##### 7.3.2.5 Động học Phân hủy Hóa chất Khử trùng Bậc Hai (Second-Order Chemical Decay)
+- **Phạm vi áp dụng**:
+  - Áp dụng cho dung dịch sodium hypochlorite ($\text{NaOCl}$) đậm đặc lưu trữ trong bồn.
+  - Áp dụng cho quá trình tự phân hủy của ozone phân tử trong môi trường nước.
+  - Tốc độ phân hủy tỷ lệ thuận với bình phương nồng độ chất phản ứng.
+- **Phương trình vi phân và dạng tích phân**:
+  $$\frac{dC}{dt} = -k_{2d} \cdot C^2$$
+  $$\frac{1}{C(t)} - \frac{1}{C_0} = k_{2d} \cdot t$$
+  $$C(t) = \frac{C_0}{1 + k_{2d} \cdot C_0 \cdot t}$$
+  - Biến số và đơn vị:
+    - $C(t)$: Nồng độ chất khử trùng tại thời điểm $t$ ($\text{mg/L}$).
+    - $C_0$: Nồng độ chất khử trùng ban đầu ($\text{mg/L}$).
+    - $k_{2d}$: Hằng số tốc độ phân hủy bậc hai ($\text{L}/(\text{mg} \cdot \text{s})$ hoặc $\text{L}/(\text{mg} \cdot \text{min})$).
+    - $t$: Thời gian phản ứng trôi qua ($\text{s}$ hoặc $\text{min}$).
+- **Thời gian bán hủy bậc hai ($t_{1/2}$)**:
+  $$t_{1/2} = \frac{1}{k_{2d} \cdot C_0}$$
+  - Thời gian bán hủy bậc hai phụ thuộc nghịch đảo vào nồng độ ban đầu $C_0$.
+  - Dung dịch trữ càng đậm đặc thì tốc độ mất hoạt tính ban đầu càng nhanh.
+
+---
+
+#### 7.3.3 Khái niệm Log Reduction và Tiêu chuẩn Tích số CT của USEPA (Log Reduction & USEPA CT Concept)
+
+##### 7.3.3.1 Khái niệm Log Reduction và Tỷ lệ Phần trăm Tiêu diệt
+- **Định nghĩa toán học Log Inactivation**:
+  - Log reduction biểu thị mức độ suy giảm vi sinh vật theo cơ số 10.
+  - Chỉ số này phản ánh số bậc độ lớn mật độ mầm bệnh bị loại bỏ.
+- **Phương trình chuyển đổi giữa Log Inactivation và Tỷ lệ phần trăm loại bỏ**:
+  $$\text{Log Inactivation} = \log_{10}\left(\frac{N_0}{N_t}\right) = -\log_{10}\left(1 - \frac{\% \text{ Removal}}{100}\right)$$
+  $$\% \text{ Inactivation} = \left(1 - \frac{N_t}{N_0}\right) \times 100\% = \left(1 - 10^{-\text{Log Inactivation}}\right) \times 100\%$$
+  - Biến số và đơn vị:
+    - $\text{Log Inactivation}$: Số logarit tiêu diệt đạt được (không thứ nguyên).
+    - $N_0$: Số lượng vi sinh vật đầu vào.
+    - $N_t$: Số lượng vi sinh vật sống sót đầu ra.
+    - $\% \text{ Inactivation}$ (hoặc $\% \text{ Removal}$): Tỷ lệ phần trăm vi sinh vật bị tiêu diệt ($\%$).
+- **Bảng quy đổi chuẩn giữa Tín chỉ Log và Phần trăm Tiêu diệt**:
+
+| Tín chỉ Log Inactivation | Tỷ số sống sót ($N_t / N_0$) | Phần trăm tiêu diệt ($\% \text{ Inactivation}$) | Số vi sinh vật sống sót trên 1,000,000 cá thể ban đầu |
+|---|---|---|---|
+| 0.5-log | 0.3162 | $68.38\%$ | 316,228 |
+| 1.0-log | 0.1000 | $90.00\%$ | 100,000 |
+| 1.5-log | 0.0316 | $96.84\%$ | 31,623 |
+| 2.0-log | 0.0100 | $99.00\%$ | 10,000 |
+| 2.5-log | 0.00316 | $99.68\%$ | 3,162 |
+| 3.0-log | 0.0010 | $99.90\%$ | 1,000 |
+| 4.0-log | 0.0001 | $99.99\%$ | 100 |
+| 5.0-log | 0.00001 | $99.999\%$ | 10 |
+| 6.0-log | 0.000001 | $99.9999\%$ | 1 |
+
+##### 7.3.3.2 Khái niệm Tích số CT và Thời gian Tiếp xúc Hiệu dụng $t_{10}$
+- **Định nghĩa tích số $CT$ của USEPA**:
+  - USEPA chuẩn hóa tích số $CT$ làm tiêu chuẩn thiết kế công trình khử trùng hóa học.
+  - Giá trị $CT$ là tích số giữa nồng độ chất khử trùng tồn dư và thời gian tiếp xúc hữu ích.
+- **Phương trình tính toán giá trị $CT$**:
+  $$CT = C \cdot t_{10}$$
+  - Biến số và đơn vị:
+    - $CT$: Tích số nồng độ và thời gian tiếp xúc ($\text{mg} \cdot \text{min/L}$).
+    - $C$: Nồng độ chất khử trùng tồn dư đo tại cửa ra công trình tiếp xúc ($\text{mg/L}$).
+    - $t_{10}$: Thời gian tiếp xúc hiệu dụng để $10\%$ thể tích nước đầu tiên đi qua bể ($\text{min}$).
+- **Xác định thời gian tiếp xúc hiệu dụng $t_{10}$ qua Hệ số vách ngăn (Baffling Factor - $\text{BF}$)**:
+  $$t_0 = \frac{V}{Q}$$
+  $$t_{10} = \text{BF} \cdot t_0 = \left(\frac{t_{10}}{t_0}\right) \cdot \left(\frac{V}{Q}\right)$$
+  - Biến số và đơn vị:
+    - $t_0$: Thời gian lưu thủy lực lý thuyết danh định ($\text{min}$).
+    - $V$: Dung tích ướt hữu dụng của bể tiếp xúc ($\text{m}^3$).
+    - $Q$: Lưu lượng nước cấp thiết kế lớn nhất qua bể ($\text{m}^3/\text{min}$).
+    - $\text{BF} = t_{10} / t_0$: Hệ số vách ngăn thủy lực (không thứ nguyên).
+- **Phân loại hệ số vách ngăn $\text{BF}$ theo USEPA**:
+  - Không có vách ngăn (Unbaffled, bể tròn hoặc vuông hở): $\text{BF} = 0.10$.
+  - Vách ngăn kém (Poor baffling, ít vách, tỷ lệ $L:W < 5:1$): $\text{BF} = 0.30$.
+  - Vách ngăn trung bình (Average baffling, vách dẫn dòng thông thường): $\text{BF} = 0.50$.
+  - Vách ngăn hoàn thiện (Superior baffling, kênh ngoằn ngoèo $L_{\text{path}}:W_c \ge 40:1$): $\text{BF} = 0.70$.
+  - Dòng chảy nút lý tưởng (Ideal plug flow, đường ống dài chảy rối $Re > 10,000$): $\text{BF} = 1.00$.
+
+##### 7.3.3.3 Tiêu chuẩn Bất hoạt 3-log Giardia lamblia và 4-log Virus
+- **Quy định của Luật Xử lý Nước mặt USEPA (Surface Water Treatment Rule - SWTR)**:
+  - Nhà máy cấp nước mặt phải đạt tổng mức loại bỏ tối thiểu:
+    - $\ge 3\text{-log}$ ($99.9\%$) đối với u nang *Giardia lamblia*.
+    - $\ge 4\text{-log}$ ($99.99\%$) đối với virus đường ruột.
+- **Phân chia tín chỉ loại bỏ giữa công trình lọc cơ học và công đoạn khử trùng**:
+  - Dây chuyền lắng lọc cát truyền thống đạt tín chỉ loại bỏ vật lý:
+    - Lắng và lọc hạt đạt $2.5\text{-log}$ *Giardia*.
+    - Lắng và lọc hạt đạt $2.0\text{-log}$ virus đường ruột.
+  - Nhiệm vụ còn lại của công đoạn khử trùng hóa học:
+    - Khử trùng bù thêm tối thiểu $0.5\text{-log}$ đối với *Giardia* ($3.0 - 2.5 = 0.5\text{-log}$).
+    - Khử trùng bù thêm tối thiểu $2.0\text{-log}$ đối với virus ($4.0 - 2.0 = 2.0\text{-log}$).
+  - Nếu nguồn nước không qua lắng lọc, công đoạn khử trùng phải gánh trọn vẹn $3\text{-log}$ *Giardia* và $4\text{-log}$ virus.
+
+##### 7.3.3.4 So sánh Khả năng Kháng Hóa chất Khử trùng của Các Nhóm Vi sinh vật
+- **Thứ bậc đề kháng tăng dần đối với chất oxy hóa**:
+  $$\text{Vi khuẩn sinh dưỡng} < \text{Virus đường ruột} < \text{U nang Giardia} \ll \text{Noãn nang Cryptosporidium}$$
+- **Bảng so sánh giá trị $CT$ yêu cầu ở điều kiện tiêu chuẩn ($10^\circ\text{C}$, $\text{pH } 7.0\text{--}7.5$)**:
+
+| Mầm bệnh mục tiêu | Mức độ bất hoạt | Clo tự do ($C = 1\text{ mg/L}$) | Chlorine Dioxide ($\text{ClO}_2$) | Ozone ($\text{O}_3$) | Chloramines ($\text{NH}_2\text{Cl}$) |
+|---|---|---|---|---|---|
+| *E. coli* và vi khuẩn | 4-log ($99.99\%$) | $0.5\text{--}2.0\text{ mg}\cdot\text{min/L}$ | $0.2\text{--}1.0\text{ mg}\cdot\text{min/L}$ | $< 0.1\text{ mg}\cdot\text{min/L}$ | $50\text{--}100\text{ mg}\cdot\text{min/L}$ |
+| Enteric Viruses | 4-log ($99.99\%$) | $6.0\text{ mg}\cdot\text{min/L}$ | $25.1\text{ mg}\cdot\text{min/L}$ | $1.0\text{ mg}\cdot\text{min/L}$ | $1,491\text{ mg}\cdot\text{min/L}$ |
+| *Giardia lamblia* | 3-log ($99.9\%$) | $115\text{ mg}\cdot\text{min/L}$ | $23.0\text{ mg}\cdot\text{min/L}$ | $1.43\text{ mg}\cdot\text{min/L}$ | $1,850\text{ mg}\cdot\text{min/L}$ |
+| *Cryptosporidium* | 2-log ($99.0\%$) | $> 7,200\text{ mg}\cdot\text{min/L}$ | $250\text{--}500\text{ mg}\cdot\text{min/L}$ | $10\text{--}15\text{ mg}\cdot\text{min/L}$ | Bất lực trong thực tế |
+
+##### 7.3.3.5 Bảng Tra cứu Giá trị CT Chuẩn của USEPA theo pH và Nhiệt độ
+- **Bảng giá trị $CT$ yêu cầu cho bất hoạt 3-log ($99.9\%$) u nang *Giardia lamblia***:
+
+| Chất khử trùng | Nồng độ tồn dư ($C$, $\text{mg/L}$) | Dải pH | $CT$ tại $0.5^\circ\text{C}$ | $CT$ tại $5^\circ\text{C}$ | $CT$ tại $10^\circ\text{C}$ | $CT$ tại $15^\circ\text{C}$ | $CT$ tại $20^\circ\text{C}$ | $CT$ tại $25^\circ\text{C}$ |
+|---|---|---|---|---|---|---|---|---|
+| Clo tự do | 1.0 | 7.0 | 216 | 154 | 115 | 77 | 58 | 38 |
+| Clo tự do | 1.0 | 7.5 | 264 | 189 | 142 | 95 | 71 | 47 |
+| Clo tự do | 1.0 | 8.0 | 312 | 221 | 166 | 111 | 83 | 55 |
+| Chlorine Dioxide | Bất kỳ ($0.5\text{--}2.0$) | $6.0\text{--}9.0$ | 63 | 26 | 23 | 19 | 15 | 11 |
+| Ozone | Bất kỳ ($0.2\text{--}1.5$) | $6.0\text{--}9.0$ | 2.9 | 1.9 | 1.4 | 0.95 | 0.72 | 0.48 |
+| Chloramines | Bất kỳ ($1.0\text{--}3.0$) | $6.0\text{--}9.0$ | 3,800 | 2,200 | 1,850 | 1,500 | 1,100 | 750 |
+
+- **Bảng giá trị $CT$ yêu cầu cho bất hoạt 4-log ($99.99\%$) virus đường ruột**:
+
+| Chất khử trùng | Dải pH | $CT$ tại $0.5^\circ\text{C}$ | $CT$ tại $5^\circ\text{C}$ | $CT$ tại $10^\circ\text{C}$ | $CT$ tại $15^\circ\text{C}$ | $CT$ tại $20^\circ\text{C}$ | $CT$ tại $25^\circ\text{C}$ |
+|---|---|---|---|---|---|---|---|
+| Clo tự do | $6.0\text{--}9.0$ | 12.0 | 8.0 | 6.0 | 4.0 | 3.0 | 2.0 |
+| Chlorine Dioxide | $6.0\text{--}9.0$ | 50.1 | 33.4 | 25.1 | 16.7 | 12.5 | 8.4 |
+| Ozone | $6.0\text{--}9.0$ | 2.0 | 1.4 | 1.0 | 0.6 | 0.5 | 0.3 |
+| Chloramines | $6.0\text{--}9.0$ | 2,883 | 1,988 | 1,491 | 994 | 746 | 497 |
+
+- **Phân tích ảnh hưởng của pH và nhiệt độ đến giá trị $CT$**:
+  - Nhiệt độ nước giảm làm giảm hoạt tính sinh hóa của chất khử trùng.
+  - Giá trị $CT$ yêu cầu ở $0.5^\circ\text{C}$ cao gấp 3 đến 5 lần so với ở $25^\circ\text{C}$.
+  - Nhiệt độ nước thấp đòi hỏi tăng liều lượng clo hoặc kéo dài thời gian lưu.
+  - Tăng pH làm dịch chuyển cân bằng $\text{HOCl} \rightleftharpoons \text{OCl}^- + \text{H}^+$ sang dạng $\text{OCl}^-$.
+  - Ion $\text{OCl}^-$ có hoạt tính diệt khuẩn kém hơn $\text{HOCl}$ từ 80 đến 100 lần.
+  - Giá trị $CT$ yêu cầu của clo tự do tăng mạnh khi pH tăng từ 7.0 lên 8.0.
+
+##### 7.3.3.6 Quy trình Tính toán Định cỡ Thể tích Bể Tiếp xúc Đạt Chuẩn USEPA CT
+1. Xác định lưu lượng thiết kế giờ lớn nhất $Q_{\text{max}}$ ($\text{m}^3/\text{h}$ hoặc $\text{m}^3/\text{min}$).
+2. Đo nhiệt độ nước thấp nhất vào mùa đông ($T_{\text{min}}$, $^\circ\text{C}$) và giá trị pH lớn nhất.
+3. Xác định mục tiêu tín chỉ bất hoạt vi sinh vật cho *Giardia* và virus đường ruột.
+4. Trừ đi tín chỉ loại bỏ đạt được từ các công trình keo tụ, lắng và lọc trước đó.
+5. Tra bảng USEPA tìm giá trị $CT_{\text{req}}$ cần thiết theo nhiệt độ, pH và nồng độ hóa chất.
+6. Chọn nồng độ chất khử trùng tồn dư mục tiêu $C$ tại cửa ra bể tiếp xúc ($\text{mg/L}$).
+7. Tính thời gian tiếp xúc hiệu dụng bắt buộc: $t_{10\text{, req}} = CT_{\text{req}} / C$.
+8. Chọn kết cấu hình học bể tiếp xúc và xác định hệ số vách ngăn $\text{BF} = t_{10} / t_0$.
+9. Tính thời gian lưu lý thuyết yêu cầu: $t_0 = t_{10\text{, req}} / \text{BF}$.
+10. Tính toán dung tích ướt hữu dụng của bể tiếp xúc: $V = Q_{\text{max}} \cdot t_0$.
+11. Kiểm tra tỷ số khử trùng: $\text{Tỷ số } CT = CT_{\text{calc}} / CT_{\text{req}} \ge 1.0$.
+
+---
+
+#### 7.3.4 Sản phẩm Phụ Khử trùng (DBPs) và Tiêu chuẩn Sức khỏe Cộng đồng (Disinfection By-Products & Public Health Regulations)
+
+##### 7.3.4.1 Cơ chế Tạo thành Trihalomethanes (TTHMs) và Haloacetic Acids (HAA5) từ NOM
+- **Nguồn gốc tiền chất chất hữu cơ tự nhiên (NOM)**:
+  - Phân tử acid humic và acid fulvic trong nước mặt đóng vai trò tiền chất chính.
+  - NOM chứa các cấu trúc vòng benzen gắn nhóm hydroxyl (-OH) phenolic và các nhóm $\beta$-dicarbonyl giàu electron.
+  - Các vị trí carbon hoạt hóa này rất dễ bị tấn công bởi các tác nhân oxy hóa ái điện tử.
+- **Phản ứng Haloform tạo thành Trihalomethanes (TTHMs)**:
+  - Phản ứng diễn ra qua hai giai đoạn liên tiếp:
+    1. Giai đoạn halogen hóa: Phân tử $\text{HOCl}$ thế các nguyên tử hydro trên liên kết carbon hoạt hóa.
+    2. Giai đoạn thủy phân kiềm: Ion $\text{OH}^-$ cắt đứt liên kết carbon-carbon, giải phóng phân tử $\text{CHX}_3$ ($\text{X} = \text{Cl}, \text{Br}$).
+  - Tốc độ tạo thành THM tăng mạnh khi pH môi trường tăng cao do ion $\text{OH}^-$ xúc tác phản ứng cắt mạch.
+  - Bốn hợp chất thuộc nhóm tổng Trihalomethanes (TTHMs):
+    - Chloroform ($\text{CHCl}_3$).
+    - Bromodichloromethane ($\text{CHBrCl}_2$).
+    - Dibromochloromethane ($\text{CHBr}_2\text{Cl}$).
+    - Bromoform ($\text{CHBr}_3$).
+- **Cơ chế tạo thành Haloacetic Acids (HAA5)**:
+  - Clo tự do tấn công vào các nhóm acid carboxylic và chuỗi aliphatic của phân tử NOM.
+  - Tốc độ hình thành HAA5 có xu hướng tăng ở dải pH trung tính hoặc hơi acid.
+  - Năm hợp chất thuộc nhóm HAA5:
+    - Monochloroacetic acid ($\text{MCAA}$, $\text{CH}_2\text{ClCOOH}$).
+    - Dichloroacetic acid ($\text{DCAA}$, $\text{CHCl}_2\text{COOH}$).
+    - Trichloroacetic acid ($\text{TCAA}$, $\text{CCl}_3\text{COOH}$).
+    - Monobromoacetic acid ($\text{MBAA}$, $\text{CH}_2\text{BrCOOH}$).
+    - Dibromoacetic acid ($\text{DBAA}$, $\text{CHBr}_2\text{COOH}$).
+
+##### 7.3.4.2 Ảnh hưởng của Bromide đến Phân bố Thành phần THM và HAA
+- **Phản ứng oxy hóa ion bromide**:
+  - Nguồn nước mặt ven biển hoặc nước ngầm nhiễm mặn thường chứa ion bromide ($\text{Br}^-$).
+  - Phân tử $\text{HOCl}$ oxy hóa nhanh ion bromide thành hypobromous acid ($\text{HOBr}$):
+    $$\text{HOCl} + \text{Br}^- \rightarrow \text{HOBr} + \text{Cl}^-$$
+- **Tác động của $\text{HOBr}$ đến sự phân bố cấu tử**:
+  - Acid hypobromơ ($\text{HOBr}$) có tốc độ phản ứng thế halogen nhanh gấp 10 đến 20 lần so với $\text{HOCl}$.
+  - Nồng độ bromide trong nước thô càng tăng thì thành phần THM và HAA càng dịch chuyển sang dạng chứa brom.
+  - Thứ tự chuyển dịch THM: $\text{CHCl}_3 \rightarrow \text{CHBrCl}_2 \rightarrow \text{CHBr}_2\text{Cl} \rightarrow \text{CHBr}_3$.
+  - Các hợp chất DBP chứa brom có độc tính tế bào và nguy cơ gây ung thư cao hơn nhiều lần so với các hợp chất chứa clo thuần túy.
+
+##### 7.3.4.3 Các Sản phẩm Phụ Vô cơ Độc hại: Bromate, Chlorite và Chlorate
+- **Ion Bromate ($\text{BrO}_3^-$)**:
+  - Hình thành khi khử trùng bằng ozone ($\text{O}_3$) cho nguồn nước có chứa sẵn ion bromide ($\text{Br}^-$).
+  - Ozone phân tử và gốc hydroxyl ($\cdot\text{OH}$) oxy hóa liên tiếp ion $\text{Br}^-$ tạo thành $\text{BrO}_3^-$.
+  - Bromate là chất gây ung thư thận mạnh trên động vật thí nghiệm.
+  - Ngưỡng giới hạn cho phép của Bromate rất khắt khe: $\text{MCL} = 10\text{ }\mu\text{g/L}$ ($0.010\text{ mg/L}$).
+- **Ion Chlorite ($\text{ClO}_2^-$)**:
+  - Sinh ra từ phản ứng khử một electron của chlorine dioxide trong nước:
+    $$\text{ClO}_2 + e^- \rightarrow \text{ClO}_2^-$$
+  - Khoảng $50\%\text{ đến }70\%$ lượng chlorine dioxide châm vào nước chuyển hóa thành ion chlorite.
+  - Chlorite gây oxy hóa hemoglobin thành methemoglobin và gây thiếu máu tán huyết ở trẻ sơ sinh.
+  - Giới hạn quy chuẩn của Chlorite: $\text{MCL} = 1.0\text{ mg/L}$ ($1,000\text{ }\mu\text{g/L}$).
+- **Ion Chlorate ($\text{ClO}_3^-$)**:
+  - Sinh ra do sự phân hủy của dung dịch javel ($\text{NaOCl}$) khi lưu trữ lâu ngày dưới nhiệt độ cao và ánh nắng.
+  - Sinh ra từ phản ứng oxy hóa phụ của chlorine dioxide trong môi trường kiềm hoặc có ánh sáng.
+  - Chlorate ức chế tuyến giáp hấp thụ iod và gây tổn thương hồng cầu.
+  - Ngưỡng khuyến cáo của WHO và USEPA: $0.7\text{ mg/L}$.
+
+##### 7.3.4.4 Sản phẩm Phụ Chứa Nitơ Mới nổi: N-Nitrosodimethylamine (NDMA)
+- **Cơ chế hình thành NDMA**:
+  - NDMA xuất hiện khi sử dụng monochloramine cho các nguồn nước ô nhiễm nước thải sinh hoạt.
+  - Tiền chất của NDMA gồm dimethylamine ($\text{DMA}$) và các hợp chất amine bậc 3 hoặc bậc 4.
+  - Monochloramine phản ứng với các amine hữu cơ tạo thành hợp chất trung gian hydrazine rồi oxy hóa thành NDMA.
+- **Độc tính sinh học của NDMA**:
+  - NDMA là tác nhân gây đột biến gen và gây ung thư gan cực mạnh.
+  - Mức rủi ro ung thư một phần triệu ($10^{-6}$) tương ứng nồng độ cực thấp: $0.7\text{ đến }2.0\text{ ng/L}$.
+
+##### 7.3.4.5 Khung Phân loại Nguy cơ Gây ung thư của USEPA
+- **Hệ thống 5 nhóm phân loại bằng chứng ung thư của USEPA**:
+
+| Nhóm nguy cơ | Định nghĩa nhóm | Bằng chứng dịch tễ học trên người | Bằng chứng thực nghiệm trên động vật | Ví dụ các chất khử trùng và DBP |
+|---|---|---|---|---|
+| **Nhóm A** | Chất gây ung thư chắc chắn cho người (Human Carcinogen) | Đầy đủ | Đầy đủ | Benzen, Asen (không có DBP nào thuộc nhóm A) |
+| **Nhóm B** | Chất có khả năng cao gây ung thư cho người (Probable Human Carcinogen) | B1: Hạn chế<br>B2: Chưa đầy đủ hoặc không có | B1: Đầy đủ<br>B2: Đầy đủ | **Bromate** ($\text{BrO}_3^-$, Nhóm B2), **DCAA** (Nhóm B2), **BDCM** ($\text{CHBrCl}_2$, Nhóm B2) |
+| **Nhóm C** | Chất có thể gây ung thư cho người (Possible Human Carcinogen) | Không có | Hạn chế | **Chloroform** ($\text{CHCl}_3$), **Bromoform** ($\text{CHBr}_3$), **TCAA** |
+| **Nhóm D** | Chất chưa thể phân loại khả năng ung thư (Not Classifiable) | Chưa đầy đủ | Chưa đầy đủ | **Chlorite** ($\text{ClO}_2^-$), Chloramines, Chlorine Dioxide |
+| **Nhóm E** | Bằng chứng không gây ung thư cho người (Evidence of Non-Carcinogenicity) | Không có dấu hiệu | Không có dấu hiệu qua tối thiểu hai phép thử tin cậy | Không phát hiện nguy cơ ung thư |
+
+##### 7.3.4.6 Giới hạn Nồng độ Ô nhiễm Tối đa theo QCVN 01-1:2018/BYT và USEPA
+- **Bảng tổng hợp ngưỡng quy chuẩn pháp lý đối với chất khử trùng và sản phẩm phụ**:
+
+| Chỉ tiêu chất lượng nước | Ký hiệu hóa học | Ngưỡng cho phép QCVN 01-1:2018/BYT | Ngưỡng tối đa USEPA (MCL / MRDL) | Nhóm ung thư USEPA | Tác động sức khỏe chính |
+|---|---|---|---|---|---|
+| Clo dư tự do tại vòi | $\text{HOCl} + \text{OCl}^-$ | $0.2\text{--}1.0\text{ mg/L}$ | $\text{MRDL} = 4.0\text{ mg/L}$ | Chưa phân loại | Kích ứng niêm mạc mắt, mũi, mùi vị khó chịu |
+| Nồng độ Chloramines tồn dư | $\text{NH}_2\text{Cl}$ | Không quy định cụ thể | $\text{MRDL} = 4.0\text{ mg/L}$ | Nhóm D | Kích ứng hô hấp, thiếu máu ở bệnh nhân chạy thận |
+| Nồng độ Chlorine Dioxide tồn dư | $\text{ClO}_2$ | Không quy định cụ thể | $\text{MRDL} = 0.8\text{ mg/L}$ | Nhóm D | Thiếu máu, ảnh hưởng phát triển hệ thần kinh trẻ nhỏ |
+| Tổng Trihalomethanes (TTHMs) | Tổng 4 loài THM | $\le 100\text{ }\mu\text{g/L}$ ($0.10\text{ mg/L}$) | $\text{MCL} = 80\text{ }\mu\text{g/L}$ ($0.080\text{ mg/L}$ LRAA) | Nhóm B2 / C | Tổn thương gan, thận, tăng nguy cơ ung thư bàng quang |
+| Chloroform | $\text{CHCl}_3$ | $\le 300\text{ }\mu\text{g/L}$ | Tính gộp trong TTHMs | Nhóm C | Độc tính gan, suy giảm chức năng thận |
+| Bromoform | $\text{CHBr}_3$ | $\le 100\text{ }\mu\text{g/L}$ | Tính gộp trong TTHMs | Nhóm C | Gây ngủ, độc tính thần kinh, tổn thương gan |
+| Dibromochloromethane | $\text{CHBr}_2\text{Cl}$ | $\le 100\text{ }\mu\text{g/L}$ | Tính gộp trong TTHMs | Nhóm C | Độc tính gan và hệ bài tiết |
+| Bromodichloromethane | $\text{CHBrCl}_2$ | $\le 60\text{ }\mu\text{g/L}$ | Tính gộp trong TTHMs | Nhóm B2 | Nguy cơ sảy thai, tổn thương thận |
+| Tổng năm Haloacetic Acids (HAA5) | Tổng 5 loài HAA | Không quy định cụ thể | $\text{MCL} = 60\text{ }\mu\text{g/L}$ ($0.060\text{ mg/L}$ LRAA) | Nhóm B2 / C | Tổn thương gan, tổn thương tinh hoàn, độc tính phôi thai |
+| Ion Bromate | $\text{BrO}_3^-$ | $\le 10\text{ }\mu\text{g/L}$ ($0.010\text{ mg/L}$) | $\text{MCL} = 10\text{ }\mu\text{g/L}$ ($0.010\text{ mg/L}$) | Nhóm B2 | Ung thư thận, tổn thương tế bào tuyến giáp |
+| Ion Chlorite | $\text{ClO}_2^-$ | Không quy định cụ thể | $\text{MCL} = 1.0\text{ mg/L}$ ($1,000\text{ }\mu\text{g/L}$) | Nhóm D | Thiếu máu tán huyết, methemoglobin |
+| Ion Chlorate | $\text{ClO}_3^-$ | Không quy định cụ thể | Khuyến cáo $\le 0.7\text{ mg/L}$ | Nhóm D | Tổn thương tế bào hồng cầu, ức chế hấp thụ iod |
+
+---
+
+#### 7.3.5 Giải pháp Kỹ thuật Giảm thiểu Tiền chất DBP và Xử lý Sự cố (DBP Mitigation & Operational Troubleshooting)
+
+##### 7.3.5.1 Công nghệ Keo tụ Nâng cao (Enhanced Coagulation) Loại bỏ Tiền chất TOC
+- **Nguyên lý keo tụ nâng cao**:
+  - Keo tụ nâng cao tối ưu hóa quá trình keo tụ nhằm loại bỏ tối đa chất hữu cơ hòa tan thay vì chỉ khử độ đục.
+  - Hạ pH dòng nước keo tụ xuống dải acid nhẹ từ $5.5\text{ đến }6.3$ bằng cách tăng liều phèn nhôm hoặc phèn sắt.
+  - Ở dải pH này, các phân tử acid humic và acid fulvic trung hòa điện tích và liên kết với bông hydroxit kim loại.
+  - Quá trình này giúp loại bỏ từ $45\%\text{ đến }65\%$ tổng carbon hữu cơ ($\text{TOC}$) trước khi châm clo.
+- **Bảng tỷ lệ phần trăm loại bỏ TOC bắt buộc theo Bước 1 USEPA D/DBPR**:
+
+| Nồng độ TOC nước thô ($\text{mg/L}$) | Độ kiềm nước thô: $0\text{--}60\text{ mg/L as }\text{CaCO}_3$ | Độ kiềm nước thô: $> 60\text{--}120\text{ mg/L as }\text{CaCO}_3$ | Độ kiềm nước thô: $> 120\text{ mg/L as }\text{CaCO}_3$ |
+|---|---|---|---|
+| $> 2.0\text{ đến }4.0$ | $35.0\%$ | $25.0\%$ | $15.0\%$ |
+| $> 4.0\text{ đến }8.0$ | $45.0\%$ | $35.0\%$ | $25.0\%$ |
+| $> 8.0$ | $50.0\%$ | $40.0\%$ | $30.0\%$ |
+
+##### 7.3.5.2 Tối ưu hóa Điểm Châm Hóa chất và Đổi Chất Khử trùng Thứ cấp
+- **Dời điểm châm clo (Elimination of Prechlorination)**:
+  - Bỏ châm clo sơ bộ tại công trình thu hoặc đầu bể trộn nhanh.
+  - Chuyển toàn bộ điểm châm clo về sau bể lọc cát.
+  - Không cho clo tiếp xúc với nước khi nồng độ chất hữu cơ tự nhiên còn cao.
+- **Chuyển đổi sang Monochloramine cho mạng lưới phân phối**:
+  - Sau khi nước lọc đạt chuẩn vi sinh bằng clo tự do hoặc tia UV, bổ sung ammonia để tạo monochloramine.
+  - Tỷ lệ khối lượng châm kiểm soát ở mức $\text{Cl}_2:\text{NH}_3\text{-N} = 4.5:1\text{ đến }5:1$.
+  - Monochloramine không phản ứng với phần chất hữu cơ còn lại, ngăn ngừa tạo thêm THMs trên mạng lưới.
+
+##### 7.3.5.3 Thổi khí Làm bay hơi Trihalomethanes trong Bể Chứa (Tank Aeration)
+- **Nguyên lý bay hơi**:
+  - Chloroform ($\text{CHCl}_3$) có hằng số Henry cao ($H_a \approx 0.15\text{ ở }20^\circ\text{C}$), rất dễ bay hơi khỏi pha nước.
+  - Lắp đặt giàn đĩa phân phối khí mịn hoặc quạt thông gió cưỡng bức tại bể chứa nước sạch phân phối.
+  - Thổi khí liên tục bốc tách từ $50\%\text{ đến }80\%$ lượng THMs tích tụ trong bể ra ngoài khí quyển.
+
+##### 7.3.5.4 Quy trình Khắc phục Sự cố Nồng độ DBP Vượt Ngưỡng Cho phép
+- **Trường hợp A: Nồng độ TTHMs (> 80 µg/L) hoặc HAA5 (> 60 µg/L) vượt ngưỡng**:
+  - *Dấu hiệu nhận biết*: Kết quả quan trắc định kỳ tại các điểm cuối mạng lưới cấp nước vượt ngưỡng MCL.
+  - *Nguyên nhân gốc rễ*:
+    - Hàm lượng TOC nước thô tăng cao trong mùa mưa lũ.
+    - Điểm châm clo đặt quá sớm tại đầu trạm xử lý.
+    - Thời gian lưu nước trong bể chứa và đường ống truyền tải quá dài (> 48 giờ).
+    - pH nước sau lọc cao kết hợp nhiệt độ nước mùa hè kích thích phản ứng tạo THM.
+  - *Biện pháp kỹ thuật khắc phục*:
+    1. Hạ pH keo tụ xuống $5.8\text{--}6.2$ và tăng liều phèn để loại bỏ triệt để tiền chất TOC.
+    2. Ngắt điểm châm clo trước lắng và chuyển hoàn toàn điểm châm ra sau bể lọc.
+    3. Giảm bớt mức nước tích trữ trong các bể điều hòa nhằm giảm thời gian lưu nước dưới 24 giờ.
+    4. Bật hệ thống quạt thông gió cưỡng bức hoặc máy sục khí tại các trạm chứa phân phối.
+    5. Xem xét bổ sung trạm châm ammonia để chuyển đổi clo dư sang monochloramine.
+- **Trường hợp B: Nồng độ Chlorite ($\text{ClO}_2^-$) vượt ngưỡng 1.0 mg/L**:
+  - *Dấu hiệu nhận biết*: Hàm lượng chlorite trong nước sau khử trùng đạt trên $1.0\text{ mg/L}$.
+  - *Nguyên nhân gốc rễ*:
+    - Liều lượng chlorine dioxide châm quá cao ($> 1.2\text{--}1.5\text{ mg/L}$).
+    - Thiết bị phát $\text{ClO}_2$ vận hành sai tỷ lệ stoichiometric khiến hiệu suất chuyển hóa hóa chất thấp.
+  - *Biện pháp kỹ thuật khắc phục*:
+    1. Giảm liều châm chlorine dioxide xuống dưới $1.0\text{ mg/L}$.
+    2. Hiệu chuẩn tỷ lệ cấp acid và muối chlorite để hiệu suất sinh khí $\text{ClO}_2$ đạt trên $95\%$.
+    3. Châm bổ sung muối sắt hai ($\text{FeSO}_4$) hoặc sodium bisulfite ($\text{NaHSO}_3$) sau bể tiếp xúc để khử ion chlorite thành chloride vô hại:
+       $$\text{ClO}_2^- + 4\text{Fe}^{2+} + 10\text{H}_2\text{O} \rightarrow \text{Cl}^- + 4\text{Fe(OH)}_3 \downarrow + 8\text{H}^+$$
+
+##### 7.3.5.5 Quy trình Khắc phục Sự cố Thiếu hụt Giá trị CT Khử trùng
+- *Dấu hiệu nhận biết*: Tích số $CT$ thực tế tính toán nhỏ hơn $CT_{\text{req}}$ theo bảng tra của USEPA; phát hiện vi sinh vật chỉ thị trong nước sau khử trùng.
+- *Nguyên nhân gốc rễ*:
+  - Nhiệt độ nước mùa đông sụt giảm sâu làm tăng vọt giá trị $CT_{\text{req}}$.
+  - pH nước tăng cao ($> 8.0$) làm giảm tỷ lệ acid $\text{HOCl}$ sát khuẩn.
+  - Lưu lượng nước cấp vượt quá công suất thiết kế làm giảm thời gian lưu hữu dụng $t_{10}$.
+  - Bể tiếp xúc bị đoản mạch nặng do thiếu vách ngăn hướng dòng ($\text{BF} \le 0.3$).
+- *Biện pháp kỹ thuật khắc phục*:
+  1. Tăng ngay liều châm clo tại buồng tiếp xúc để nâng nồng độ tồn dư $C$.
+  2. Bổ sung acid sulfuric hoặc khí carbonic hạ pH nước khử trùng về khoảng $6.8\text{--}7.2$.
+  3. Lắp đặt thêm vách ngăn composite hoặc tấm hướng dòng dạng kênh ngoằn ngoèo để nâng hệ số $\text{BF}$ từ 0.3 lên 0.7.
+  4. Bổ sung rào cản khử trùng bằng đèn cực tím UV để gánh bớt tín chỉ bất hoạt mà không phụ thuộc vào nhiệt độ nước.
+
+### 7.4 Thủy lực Bể Tiếp xúc Clo, Phương trình Cốt lõi, Quy trình Tính toán và Xử lý Sự cố (Contact Contactor Hydraulics, Core Equations, Engineering Procedures & Operational Troubleshooting)
+
+#### 7.4.1 Cơ sở Thủy lực Bể Tiếp xúc Clo Ziczac Uốn khúc Dọc (Longitudinal-Serpentine Chlorine Contactor Hydraulics)
+
+##### 7.4.1.1 Nguyên lý Dòng chảy Piston và Phân bố Thời gian Lưu (PFR & RTD Principles)
+- Dòng chảy piston (Plug Flow Reactor - PFR) là mô hình thủy lực chuẩn cho bể khử trùng nước.
+- Dòng PFR duy trì thời gian tiếp xúc đồng đều cho mọi phần tử nước đi qua công trình.
+- Chuyển động xoáy ngang và hiện tượng đoản mạch làm giảm thời gian lưu thực tế của nước.
+- Đường cong phân bố thời gian lưu (RTD) cho phép xác định thời gian tiếp xúc hiệu dụng $t_{10}$.
+- Giá trị $t_{10}$ biểu thị mốc thời gian khi 10% lượng chất đánh dấu đầu tiên thoát ra khỏi bể.
+- USEPA quy định dùng giá trị $t_{10}$ để tính tích số nồng độ khử trùng $CT = C \cdot t_{10}$.
+
+##### 7.4.1.2 Phân cấp Hệ số Vách ngăn Thủy lực (Hydraulic Baffling Factor Classification)
+- Hệ số vách ngăn xác định bằng tỷ số giữa $t_{10}$ và $t_0$:
+  $$BF = \frac{t_{10}}{t_0}$$
+- Đại lượng $t_0$ biểu thị thời gian lưu thủy lực lý thuyết của nước:
+  $$t_0 = \frac{V}{Q}$$
+- Tiêu chuẩn USEPA phân loại hiệu quả thủy lực của bể tiếp xúc thành 5 cấp bậc kỹ thuật:
+  - Cấp Chưa có vách ngăn (Unbaffled): $BF = 0.10$. Bể tròn hoặc chữ nhật đơn giản, không có vách dẫn dòng. Vùng chết chiếm 70% đến 90% dung tích.
+  - Cấp Vách ngăn kém (Poor Baffling): $BF = 0.30$. Bể có vách ngăn đơn giản, tỷ số chiều dài trên chiều rộng $L/W < 5:1$. Vùng chết chiếm 50% đến 70%.
+  - Cấp Vách ngăn trung bình (Average Baffling): $BF = 0.50$. Bể có vách ngăn ngang hoặc kênh ngoằn ngoèo, tỷ số $L/W = 10:1$ đến $20:1$. Vùng chết chiếm 30% đến 50%.
+  - Cấp Vách ngăn xuất sắc (Superior Baffling): $BF = 0.70$. Bể kênh ziczac nhiều vách uốn khúc dọc, tỷ số $L_{\text{path}} / W_c \ge 40:1$. Vùng chết chỉ chiếm 10% đến 30%.
+  - Cấp Dòng piston lý tưởng (Ideal Plug Flow): $BF = 1.00$. Dòng chảy trong đường ống truyền tải dài, dòng chảy rối hoàn toàn, không có vùng chết.
+
+| Cấp Bậc Vách Ngăn | Hệ Số Vách Ngăn ($BF = t_{10}/t_0$) | Cấu Tạo Hình Học Đặc Trưng | Chỉ Số Phân Tán ($d$) | Tỷ Lệ Vùng Chết |
+|---|---|---|---|---|
+| Chưa có vách (Unbaffled) | 0.10 | Bể hở tròn hoặc chữ nhật, không có tường ngăn dẫn dòng | $> 0.20$ | 70% – 90% |
+| Vách ngăn kém (Poor) | 0.30 | Bể có 1 vách ngăn đơn, tỷ số $L/W < 5:1$ | 0.10 – 0.20 | 50% – 70% |
+| Vách trung bình (Average) | 0.50 | Bể có vách ngăn ngang, tỷ số $L/W = 10:1 - 20:1$ | 0.03 – 0.10 | 30% – 50% |
+| Vách xuất sắc (Superior) | 0.70 | Kênh ziczac uốn khúc dọc, tỷ số $L_{\text{path}}/W_c \ge 40:1$ | 0.005 – 0.03 | 10% – 30% |
+| Dòng piston lý tưởng (Ideal) | 1.00 | Đường ống truyền tải dài, không có góc chết | 0.000 | 0% |
+
+##### 7.4.1.3 Tiêu chuẩn Hình học và Cánh Hướng dòng (Aspect Ratio & Turning Vanes)
+- Bể tiếp xúc clo ziczac uốn khúc dọc phải đạt tỷ số hình học:
+  $$\frac{L_{\text{path}}}{W_c} \ge 40:1$$
+- Tỷ số này triệt tiêu hoàn toàn sự chênh lệch vận tốc ngang dòng và ngăn tạo xoáy ngược.
+- Dòng nước đổi hướng 180° tại góc cuối của mỗi kênh dẫn.
+- Lực ly tâm ép dòng nước về phía tường ngoài và tạo vùng xoáy chết lớn tại góc trong vách ngăn.
+- Kỹ sư lắp đặt các cánh hướng dòng cong (Curved Turning Vanes) tại mỗi góc ngoặt 180°.
+- Cánh hướng dòng chia nhỏ dòng quay thành các luồng song song có bán kính cong đều nhau.
+- Cánh hướng dòng triệt tiêu 95% thể tích vùng chết và giảm thiểu tổn thất áp lực cục bộ.
+
+##### 7.4.1.4 Thủy lực Khử trùng trên Tuyến Ống Dẫn (Pipeline Disinfection Contactor)
+- Đường ống truyền tải nước sạch là công trình tiếp xúc khử trùng lý tưởng ($BF \approx 0.90 - 1.0$).
+- Chiều dài đường ống tiếp xúc xác định theo phương trình lưu lượng và vận tốc:
+  $$L = v \cdot t_0 = \left( \frac{Q}{\frac{\pi}{4} D_{\text{pipe}}^2} \right) \cdot t_0$$
+- Vận tốc dòng chảy trong ống phải đạt $v \ge 0.6\text{ m/s}$ (vận tốc thiết kế phổ biến $0.8 - 1.5\text{ m/s}$).
+- Vận tốc này duy trì chế độ chảy rối với chuẩn số Reynolds $Re > 10,000$.
+- Phân bố vận tốc trong dòng chảy rối rất phẳng, giúp triệt tiêu hiện tượng phân tán dọc trục.
+- Khử trùng trên ống áp dụng khi chiều dài ống trên 1 km và lưu lượng $Q > 3,800\text{ m}^3/\text{ngày}$.
+
+---
+
+#### 7.4.2 Danh mục 34 Phương trình Cốt lõi của Công nghệ Khử trùng (Core Equations Catalog)
+
+Bảng dưới đây tổng hợp toàn bộ 34 phương trình toán học then chốt trong kỹ thuật khử trùng nước cấp:
+
+| Ký hiệu Mã hóa | Tên Phương trình | Phương trình KaTeX | Ý nghĩa Kỹ thuật và Biến số |
+|---|---|---|---|
+| `eq_ch07_001` | Phản ứng Thủy phân Khí Clo (Chlorine Gas Hydrolysis) | $$\text{Cl}_2(g) + \text{H}_2\text{O} \rightleftharpoons \text{HOCl} + \text{H}^+ + \text{Cl}^-$$ | Phản ứng hòa tan khí clo tạo axit hypoclorơ xảy ra trong $t_{1/2} < 1\text{ s}$.<br>- $\text{Cl}_2$: Khí clo nguyên tố ($70.91\text{ g/mol}$).<br>- $\text{HOCl}$: Axit hypoclorơ diệt khuẩn chính.<br>- $\text{H}^+, \text{Cl}^-$: Ion hydro và ion clorua. |
+| `eq_ch07_002` | Cân bằng Phân ly Acid Hypochlorous (HOCl Dissociation) | $$\text{HOCl} \rightleftharpoons \text{H}^+ + \text{OCl}^-$$ | Cân bằng thuận nghịch giữa axit hypoclorơ và ion hypoclorit theo pH.<br>- $\text{HOCl}$: Dạng axit trung hòa điện tích.<br>- $\text{OCl}^-$: Anion hypoclorit có hoạt tính yếu hơn. |
+| `eq_ch07_003` | Hằng số Phân ly Axit của HOCl (Ka Constant) | $$K_a = \frac{[\text{H}^+][\text{OCl}^-]}{[\text{HOCl}]} = 2.90 \times 10^{-8}$$ | Hằng số nhiệt động lực học ở $25^\circ\text{C}$ ($pK_a = 7.54$).<br>- $[\text{H}^+]$: Nồng độ ion hydro ($\text{mol/L}$).<br>- $[\text{OCl}^-]$: Nồng độ ion hypoclorit ($\text{mol/L}$).<br>- $[\text{HOCl}]$: Nồng độ axit hypoclorơ ($\text{mol/L}$). |
+| `eq_ch07_004` | Phân số Axit Hypoclorơ Chưa Phân ly ($\alpha_0$) | $$\alpha_0 = \frac{[\text{H}^+]}{[\text{H}^+] + K_a} = \frac{1}{1 + 10^{\text{pH} - pK_a}}$$ | Tỷ lệ phần trăm dạng $\text{HOCl}$ diệt khuẩn mạnh trong tổng clo tự do.<br>- $\alpha_0$: Phân số $\text{HOCl}$ ($0.0 - 1.0$).<br>- $\text{pH}$: Giá trị pH của dung dịch nước.<br>- $pK_a$: Hằng số phân ly logarit ($7.54$ ở $25^\circ\text{C}$). |
+| `eq_ch07_005` | Phân số Ion Hypoclorit Phân ly ($\alpha_1$) | $$\alpha_1 = \frac{K_a}{[\text{H}^+] + K_a} = 1 - \alpha_0$$ | Tỷ lệ ion $\text{OCl}^-$ có hoạt lực sát khuẩn kém hơn $\text{HOCl}$ từ 80 đến 100 lần.<br>- $\alpha_1$: Phân số ion $\text{OCl}^-$ ($0.0 - 1.0$).<br>- $\alpha_0$: Phân số axit $\text{HOCl}$. |
+| `eq_ch07_006` | Hòa tan Natri Hypoclorit (NaOCl Dissolution) | $$\text{NaOCl} \rightarrow \text{Na}^+ + \text{OCl}^-$$ | Phân ly hoàn toàn của javel lỏng, giải phóng anion $\text{OCl}^-$ và nâng nhẹ pH.<br>- $\text{NaOCl}$: Natri hypoclorit thương mại.<br>- $\text{Na}^+$: Cation natri.<br>- $\text{OCl}^-$: Anion hypoclorit. |
+| `eq_ch07_007` | Hòa tan Canxi Hypoclorit (Ca(OCl)2 Dissolution) | $$\text{Ca(OCl)}_2 \rightarrow \text{Ca}^{2+} + 2\text{OCl}^-$$ | Phân ly bột clo hạt giải phóng 2 mol anion $\text{OCl}^-$ trên mỗi mol muối.<br>- $\text{Ca(OCl)}_2$: Canxi hypoclorit dạng hạt ($65\% - 70\%\text{ Cl}_2$).<br>- $\text{Ca}^{2+}$: Ion canxi làm tăng độ cứng nước. |
+| `eq_ch07_008` | Tiêu hao Độ kiềm do Khí Clo (Alkalinity Loss) | $$\Delta \text{Alk} = -1.43 \times \text{Dose}_{\text{Cl}_2}$$ | Giảm độ kiềm nước do phản ứng sinh axit $\text{HCl}$ khi châm khí clo.<br>- $\Delta \text{Alk}$: Độ kiềm tiêu hao ($\text{mg/L as }\text{CaCO}_3$).<br>- $\text{Dose}_{\text{Cl}_2}$: Liều lượng khí clo châm ($\text{mg/L}$). |
+| `eq_ch07_009` | Cân bằng Khối lượng Liều Clo Châm (Chlorine Mass Balance) | $$\text{Liều clo} = \text{Nhu cầu clo} + \text{Clo dư}$$ | Cân bằng giữa lượng hóa chất châm vào và lượng phản ứng với tạp chất.<br>- Liều clo: Nồng độ clo cấp ban đầu ($\text{mg/L}$).<br>- Nhu cầu clo: Lượng clo oxy hóa chất khử ($\text{mg/L}$).<br>- Clo dư: Nồng độ clo còn lại ($\text{mg/L}$). |
+| `eq_ch07_010` | Cân bằng Thành phần Clo Dư Tổng (Total Chlorine Residual) | $$\text{Clo dư tổng} = \text{Clo dư tự do} + \text{Clo dư liên kết}$$ | Tổng các dạng clo tồn tại trong nước sau thời gian tiếp xúc.<br>- Clo tự do: Tổng $\text{HOCl} + \text{OCl}^-$ ($\text{mg/L}$).<br>- Clo liên kết: Tổng các dạng cloramin ($\text{mg/L}$). |
+| `eq_ch07_011` | Phản ứng Tạo Monocloramin (Monochloramine Formation) | $$\text{NH}_3 + \text{HOCl} \rightarrow \text{NH}_2\text{Cl} + \text{H}_2\text{O}$$ | Phản ứng ưu thế ở tỷ lệ $\text{Cl}_2:\text{N} < 5:1$ và môi trường $\text{pH} = 7.5 - 8.5$.<br>- $\text{NH}_3$: Khí amoniac hòa tan.<br>- $\text{NH}_2\text{Cl}$: Monocloramin bền vững trên mạng lưới. |
+| `eq_ch07_012` | Phản ứng Tạo Dicloramin (Dichloramine Formation) | $$\text{NH}_2\text{Cl} + \text{HOCl} \rightarrow \text{NHCl}_2 + \text{H}_2\text{O}$$ | Phản ứng tiếp diễn ở $\text{pH} < 7.0$ hoặc khi tăng tỷ lệ $\text{Cl}_2:\text{N}$.<br>- $\text{NHCl}_2$: Dicloramin gây mùi vị lạ cho nước cấp. |
+| `eq_ch07_013` | Phản ứng Tạo Triclorua Nitơ (Nitrogen Trichloride) | $$\text{NHCl}_2 + \text{HOCl} \rightarrow \text{NCl}_3 + \text{H}_2\text{O}$$ | Hình thành ở môi trường axit mạnh ($\text{pH} < 4.5$) hoặc tỷ lệ clo rất cao.<br>- $\text{NCl}_3$: Khí gây mùi cay nồng và kích ứng mắt. |
+| `eq_ch07_014` | Khử trùng Điểm Đột biến Tạo Khí Nitơ (Breakpoint to N2) | $$2\text{NH}_3 + 3\text{Cl}_2 \rightarrow \text{N}_2 \uparrow + 6\text{HCl}$$ | Oxy hóa hoàn toàn amoniac thành khí nitơ tại điểm đột biến.<br>- Tỷ lệ mol: $1.5\text{ mol }\text{Cl}_2 / 1.0\text{ mol N}$.<br>- Tỷ lệ khối lượng lý thuyết: $7.60\text{ mg }\text{Cl}_2 / \text{mg }\text{NH}_3\text{-N}$. |
+| `eq_ch07_015` | Oxy hóa Amoniac Thành Nitrate do Dư Clo (Ammonia to Nitrate) | $$\text{NH}_3 + 4\text{Cl}_2 + 3\text{H}_2\text{O} \rightarrow \text{HNO}_3 + 8\text{HCl}$$ | Phản ứng phụ khi châm dư thừa clo oxy hóa amoniac lên bậc cao nhất.<br>- Tỷ lệ mol: $4.0\text{ mol }\text{Cl}_2 / 1.0\text{ mol N}$.<br>- Tỷ lệ khối lượng: $20.25\text{ mg }\text{Cl}_2 / \text{mg }\text{NH}_3\text{-N}$. |
+| `eq_ch07_016` | Tổng hợp Clo Dioxit từ Khí Clo (ClO2 via Cl2 Gas) | $$2\text{NaClO}_2 + \text{Cl}_2(g) \rightarrow 2\text{ClO}_2(g) + 2\text{NaCl}$$ | Tổng hợp $\text{ClO}_2$ tại chỗ bằng phản ứng pha khí chân không.<br>- $\text{NaClO}_2$: Natri clorit nồng độ $25\% - 31\%$.<br>- $\text{ClO}_2$: Khí clo dioxit hòa tan. |
+| `eq_ch07_017` | Tổng hợp Clo Dioxit từ HOCl (ClO2 via HOCl) | $$2\text{NaClO}_2 + \text{HOCl} \rightarrow 2\text{ClO}_2(g) + \text{NaCl} + \text{NaOH}$$ | Phương pháp tạo $\text{ClO}_2$ không dùng khí clo nguyên tố.<br>- Phản ứng diễn ra trong môi trường axit kiểm soát. |
+| `eq_ch07_018` | Tổng hợp Clo Dioxit từ Axit HCl (ClO2 via Acid-Chlorite) | $$5\text{NaClO}_2 + 4\text{HCl} \rightarrow 4\text{ClO}_2(g) + 5\text{NaCl} + 2\text{H}_2\text{O}$$ | Phản ứng hai thành phần lỏng an toàn cho trạm xử lý quy mô nhỏ.<br>- $\text{HCl}$: Axit clohydric nồng độ $30\% - 33\%$. |
+| `eq_ch07_019` | Phản ứng Khử Clo Dioxit trong Nước (ClO2 Reduction) | $$\text{ClO}_2 + e^- \rightarrow \text{ClO}_2^-$$ | Quá trình nhận electron của $\text{ClO}_2$ sinh ra ion clorit phụ phẩm độc hại.<br>- $\text{ClO}_2^-$: Ion clorit giới hạn nghiêm ngặt $\le 1.0\text{ mg/L}$. |
+| `eq_ch07_020` | Phản ứng Tạo Ozone Phóng điện Hoa (Ozone Formation) | $$\text{O} + \text{O}_2 \rightarrow \text{O}_3$$ | Phân tử oxy phân ly thành nguyên tử O tự do rồi kết hợp tạo khí ozone.<br>- Năng lượng điện trường cao thế kích thích phân tử $\text{O}_2$. |
+| `eq_ch07_021` | Tạo Axit Nitric Ăn mòn Máy Ozone (Nitric Acid Corrosion) | $$2\text{N}_2 + 5\text{O}_2 + 2\text{H}_2\text{O} \xrightarrow{\text{phóng điện hoa}} 4\text{HNO}_3$$ | Hơi ẩm phản ứng với khí nitơ tạo hơi axit $\text{HNO}_3$ phá hủy điện cực.<br>- Ngăn chặn bằng điểm sương khí nạp $T_{\text{dew}} \le -60^\circ\text{C}$. |
+| `eq_ch07_022` | Điện phân Muối Tạo Javel Tại chỗ (OSHG Electrolysis) | $$2\text{NaCl} + 2\text{H}_2\text{O} \xrightarrow{\text{điện phân}} \text{NaOCl} + \text{NaCl} + \text{H}_2\text{O} + \text{H}_2 \uparrow$$ | Sản xuất dung dịch javel loãng $0.8\%$ từ nước muối mềm.<br>- $\text{H}_2$: Khí hydro dễ cháy nổ sinh ra ở cực âm. |
+| `eq_ch07_023` | Liều Lượng Bức xạ Cực tím (UV Fluence / Dose) | $$D = I \cdot t$$ | Tổng năng lượng photon tia cực tím chiếu lên một đơn vị diện tích bề mặt.<br>- $D$: Liều lượng bức xạ UV ($\text{mJ/cm}^2$ hoặc $\text{J/m}^2$).<br>- $I$: Cường độ bức xạ ($\text{mW/cm}^2$).<br>- $t$: Thời gian phơi sáng ($s$). |
+| `eq_ch07_024` | Định luật Chick về Động học Bất hoạt (Chick's Law) | $$\ln\left(\frac{N_t}{N_0}\right) = -k \cdot t \quad \text{hoặc} \quad \frac{dN}{dt} = -k \cdot N$$ | Tốc độ tiêu diệt vi sinh vật tỷ lệ thuận với số lượng tế bào còn sống.<br>- $N_0, N_t$: Mật độ tế bào ban đầu và tại thời điểm $t$.<br>- $k$: Hằng số tốc độ bất hoạt ($\text{phút}^{-1}$). |
+| `eq_ch07_025` | Mô hình Động học Chick-Watson (Chick-Watson Law) | $$\ln\left(\frac{N_t}{N_0}\right) = -k_{cw} \cdot C^n \cdot t$$ | Tích hợp nồng độ chất khử trùng $C$ và hệ số pha loãng $n$.<br>- $k_{cw}$: Hằng số tốc độ Chick-Watson.<br>- $n$: Hệ số pha loãng ($n \approx 1.0$ cho clo tự do). |
+| `eq_ch07_026` | Động học Phân rã Bậc Một của Hóa chất (First-Order Decay) | $$\frac{dC}{dt} = -k_d \cdot C \implies C(t) = C_0 \cdot e^{-k_d \cdot t}$$ | Mô hình suy giảm nồng độ clo tự do, cloramin và $\text{ClO}_2$ trên đường ống.<br>- $C_0, C(t)$: Nồng độ ban đầu và tại thời gian $t$ ($\text{mg/L}$).<br>- $k_d$: Hằng số tốc độ phân rã bậc một ($\text{ngày}^{-1}$). |
+| `eq_ch07_027` | Động học Phân rã Hóa chất Bậc Hai (Second-Order Decay) | $$\frac{dC}{dt} = -k_{2d} \cdot C^2 \implies C(t) = \frac{C_0}{1 + k_{2d} \cdot C_0 \cdot t}$$ | Mô tả tốc độ tự phân hủy của javel đậm đặc và ozone trong nước.<br>- $k_{2d}$: Hằng số phân rã bậc hai ($\text{L}/(\text{mg}\cdot\text{phút})$). |
+| `eq_ch07_028` | Chỉ số Tín chỉ Log Bất hoạt (Log Inactivation Credit) | $$\text{Log Inactivation} = \log_{10}\left(\frac{N_0}{N_t}\right) = -\log_{10}\left(1 - \frac{\% \text{ Khử}}{100}\right)$$ | Đại lượng đo mức độ giảm mật độ vi sinh vật theo cấp số mũ 10.<br>- 1-log = 90%; 2-log = 99%; 3-log = 99.9%; 4-log = 99.99%. |
+| `eq_ch07_029` | Phần trăm Bất hoạt từ Tín chỉ Log (% Inactivation) | $$\% \text{ Bất hoạt} = \left(1 - 10^{-\text{Log Inactivation}}\right) \times 100\%$$ | Quy đổi giá trị tín chỉ log thành phần trăm hiệu quả diệt khuẩn. |
+| `eq_ch07_030` | Tích số Nồng độ - Thời gian USEPA (CT Metric) | $$CT = C \cdot t_{10}$$ | Thước đo quy chuẩn xác định liều lượng khử trùng hóa học.<br>- $C$: Nồng độ clo dư đo tại cửa ra bể ($\text{mg/L}$).<br>- $t_{10}$: Thời gian lưu hiệu dụng 90% nước ($\text{phút}$). |
+| `eq_ch07_031` | Thời gian Tiếp xúc Hiệu dụng qua Hệ số Baffle ($t_{10}$) | $$t_{10} = BF \cdot t_0 = \left( \frac{t_{10}}{t_0} \right) \cdot \left( \frac{V}{Q} \right)$$ | Tính thời gian lưu hiệu dụng thực tế từ dung tích bể và hệ số vách ngăn.<br>- $BF$: Hệ số vách ngăn ($0.1 - 1.0$).<br>- $V$: Thể tích hữu ích của bể ($\text{m}^3$).<br>- $Q$: Lưu lượng nước ($\text{m}^3/\text{phút}$). |
+| `eq_ch07_032` | Thời gian Lưu Thủy lực Lý thuyết ($t_0$) | $$t_0 = \frac{V}{Q}$$ | Thời gian lưu trung bình danh nghĩa của dòng nước trong bể phản ứng. |
+| `eq_ch07_033` | Chiều dài Tuyến Ống Tiếp xúc Khử trùng (Pipe Contactor Length) | $$L = v \cdot t_0 = \left( \frac{Q}{\frac{\pi}{4} D_{\text{pipe}}^2} \right) \cdot t_0$$ | Tính chiều dài đường ống truyền tải cần thiết để thay thế bể tiếp xúc.<br>- $L$: Chiều dài tuyến ống ($\text{m}$).<br>- $D_{\text{pipe}}$: Đường kính trong của ống ($\text{m}$). |
+| `eq_ch07_034` | Tỷ số Hình học Kênh Serpentine (Aspect Ratio Criteria) | $$\text{Aspect Ratio} = \frac{L_{\text{path}}}{W_{\text{channel}}} \ge 40:1$$ | Tiêu chuẩn hình học bắt buộc để bể ziczac đạt hệ số $BF = 0.70$.<br>- $L_{\text{path}}$: Tổng chiều dài tim dòng chảy qua các kênh ($\text{m}$).<br>- $W_{\text{channel}}$: Chiều rộng mỗi nhánh kênh ($\text{m}$). |
+
+---
+
+#### 7.4.3 Sáu Quy trình Kỹ thuật Tuần tự trong Khử trùng Nước (Sequential Technical Procedures)
+
+##### Quy trình 1: Tính Cân bằng Phân ly và Phân bố Các Dạng Clo Tự do (Hypochlorous Acid Speciation Calculation)
+1. Đo đạc các thông số hiện trường của dòng nước: nhiệt độ nước $T$ ($^\circ\text{C}$) và độ pH cân bằng.
+2. Tra cứu hoặc tính toán hằng số phân ly axit $K_a$ của $\text{HOCl}$ tại nhiệt độ $T$ ($K_a = 2.90 \times 10^{-8}\text{ mol/L}$ ở $25^\circ\text{C}$).
+3. Tính toán nồng độ mol ion hydro trong nước:
+   $$[\text{H}^+] = 10^{-\text{pH}}$$
+4. Tính toán phân số axit hypoclorơ chưa phân ly $\alpha_0$ theo công thức `eq_ch07_004`:
+   $$\alpha_0 = \frac{[\text{H}^+]}{[\text{H}^+] + K_a} = \frac{1}{1 + 10^{\text{pH} - pK_a}}$$
+5. Tính toán phân số ion hypoclorit phân ly $\alpha_1$ theo công thức `eq_ch07_005`:
+   $$\alpha_1 = 1 - \alpha_0$$
+6. Xác định nồng độ thực tế của dạng $\text{HOCl}$ sát trùng mạnh:
+   $$C_{\text{HOCl}} = \alpha_0 \cdot C_{\text{free}}$$
+7. Khi $\alpha_0 < 0.50$ (tương ứng $\text{pH} > 7.54$), châm axit kiểm soát pH trong dải $6.5 - 7.2$ để tối ưu hóa diệt khuẩn.
+
+##### Quy trình 2: Xác định Liều lượng Clo Khử trùng Điểm Đột biến (Breakpoint Chlorination Dosing Determination)
+1. Thu thập mẫu nước và phân tích nồng độ: $\text{NH}_3\text{-N}$, nitơ hữu cơ, $\text{Fe}^{2+}$, $\text{Mn}^{2+}$, $\text{H}_2\text{S}$ và TOC.
+2. Tính nhu cầu clo lý thuyết cho các chất khử vô cơ ($\text{Fe}^{2+}$ tốn $0.64\text{ mg }\text{Cl}_2/\text{mg}$; $\text{Mn}^{2+}$ tốn $1.29\text{ mg }\text{Cl}_2/\text{mg}$).
+3. Tính liều clo lý thuyết oxy hóa amoniac thành khí nitơ theo tỷ lệ `eq_ch07_014`:
+   $$\text{Dose}_{\text{NH}_3} = 7.60 \times [\text{NH}_3\text{-N}] \quad (\text{mg/L})$$
+4. Tiến hành thí nghiệm chuẩn độ Jartest với các liều clo tăng dần ($0 - 15\text{ mg/L}$), thời gian tiếp xúc 30 phút.
+5. Vẽ đồ thị biểu diễn nồng độ clo dư tự do, clo liên kết và clo tổng theo liều clo châm.
+6. Xác định điểm đột biến (Breakpoint) tại đáy đồ thị khi clo liên kết sụt giảm cực tiểu và clo tự do bắt đầu xuất hiện tuyến tính.
+7. Chọn liều clo vận hành nhà máy:
+   $$\text{Liều vận hành} = \text{Liều điểm đột biến} + \text{Clo dư tự do yêu cầu } (0.5 - 1.0\text{ mg/L}) + \text{Hệ số an toàn}$$
+
+##### Quy trình 3: Định cỡ Công trình Khử trùng theo Tiêu chuẩn CT của USEPA (USEPA CT Contactor Sizing)
+1. Xác định tín chỉ bất hoạt yêu cầu theo nguồn nước: 3-log ($99.9\%$) cho *Giardia lamblia* và 4-log ($99.99\%$) cho enteric virus.
+2. Trừ bớt tín chỉ loại bỏ vật lý của các công trình tiền xử lý (lắng trong và lọc cát thường được công nhận $2.5\text{-log}$ cho *Giardia* và $2.0\text{-log}$ cho virus).
+3. Xác định tín chỉ khử trùng hóa học còn lại cần đạt (ví dụ $0.5\text{-log}$ cho *Giardia* và $2.0\text{-log}$ cho virus).
+4. Đo nhiệt độ nước thấp nhất vào mùa đông, giá trị pH cao nhất và nồng độ clo dư mục tiêu $C$ ($\text{mg/L}$) tại cửa ra.
+5. Tra cứu bảng quy chuẩn USEPA để lấy giá trị $CT_{\text{req}}$ ứng với điều kiện nhiệt độ, pH và nồng độ clo dư.
+6. Tính thời gian tiếp xúc hiệu dụng tối thiểu:
+   $$t_{10,\text{req}} = \frac{CT_{\text{req}}}{C}$$
+7. Xác định hệ số vách ngăn $BF = t_{10}/t_0$ dựa trên kiểu dáng hình học bể dự kiến xây dựng.
+8. Tính thời gian lưu thủy lực lý thuyết yêu cầu:
+   $$t_0 = \frac{t_{10,\text{req}}}{BF}$$
+9. Tính dung tích hữu ích của bể khử trùng theo lưu lượng giờ lớn nhất:
+   $$V = Q_{\text{peak}} \cdot t_0$$
+10. Kiểm tra tỷ số khử trùng:
+    $$\frac{CT_{\text{calc}}}{CT_{\text{req}}} \ge 1.0$$
+
+##### Quy trình 4: Thiết kế Định cỡ Bể Tiếp xúc Clo Ziczac Uốn khúc Dọc (Longitudinal-Serpentine Sizing)
+1. Thu thập lưu lượng thiết kế cực đại $Q$ ($\text{m}^3/\text{ngày}$) và thời gian tiếp xúc hiệu dụng $t_{10}$ theo tiêu chuẩn CT.
+2. Chọn cấp vách ngăn xuất sắc (Superior Baffling) với hệ số $BF = 0.70$ và bố trí kênh ziczac kéo dài.
+3. Tính thời gian lưu lý thuyết:
+   $$t_0 = \frac{t_{10}}{0.70}$$
+4. Tính thể tích khối nước hữu ích của bể tiếp xúc:
+   $$V = Q \cdot t_0$$
+5. Lựa chọn chiều sâu lớp nước $H$ ($2.5 - 4.0\text{ m}$) phù hợp cao trình trắc dọc nhà máy.
+6. Tính tổng diện tích mặt bằng xây dựng bể:
+   $$A_s = \frac{V}{H}$$
+7. Lựa chọn chiều rộng mỗi nhánh kênh $W_c$ ($1.5 - 3.0\text{ m}$) và chọn số lượng nhánh kênh chẵn $N_c$ ($4, 6, 8$).
+8. Tính tổng chiều dài hành trình dòng chảy:
+   $$L_{\text{path}} = \frac{A_s}{W_c}$$
+9. Kiểm tra tỷ số hình học dài/rộng:
+   $$\frac{L_{\text{path}}}{W_c} \ge 40:1$$
+   Nếu tỷ số nhỏ hơn 40, giảm bề rộng kênh $W_c$ hoặc tăng số vách ngăn.
+10. Thiết kế cánh hướng dòng cong tại khúc quay 180°, chọn chiều cao an toàn bảo vệ (freeboard) $0.3 - 0.5\text{ m}$, và tính tổn thất thủy lực.
+
+##### Quy trình 5: Định cỡ Hệ thống Xử lý Khí Nạp và Máy Phát Ozone Công nghiệp (Ozone Generation System Sizing)
+1. Xác định liều lượng châm ozone thiết kế $\text{Dose}_{\text{O}_3}$ ($0.5 - 2.0\text{ mg/L}$) và công suất phát ozone:
+   $$M_{\text{O}_3} = Q_{\text{max}} \cdot \text{Dose}_{\text{O}_3} \cdot 10^{-3} \quad (\text{kg/h})$$
+2. Lựa chọn nguồn khí cấp nạp: oxy lỏng (LOX, tạo nồng độ $5\% - 8\%$ trọng lượng) hoặc không khí nén khô ($1\% - 3\%$).
+3. Nếu dùng không khí nén, thiết kế dây chuyền xử lý khí gồm máy nén, lọc bụi, máy sấy lạnh và tháp sấy hấp phụ hạt hút ẩm.
+4. Kiểm soát điểm sương dòng khí nạp qua tháp sấy đạt $T_{\text{dew}} \le -60^\circ\text{C}$ để ngăn ngừa tạo axit nitric $\text{HNO}_3$.
+5. Định cỡ buồng phóng điện hoa kiểu ống chùm vỏ thép 316L, có áo nước lạnh tuần hoàn tản nhiệt ($< 25^\circ\text{C}$).
+6. Thiết kế cụm châm hút venturi nhánh phụ ($10\% - 15\%$ lưu lượng) hoặc bể tiếp xúc sâu ($5.5 - 6.5\text{ m}$) dùng đĩa xốp gốm.
+7. Chia bể tiếp xúc thành 2 đến 3 ngăn liên tiếp có vách lượn sóng trên - dưới, tổng thời gian lưu $5 - 10\text{ phút}$.
+8. Lắp đặt thiết bị phá hủy ozone thừa (Ozone Destructor) xúc tác nhiệt $\text{MnO}_2/\text{CuO}$ để giảm nồng độ khí xả $< 0.1\text{ ppm}$.
+
+##### Quy trình 6: Thiết kế Định cỡ Buồng Phản ứng Khử trùng Bức xạ Cực tím UV (UV Reactor Sizing)
+1. Đo đạc các thông số chất lượng nước nguồn: độ truyền quang tại bước sóng 254 nm ($\%\text{UVT} \ge 85\% - 90\%$), độ đục ($\le 0.5\text{ NTU}$) và lưu lượng lớn nhất $Q_{\text{max}}$.
+2. Xác định liều lượng bức xạ cực tím khử trùng quy chuẩn: $D = 40.0\text{ mJ/cm}^2$ để bất hoạt 4-log *Cryptosporidium*, *Giardia* và vi khuẩn.
+3. Lựa chọn công nghệ bóng đèn: đèn thủy ngân áp suất thấp công suất cao (LPHO) hoặc đèn áp suất trung bình (MPHI).
+4. Chọn kiểu buồng phản ứng: vỏ bình áp lực inox 316L khép kín trên tuyến ống hoặc mương bê tông hở.
+5. Tính toán tổng số lượng bóng đèn UV cần thiết, có tính đến hệ số già hóa đèn ($0.80 - 0.85$) và hệ số bám bẩn ống thạch anh ($0.80 - 0.90$).
+6. Trang bị hệ thống vòng gạt rửa cơ học tự động bằng gioăng Teflon hoặc Silicone, chu kỳ gạt $15 - 60\text{ phút/lần}$.
+7. Lắp đặt cảm biến đo cường độ UV online chuẩn hóa theo chuẩn DVGW/USEPA trên thành vỏ buồng phản ứng.
+8. Thiết kế hệ thống châm bổ sung clo tự do hoặc monocloramin phía sau buồng UV để duy trì clo dư bảo vệ mạng lưới.
+
+---
+
+#### 7.4.4 Bài tập Tính toán Kỹ thuật Điển hình (Worked Engineering Calculations)
+
+<!-- exercise-start: Ví dụ 7-1: Cân bằng Phân ly và Tỷ lệ Phân số Acid Hypochlorous (HOCl) Chưa Phân ly -->
+- **Ví dụ 7-1: Cân bằng Phân ly và Tỷ lệ Phân số Acid Hypochlorous (HOCl) Chưa Phân ly**
+  - Cho:
+    - Tổng liều axit hypoclorơ châm vào nước cấp (tính theo $\text{Cl}_2$): $C_{\text{dose}} = 15.0\text{ mg/L}$.
+    - Giá trị pH đo được của nước sau khi châm clo: $\text{pH} = 7.0$.
+    - Nhiệt độ của mẫu nước: $T = 25.0^\circ\text{C}$.
+    - Hằng số phân ly axit của $\text{HOCl}$ ở $25^\circ\text{C}$: $K_a = 2.90 \times 10^{-8}\text{ mol/L}$.
+    - Chỉ số phân ly logarit ở $25^\circ\text{C}$: $pK_a = 7.537 \approx 7.54$.
+  - Tìm:
+    - Nồng độ mol ion hydro $[\text{H}^+]$ trong dung dịch nước.
+    - Phân số phần trăm axit hypoclorơ chưa phân ly ($\alpha_0, \%$).
+    - Phân số phần trăm ion hypoclorit phân ly ($\alpha_1, \%$).
+    - Nồng độ nồng độ thực tế của từng dạng $\text{HOCl}$ và $\text{OCl}^-$ tính theo $\text{mg/L as }\text{Cl}_2$.
+  - Phương trình áp dụng:
+    - Nồng độ ion hydro:
+      $$[\text{H}^+] = 10^{-\text{pH}}$$
+    - Cân bằng phân ly axit hypoclorơ:
+      $$\text{HOCl} \rightleftharpoons \text{H}^+ + \text{OCl}^-, \quad K_a = \frac{[\text{H}^+][\text{OCl}^-]}{[\text{HOCl}]}$$
+    - Phân số phần trăm $\text{HOCl}$ chưa phân ly theo `eq_ch07_004`:
+      $$\alpha_0 = \frac{[\text{H}^+]}{[\text{H}^+] + K_a} = \frac{1}{1 + 10^{\text{pH} - pK_a}}$$
+    - Phân số phần trăm ion $\text{OCl}^-$ theo `eq_ch07_005`:
+      $$\alpha_1 = 1 - \alpha_0 = \frac{K_a}{[\text{H}^+] + K_a}$$
+  - Các bước giải:
+    1. Bước 1: Tính nồng độ mol ion hydro $[\text{H}^+]$ từ giá trị pH:
+       $$[\text{H}^+] = 10^{-7.00} = 1.00 \times 10^{-7}\text{ mol/L}$$
+    2. Bước 2: Thiết lập cân bằng phân ly của axit hypoclorơ ở $25^\circ\text{C}$:
+       $$K_a = 2.90 \times 10^{-8}\text{ mol/L}, \quad pK_a = -\log_{10}(2.90 \times 10^{-8}) = 7.537$$
+    3. Bước 3: Tính toán phân số axit hypoclorơ chưa phân ly $\alpha_0$ theo `eq_ch07_004`:
+       $$\alpha_0 = \frac{1.00 \times 10^{-7}}{1.00 \times 10^{-7} + 2.90 \times 10^{-8}} = \frac{1.00 \times 10^{-7}}{1.29 \times 10^{-7}} = 0.77519 = 77.52\% \approx 77.5\%$$
+    4. Bước 4: Tính toán phân số ion hypoclorit phân ly $\alpha_1$ theo `eq_ch07_005`:
+       $$\alpha_1 = 1 - 0.77519 = 0.22481 = 22.48\% \approx 22.5\%$$
+    5. Bước 5: Tính toán nồng độ nồng độ phân bố của các loài clo tự do:
+       $$C_{\text{HOCl}} = 15.0\text{ mg/L} \times 0.77519 = 11.63\text{ mg/L (as }\text{Cl}_2\text{)}$$
+       $$C_{\text{OCl}^-} = 15.0\text{ mg/L} \times 0.22481 = 3.37\text{ mg/L (as }\text{Cl}_2\text{)}$$
+  - **Đáp số**: `77.5% HOCl chưa phân ly (11.63 mg/L as Cl2); 22.5% phân ly thành OCl- (3.37 mg/L as Cl2)`
+<!-- exercise-end -->
+
+---
+
+<!-- exercise-start: Ví dụ 7-2: Định lượng Nhu cầu Clo Khử trùng Điểm Đột biến để Chuyển hóa Amoniac -->
+- **Ví dụ 7-2: Định lượng Nhu cầu Clo Khử trùng Điểm Đột biến để Chuyển hóa Amoniac**
+  - Cho:
+    - Nồng độ amoniac trong nước sạch thí nghiệm: $[\text{NH}_3\text{-N}] = 1.0\text{ mg/L as N}$.
+    - Khối lượng mol nguyên tử của Nitơ ($\text{N}$): $M_{\text{N}} = 14.007\text{ g/mol}$.
+    - Khối lượng mol phân tử của khí Clo ($\text{Cl}_2$): $M_{\text{Cl}_2} = 70.906\text{ g/mol}$.
+    - Điều kiện phản ứng 1: Chuyển hóa toàn bộ amoniac thành khí nitơ ($\text{N}_2$).
+    - Điều kiện phản ứng 2: Oxy hóa toàn bộ amoniac thành ion nitrate ($\text{NO}_3^-$).
+  - Tìm:
+    - Liều clo cần thiết để đạt điểm đột biến cho điều kiện 1 (tạo khí $\text{N}_2$).
+    - Liều clo cần thiết để đạt điểm đột biến cho điều kiện 2 (tạo ion $\text{NO}_3^-$).
+    - So sánh định lượng và xác định phản ứng tiêu tốn ít clo hơn.
+  - Phương trình áp dụng:
+    - Phản ứng 1 theo `eq_ch07_014`:
+      $$2\text{NH}_3 + 3\text{Cl}_2 \rightarrow \text{N}_2 \uparrow + 6\text{HCl}$$
+    - Phản ứng 2 theo `eq_ch07_015`:
+      $$\text{NH}_3 + 4\text{Cl}_2 + 3\text{H}_2\text{O} \rightarrow \text{HNO}_3 + 8\text{HCl}$$
+  - Các bước giải:
+    1. Bước 1: Tính toán tỷ lệ khối lượng clo đối với phản ứng 1 (chuyển hóa thành $\text{N}_2$):
+       - Tỷ lệ hợp thức: 3 mol $\text{Cl}_2$ phản ứng với 2 mol nguyên tử $\text{N}$.
+       - Khối lượng clo phản ứng: $3 \times 70.906 = 212.718\text{ g }\text{Cl}_2$.
+       - Khối lượng nitơ phản ứng: $2 \times 14.007 = 28.014\text{ g N}$.
+       - Tỷ lệ khối lượng:
+         $$R_{\text{mass},1} = \frac{212.718\text{ g }\text{Cl}_2}{28.014\text{ g N}} = 7.5933\text{ mg }\text{Cl}_2/\text{mg N} \approx 7.60\text{ mg }\text{Cl}_2/\text{mg N}$$
+       - Liều clo cần thiết cho $1.0\text{ mg/L }\text{NH}_3\text{-N}$:
+         $$\text{Dose}_{\text{Cl}_2,1} = 1.0\text{ mg N/L} \times 7.5933\text{ mg }\text{Cl}_2/\text{mg N} = 7.5933\text{ mg/L} \approx 7.60\text{ mg/L }\text{Cl}_2$$
+    2. Bước 2: Tính toán tỷ lệ khối lượng clo đối với phản ứng 2 (chuyển hóa thành $\text{NO}_3^-$):
+       - Tỷ lệ hợp thức: 4 mol $\text{Cl}_2$ phản ứng với 1 mol nguyên tử $\text{N}$.
+       - Khối lượng clo phản ứng: $4 \times 70.906 = 283.624\text{ g }\text{Cl}_2$.
+       - Khối lượng nitơ phản ứng: $1 \times 14.007 = 14.007\text{ g N}$.
+       - Tỷ lệ khối lượng:
+         $$R_{\text{mass},2} = \frac{283.624\text{ g }\text{Cl}_2}{14.007\text{ g N}} = 20.2487\text{ mg }\text{Cl}_2/\text{mg N} \approx 20.25\text{ mg }\text{Cl}_2/\text{mg N}$$
+       - Liều clo cần thiết cho $1.0\text{ mg/L }\text{NH}_3\text{-N}$:
+         $$\text{Dose}_{\text{Cl}_2,2} = 1.0\text{ mg N/L} \times 20.2487\text{ mg }\text{Cl}_2/\text{mg N} = 20.2487\text{ mg/L} \approx 20.25\text{ mg/L }\text{Cl}_2$$
+    3. Bước 3: So sánh đánh giá nhu cầu hóa chất clo:
+       - Phản ứng chuyển thành $\text{N}_2$ tiêu thụ $7.60\text{ mg/L }\text{Cl}_2$.
+       - Phản ứng chuyển thành $\text{NO}_3^-$ tiêu thụ $20.25\text{ mg/L }\text{Cl}_2$.
+       - Chuyển amoniac thành $\text{N}_2$ tiết kiệm được $12.65\text{ mg/L }\text{Cl}_2$ (giảm $62.5\%$ lượng clo, thấp hơn 2.67 lần).
+  - **Đáp số**: `(1) Tạo khí N2 cần 7.60 mg/L Cl2; (2) Tạo nitrate cần 20.25 mg/L Cl2. Phản ứng 1 tiết kiệm 62.5% clo`
+<!-- exercise-end -->
+
+---
+
+<!-- exercise-start: Ví dụ 7-3: Thiết kế Kỹ thuật Toàn diện Bể Tiếp xúc Clo Ziczac Uốn khúc Dọc -->
+- **Ví dụ 7-3: Thiết kế Kỹ thuật Toàn diện Bể Tiếp xúc Clo Ziczac Uốn khúc Dọc**
+  - Cho:
+    - Lưu lượng thiết kế ngày đêm của trạm cấp nước: $Q = 18,400\text{ m}^3/\text{ngày}$.
+    - Thời gian tiếp xúc 90% lượng nước yêu cầu: $t_{10} = 100.0\text{ phút}$.
+    - Chỉ số tích số khử trùng yêu cầu: $CT = 200.0\text{ mg}\cdot\text{min/L}$.
+    - Nồng độ clo dư tự do mục tiêu tại cửa ra: $C = 2.0\text{ mg/L}$.
+    - Cấp vách ngăn xuất sắc (Superior Baffling): $BF = t_{10}/t_0 = 0.70$.
+    - Tỷ số hình học hành trình dòng chảy trên bề rộng kênh: $L_{\text{path}} / W_c \ge 40:1$.
+    - Chiều sâu cột nước làm việc lựa chọn: $H = 3.00\text{ m}$.
+    - Chiều cao an toàn bảo vệ (freeboard): $h_{\text{fb}} = 0.50\text{ m}$.
+    - Chiều rộng mỗi nhánh kênh dẫn lựa chọn: $W_c = 2.50\text{ m}$.
+    - Số lượng nhánh kênh ziczac song song lựa chọn: $N_c = 6\text{ kênh}$.
+    - Chiều dày mỗi vách ngăn bê tông cốt thép: $t_{\text{wall}} = 0.20\text{ m}$.
+    - Hệ số nhám thành bê tông Manning: $n = 0.013$.
+    - Hệ số tổn thất cục bộ tại mỗi góc quay 180°: $K_b = 2.5$.
+    - Độ nhớt động học của nước ở $20^\circ\text{C}$: $\nu = 1.004 \times 10^{-6}\text{ m}^2/\text{s}$.
+    - Gia tốc trọng trường chuẩn: $g = 9.81\text{ m/s}^2$.
+  - Tìm:
+    - Lưu lượng thiết kế theo các thứ nguyên: $\text{m}^3/\text{h}$, $\text{m}^3/\text{phút}$ và $\text{m}^3/\text{s}$.
+    - Thời gian lưu lý thuyết $t_0$ và thể tích khối nước hữu ích của bể $V$.
+    - Diện tích mặt bằng xây dựng $A_s$ và chiều sâu tổng thể thành bể $H_{\text{total}}$.
+    - Tổng chiều dài dòng chảy $L_{\text{path}}$ và kiểm tra tỷ số hình học $L_{\text{path}}/W_c$.
+    - Kích thước mặt bằng trong lòng bể: Chiều dài $L$ và Chiều rộng phủ bì $W$.
+    - Vận tốc dòng chảy ngang $v_h$, bán kính thủy lực $R_h$ và kiểm tra chế độ chảy ($Re, Fr$).
+    - Tổn thất áp lực ma sát dọc kênh $h_f$, tổn thất cục bộ $h_m$ và tổng tổn thất $h_L$.
+  - Phương trình áp dụng:
+    - Thời gian lưu lý thuyết:
+      $$t_0 = \frac{t_{10}}{BF}$$
+    - Thể tích bể tiếp xúc theo `eq_ch07_032`:
+      $$V = Q \cdot t_0$$
+    - Diện tích mặt bằng và chiều dài hành trình:
+      $$A_s = \frac{V}{H}, \quad L_{\text{path}} = \frac{A_s}{W_c}$$
+    - Bán kính thủy lực và chuẩn số Reynolds:
+      $$R_h = \frac{W_c \cdot H}{W_c + 2H}, \quad Re = \frac{v_h \cdot 4 R_h}{\nu}$$
+    - Tổn thất ma sát Manning và tổn thất cục bộ góc quay:
+      $$h_f = L_{\text{path}} \left[ \frac{n \cdot v_h}{R_h^{2/3}} \right]^2, \quad h_m = (N_c - 1) \cdot K_b \cdot \frac{v_h^2}{2g}$$
+  - Các bước giải:
+    1. Bước 1: Quy đổi lưu lượng thiết kế sang các đơn vị thời gian:
+       $$Q = 18,400\text{ m}^3/\text{ngày} = \frac{18,400}{24} = 766.67\text{ m}^3/\text{h}$$
+       $$Q = \frac{18,400}{1,440} = 12.7778\text{ m}^3/\text{phút} = \frac{18,400}{86,400} = 0.21296\text{ m}^3/\text{s}$$
+    2. Bước 2: Tính thời gian lưu lý thuyết $t_0$ và thể tích hữu ích $V$:
+       - Kiểm tra tiêu chuẩn $CT$: $C \cdot t_{10} = 2.0\text{ mg/L} \times 100.0\text{ phút} = 200.0\text{ mg}\cdot\text{min/L}$ (thỏa mãn yêu cầu).
+       - Thời gian lưu lý thuyết với $BF = 0.70$:
+         $$t_0 = \frac{t_{10}}{0.70} = \frac{100.0\text{ phút}}{0.70} = 142.857\text{ phút} \approx 142.9\text{ phút} \quad (2.381\text{ h} = 8,571.4\text{ s})$$
+       - Thể tích nước hữu ích:
+         $$V = Q \cdot t_0 = 12.7778\text{ m}^3/\text{phút} \times 142.857\text{ phút} = 1,825.40\text{ m}^3$$
+    3. Bước 3: Xác định diện tích mặt bằng và chiều sâu bể:
+       - Diện tích mặt bằng với chiều sâu nước $H = 3.00\text{ m}$:
+         $$A_s = \frac{V}{H} = \frac{1,825.40\text{ m}^3}{3.00\text{ m}} = 608.47\text{ m}^2$$
+       - Chiều sâu thành bể tổng thể có freeboard $0.50\text{ m}$:
+         $$H_{\text{total}} = 3.00\text{ m} + 0.50\text{ m} = 3.50\text{ m}$$
+    4. Bước 4: Thiết kế hình học kênh ziczac và kiểm tra tỷ số $L_{\text{path}}/W_c$:
+       - Tổng chiều dài hành trình dòng chảy với kênh rộng $W_c = 2.50\text{ m}$:
+         $$L_{\text{path}} = \frac{A_s}{W_c} = \frac{608.47\text{ m}^2}{2.50\text{ m}} = 243.39\text{ m} \approx 243.4\text{ m}$$
+       - Kiểm tra tỷ số hình học aspect ratio:
+         $$\frac{L_{\text{path}}}{W_c} = \frac{243.39}{2.50} = 97.36 \ge 40 \quad (\text{đạt chuẩn cấp Superior})$$
+       - Chiều dài của mỗi nhánh kênh với 6 kênh song song ($N_c = 6$):
+         $$L_c = \frac{L_{\text{path}}}{N_c} = \frac{243.39\text{ m}}{6} = 40.565\text{ m} \approx 40.60\text{ m}$$
+       - Chiều rộng phủ bì bể (6 kênh và 5 vách ngăn dày $0.20\text{ m}$):
+         $$W_{\text{basin}} = (6 \times 2.50\text{ m}) + (5 \times 0.20\text{ m}) = 15.00 + 1.00 = 16.00\text{ m}$$
+       - Kích thước mặt bằng trong lòng bể: Dài $40.60\text{ m} \times$ Rộng $16.00\text{ m} \times$ Sâu $3.50\text{ m}$.
+    5. Bước 5: Kiểm tra thủy lực và chế độ dòng chảy:
+       - Diện tích mặt cắt ướt:
+         $$A_x = W_c \cdot H = 2.50\text{ m} \times 3.00\text{ m} = 7.50\text{ m}^2$$
+       - Vận tốc dòng chảy ngang trung bình:
+         $$v_h = \frac{Q}{A_x} = \frac{0.21296\text{ m}^3/\text{s}}{7.50\text{ m}^2} = 0.02840\text{ m/s} = 2.84\text{ cm/s} \quad (1.70\text{ m/phút})$$
+       - Chu vi ướt của kênh:
+         $$P = W_c + 2H = 2.50 + 2(3.00) = 8.50\text{ m}$$
+       - Bán kính thủy lực:
+         $$R_h = \frac{A_x}{P} = \frac{7.50}{8.50} = 0.8824\text{ m}$$
+       - Chuẩn số Reynolds:
+         $$Re = \frac{v_h \cdot 4 R_h}{\nu} = \frac{0.02840 \times (4 \times 0.8824)}{1.004 \times 10^{-6}} = \frac{0.10025}{1.004 \times 10^{-6}} = 99,850 > 10,000 \quad (\text{chảy rối hoàn toàn})$$
+       - Chuẩn số Froude:
+         $$Fr = \frac{v_h^2}{g \cdot R_h} = \frac{(0.02840)^2}{9.81 \times 0.8824} = \frac{0.0008066}{8.656} = 9.32 \times 10^{-5} \ll 1 \quad (\text{chảy êm dưới tới hạn})$$
+    6. Bước 6: Tính toán tổn thất áp lực thủy lực:
+       - Tổn thất ma sát theo công thức Manning ($n = 0.013$):
+         $$h_f = L_{\text{path}} \left[ \frac{n \cdot v_h}{R_h^{2/3}} \right]^2 = 243.4 \times \left[ \frac{0.013 \times 0.02840}{0.8824^{2/3}} \right]^2 = 243.4 \times \left[ \frac{0.0003692}{0.9198} \right]^2 = 3.92 \times 10^{-5}\text{ m} \approx 0.04\text{ mm}$$
+       - Tổn thất cục bộ tại 5 khúc quay 180° ($N_c - 1 = 5\text{ khúc quay}$, $K_b = 2.5$):
+         $$h_m = 5 \times K_b \cdot \frac{v_h^2}{2g} = 5 \times 2.5 \times \frac{(0.02840)^2}{2 \times 9.81} = 12.5 \times \frac{0.0008066}{19.62} = 5.14 \times 10^{-4}\text{ m} = 0.51\text{ mm}$$
+       - Tổng tổn thất cột áp qua toàn bộ bể tiếp xúc:
+         $$h_L = h_f + h_m = 0.04\text{ mm} + 0.51\text{ mm} = 0.55\text{ mm} \approx 0.001\text{ m}$$
+  - **Đáp số**: `t0 = 142.9 min (2.38 h); V = 1,825.4 m3; Kích thước bể: 40.60 m (L) x 16.00 m (W) x 3.50 m (H tổng, nước sâu 3.0 m); 6 kênh ziczac rộng 2.50 m; L_path = 243.4 m; v_h = 0.0284 m/s (2.84 cm/s); Re = 99,850; Tổng tổn thất h_L = 0.55 mm (0.001 m)`
+<!-- exercise-end -->
+
+---
+
+#### 7.4.5 Cẩm nang Xử lý 6 Sự cố Vận hành Khử trùng Điển hình (Operational Troubleshooting Guide)
+
+##### 7.4.5.1 Sự cố 1: Suy giảm Clo Dư Đột ngột ở Cuối Mạng lưới Phân phối (Rapid Chlorine Residual Depletion)
+- **Dấu hiệu nhận biết**:
+  - Nồng độ clo tự do đo tại điểm cuối mạng lưới sụt giảm dưới ngưỡng quy định $0.2\text{ mg/L}$.
+  - Chỉ số vi sinh vật dị dưỡng (HPC) gia tăng cục bộ tại các điểm tiêu thụ xa nguồn.
+- **Nguyên nhân gốc rễ**:
+  - Màng sinh học phát triển dày trên bề mặt lòng ống cấp nước cũ.
+  - Hiện tượng nitrat hóa xảy ra trong mạng lưới dùng cloramin khi vi khuẩn oxy hóa amoniac tự do.
+  - Hàm lượng cacbon hữu cơ hòa tan (DOC) sót lại phản ứng tiêu thụ clo thứ cấp.
+  - Thời gian lưu nước trong mạng lưới và bể chứa trung gian vượt quá 48 đến 72 giờ.
+- **Biện pháp kỹ thuật khắc phục**:
+  1. Xả rửa đường ống một chiều (unidirectional flushing) để bóc tách màng vi sinh và cặn lắng.
+  2. Áp dụng chu kỳ sốc clo tự do ngắn ngày (chlorine burn) để tiêu diệt vi khuẩn nitrat hóa.
+  3. Tối ưu hóa quá trình keo tụ tăng cường tại nhà máy để hạ nồng độ TOC xuống dưới $2.0\text{ mg/L}$.
+  4. Điều tiết chế độ bơm và thể tích trữ nước để duy trì tuổi nước dưới 24 đến 48 giờ.
+  5. Xây dựng bổ sung các trạm châm clo tăng áp tự động tại các nút mạng lưới xa trung tâm.
+
+##### 7.4.5.2 Sự cố 2: Nồng độ Sản phẩm phụ TTHM và HAA5 Vượt Ngưỡng Quy chuẩn (DBP Exceedance)
+- **Dấu hiệu nhận biết**:
+  - Nồng độ tổng trihalomethane vượt ngưỡng $80\text{ }\mu\text{g/L}$ (hoặc $100\text{ }\mu\text{g/L}$ theo QCVN).
+  - Nồng độ năm axit haloacetic vượt ngưỡng quy định $60\text{ }\mu\text{g/L}$.
+- **Nguyên nhân gốc rễ**:
+  - Nguồn nước thô chứa hàm lượng axit humic và fulvic cao phản ứng với clo tự do.
+  - Trạm xử lý duy trì điểm châm tiền clo hóa ngay tại cửa thu nước thô.
+  - Nhiệt độ nước mùa hè tăng cao kết hợp độ pH nước sau xử lý vượt quá 8.0.
+  - Thời gian lưu nước trong bể chứa nước sạch quá dài.
+- **Biện pháp kỹ thuật khắc phục**:
+  1. Hủy bỏ điểm châm tiền clo hóa tại công trình thu và dời điểm châm clo về sau bể lọc cát.
+  2. Thực hiện keo tụ tăng cường ở dải pH tối ưu $5.5 - 6.3$ để loại bỏ $45\% - 60\%$ tiền chất TOC.
+  3. Chuyển đổi công nghệ khử trùng sơ cấp sang ozone hoặc UV và dùng monocloramin để duy trì clo dư.
+  4. Lắp đặt hệ thống sục khí khuấy đảo trong bể chứa nước sạch phân phối để bay hơi trihalomethane.
+
+##### 7.4.5.3 Sự cố 3: Không Đạt Chỉ số Tích số CT theo Tiêu chuẩn Diệt khuẩn (CT Compliance Failure)
+- **Dấu hiệu nhận biết**:
+  - Tỷ số tích số tính toán chia cho tích số quy chuẩn nhỏ hơn đơn vị:
+    $$\frac{CT_{\text{calc}}}{CT_{\text{req}}} < 1.0$$
+  - Phát hiện vi khuẩn chỉ thị coliform trong nước sau bể tiếp xúc clo.
+- **Nguyên nhân gốc rễ**:
+  - Bể tiếp xúc bị đoản mạch nặng do thiếu vách ngăn hướng dòng, làm giá trị $t_{10}$ giảm sâu.
+  - Nhiệt độ nước mùa đông sụt giảm thấp ($< 5^\circ\text{C}$) làm tăng giá trị $CT_{\text{req}}$ yêu cầu.
+  - Độ pH nước vượt quá 8.0 làm chuyển hóa axit $\text{HOCl}$ thành ion $\text{OCl}^-$ có hoạt tính yếu.
+  - Lưu lượng nước thực tế vượt quá công suất thiết kế cực đại của bể.
+- **Biện pháp kỹ thuật khắc phục**:
+  1. Cải tạo lắp đặt vách ngăn ziczac và cánh hướng dòng để nâng hệ số vách ngăn từ 0.3 lên 0.7.
+  2. Tăng liều clo châm bổ sung trong mùa đông để bù trừ suy giảm nhiệt độ nguồn nước.
+  3. Châm axit sunfuric hoặc khí carbonic để kiểm soát độ pH khử trùng trong dải $6.5 - 7.2$.
+  4. Kết hợp thêm rào cản diệt khuẩn thứ hai bằng bức xạ cực tím UV trước bể clo.
+
+##### 7.4.5.4 Sự cố 4: Nổ Vỡ Ống Điện môi và Ăn mòn Buồng Phóng điện Máy Ozone (Ozone Generator Failure)
+- **Dấu hiệu nhận biết**:
+  - Máy phát ozone nhảy áp ngắt khẩn cấp do ngắn mạch dòng điện cao thế.
+  - Nồng độ ozone tạo thành giảm mạnh dù điện năng tiêu thụ không đổi.
+  - Xuất hiện vết nứt vỡ trên ống thủy tinh điện môi và rò rỉ dung dịch axit màu vàng.
+- **Nguyên nhân gốc rễ**:
+  - Máy sấy khí hoặc máy làm lạnh gặp sự cố khiến không khí nạp bị ẩm ($T_{\text{dew}} > -50^\circ\text{C}$).
+  - Tia lửa điện hoa kích thích nitơ và hơi ẩm tạo ra hơi axit nitric ($\text{HNO}_3$).
+  - Axit nitric ăn mòn vỏ thép inox 316L và phá hủy bề mặt ống điện môi thủy tinh.
+- **Biện pháp kỹ thuật khắc phục**:
+  1. Dừng máy phát ozone ngay lập tức và cô lập nguồn điện cao thế an toàn.
+  2. Thay mới toàn bộ hạt hút ẩm alumina hoạt tính và sửa chữa máy sấy lạnh tiền xử lý.
+  3. Lắp đặt ẩm kế đo điểm sương online liên động ngắt tự động khi điểm sương $T_{\text{dew}} > -60^\circ\text{C}$.
+  4. Vệ sinh buồng phóng điện bằng khí nitơ khô, thay thế các ống điện môi bị nứt vỡ.
+  5. Cân nhắc chuyển đổi công nghệ cấp khí nạp sang nguồn oxy lỏng (LOX).
+
+##### 7.4.5.5 Sự cố 5: Nồng độ Ion Clorit Vượt Ngưỡng Cho phép trong Hệ thống ClO2 (Chlorite Exceedance)
+- **Dấu hiệu nhận biết**:
+  - Kết quả phân tích mẫu nước xuất hiện nồng độ ion clorit:
+    $$[\text{ClO}_2^-] > 1.0\text{ mg/L}$$
+- **Nguyên nhân gốc rễ**:
+  - Châm clo dioxit liều quá cao ($> 1.2 - 1.5\text{ mg/L}$) để xử lý nước thô ô nhiễm nặng.
+  - Hiệu suất chuyển hóa hóa chất của thiết bị tạo khí kém ($< 95\%$), để dư nhiều muối clorit chưa phản ứng.
+  - Trạm xử lý thiếu hóa chất khử ion clorit thứ cấp sau giai đoạn tiếp xúc.
+- **Biện pháp kỹ thuật khắc phục**:
+  1. Hiệu chỉnh tỷ lệ cấp hóa chất phản ứng ($\text{HCl}:\text{NaClO}_2$ hoặc $\text{Cl}_2:\text{NaClO}_2$) đạt hiệu suất phản ứng $> 95\%$.
+  2. Khống chế liều clo dioxit cấp vào nước sạch luôn nhỏ hơn hoặc bằng $1.2\text{ mg/L}$.
+  3. Châm hóa chất sắt hai sunfat ($\text{FeSO}_4$) hoặc natri bisunfit ($\text{NaHSO}_3$) liều $1.0 - 1.5\text{ mg/L}$.
+  4. Phản ứng khử chuyển hóa ion clorit độc hại thành anion clorua ($\text{Cl}^-$) vô hại.
+
+##### 7.4.5.6 Sự cố 6: Suy giảm Cường độ Bức xạ Đèn UV và Đóng cặn Ống Thạch anh (UV Lamp Degradation & Scaling)
+- **Dấu hiệu nhận biết**:
+  - Cảm biến đo bức xạ UV trên buồng phản ứng báo cường độ phơi nhiễm thấp.
+  - Liều bức xạ thực tế giảm xuống dưới ngưỡng an toàn $40.0\text{ mJ/cm}^2$.
+  - Màng cặn khoáng màu trắng hoặc nâu bám chặt mặt ngoài ống thạch anh.
+- **Nguyên nhân gốc rễ**:
+  - Kết tủa cặn canxi cacbonat và oxit sắt mangan trên bề mặt nóng của ống thạch anh.
+  - Bóng đèn phóng điện thủy ngân bị già hóa sau thời gian làm việc vượt quá 8,000 đến 12,000 giờ.
+  - Nước sau lọc có độ đục cao hoặc hạt phèn trôi qua làm giảm độ truyền quang ($\%\text{UVT} < 80\%$).
+- **Biện pháp kỹ thuật khắc phục**:
+  1. Cài đặt hệ thống vòng gạt cơ học tự động quét bề mặt ống thạch anh định kỳ $15 - 30\text{ phút/lần}$.
+  2. Rút dàn đèn để rửa hóa chất định kỳ bằng dung dịch axit xitric hoặc axit photphoric $5\%$.
+  3. Đo kiểm và thay mới các bóng đèn UV khi cường độ phát quang suy giảm dưới 80% mức ban đầu.
+  4. Tối ưu hóa quá trình keo tụ và lọc cát để duy trì độ đục sau lọc $< 0.2\text{ NTU}$ và $\%\text{UVT} > 88\%$.
+
+---
+
+#### 7.4.6 Tiêu chuẩn Kỹ thuật và Ngưỡng Giới hạn Pháp lý (Regulatory Standards & Compliance Limits)
+
+##### Quy chuẩn QCVN 01-1:2018/BYT (Bộ Y tế Việt Nam)
+Quy chuẩn quy định chất lượng nước sạch sử dụng cho mục đích sinh hoạt:
+- Nồng độ clo dư tự do tại vòi cấp nước dân cư: $0.2 - 1.0\text{ mg/L}$ (tối thiểu $0.2\text{ mg/L}$ tại mọi vị trí).
+- Chỉ số vi sinh vật *Total Coliforms*: $0\text{ CFU}/100\text{ mL}$.
+- Chỉ số vi khuẩn *Escherichia coli*: $0\text{ CFU}/100\text{ mL}$.
+- Nồng độ tổng trihalomethane (TTHM): $\le 100\text{ }\mu\text{g/L}$ ($0.10\text{ mg/L}$).
+- Giới hạn từng chất THM: Chloroform $\le 300\text{ }\mu\text{g/L}$; Bromoform $\le 100\text{ }\mu\text{g/L}$; Dibromochloromethane $\le 100\text{ }\mu\text{g/L}$; Bromodichloromethane $\le 60\text{ }\mu\text{g/L}$.
+
+##### Tiêu chuẩn Xây dựng TCXDVN 33:2006 (Bộ Xây dựng Việt Nam)
+Tiêu chuẩn thiết kế mạng lưới đường ống và công trình cấp nước:
+- Thời gian tiếp xúc khử trùng của clo trong bể: tối thiểu $t \ge 30\text{ phút}$ ở lưu lượng giờ lớn nhất.
+- Bể chứa nước sạch phải xây dựng vách ngăn dẫn dòng để ngăn ngừa hiện tượng đoản mạch.
+- Trạm khử trùng bằng khí clo phải bố trí công suất thiết bị dự phòng tối thiểu $100\%$ ($N + 1$).
+- Nhà hóa chất khí clo phải lắp đặt tháp trung hòa rò rỉ clo khẩn cấp và van ngắt tự động.
+
+##### Tiêu chuẩn USEPA SWTR và Giai đoạn 2 D/DBPR (Hoa Kỳ)
+Tiêu chuẩn nước mặt và kiểm soát sản phẩm phụ khử trùng:
+- Tín chỉ bất hoạt bắt buộc: tối thiểu 3-log ($99.9\%$) cho *Giardia* và 4-log ($99.99\%$) cho virus.
+- Giới hạn TTHM theo giá trị trung bình động năm tại từng vị trí (LRAA): $\le 80\text{ }\mu\text{g/L}$.
+- Giới hạn HAA5 theo giá trị LRAA: $\le 60\text{ }\mu\text{g/L}$.
+- Giới hạn nồng độ ion bromate ($\text{BrO}_3^-$) trong khử trùng ozone: $\le 10\text{ }\mu\text{g/L}$.
+- Giới hạn nồng độ ion clorit ($\text{ClO}_2^-$) trong khử trùng clo dioxit: $\le 1.0\text{ mg/L}$.
+- Nồng độ khử trùng tồn dư tối đa (MRDL): $4.0\text{ mg/L}$ đối với clo tự do và cloramin; $0.8\text{ mg/L}$ đối với clo dioxit.

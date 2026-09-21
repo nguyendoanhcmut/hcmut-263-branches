@@ -1,402 +1,1260 @@
-## Chương 4: Removal of Iron and Manganese
+## Chương 4: Khử Sắt và Mangan (Removal of Iron & Manganese)
 
-### 4.1 Overview of Iron and Manganese in Water Supplies
-#### 4.1.1 Occurrence, Speciation & Hydrogeochemistry
-##### 4.1.1.1 Geological Origins and Hydrogeochemical Abundance
-###### Geochemical Weathering and Mineral Dissolution
-Iron ($Fe$) and manganese ($Mn$) are among the most abundant metallic elements in the Earth's crust, ranking fourth (~5.0% by weight) and twelfth (~0.1% by weight), respectively. In natural sedimentary, igneous, and metamorphic rock strata, iron predominantly exists as insoluble ferric oxides/hydroxides (hematite $\alpha\text{-Fe}_2\text{O}_3$, goethite $\alpha\text{-FeOOH}$, magnetite $\text{Fe}_3\text{O}_4$), carbonates (siderite $\text{FeCO}_3$), and sulfides (pyrite $\text{FeS}_2$). Manganese naturally occurs primarily as pyrolusite ($\beta\text{-MnO}_2$), psilomelane ($(\text{Ba},\text{H}_2\text{O})_2\text{Mn}_5\text{O}_{10}$), manganite ($\gamma\text{-MnOOH}$), and rhodochrosite ($\text{MnCO}_3$). Natural weathering occurs as rainfall percolates through organic-rich topsoil, dissolving soil carbon dioxide ($CO_2$) to form dilute carbonic acid ($H_2CO_3$), which aggressively leaches these minerals into underlying hydrogeological strata.
 
-###### Anaerobic Reducing Aquifers and Microbial Respiration
-In deep alluvial aquifers, confined groundwater zones, and the hypolimnion of eutrophic stratified reservoirs, dissolved molecular oxygen is depleted by the heterotrophic microbial oxidation of natural organic matter (NOM):
-$$\text{CH}_2\text{O} + \text{O}_2 \rightarrow \text{CO}_2 + \text{H}_2\text{O}$$
-Following total dissolved oxygen exhaustion, anaerobic microorganisms utilize alternative terminal electron acceptors in a thermodynamic sequence dictated by redox potential ($E_h$): denitrification ($	ext{NO}_3^- \rightarrow 	ext{N}_2$), followed by dissimilatory iron reduction ($	ext{Fe}^{3+} \rightarrow 	ext{Fe}^{2+}$), dissimilatory manganese reduction ($	ext{Mn}^{4+} \rightarrow 	ext{Mn}^{2+}$), and sulfate reduction ($	ext{SO}_4^{2-} \rightarrow 	ext{H}_2	ext{S}$). Solid-phase insoluble ferric and manganic minerals undergo reductive dissolution:
-$$\text{Fe(OH)}_3(s) + 3\text{H}^+ + e^- \rightleftharpoons \text{Fe}^{2+} + 3\text{H}_2\text{O}$$
-$$\text{MnO}_2(s) + 4\text{H}^+ + 2e^- \rightleftharpoons \text{Mn}^{2+} + 2\text{H}_2\text{O}$$
-Consequently, confined groundwater sources frequently exhibit elevated concentrations of soluble, colorless, divalent cations: dissolved ferrous iron ($	ext{Fe}^{2+}$) ranging from low milligrams per liter up to $>10\text{ mg/L}$ in low-alkalinity formations, and dissolved manganous manganese ($	ext{Mn}^{2+}$) typically spanning $0.1\text{ to } 2.0\text{ mg/L}$.
+### 4.1 Tổng quan về Sắt và Mangan trong Nguồn Nước cấp (Overview of Iron and Manganese in Water Supplies)
 
-##### 4.1.1.2 Aqueous Speciation and Redox Thermodynamics (Pourbaix Diagrams)
-###### Divalent vs. Trivalent Iron Equilibrium Speciation
-In aqueous environments, iron exists in two principal oxidation states: divalent ferrous iron ($	ext{Fe(II)}$) and trivalent ferric iron ($	ext{Fe(III)}$). In reducing, low-$E_h$ groundwater below pH 7.0, soluble $	ext{Fe}^{2+}$ is the thermodynamically dominant ionic species. At intermediate pH with high dissolved carbonate concentrations, solubility may be governed by siderite ($	ext{FeCO}_3$) precipitation:
-$$\text{Fe}^{2+} + \text{HCO}_3^- \rightleftharpoons \text{FeCO}_3(s) + \text{H}^+ \quad (K_{sp} \approx 3.13 \times 10^{-11})$$
-Under aerobic conditions ($E_h > +0.2\text{ V}$), $	ext{Fe(II)}$ is unstable and rapidly oxidizes to $	ext{Fe(III)}$. Ferric iron undergoes intense hydration and stepwise hydrolysis, producing soluble hydroxo complexes ($	ext{Fe(OH)}^{2+}$, $	ext{Fe(OH)}_2^+$, $	ext{Fe(OH)}_3^0$, $	ext{Fe(OH)}_4^-$) before precipitating as amorphous, highly insoluble ferric hydroxide ($	ext{Fe(OH)}_3(s)$ or ferrihydrite $	ext{Fe}_5	ext{HO}_8 \cdot 4	ext{H}_2	ext{O}$), whose solubility product is extraordinarily low ($K_{sp} \approx 10^{-38.8}$ at 25°C). Consequently, in oxygenated drinking water at pH 6.5–8.5, free dissolved $	ext{Fe}^{3+}$ concentration is negligible ($< 10^{-10}\text{ mg/L}$).
+#### 4.1.1 Nguồn gốc Địa hóa và Cơ chế Thủy địa hóa học (Geochemical Occurrence and Speciation)
 
-###### Manganous vs. Tetravalent Manganese Equilibrium Speciation
-Manganese exhibits multiple oxidation states in aquatic chemistry: $	ext{Mn(II)}$, $	ext{Mn(III)}$, $	ext{Mn(IV)}$, and heptavalent $	ext{Mn(VII)}$ in permanganate. In natural reducing groundwater, soluble divalent manganous ion ($	ext{Mn}^{2+}$) predominates across acidic, neutral, and mildly alkaline ranges (up to pH ~8.5–9.0). Unlike $	ext{Fe}^{2+}$, $	ext{Mn}^{2+}$ resists homogeneous oxidation by dissolved oxygen at circumneutral pH. Trivalent manganese ($	ext{Mn(III)}$) exists primarily as solid manganite ($	ext{MnOOH}$) or hausmannite ($	ext{Mn}_3	ext{O}_4$), while tetravalent manganese ($	ext{Mn(IV)}$) forms insoluble manganese dioxide ($	ext{MnO}_2(s)$, birnessite, or pyrolusite). The solubility product of manganese carbonate (rhodochrosite, $	ext{MnCO}_3$) is $K_{sp} \approx 1.8 \times 10^{-11}$, which is significantly higher than that of iron, permitting high $	ext{Mn}^{2+}$ mobility in anaerobic aquifers.
+##### 4.1.1.1 Trữ lượng Địa chất và Dạng Khoáng vật Tự nhiên (Geological Abundance and Mineral Forms)
+- Sắt đứng thứ tư về hàm lượng trong vỏ Trái Đất.
+- Hàm lượng sắt chiếm khoảng 5,0% khối lượng vỏ Trái Đất.
+- Khoáng vật sắt tự nhiên gồm các dạng chính:
+  - Hematite ($\alpha\text{-Fe}_2\text{O}_3$): oxit sắt ba khan.
+  - Goethite ($\alpha\text{-FeOOH}$): oxyhydroxyt sắt ba.
+  - Magnetite ($\text{Fe}_3\text{O}_4$): oxit sắt từ hỗn hợp $\text{Fe(II)}-\text{Fe(III)}$.
+  - Siderite ($\text{FeCO}_3$): cacbonat sắt hai.
+  - Pyrite ($\text{FeS}_2$): disunfua sắt.
+- Mangan đứng thứ mười hai về hàm lượng trong vỏ Trái Đất.
+- Hàm lượng mangan chiếm khoảng 0,1% khối lượng vỏ Trái Đất.
+- Khoáng vật mangan tự nhiên gồm các dạng chính:
+  - Pyrolusite ($\beta\text{-MnO}_2$): dioxit mangan bốn dạng tinh thể.
+  - Psilomelane ($(\text{Ba},\text{H}_2\text{O})_2\text{Mn}_5\text{O}_{10}$): oxit mangan ngậm nước.
+  - Manganite ($\gamma\text{-MnOOH}$): oxyhydroxyt mangan ba.
+  - Rhodochrosite ($\text{MnCO}_3$): cacbonat mangan hai.
+- Quá trình phong hóa hóa học hòa tan khoáng vật:
+  - Nước mưa thấm qua tầng đất mặt chứa nhiều chất hữu cơ.
+  - Khí cacbonic do vi sinh vật đất sinh ra hòa tan vào nước:
+    $$\text{CO}_2 + \text{H}_2\text{O} \rightleftharpoons \text{H}_2\text{CO}_3$$
+  - Axit cacbonic loãng hòa tan khoáng vật cacbonat vào tầng nước ngầm:
+    $$\text{FeCO}_3(s) + \text{H}_2\text{CO}_3 \rightleftharpoons \text{Fe}^{2+} + 2\text{HCO}_3^-$$
+    $$\text{MnCO}_3(s) + \text{H}_2\text{CO}_3 \rightleftharpoons \text{Mn}^{2+} + 2\text{HCO}_3^-$$
 
-###### Eh-pH Pourbaix Thermodynamic Stability Fields
-The Pourbaix ($E_h\text{-pH}$) diagram maps the thermodynamic stability domains of iron and manganese as functions of solution redox potential ($E_h$ in volts) and pH:
-- **Iron Stability Boundaries**: At $E_h < 0.1\text{ V}$ and $\text{pH } 5.0 - 8.0$, the soluble $\text{Fe}^{2+}$ domain dominates. As aeration raises $E_h$ into the positive quadrant ($+0.3\text{ to } +0.8\text{ V}$), the thermodynamic equilibrium shifts across the phase boundary directly into the insoluble solid $\text{Fe(OH)}_3(s)$ or $\alpha\text{-FeOOH}$ stability field.
-- **Manganese Stability Boundaries**: The soluble $\text{Mn}^{2+}$ stability domain occupies a much broader thermodynamic envelope than $\text{Fe}^{2+}$, extending up to $E_h \approx +0.6\text{ V}$ at neutral pH 7.0. The phase boundary separating soluble $\text{Mn}^{2+}$ from insoluble solid $\text{MnO}_2(s)$ requires either an extremely high redox potential ($E_h > +0.7\text{ V}$ achievable only via strong chemical oxidants like $\text{KMnO}_4$ or $\text{O}_3$) or an elevation of pH beyond 9.5 under dissolved oxygen saturation.
+##### 4.1.1.2 Quá trình Khử Sinh học trong Tầng Nước ngầm Kỵ khí (Biological Reduction in Anaerobic Aquifers)
+- Vi khuẩn dị dưỡng tiêu thụ chất hữu cơ tự nhiên (NOM).
+- Quá trình này dùng hết lượng oxy hòa tan trong nước:
+  $$\text{CH}_2\text{O} + \text{O}_2 \rightarrow \text{CO}_2 + \text{H}_2\text{O}$$
+- Tầng chứa nước chuyển sang môi trường khử kỵ khí.
+- Vi sinh vật dùng các chất nhận electron kế tiếp theo trật tự thế khử ($E_h$):
+  1. Quá trình khử nitrat: $\text{NO}_3^- \rightarrow \text{N}_2$.
+  2. Quá trình khử sắt dị hóa (DIR): $\text{Fe}^{3+} \rightarrow \text{Fe}^{2+}$.
+  3. Quá trình khử mangan dị hóa (DMR): $\text{Mn}^{4+} \rightarrow \text{Mn}^{2+}$.
+  4. Quá trình khử sunfat: $\text{SO}_4^{2-} \rightarrow \text{H}_2\text{S}$.
+  5. Quá trình sinh khí metan: $\text{CO}_2 \rightarrow \text{CH}_4$.
+- Khoáng vật sắt và mangan rắn bị khử thành ion hòa tan:
+  $$\text{Fe(OH)}_3(s) + 3\text{H}^+ + e^- \rightleftharpoons \text{Fe}^{2+} + 3\text{H}_2\text{O}$$
+  $$\text{MnO}_2(s) + 4\text{H}^+ + 2e^- \rightleftharpoons \text{Mn}^{2+} + 2\text{H}_2\text{O}$$
+- Nồng độ ion hòa tan phổ biến trong nguồn nước ngầm kỵ khí:
+  - Sắt hòa tan ($[\text{Fe}^{2+}]$): dao động từ vài $\text{mg/L}$ đến trên $10\text{ mg/L}$.
+  - Nồng độ sắt tăng cao ở tầng trầm tích phù sa và đất phèn.
+  - Mangan hòa tan ($[\text{Mn}^{2+}]$): thường dao động từ $0{,}1$ đến $2{,}0\text{ mg/L}$.
+  - Nước giếng khoan sâu thường chứa đồng thời sắt và mangan hòa tan.
 
-##### 4.1.1.3 Organic Complexes and Colloidal Humic Associations
-###### Humic and Fulvic Acid Chelation ($Fe\text{-}NOM$, $Mn\text{-}NOM$)
-In shallow aquifers, alluvial deposits recharged by wetlands, or surface water receiving bog drainage, iron and manganese frequently complex with dissolved Natural Organic Matter (NOM), specifically humic and fulvic acids. These macromolecular polycarboxylic polyphenols possess dense arrays of oxygen-bearing functional groups (carboxylate $-\text{COO}^-$ and phenolic $-\text{O}^-$) that form stable polydentate coordination complexes (chelates) with $\text{Fe}^{2+}$ and $\text{Fe}^{3+}$:
-$$\text{Fe}^{2+} + \text{NOM}^{n-} \rightleftharpoons [\text{Fe-NOM}]^{2-n}$$
-These organo-metallic complexes exhibit remarkable thermodynamic stability and steric resistance, effectively shielding the central metallic cation from dissolved oxygen and conventional chemical oxidants.
+##### 4.1.1.3 Phức chất Hữu cơ và Phân tán Keo (Organic Complexes and Colloids)
+- Hợp chất hữu cơ tự nhiên gồm axit humic và axit fulvic.
+- Các nhóm cacboxyl ($-\text{COO}^-$) và phenolic ($-\text{O}^-$) liên kết với ion kim loại.
+- Phản ứng tạo phức chelate hữu cơ kim loại bền vững:
+  $$\text{Fe}^{2+} + \text{NOM}^{n-} \rightleftharpoons [\text{Fe-NOM}]^{2-n}$$
+- Phức hữu cơ cản trở oxy tiếp xúc với ion kim loại trung tâm.
+- Hệ keo hữu cơ kim loại phân tán ổn định trong nước:
+  - Kích thước hạt keo nằm trong khoảng $0{,}01 - 0{,}45\;\mu\text{m}$.
+  - Bề mặt hạt keo tích điện âm với thế zeta từ $-25$ đến $-40\text{ mV}$.
+- Làm thoáng thông thường không phá vỡ được liên kết chelate này.
+- Cần dùng chất oxy hóa mạnh hoặc keo tụ ở pH thấp ($5{,}5 - 6{,}3$).
 
-###### Colloidal Organo-Metallic Dispersion Stability
-Complexed iron-NOM structures form negatively charged, hydrophilic lyophilic colloidal dispersions ($0.01 - 0.45\;\mu\text{m}$) characterized by high zeta potentials ($-25\text{ to } -40\text{ mV}$). Conventional physical aeration cannot break these bonds or precipitate the metal because the organic ligand prevents the nucleation and aggregation of $\text{Fe(OH)}_3$ microcrystals. Water treatment plants treating organo-iron complexes experience severe filtration breakthrough unless the organic sheath is destroyed by advanced oxidation (ozone or potassium permanganate) or destabilized via coagulation with high coagulant dosages ($	ext{Al}^{3+}$ or $	ext{Fe}^{3+}$ salts) operating in the sweep coagulation or charge-neutralization regime at acidic pH (5.5–6.3).
+#### 4.1.2 Cơ sở Nhiệt động học Oxy hóa Khử và Giản đồ Pourbaix (Eh-pH) (Redox Thermodynamics and Pourbaix Diagrams)
 
-##### 4.1.1.4 Regulatory Drinking Water Quality Standards
-###### QCVN 01-1:2018/BYT Standard Limits for Domestic Water
-In Vietnam, potable water quality is strictly regulated under the national technical regulation **QCVN 01-1:2018/BYT** (National Technical Regulation on Domestic Water Quality), promulgated by the Ministry of Health (Bộ Y tế). This standard mandates:
-- **Total Iron (Fe)**: $\le 0.3\text{ mg/L}$ (Group A parameter, mandatory testing frequency).
-- **Total Manganese (Mn)**: $\le 0.1\text{ mg/L}$ (Group A parameter, mandatory testing frequency).
-- **Turbidity**: $\le 2\text{ NTU}$.
-- **Color**: $\le 15\text{ TCU}$ (True Color Units).
-- **pH**: $6.0 - 8.5$.
-- **Free Chlorine Residual**: $0.2 - 1.0\text{ mg/L}$ at point of consumption.
+##### 4.1.2.1 Dạng Tồn tại Cân bằng Thủy dung của Sắt và Mangan (Aqueous Equilibrium Speciation)
+- Trạng thái cân bằng của ion sắt trong nước:
+  - Sắt hóa trị hai ($\text{Fe(II)}$): tồn tại dạng $\text{Fe}^{2+}$ tan ở thế khử thấp ($E_h < 0{,}1\text{ V}$).
+  - Cân bằng hòa tan của siderite khống chế nồng độ sắt trong nước giàu cacbonat:
+    $$\text{Fe}^{2+} + \text{HCO}_3^- \rightleftharpoons \text{FeCO}_3(s) + \text{H}^+ \quad (K_{sp} \approx 3{,}13 \times 10^{-11})$$
+  - Sắt hóa trị ba ($\text{Fe(III)}$): ion $\text{Fe}^{3+}$ tự do thủy phân nhanh qua các bậc:
+    $$\text{Fe}^{3+} + \text{H}_2\text{O} \rightleftharpoons \text{Fe(OH)}^{2+} + \text{H}^+$$
+    $$\text{Fe(OH)}^{2+} + \text{H}_2\text{O} \rightleftharpoons \text{Fe(OH)}_2^+ + \text{H}^+$$
+    $$\text{Fe(OH)}_2^+ + \text{H}_2\text{O} \rightleftharpoons \text{Fe(OH)}_3^0 + \text{H}^+$$
+    $$\text{Fe(OH)}_3^0 + \text{H}_2\text{O} \rightleftharpoons \text{Fe(OH)}_4^- + \text{H}^+$$
+  - Sắt ba kết tủa tạo hydroxit sắt ba vô định hình $\text{Fe(OH)}_3(s)$ hoặc ferrihydrite:
+    $$\text{Fe}^{3+} + 3\text{OH}^- \rightleftharpoons \text{Fe(OH)}_3(s) \quad (K_{sp} \approx 10^{-38{,}8} \text{ tại } 25^\circ\text{C})$$
+  - Ở dải pH $6{,}5 - 8{,}5$, nồng độ $\text{Fe}^{3+}$ tự do nhỏ hơn $10^{-10}\text{ mg/L}$.
+- Trạng thái cân bằng của mangan trong nước:
+  - Mangan hóa trị hai ($\text{Mn(II)}$): cation $\text{Mn}^{2+}$ tồn tại bền vững đến pH $8{,}5 - 9{,}0$.
+  - Cân bằng hòa tan của rhodochrosite:
+    $$\text{Mn}^{2+} + \text{HCO}_3^- \rightleftharpoons \text{MnCO}_3(s) + \text{H}^+ \quad (K_{sp} \approx 1{,}8 \times 10^{-11})$$
+  - Độ tan của $\text{MnCO}_3$ cao hơn $\text{FeCO}_3$, giúp $\text{Mn}^{2+}$ di chuyển xa trong đất.
+  - Mangan hóa trị ba ($\text{Mn(III)}$): tồn tại dạng rắn manganite ($\text{MnOOH}$) hoặc hausmannite ($\text{Mn}_3\text{O}_4$).
+  - Mangan hóa trị bốn ($\text{Mn(IV)}$): kết tủa rắn dioxit mangan ($\text{MnO}_2(s)$).
+  - Mangan hóa trị bảy ($\text{Mn(VII)}$): anion pemanganat ($\text{MnO}_4^-$) tan có màu tím đặc trưng.
 
-###### Historical Standards Comparison (QCVN 01:2009/BYT vs QCVN 01-1:2018/BYT)
-Under the earlier standard **QCVN 01:2009/BYT**, the maximum allowable limit for total manganese was set at $\le 0.3\text{ mg/L}$. In the modernized QCVN 01-1:2018/BYT, this threshold was tightened by three-fold to $\le 0.1\text{ mg/L}$. This regulatory revision was prompted by epidemiological studies demonstrating chronic neurotoxic risks of elevated manganese exposure in vulnerable populations (infants and children), as well as widespread customer complaints regarding fixture staining at concentrations above $0.05 - 0.1\text{ mg/L}$. The iron limit remained unchanged at $\le 0.3\text{ mg/L}$.
+##### 4.1.2.2 Thế Điện cực Tiêu chuẩn của các Bán phản ứng Khử (Standard Reduction Potentials)
+- Bảng thế điện cực chuẩn $E^\circ$ tại $25^\circ\text{C}$ ($1\text{ atm}$, so với điện cực hydro chuẩn NHE):
 
-###### International WHO and US EPA Secondary Maximum Contaminant Levels
-- **World Health Organization (WHO Guidelines for Drinking-water Quality)**: Recommends iron levels below $0.3\text{ mg/L}$ based on aesthetic taste and appearance; manganese health-based guideline value is $0.4\text{ mg/L}$, but aesthetic objection occurs at $\sim 0.05 - 0.1\text{ mg/L}$.
-- **US EPA Secondary Maximum Contaminant Levels (SMCL - Non-enforceable aesthetic guidelines)**:
-  - Total Iron ($	ext{Fe}$): $\le 0.30\text{ mg/L}$.
-  - Total Manganese ($	ext{Mn}$): $\le 0.05\text{ mg/L}$ (tightened aesthetic threshold to prevent laundry and fixture staining).
+| Hệ oxy hóa khử | Bán phản ứng khử | Thế điện cực chuẩn $E^\circ$ (V) |
+|---|---|---|
+| $\text{Fe}^{3+} / \text{Fe}^{2+}$ | $\text{Fe}^{3+} + e^- \rightleftharpoons \text{Fe}^{2+}$ | $+0{,}771$ |
+| $\text{Fe(OH)}_3 / \text{Fe}^{2+}$ | $\text{Fe(OH)}_3(s) + 3\text{H}^+ + e^- \rightleftharpoons \text{Fe}^{2+} + 3\text{H}_2\text{O}$ | $+1{,}060$ |
+| $\text{Fe}^{2+} / \text{Fe}(s)$ | $\text{Fe}^{2+} + 2e^- \rightleftharpoons \text{Fe}(s)$ | $-0{,}440$ |
+| $\text{MnO}_2 / \text{Mn}^{2+}$ | $\text{MnO}_2(s) + 4\text{H}^+ + 2e^- \rightleftharpoons \text{Mn}^{2+} + 2\text{H}_2\text{O}$ | $+1{,}228$ |
+| $\text{MnO}_4^- / \text{Mn}^{2+}$ | $\text{MnO}_4^- + 8\text{H}^+ + 5e^- \rightleftharpoons \text{Mn}^{2+} + 4\text{H}_2\text{O}$ | $+1{,}507$ |
+| $\text{MnO}_4^- / \text{MnO}_2$ | $\text{MnO}_4^- + 4\text{H}^+ + 3e^- \rightleftharpoons \text{MnO}_2(s) + 2\text{H}_2\text{O}$ | $+1{,}695$ |
+| $\text{Mn}^{2+} / \text{Mn}(s)$ | $\text{Mn}^{2+} + 2e^- \rightleftharpoons \text{Mn}(s)$ | $-1{,}185$ |
+| $\text{O}_3 / \text{O}_2$ | $\text{O}_3(g) + 2\text{H}^+ + 2e^- \rightleftharpoons \text{O}_2(g) + \text{H}_2\text{O}$ | $+2{,}070$ |
+| $\text{HOCl} / \text{Cl}^-$ | $\text{HOCl} + \text{H}^+ + 2e^- \rightleftharpoons \text{Cl}^- + \text{H}_2\text{O}$ | $+1{,}482$ |
+| $\text{Cl}_2 / \text{Cl}^-$ | $\text{Cl}_2(g) + 2e^- \rightleftharpoons 2\text{Cl}^-$ | $+1{,}358$ |
+| $\text{O}_2 / \text{H}_2\text{O}$ | $\text{O}_2(g) + 4\text{H}^+ + 4e^- \rightleftharpoons 2\text{H}_2\text{O}$ | $+1{,}229$ |
+| $\text{ClO}_2 / \text{ClO}_2^-$ | $\text{ClO}_2(aq) + e^- \rightleftharpoons \text{ClO}_2^-$ | $+0{,}954$ |
+| $\text{OCl}^- / \text{Cl}^-$ | $\text{OCl}^- + \text{H}_2\text{O} + 2e^- \rightleftharpoons \text{Cl}^- + 2\text{OH}^-$ | $+0{,}890$ |
+
+##### 4.1.2.3 Phương trình Nernst và Phân tích Vùng Bền trên Giản đồ Pourbaix (Eh-pH) (Nernst Equations and Pourbaix Diagrams)
+- Phương trình Nernst tổng quát ở $25^\circ\text{C}$:
+  $$E_h = E^\circ - \frac{2{,}303 R T}{n F}\log Q = E^\circ - \frac{0{,}0591}{n}\log Q$$
+  - Trong đó:
+    - $E_h$: thế oxy hóa khử thực tế của hệ dung dịch ($\text{V}$).
+    - $E^\circ$: thế điện cực chuẩn của bán phản ứng ($\text{V}$).
+    - $R$: hằng số khí lý tưởng ($8{,}314\text{ J/(mol}\cdot\text{K)}$).
+    - $T$: nhiệt độ nhiệt động học tuyệt đối ($298{,}15\text{ K}$).
+    - $n$: số electron trao đổi trong phản ứng ($\text{mol } e^-$).
+    - $F$: hằng số Faraday ($96\,485\text{ C/mol}$).
+    - $Q$: thương số phản ứng hoạt độ.
+- Ranh giới nhiệt động của sắt ($\text{Fe(OH)}_3 / \text{Fe}^{2+}$):
+  $$E_h = 1{,}060 - 0{,}1773\cdot\text{pH} - 0{,}0591\log[\text{Fe}^{2+}]$$
+  - Khi nồng độ $[\text{Fe}^{2+}] = 10^{-5}\text{ M}$ ($\approx 0{,}56\text{ mg/L}$):
+    $$E_h = 1{,}356 - 0{,}1773\cdot\text{pH}$$
+  - Ở $\text{pH } 7{,}0$, thế cân bằng đạt $E_h = +0{,}115\text{ V}$.
+  - Nước ngầm kỵ khí có thế khử thấp ($E_h < 0{,}1\text{ V}$), giữ ion $\text{Fe}^{2+}$ hòa tan.
+  - Quá trình sục khí nâng thế khử lên mức $+0{,}30 \text{ đến } +0{,}80\text{ V}$.
+  - Trạng thái cân bằng vượt qua ranh giới pha, chuyển sang kết tủa $\text{Fe(OH)}_3(s)$.
+- Ranh giới nhiệt động của mangan ($\text{MnO}_2 / \text{Mn}^{2+}$):
+  $$E_h = 1{,}228 - 0{,}1182\cdot\text{pH} - 0{,}02955\log[\text{Mn}^{2+}]$$
+  - Khi nồng độ $[\text{Mn}^{2+}] = 10^{-5}\text{ M}$ ($\approx 0{,}55\text{ mg/L}$):
+    $$E_h = 1{,}376 - 0{,}1182\cdot\text{pH}$$
+  - Ở $\text{pH } 7{,}0$, thế cân bằng đạt $E_h = +0{,}549\text{ V}$.
+  - Vùng bền của ion $\text{Mn}^{2+}$ bao phủ toàn bộ vùng oxy hòa tan ở pH trung tính.
+  - Oxy hòa tan không thể tự oxy hóa ion $\text{Mn}^{2+}$ ở pH trung tính.
+  - Cần nâng pH lên trên $9{,}5$ hoặc cấp hóa chất có thế khử cao ($E_h > +0{,}70\text{ V}$).
+
+##### 4.1.2.4 Phản ứng Hóa học Oxy hóa và Nhu cầu Tỷ lượng Tác nhân (Oxidation Reactions and Stoichiometric Demands)
+- Phản ứng oxy hóa bằng oxy hòa tan ($O_2$):
+  - Oxy hóa ion sắt hai:
+    $$4\text{Fe}^{2+} + \text{O}_2 + 10\text{H}_2\text{O} \rightarrow 4\text{Fe}(\text{OH})_3\downarrow + 8\text{H}^+$$
+    - Tỷ lượng oxy lý thuyết: $0{,}14\text{ mg O}_2 / \text{mg Fe}$.
+    - Tiêu thụ độ kiềm: $1{,}79\text{ mg CaCO}_3 / \text{mg Fe}$.
+  - Oxy hóa ion mangan hai:
+    $$2\text{Mn}^{2+} + \text{O}_2 + 2\text{H}_2\text{O} \rightarrow 2\text{MnO}_2\downarrow + 4\text{H}^+$$
+    - Tỷ lượng oxy lý thuyết: $0{,}29\text{ mg O}_2 / \text{mg Mn}$.
+    - Tiêu thụ độ kiềm: $1{,}82\text{ mg CaCO}_3 / \text{mg Mn}$.
+  - Công thức tính tổng nhu cầu oxy hòa tan cho quá trình làm thoáng:
+    $$\text{DO}_{\text{demand}} = 0{,}14 \cdot [\text{Fe}^{2+}] + 0{,}29 \cdot [\text{Mn}^{2+}]$$
+- Phản ứng oxy hóa bằng clo tự do ($\text{Cl}_2$):
+  - Oxy hóa sắt hai:
+    $$2\text{Fe}^{2+} + \text{Cl}_2 + 6\text{H}_2\text{O} \rightarrow 2\text{Fe}(\text{OH})_3\downarrow + 2\text{Cl}^- + 6\text{H}^+$$
+    - Tỷ lượng clo lý thuyết: $0{,}64\text{ mg Cl}_2 / \text{mg Fe}$.
+  - Oxy hóa mangan hai:
+    $$\text{Mn}^{2+} + \text{Cl}_2 + 2\text{H}_2\text{O} \rightarrow \text{MnO}_2\downarrow + 2\text{Cl}^- + 4\text{H}^+$$
+    - Tỷ lượng clo lý thuyết: $1{,}29\text{ mg Cl}_2 / \text{mg Mn}$.
+  - Công thức tính tổng nhu cầu clo hóa sơ bộ:
+    $$\text{Cl}_{2,\text{demand}} = 0{,}64 \cdot [\text{Fe}^{2+}] + 1{,}29 \cdot [\text{Mn}^{2+}]$$
+- Phản ứng oxy hóa bằng kali pemanganat ($\text{KMnO}_4$):
+  - Oxy hóa sắt hai:
+    $$3\text{Fe}^{2+} + \text{KMnO}_4 + 7\text{H}_2\text{O} \rightarrow 3\text{Fe}(\text{OH})_3\downarrow + \text{MnO}_2\downarrow + \text{K}^+ + 5\text{H}^+$$
+    - Tỷ lệ định mức kỹ thuật: $0{,}94\text{ mg KMnO}_4 / \text{mg Fe}$.
+  - Oxy hóa mangan hai:
+    $$3\text{Mn}^{2+} + 2\text{KMnO}_4 + 2\text{H}_2\text{O} \rightarrow 5\text{MnO}_2\downarrow + 2\text{K}^+ + 4\text{H}^+$$
+    - Tỷ lệ định mức kỹ thuật: $1{,}92\text{ mg KMnO}_4 / \text{mg Mn}$.
+  - Công thức tính tổng liều lượng kali pemanganat:
+    $$\text{Dose}_{\text{KMnO}_4,\text{total}} = 0{,}94 \cdot [\text{Fe}^{2+}] + 1{,}92 \cdot [\text{Mn}^{2+}]$$
+- Phản ứng oxy hóa bằng ozone ($\text{O}_3$):
+  - Oxy hóa sắt hai:
+    $$2\text{Fe}^{2+} + \text{O}_3 + 5\text{H}_2\text{O} \rightarrow 2\text{Fe}(\text{OH})_3\downarrow + \text{O}_2 + 4\text{H}^+$$
+    - Tỷ lượng ozone lý thuyết: $0{,}43\text{ mg O}_3 / \text{mg Fe}$.
+  - Oxy hóa mangan hai:
+    $$\text{Mn}^{2+} + \text{O}_3 + \text{H}_2\text{O} \rightarrow \text{MnO}_2\downarrow + \text{O}_2 + 2\text{H}^+$$
+    - Tỷ lượng ozone lý thuyết: $0{,}67\text{ mg O}_3 / \text{mg Mn}$.
+- Phản ứng oxy hóa bằng clo dioxit ($\text{ClO}_2$):
+  - Oxy hóa sắt hai:
+    $$\text{Fe}^{2+} + \text{ClO}_2 + 3\text{H}_2\text{O} \rightarrow \text{Fe}(\text{OH})_3\downarrow + \text{ClO}_2^- + 3\text{H}^+$$
+    - Tỷ lượng clo dioxit lý thuyết: $1{,}2\text{ mg ClO}_2 / \text{mg Fe}$.
+  - Oxy hóa mangan hai:
+    $$\text{Mn}^{2+} + 2\text{ClO}_2 + 2\text{H}_2\text{O} \rightarrow \text{MnO}_2\downarrow + 2\text{ClO}_2^- + 4\text{H}^+$$
+    - Tỷ lượng clo dioxit lý thuyết: $2{,}4\text{ mg ClO}_2 / \text{mg Mn}$.
+
+#### 4.1.3 Tiêu chuẩn Chất lượng Nước Ăn uống và Sinh hoạt (Water Quality Standards)
+
+##### 4.1.3.1 Quy chuẩn Kỹ thuật Quốc gia Việt Nam QCVN 01-1:2018/BYT
+- Quy chuẩn này điều chỉnh chất lượng nước sạch dùng cho mục đích sinh hoạt.
+- Ngưỡng giới hạn bắt buộc cho các thông số chính:
+  - Sắt tổng số ($\text{Fe}$): $\le 0{,}3\text{ mg/L}$ (thông số nhóm A, kiểm tra định kỳ).
+  - Mangan tổng số ($\text{Mn}$): $\le 0{,}1\text{ mg/L}$ (thông số nhóm A, kiểm tra định kỳ).
+  - Độ đục: $\le 2\text{ NTU}$.
+  - Độ màu: $\le 15\text{ TCU}$.
+  - Dải pH giới hạn: $6{,}0 - 8{,}5$.
+  - Hàm lượng clo dư tự do tại vòi dùng: $0{,}2 - 1{,}0\text{ mg/L}$.
+
+##### 4.1.3.2 Đối chiếu với Quy chuẩn Cũ (QCVN 01:2009/BYT và QCVN 02:2009/BYT)
+- Quy chuẩn QCVN 01:2009/BYT (chất lượng nước ăn uống):
+  - Giới hạn sắt tổng số: $\text{Fe} \le 0{,}3\text{ mg/L}$.
+  - Giới hạn mangan tổng số: $\text{Mn} \le 0{,}3\text{ mg/L}$.
+- Quy chuẩn QCVN 02:2009/BYT (chất lượng nước sinh hoạt):
+  - Giới hạn sắt tổng số: $\text{Fe} \le 0{,}5\text{ mg/L}$.
+  - Giới hạn mangan tổng số: $\text{Mn} \le 0{,}4\text{ mg/L}$.
+  - Giới hạn độ đục: $\le 5\text{ NTU}$.
+- Cơ sở khoa học của việc siết chặt hàm lượng mangan trong QCVN 01-1:2018/BYT:
+  - Mangan vượt ngưỡng $0{,}05 - 0{,}1\text{ mg/L}$ gây ố đen thiết bị vệ sinh.
+  - Phơi nhiễm mangan kéo dài gây độc tính thần kinh cho trẻ sơ sinh và trẻ nhỏ.
+  - Quy chuẩn hợp nhất bãi bỏ sự phân tách giữa nước ăn uống và nước sinh hoạt.
+
+##### 4.1.3.3 Bảng So sánh Giới hạn Tiêu chuẩn Nước uống Trong nước và Quốc tế
+
+| Thông số kiểm soát | Đơn vị đo | QCVN 01-1:2018/BYT | QCVN 01:2009/BYT | QCVN 02:2009/BYT | Hướng dẫn WHO | US EPA SMCL |
+|---|---|---|---|---|---|---|
+| Sắt tổng số ($\text{Fe}$) | $\text{mg/L}$ | $\le 0{,}3$ | $\le 0{,}3$ | $\le 0{,}5$ | $\le 0{,}3$ | $\le 0{,}30$ |
+| Mangan tổng số ($\text{Mn}$) | $\text{mg/L}$ | $\le 0{,}1$ | $\le 0{,}3$ | $\le 0{,}4$ | $\le 0{,}4$ | $\le 0{,}05$ |
+| Độ đục | $\text{NTU}$ | $\le 2$ | $\le 2$ | $\le 5$ | $\le 5$ | $\le 0{,}5 - 1{,}0$ |
+| Độ màu | $\text{TCU}$ | $\le 15$ | $\le 15$ | $\le 15$ | $\le 15$ | $\le 15$ |
+| Dải pH | $-$ | $6{,}0 - 8{,}5$ | $6{,}5 - 8{,}5$ | $6{,}0 - 8{,}5$ | $6{,}5 - 8{,}5$ | $6{,}5 - 8{,}5$ |
+| Clo dư tự do | $\text{mg/L}$ | $0{,}2 - 1{,}0$ | $0{,}3 - 0{,}5$ | $0{,}2 - 1{,}0$ | $\ge 0{,}2$ | $0{,}2 - 4{,}0$ |
+
+#### 4.1.4 Tác hại của Sắt và Mangan đối với Cảm quan, Thẩm mỹ và Sức khỏe (Aesthetic and Health Impacts)
+
+##### 4.1.4.1 Hiện tượng Suy giảm Cảm quan Màu sắc ("Nước Đỏ" và "Nước Đen")
+- Hiện tượng "Nước Đỏ" ("Red Water"):
+  - Ion $\text{Fe}^{2+}$ trong nước ngầm tiếp xúc oxy tạo hạt keo $\text{Fe(OH)}_3(s)$.
+  - Các hạt keo tán xạ ánh sáng, làm nước chuyển sang màu vàng cam hoặc nâu đỏ.
+  - Hiện tượng này xuất hiện rõ rệt khi nồng độ sắt vượt quá $0{,}3\text{ mg/L}$.
+- Hiện tượng "Nước Đen" ("Black Water"):
+  - Ion $\text{Mn}^{2+}$ bị oxy hóa tạo hạt cặn mịn dioxide mangan $\text{MnO}_2(s)$.
+  - Các hạt cặn màu xám đen hoặc nâu sẫm gây đục tối nước.
+  - Người dùng phát hiện cặn đen ở đáy bồn chứa khi mangan vượt $0{,}05\text{ mg/L}$.
+
+##### 4.1.4.2 Ố bẩn Thiết bị Sứ Vệ sinh và Hư hại Vải vóc Đồ giặt
+- Bám bẩn men sứ và thiết bị vệ sinh:
+  - Bông cặn $\text{Fe(OH)}_3$ bám dính chặt vào bề mặt bồn rửa, bồn tắm và bồn cầu.
+  - Cặn sắt tạo vệt ố màu vàng gỉ hoặc nâu đỏ không tan trong nước.
+  - Phải dùng các axit hữu cơ (axit oxalic, axit citric) để tẩy sạch vết ố.
+- Hư hại đồ giặt và vải dệt:
+  - Quá trình giặt dùng thuốc tẩy clo ($\text{NaOCl}$) oxy hóa nhanh $\text{Mn}^{2+}$:
+    $$\text{Mn}^{2+} + \text{OCl}^- + \text{H}_2\text{O} \rightarrow \text{MnO}_2\downarrow + \text{Cl}^- + 2\text{H}^+$$
+  - Hạt $\text{MnO}_2$ ngấm sâu vào sợi vải, tạo các đốm ố đen vĩnh viễn.
+
+##### 4.1.4.3 Biến đổi Hương vị Kim loại và Phản ứng Tạo Phức Đen với Axit Tannic
+- Mùi vị lạ trong nước uống:
+  - Ion $\text{Fe}^{2+}$ gây vị tanh kim loại khó chịu ở nồng độ từ $0{,}1$ đến $0{,}3\text{ mg/L}$.
+  - Ion $\text{Mn}^{2+}$ tạo vị chát đắng và hắc ở nồng độ trên $0{,}1\text{ mg/L}$.
+- Phản ứng hóa học với axit tannic trong thực phẩm:
+  - Cation sắt phản ứng với hợp chất tannin trong lá trà và hạt cà phê.
+  - Phản ứng tạo kết tủa phức tannat sắt ba màu đen mực:
+    $$\text{Fe}^{3+} + 3\text{Tannic Acid} \rightarrow \text{Fe(Tannate)}_3\downarrow$$
+  - Nước trà chuyển sang màu đen đục, mất hoàn toàn mùi thơm đặc trưng.
+  - Nước chứa nhiều sắt cũng làm thâm đen hạt cơm và rau củ khi đun nấu.
+
+##### 4.1.4.4 Tác động Độc tính đối với Sức khỏe Con người
+- Nguy cơ từ sự tích lũy mangan trong cơ thể:
+  - Mangan là nguyên tố vi lượng cần thiết nhưng gây độc khi nồng độ cao.
+  - Mangan tích tụ mãn tính trong hệ thần kinh trung ương và não bộ.
+  - Gây ra hội chứng bệnh manganism với biểu hiện giống bệnh Parkinson.
+  - Trẻ sơ sinh hấp thu mangan cao hơn và đào thải kém hơn người lớn.
+- Tác động tiêu cực của sắt dư thừa:
+  - Sắt kích thích sự phát triển của vi khuẩn đường ruột gây hại.
+  - Sử dụng nước nhiễm sắt nặng lâu dài làm tăng nguy cơ tổn thương tế bào gan.
+
+#### 4.1.5 Tác hại đối với Hệ thống Mạng lưới Đường ống Phân phối (Distribution System Impacts)
+
+##### 4.1.5.1 Đóng cặn Gỉ và Tổn thất Năng lượng Thủy lực (Tuberculation and Hydraulic Loss)
+- Hình thành nốt sần ăn mòn (tuberculation):
+  - Cặn khoáng $\text{Fe(OH)}_3$, $\text{MnO}_2$, goethite và magnetite bám cứng thành ống.
+  - Bề mặt bên trong ống gang và thép xuất hiện các khối u sần sùi gồ ghề.
+- Suy giảm hệ số dẫn nước Hazen-Williams ($C$):
+  - Ống mới lót xi măng hoặc nhựa có hệ số $C = 130 - 140$.
+  - Ống bị đóng cặn nặng suy giảm hệ số xuống mức $C = 60 - 80$.
+- Tổn thất áp lực dọc đường tăng mạnh theo phương trình Hazen-Williams:
+  $$h_f = 10{,}67 \cdot L \cdot Q^{1{,}852} \cdot C^{-1{,}852} \cdot D^{-4{,}87}$$
+  - Trong đó:
+    - $h_f$: tổn thất cột áp ma sát ($\text{m}$).
+    - $L$: chiều dài đoạn ống dẫn ($\text{m}$).
+    - $Q$: lưu lượng nước chảy trong ống ($\text{m}^3/\text{s}$).
+    - $C$: hệ số nhám Hazen-Williams (không thứ nguyên).
+    - $D$: đường kính trong của ống dẫn ($\text{m}$).
+- Trạm bơm phải tăng áp lực làm việc, gây lãng phí năng lượng điện tiêu thụ.
+
+##### 4.1.5.2 Kẹt Hỏng Thiết bị Đo Lưu lượng và Phụ kiện Cơ khí
+- Hạt cặn gỉ sắt và mangan bong tróc trôi theo dòng nước.
+- Cặn bẩn làm tắc nghẽn lưới lọc bảo vệ đầu vào đồng hồ đo nước.
+- Hạt cặn gây kẹt đĩa quay và cánh quạt tuabin của thiết bị đo đếm.
+- Cặn bám làm rò rỉ hoặc kẹt cứng trục van giảm áp và van một chiều.
+
+##### 4.1.5.3 Dao động Thủy lực và Hiện tượng Tái Xáo trộn Cặn Đáy (Hydraulic Surges and Resuspension)
+- Cơ chế lắng đọng cặn trong điều kiện dòng chảy tĩnh:
+  - Cặn bông sắt và mangan lắng đọng tại các điểm cuối mạng lưới cụt.
+  - Vận tốc dòng chảy thấp ($< 0{,}5\text{ m/s}$) giữ ứng suất cắt đáy ở mức nhỏ.
+  - Ứng suất cắt thành ống tính theo công thức:
+    $$\tau_w = \frac{1}{8} f \rho v^2$$
+    - $\tau_w$: ứng suất cắt tại thành ống ($\text{N/m}^2$).
+    - $f$: hệ số ma sát Darcy-Weisbach (không thứ nguyên).
+    - $\rho$: khối lượng riêng của nước ($1000\text{ kg/m}^3$).
+    - $v$: vận tốc dòng chảy trong ống ($\text{m/s}$).
+- Sự cố bùng phát nước đỏ do xáo trộn thủy lực:
+  - Mở họng cứu hỏa hoặc sự cố vỡ ống làm vận tốc dòng chảy tăng vọt ($> 2{,}5\text{ m/s}$).
+  - Ứng suất cắt vượt ngưỡng tới hạn làm xói trôi lớp cặn đáy:
+    $$\tau_w > \tau_{c,\text{erosion}}$$
+  - Toàn bộ lớp cặn bùn đỏ đen bị cuốn vào dòng nước cấp đến hộ tiêu dùng.
+
+##### 4.1.5.4 Nhiễm bẩn Sinh học do Vi khuẩn Sắt và Mangan (Biofouling)
+- Các chủng vi sinh vật oxy hóa kim loại đặc trưng:
+  - *Gallionella ferruginea*: vi khuẩn có cuống xoắn tiết dải oxyhydroxyt sắt ba.
+  - *Leptothrix ochracea* và *Leptothrix discophora*: vi khuẩn dạng sợi có vỏ bọc chứa sắt và mangan.
+  - *Crenothrix polyspora* và *Sphaerotilus natans*: vi khuẩn sợi lớn tạo mảng nhầy dày.
+- Phản ứng tạo năng lượng trao đổi chất của vi khuẩn sắt:
+  $$\text{Fe}^{2+} + 0{,}25\text{O}_2 + 2{,}5\text{H}_2\text{O} \rightarrow \text{Fe(OH)}_3(s) + 2\text{H}^+ \quad (\Delta G^\circ = -29\text{ kJ/mol})$$
+- Tiết dịch polyme ngoại bào (EPS):
+  - Vi khuẩn tiết ra lớp chất nhầy chứa polysacarit và protein dính bám.
+  - Lớp chất nhầy kết dính cặn khoáng, tạo màng sinh học (biofilm) dày nhiều milimet.
+  - Màng sinh học gây mùi hôi tanh bùn đất và cản trở lưu thông dòng nước.
+
+##### 4.1.5.5 Hiện tượng Ăn mòn Do Vi sinh vật (MIC) và Triệt tiêu Clo Khử trùng
+- Hiện tượng ăn mòn cục bộ dưới lớp màng nhầy (MIC):
+  - Lớp màng sinh học ngăn oxy khuếch tán xuống bề mặt kim loại của ống.
+  - Hình thành các ô pin ăn mòn chênh lệch nồng độ oxy cực mạnh.
+  - Vi khuẩn khử sunfat (*Desulfovibrio*) phát triển mạnh ở lớp đáy kỵ khí:
+    $$\text{SO}_4^{2-} + 8\text{H}^+ + 8e^- \rightarrow \text{S}^{2-} + 4\text{H}_2\text{O}$$
+  - Khí $\text{H}_2\text{S}$ sinh ra ăn mòn kim loại thành ống tạo cặn $\text{FeS}$, gây thủng ống rò rỉ.
+- Triệt tiêu clo tự do và che chắn vi khuẩn gây bệnh:
+  - Lớp cặn sắt, mangan và màng EPS tiêu hao nhanh lượng clo khử trùng dư.
+  - Màng nhầy bao bọc bảo vệ vi khuẩn gây bệnh (*Legionella*, *Pseudomonas*, *E. coli*).
+  - Clo dư không thể xuyên thấu màng sinh học để diệt mầm bệnh.
+
+#### 4.1.6 Hướng dẫn Kỹ thuật Xử lý Sự cố Cặn Lắng và Nước Đỏ/Đen trên Mạng lưới (Troubleshooting Procedures)
+
+- **Sự cố 1: Nước xả tại vòi bị đục đỏ hoặc nâu đen cục bộ sau khi sửa chữa đường ống**
+  - **Dấu hiệu nhận biết**:
+    - Nước chảy ra từ vòi gia đình có màu vàng cam, nâu gỉ hoặc đen sẫm.
+    - Độ đục tăng vọt trên $10\text{ NTU}$, kèm theo cặn lơ lửng mắt thường thấy được.
+  - **Nguyên nhân gốc rễ**:
+    - Thao tác đóng mở van khi sửa chữa gây dao động áp lực và đổi chiều dòng chảy.
+    - Ứng suất cắt tăng cao cuốn phăng cặn $\text{Fe(OH)}_3$ và $\text{MnO}_2$ tích tụ ở đáy ống.
+  - **Biện pháp kỹ thuật khắc phục**:
+    1. Cô lập phân vùng mạng lưới cấp nước bị ảnh hưởng bằng các van chặn.
+    2. Mở họng cứu hỏa hoặc van xả cặn ở cuối tuyến ống với vận tốc súc rửa $> 1{,}5\text{ m/s}$.
+    3. Đo độ đục nước xả đến khi giá trị đạt dưới $2\text{ NTU}$ mới đóng van xả.
+    4. Kiểm tra nồng độ clo dư ở đầu mút mạng lưới, bổ sung clo nếu nồng độ $< 0{,}2\text{ mg/L}$.
+
+- **Sự cố 2: Áp lực nước tại khu vực cuối mạng giảm dần theo thời gian**
+  - **Dấu hiệu nhận biết**:
+    - Đồng hồ đo áp lực tại trạm giám sát cuối nguồn báo giá trị sụt giảm sâu.
+    - Bơm cấp nước hoạt động hết công suất nhưng áp lực mạng lưới vẫn thấp.
+  - **Nguyên nhân gốc rễ**:
+    - Nốt sần khoáng chất và màng nhầy sinh học phát triển làm giảm tiết diện ống dẫn.
+    - Hệ số nhám Hazen-Williams suy giảm từ $130$ xuống dưới $70$.
+  - **Biện pháp kỹ thuật khắc phục**:
+    1. Xác định đoạn ống có tổn thất cột áp ma sát bất thường qua đo chênh áp.
+    2. Triển khai phương pháp cạo gỉ cơ học bằng thoi làm sạch (pipe pigging).
+    3. Thau rửa đường ống bằng dung dịch clo nồng độ cao ($10 - 20\text{ mg/L}$) để diệt vi khuẩn sắt.
+    4. Cân nhắc lắp đặt ống lót polymer hoặc phủ lớp vữa xi măng bảo vệ mặt trong lòng ống.
+
+- **Sự cố 3: Nồng độ clo dư tụt giảm nhanh dù liều lượng châm tại nhà máy đạt chuẩn**
+  - **Dấu hiệu nhận biết**:
+    - Nồng độ clo dư tại trạm xử lý đạt $1{,}0\text{ mg/L}$ nhưng tại hộ dùng đo được $0{,}0\text{ mg/L}$.
+    - Xuất hiện màng nhầy màu đỏ nâu bám ở lưới lọc bồn chứa nước hộ gia đình.
+  - **Nguyên nhân gốc rễ**:
+    - Quá trình oxy hóa chưa triệt để tại trạm để sót ion $\text{Fe}^{2+}$ và $\text{Mn}^{2+}$ vào mạng lưới.
+    - Vi khuẩn sắt phát triển trên thành ống tiêu thụ clo tự do bảo vệ.
+  - **Biện pháp kỹ thuật khắc phục**:
+    1. Kiểm tra hiệu quả oxy hóa của hệ thống làm thoáng và cụm châm hóa chất tại trạm xử lý.
+    2. Tăng liều lượng $\text{KMnO}_4$ hoặc clo sơ bộ để kết tủa hết kim loại trước khi lọc.
+    3. Xả rửa định kỳ các tuyến ống cụt có thời gian lưu nước trên $48\text{ giờ}$.
+    4. Khử trùng sốc mạng lưới bằng dung dịch clo nồng độ $50\text{ mg/L}$ trong $24\text{ giờ}$.
+
+### 4.2 Các Phương pháp Làm thoáng Khử Sắt và Lý thuyết Truyền khối Hai màng (Aeration Methods for Iron Removal & Two-Film Mass Transfer Theory)
+
+#### 4.2.1 Lý thuyết Truyền khối Hai màng Lewis-Whitman (Lewis-Whitman Two-Film Mass Transfer Theory)
+##### 4.2.1.1 Cấu trúc Mô hình Hai màng Khí - Lỏng (Gas-Liquid Two-Film Model)
+- W.K. Lewis và W.G. Whitman thiết lập mô hình hai màng vào năm 1924.
+- Bề mặt phân cách pha ngăn cách giữa khối khí và khối lỏng.
+- Hai màng chất lưu đứng yên nằm ở hai bên bề mặt phân cách.
+- Lớp màng khí mỏng đứng yên có bề dày $\delta_g$.
+- Lớp màng lỏng mỏng đứng yên có bề dày $\delta_L$.
+- Chuyển động đối lưu xoáy giữ nồng độ đồng nhất trong lòng mỗi pha.
+- Chất khí di chuyển qua hai màng biên bằng cơ chế khuếch tán phân tử.
+- Trạng thái cân bằng pha nhiệt động học thiết lập tức thời tại mặt tiếp xúc.
+
+##### 4.2.1.2 Định luật Khuếch tán Fick và Phân bố Trở lực Chuyển khối (Fick's Diffusion Law & Resistance Distribution)
+- Quá trình khuếch tán phân tử qua màng tuân theo Định luật Fick thứ nhất:
+  $$J = -D \cdot \frac{dC}{dz}$$
+  Trong đó:
+  - $J$: Mật độ dòng khuếch tán phân tử qua bề mặt ($\text{g}/(\text{m}^2 \cdot \text{s})$ hoặc $\text{mol}/(\text{m}^2 \cdot \text{s})$).
+  - $D$: Hệ số khuếch tán phân tử của chất khí trong môi trường ($\text{m}^2/\text{s}$).
+  - $\frac{dC}{dz}$: Gradient nồng độ chất khí theo phương vuông góc bề mặt ($\text{g}/\text{m}^4$ hoặc $\text{mol}/\text{m}^4$).
+- Mật độ dòng khuếch tán ổn định qua lớp màng lỏng dày $\delta_L$:
+  $$J = \frac{D_L}{\delta_L} (C_i - C) = k_L \cdot (C_i - C)$$
+  Trong đó:
+  - $D_L$: Hệ số khuếch tán phân tử của khí trong nước ($\text{m}^2/\text{s}$).
+  - $\delta_L$: Chiều dày lớp màng lỏng đứng yên ($\text{m}$).
+  - $k_L = \frac{D_L}{\delta_L}$: Hệ số truyền khối qua màng lỏng ($\text{m}/\text{s}$).
+  - $C_i$: Nồng độ khí tại mặt tiếp xúc pha lỏng ($\text{mg}/\text{L}$ hoặc $\text{g}/\text{m}^3$).
+  - $C$: Nồng độ khí hòa tan trong lòng khối nước ($\text{mg}/\text{L}$ hoặc $\text{g}/\text{m}^3$).
+- Trở lực truyền khối tổng cộng qua hai màng biểu diễn theo phương trình:
+  $$\frac{1}{K_L} = \frac{1}{H_e \cdot k_g} + \frac{1}{k_L}$$
+  Trong đó:
+  - $K_L$: Hệ số truyền khối tổng cộng quy về pha lỏng ($\text{m}/\text{s}$).
+  - $k_g$: Hệ số truyền khối qua màng khí ($\text{m}/\text{s}$).
+  - $k_L$: Hệ số truyền khối qua màng lỏng ($\text{m}/\text{s}$).
+  - $H_e$: Hằng số phân bố cân bằng Henry không thứ nguyên ($C_L / C_G$).
+- Khí oxy ($O_2$) và khí carbon dioxide ($CO_2$) tan rất ít trong nước.
+- Hằng số Henry $H_e$ của các khí này có giá trị rất lớn.
+- Trở lực màng khí $\frac{1}{H_e \cdot k_g}$ chiếm tỷ trọng không đáng kể.
+- Trở lực màng lỏng $\frac{1}{k_L}$ chiếm hơn 95% tổng trở lực truyền khối.
+- Tốc độ truyền khối phụ thuộc hoàn toàn vào màng lỏng ($K_L \approx k_L$).
+
+##### 4.2.1.3 Định luật Cân bằng Pha Khí - Lỏng Henry (Henry's Gas Solubility Law)
+- Định luật Henry mô tả cân bằng hòa tan khí ở áp suất thấp:
+  $$C_s = H \cdot P_g$$
+  hoặc biểu diễn theo áp suất riêng phần khí:
+  $$P_g = H_c \cdot C_s$$
+  Trong đó:
+  - $C_s$: Nồng độ bão hòa cân bằng của khí trong nước ($\text{mg}/\text{L}$).
+  - $P_g$: Áp suất riêng phần của khí trong pha khí ($\text{atm}$).
+  - $H$: Hằng số định luật Henry dạng độ tan ($\text{mg}/(\text{L} \cdot \text{atm})$).
+  - $H_c$: Hằng số định luật Henry dạng áp suất ($\text{atm} \cdot \text{L} / \text{mg}$).
+- Đặc tính hòa tan của khí oxy ($O_2$):
+  - Tỷ lệ thể tích oxy trong không khí khô đạt $20{,}95\%$.
+  - Áp suất riêng phần của oxy ở mực nước biển: $P_{O_2} \approx 0{,}2095\text{ atm}$.
+  - Hằng số Henry của oxy ở nhiệt độ 20°C: $H_{O_2} \approx 43{,}4\text{ mg}/(\text{L} \cdot \text{atm})$.
+  - Nồng độ oxy bão hòa trong nước ở 0°C: $C_{s,O_2} = 14{,}6\text{ mg}/\text{L}$.
+  - Nồng độ oxy bão hòa trong nước ở 20°C: $C_{s,O_2} = 9{,}09\text{ mg}/\text{L}$.
+  - Nồng độ oxy bão hòa trong nước ở 25°C: $C_{s,O_2} = 8{,}24\text{ mg}/\text{L}$.
+  - Nồng độ oxy bão hòa trong nước ở 30°C: $C_{s,O_2} = 7{,}56\text{ mg}/\text{L}$.
+- Đặc tính hòa tan của khí carbon dioxide ($CO_2$):
+  - Tỷ lệ thể tích khí $CO_2$ trong khí quyển tự nhiên: khoảng $0{,}041\%$ ($415\text{ ppm}$).
+  - Áp suất riêng phần của khí $CO_2$: $P_{CO_2} \approx 0{,}00041\text{ atm}$.
+  - Hằng số Henry của $CO_2$ ở 20°C: $H_{CO_2} \approx 1690\text{ mg}/(\text{L} \cdot \text{atm})$.
+  - Nồng độ bão hòa cân bằng của $CO_2$ ở 20°C: $C_{s,CO_2} \approx 0{,}5 - 0{,}7\text{ mg}/\text{L}$.
+  - Nước ngầm sâu chứa hàm lượng $CO_2$ tự do từ $10\text{ đến } 50\text{ mg}/\text{L}$.
+  - Nồng độ $CO_2$ trong nước ngầm vượt xa mức bão hòa trong không khí.
+
+##### 4.2.1.4 Phương trình Động học Truyền khối Tổng quát (General Volumetric Mass Transfer Equation)
+- Tốc độ truyền khối chất khí theo thể tích xác định theo phương trình:
+  $$\frac{dC}{dt} = K_L a \cdot (C_s - C)$$
+  Trong đó:
+  - $\frac{dC}{dt}$: Tốc độ biến thiên nồng độ khí trong nước ($\text{mg}/(\text{L} \cdot \text{s})$ hoặc $\text{mg}/(\text{L} \cdot \text{h})$).
+  - $K_L$: Hệ số truyền khối qua màng chất lỏng ($\text{m}/\text{s}$ hoặc $\text{m}/\text{h}$).
+  - $a$: Diện tích bề mặt tiếp xúc riêng trên một đơn vị thể tích lỏng ($\text{m}^2/\text{m}^3 = \text{m}^{-1}$).
+  - $K_L a$: Hệ số truyền khối thể tích tổng cộng ($\text{s}^{-1}$ hoặc $\text{h}^{-1}$).
+  - $(C_s - C)$: Động lực chênh lệch nồng độ chất khí ($\text{mg}/\text{L}$).
+- Dạng tích phân của phương trình động học truyền khối gián đoạn:
+  $$\ln\left(\frac{C_s - C_0}{C_s - C_t}\right) = K_L a \cdot t$$
+  hoặc biểu diễn dưới dạng nồng độ theo thời gian:
+  $$C_t = C_s - (C_s - C_0) \cdot e^{-K_L a \cdot t}$$
+  Trong đó:
+  - $C_0$: Nồng độ khí ban đầu trong nước tại thời điểm $t = 0$ ($\text{mg}/\text{L}$).
+  - $C_t$: Nồng độ khí trong nước sau thời gian tiếp xúc $t$ ($\text{mg}/\text{L}$).
+  - $t$: Thời gian tiếp xúc làm thoáng ($\text{s}$ hoặc $\text{h}$).
+- Ảnh hưởng của nhiệt độ nước đến hệ số truyền khối thể tích $K_L a$:
+  $$(K_L a)_T = (K_L a)_{20} \cdot \theta^{(T - 20)}$$
+  Trong đó:
+  - $(K_L a)_T$: Hệ số truyền khối thể tích ở nhiệt độ $T$ (°C).
+  - $(K_L a)_{20}$: Hệ số truyền khối thể tích ở nhiệt độ tiêu chuẩn 20°C.
+  - $\theta$: Hệ số hiệu chỉnh nhiệt độ ($\theta = 1{,}024$ đối với $O_2$; $\theta = 1{,}020$ đối với $CO_2$).
+  - $T$: Nhiệt độ làm việc thực tế của nguồn nước (°C).
 
 ---
 
-#### 4.1.2 Aesthetic Degradation: Color, Fixture Staining & Taste Impacts
-##### 4.1.2.1 Chromatic Deterioration and Water Discoloration
-###### "Red Water" Phenomenon from Colloidal Ferric Hydroxide
-When raw groundwater containing dissolved ferrous ions ($	ext{Fe}^{2+}$) comes into contact with dissolved oxygen—either during post-well pumping or within consumer distribution lines—ferrous iron oxidizes into insoluble ferric iron. The resulting colloidal ferric hydroxide ($	ext{Fe(OH)}_3(s)$) and ferric oxyhydroxide particles scatter and absorb incident light, imparting a distinct reddish-brown, yellow-orange, or rust-colored turbidity known across municipal water utilities as **"Red Water"**. Consumer perception of contamination occurs even at low concentrations ($> 0.3\text{ mg/L}$), leading to intense customer dissatisfaction.
+#### 4.2.2 Tốc độ Hòa tan Oxy và Thoát khí Carbon Dioxide (Oxygen Dissolution & CO2 Stripping Kinetics)
+##### 4.2.2.1 Động học Quá trình Hòa tan Oxy (Oxygen Absorption Kinetics)
+- Nước ngầm kỵ khí thường không chứa oxy hòa tan ($C_0 \approx 0\text{ mg}/\text{L}$).
+- Động lực chuyển khối $(C_s - C) > 0$ đạt cực đại lúc bắt đầu làm thoáng.
+- Oxy từ pha khí khuếch tán nhanh qua màng lỏng vào khối nước.
+- Tốc độ hòa tan giảm dần khi nồng độ oxy tiệm cận mức bão hòa $C_s$.
+- Công trình làm thoáng chuẩn mực đưa oxy đạt $70\% - 85\%$ độ bão hòa ($5{,}0 - 7{,}5\text{ mg}/\text{L}$).
+- Phương trình phản ứng oxy hóa ion sắt hai bằng oxy hòa tan:
+  $$4\text{Fe}^{2+} + \text{O}_2 + 10\text{H}_2\text{O} \rightarrow 4\text{Fe}(\text{OH})_3\downarrow + 8\text{H}^+$$
+- Nhu cầu oxy hòa tan lý thuyết tính cho sắt hai:
+  $$\frac{32{,}00\text{ g O}_2}{4 \times 55{,}845\text{ g Fe}} = \frac{32{,}00}{223{,}38} = 0{,}143\text{ mg O}_2 / \text{mg Fe} \approx 0{,}14\text{ mg O}_2 / \text{mg Fe}$$
+- Nhu cầu oxy hòa tan lý thuyết cho cả sắt và mangan:
+  $$\text{DO}_{\text{demand}} = 0{,}14 \cdot [\text{Fe}^{2+}] + 0{,}29 \cdot [\text{Mn}^{2+}]$$
+  Trong đó:
+  - $\text{DO}_{\text{demand}}$: Nhu cầu oxy hòa tan lý thuyết tối thiểu ($\text{mg}/\text{L O}_2$).
+  - $[\text{Fe}^{2+}]$: Hàm lượng sắt hai hòa tan trong nước thô ($\text{mg}/\text{L}$).
+  - $[\text{Mn}^{2+}]$: Hàm lượng mangan hai hòa tan trong nước thô ($\text{mg}/\text{L}$).
+- Nồng độ oxy hòa tan sau làm thoáng luôn dư thừa so với nhu cầu phản ứng.
 
-###### "Black Water" Turbidity from Manganese Dioxide Colloids
-Manganese oxidation produces insoluble tetravalent manganese dioxide ($	ext{MnO}_2(s)$) in the form of dark brownish-black, microcrystalline particulates. When unoxidized $	ext{Mn}^{2+}$ breaches municipal filtration barriers and slowly oxidizes within distribution pipelines or household fixtures, it manifests as **"Black Water"**. Even minute concentrations of manganese ($> 0.05\text{ mg/L}$) produce noticeable dark turbidity, black sediment flakes in toilet flush tanks, and turbid water discharges during plumbing draw-off.
+##### 4.2.2.2 Động học Quá trình Thoát khí Carbon Dioxide (CO2 Desorption & Air Stripping Kinetics)
+- Nước ngầm sâu chứa nồng độ khí $CO_2$ tự do rất cao ($10 - 50\text{ mg}/\text{L}$).
+- Nồng độ $CO_2$ cân bằng với không khí chỉ đạt khoảng $0{,}5\text{ mg}/\text{L}$.
+- Nồng độ $CO_2$ trong nước ngầm vượt xa nồng độ cân bằng ($C_{CO_2} \gg C_{s,CO_2}$).
+- Động lực chênh lệch nồng độ $(C - C_s) > 0$ đẩy khí ra ngoài.
+- Khí $CO_2$ khuếch tán từ lòng khối nước qua màng lỏng vào không khí.
+- Phương trình vi phân mô tả tốc độ đuổi khí $CO_2$:
+  $$\frac{d[\text{CO}_2]}{dt} = -K_L a \cdot ([\text{CO}_2] - [\text{CO}_2]_s)$$
+- Phương trình tích phân tính nồng độ $CO_2$ còn lại sau thời gian $t$:
+  $$\ln\left(\frac{[\text{CO}_2]_0 - [\text{CO}_2]_s}{[\text{CO}_2]_t - [\text{CO}_2]_s}\right) = K_L a \cdot t$$
+- Giàn mưa làm thoáng tự nhiên khử được $75\% - 85\%$ lượng $CO_2$ tự do.
+- Tháp thổi khí cưỡng bức khử được hơn $90\% - 95\%$ lượng $CO_2$ tự do.
 
-##### 4.1.2.2 Plumbing Fixture, Ceramic, and Laundry Staining
-###### Ferric Hydroxide Adhesion onto Porcelain and Enamel
-Precipitated $	ext{Fe(OH)}_3$ flocs possess high surface affinity for vitreous china, ceramic porcelain, and enameled plumbing fixtures (sinks, bathtubs, toilet bowls). Over time, microscopic ferric deposits coat fixture surfaces, polymerizing into persistent, insoluble reddish-brown rust stains that resist standard domestic detergents and require harsh acidic cleaning reagents (oxalic acid, hydrochloric acid, or citric acid chelating agents) for removal.
-
-###### Manganese Dioxide Fabric Oxidation and Permanent Laundry Staining
-Manganese presents an even more intractable laundering hazard. When domestic laundry is washed in water containing dissolved $	ext{Mn}^{2+}$, household chlorine bleach (sodium hypochlorite $	ext{NaOCl}$) rapidly oxidizes the dissolved manganese directly within the woven fabric fibers into solid manganese dioxide:
-$$\text{Mn}^{2+} + \text{OCl}^- + \text{H}_2\text{O} \rightarrow \text{MnO}_2\downarrow + \text{Cl}^- + 2\text{H}^+$$
-The fine $	ext{MnO}_2$ crystals become physically entrapped inside the cellulose or synthetic fabric matrix, generating permanent, indelible dark gray, purple-brown, or black stains that ruin white fabrics and industrial textiles.
-
-##### 4.1.2.3 Organoleptic Impacts: Metallic Taste and Food/Beverage Complexation
-###### Taste Thresholds for Dissolved $Fe^{2+}$ and $Mn^{2+}$
-Dissolved iron and manganese impart distinct, objectionable organoleptic characteristics to drinking water. Soluble ferrous iron produces an astringent, bitter, metallic, or "bloody" taste at concentrations as low as $0.1 - 0.3\text{ mg/L}$. Manganese produces a bitter, medicinal, astringent metallic flavor at concentrations exceeding $0.1\text{ mg/L}$. In soft waters with low total dissolved solids (TDS), these taste thresholds become even more acute.
-
-###### Tannic Acid Complexation in Tea and Coffee
-When water containing elevated dissolved iron is used for domestic cooking or beverage preparation, iron cations react with plant polyphenols, tannins, and tannic acids naturally abundant in tea leaves and coffee beans. The ferrous/ferric ions coordinate with adjacent ortho-dihydroxy (catechol) groups of polyphenols, forming dense, insoluble, ink-black organo-metallic chelates (ferric tannate complexes):
-$$\text{Fe}^{3+} + 3\text{Tannic Acid} \rightarrow \text{Fe(Tannate)}_3\downarrow \text{ (Inky Black Precipitate)}$$
-This chemical complexation turns freshly brewed tea into an unpalatable, murky, bluish-black ink, completely suppresses beverage aroma, and causes dark discoloration of cooked rice, vegetables, and soups.
-
----
-
-#### 4.1.3 Distribution System Deposition & Iron/Manganese Biofouling
-##### 4.1.3.1 Mineral Scaling and Pipe Incrustation
-###### Tuberculation and Tuberculous Scale Formation
-In unlined cast iron, ductile iron, and carbon steel distribution pipes, dissolved iron and manganese accelerate internal pipe incrustation and **tuberculation**. As unoxidized $	ext{Fe}^{2+}$ and residual oxidants circulate, localized electrochemical corrosion cells develop on the pipe wall. Anodic dissolution generates ferrous ions, which precipitate at the pit boundary as ferric hydroxide mounds or "tubercles". These encrustations mineralize over time into hard crusts composed of goethite ($lpha	ext{-FeOOH}$), magnetite ($	ext{Fe}_3	ext{O}_4$), and manganese dioxide ($	ext{MnO}_2$).
-
-###### Reduction of Hydraulic Carrying Capacity (Hazen-Williams $C$ Factor Loss)
-Tubercular crusts and rough mineral deposits significantly increase inner pipe wall roughness, progressively constricting effective pipeline diameter:
-- In newly installed lined pipes, the Hazen-Williams roughness coefficient is typically $C = 130 - 140$.
-- In severely tuberculated water mains encrusted by iron and manganese deposits, the $C$ factor degrades to $C = 60 - 80$ or lower.
-This roughness escalation drastically increases frictional head loss across the distribution grid:
-$$h_f = 10.67 \cdot L \cdot Q^{1.852} \cdot C^{-1.852} \cdot D^{-4.87}$$
-Consequently, municipal pumping stations must consume excessive electrical energy to maintain network terminal pressures, or severe distribution pressure drops occur during peak demand hours.
-
-###### Water Meter and Control Valve Clogging
-Accumulated mineral sediments and spalled tubercular fragments migrate through service lines, lodging in customer displacement water meters, pressure reducing valves (PRVs), backflow preventers, and solenoid irrigation valves. Particulate deposition jams meter nutating discs and turbine impellers, resulting in inaccurate metering, lost utility revenue, and widespread valve seizing.
-
-##### 4.1.3.2 Hydraulic Surges and Particulate Resuspension
-###### Shear Stress and Hydraulic Boundary Layer Disturbance
-In municipal distribution systems, mineral scale and loose colloidal precipitates accumulate in low-velocity zones, laminar boundary layers, and dead-end pipeline segments. Under normal steady laminar-to-transitional flow, hydrodynamic boundary layer shear stress remains low ($	au_w < 1.0\text{ N/m}^2$), permitting loose flocs to settle into a soft bed of pipe sediment.
-
-###### Fire Flow and Flow Reversal Episodes (Sudden Consumer Red/Black Water Spikes)
-Whenever hydraulic transients occur—such as fire hydrant activations, main line breaks, sudden valve closures, or pump station cycling—flow velocities abruptly surge from typical levels ($0.5 - 1.0\text{ m/s}$) to high turbulent velocities ($> 2.5 - 3.0\text{ m/s}$), and local flow directions may instantly reverse. The resulting bed shear stress ($	au_w = rac{1}{8} f ho v^2$) exceeds the critical shear threshold for sediment resuspension:
-$$\tau_w > \tau_{c,\text{erosion}}$$
-Massive quantities of settled ferric hydroxide and manganese dioxide particulates are instantly sheared off the pipe walls and resuspended into bulk solution. This generates sudden, violent episodes of dark brown or black water at consumer taps across entire residential pressure zones, triggering intense regulatory scrutiny and consumer alarm.
-
-##### 4.1.3.3 Iron and Manganese Bacteria Proliferation (Biofouling)
-###### Autotrophic and Mixotrophic Bacterial Genera
-Distribution pipelines conveying water with residual unoxidized $	ext{Fe}^{2+}$ and $	ext{Mn}^{2+}$ provide an ideal ecological niche for specialized chemolithotrophic and mixotrophic bacteria:
-- **Gallionella ferruginea**: Stalk-forming, microaerophilic autotrophic bacteria that excrete twisted, helical ribbon-like stalks composed of ferric oxyhydroxides.
-- **Leptothrix ochracea & Leptothrix discophora**: Filamentous sheath-forming bacteria capable of simultaneously oxidizing both $	ext{Fe(II)}$ and $	ext{Mn(II)}$, encasing themselves in rigid tubular manganese-iron mineral sheaths.
-- **Crenothrix polyspora & Sphaerotilus natans**: Massive filamentous iron bacteria capable of forming dense, branching microbial mats.
-These organisms derive metabolic energy by catalyzing the exergonic oxidation of reduced divalent metals:
-$$\text{Fe}^{2+} + 0.25\text{O}_2 + 2.5\text{H}_2\text{O} \rightarrow \text{Fe(OH)}_3(s) + 2\text{H}^+ + \Delta G^\circ \; (-29\text{ kJ/mol})$$
-
-###### Filamentous Slime Sheath Secretion and Extracellular Polymeric Substances (EPS)
-These bacteria secrete copious quantities of mucilaginous **Extracellular Polymeric Substances (EPS)** consisting of polysaccharides, proteins, and humic-like biopolymers. These sticky organic biofilms entrap accumulating $	ext{Fe(OH)}_3$ and $	ext{MnO}_2$ precipitates, forming thick, gelatinous, reddish-brown and black biological slime mats up to several millimeters thick on pipe walls.
-
-###### Microbial Disinfectant Shielding and Biocide Resistance
-The dense EPS slime matrix acts as a diffusion barrier and chemical sink, exerting strong biocide demand that neutralizes free chlorine and chloramines before they can penetrate into the biofilm core. Pathogenic microorganisms—including *Legionella pneumophila*, *Pseudomonas aeruginosa*, *Escherichia coli*, and enteric viruses—become harbored and protected within the anaerobic sub-layers of the iron-manganese biofilm, completely shielded from residual municipal disinfection.
-
-###### Bacterially Induced Microbiologically Influenced Corrosion (MIC)
-Beneath the dense biological tubercles, oxygen cannot penetrate, establishing severe differential aeration cells across the metal pipe surface. Obligate anaerobic sulfate-reducing bacteria (*Desulfovibrio*) proliferate in these anaerobic micro-environments, utilizing organic biofilm byproducts to reduce sulfate to corrosive hydrogen sulfide ($H_2S$). This biogenic sulfide reacts aggressively with the iron pipe substrate to form iron sulfide ($FeS$), driving severe localized pitting corrosion and catastrophic pipe wall perforations.
+##### 4.2.2.3 Tác động của Thoát CO2 đến pH và Tốc độ Oxy hóa Fe(II) (Impact of CO2 Stripping on pH & Fe(II) Oxidation Kinetics)
+- Cân bằng axit cacbonic trong nguồn nước ngầm:
+  $$\text{CO}_2(g)\uparrow \xleftarrow{} \text{CO}_2(aq) + \text{H}_2\text{O} \rightleftharpoons \text{H}_2\text{CO}_3^* \rightleftharpoons \text{H}^+ + \text{HCO}_3^-$$
+- Quá trình làm thoáng đẩy khí $CO_2$ bay vào khí quyển.
+- Cân bằng hóa học lập tức dịch chuyển theo chiều nghịch sang phía trái.
+- Ion bicacbonat phản ứng với proton $H^+$ tự do tạo thành nước.
+- Quá trình này làm giảm nồng độ ion $H^+$ trong dung dịch nước.
+- Giá trị pH của nước ngầm tự động tăng từ $5{,}5 - 6{,}5$ lên mức $7{,}2 - 7{,}8$.
+- Phương trình động học oxy hóa sắt hai Stumm-Lee:
+  $$-\frac{d[\text{Fe}^{2+}]}{dt} = k \cdot [\text{Fe}^{2+}] \cdot P_{\text{O}_2} \cdot [\text{OH}^-]^2 = k' \cdot [\text{Fe}^{2+}] \cdot P_{\text{O}_2} \cdot 10^{2\cdot\text{pH}}$$
+- Tốc độ oxy hóa sắt hai tỷ lệ thuận với bình phương ion hydroxyl $[\text{OH}^-]^2$.
+- Khi giá trị pH tăng 1 đơn vị, tốc độ phản ứng tăng đúng 100 lần.
+- Đuổi khí $CO_2$ giúp tăng pH, rút ngắn thời gian oxy hóa từ hàng giờ xuống vài phút.
+- Khử $CO_2$ là mục đích quan trọng nhất của làm thoáng khử sắt.
 
 ---
 
-### 4.2 Theoretical Chemistry, Reaction Stoichiometry & Oxidation Kinetics
-#### 4.2.1 Oxidation Chemical Reactions & Oxidant Stoichiometric Demands
-##### 4.2.1.1 Aeration and Molecular Dissolved Oxygen ($O_2$) Oxidation
-###### Fe(II) Aeration Stoichiometry and Bicarbonate Decomposition
-Aeration introduces atmospheric oxygen into water to oxidize soluble ferrous iron into insoluble ferric hydroxide. In natural bicarbonate-buffered groundwater, the molecular reaction proceeds with the release of carbon dioxide:
-$$4	ext{Fe}(	ext{HCO}_3)_2 + 	ext{O}_2 + 2	ext{H}_2	ext{O} ightarrow 4	ext{Fe}(	ext{OH})_3\downarrow + 8	ext{CO}_2 \quad 	ext{[eq\_ch04\_001]}$$
-- **Equation ID**: `eq_ch04_001`
-- **Plain Text**: `4Fe(HCO3)2 + O2 + 2H2O -> 4Fe(OH)3 + 8CO2`
-- **Description**: Molecular stoichiometric reaction representing the oxidation of soluble ferrous bicarbonate by dissolved atmospheric oxygen to form insoluble ferric hydroxide precipitate and liberate carbon dioxide gas.
-- **Key Variables & Parameters**:
-  - $	ext{Fe}(	ext{HCO}_3)_2$: Soluble ferrous bicarbonate present in anaerobic groundwater.
-  - $	ext{O}_2$: Dissolved oxygen introduced via aeration.
-  - $	ext{Fe}(	ext{OH})_3$: Insoluble ferric hydroxide precipitate (floc).
-  - $	ext{CO}_2$: Carbon dioxide released into solution and stripped into the air phase.
+#### 4.2.3 Công nghệ và Cấu tạo Thiết bị Làm thoáng Khử Sắt (Aeration Equipment & Engineering Hardware)
+##### 4.2.3.1 Tháp Làm thoáng Giàn mưa Nhiều tầng (Multiple Tray Aerator)
+- Cấu tạo công trình giàn mưa nhiều tầng:
+  - Tháp làm thoáng hở hoặc bố trí vách chớp nghiêng góc 45° đón gió.
+  - Cụm gồm 3 đến 5 tầng khay đục lỗ đặt chồng lên nhau.
+  - Nước ngầm bơm lên máng phân phối trên cùng rồi chảy qua lỗ đáy.
+  - Nước rơi tự do thành hạt mưa va đập vào các khay dưới.
+  - Không khí tự nhiên lưu thông ngang qua các tầng khay giàn mưa.
+- Thông số kỹ thuật thiết kế theo tiêu chuẩn TCXDVN 33:2006:
+  - Số lượng khay tiếp xúc: $3 - 5\text{ khay}$.
+  - Khoảng cách giữa các khay ($S_{\text{tray}}$): $30 - 50\text{ cm}$ ($0{,}3 - 0{,}5\text{ m}$).
+  - Cường độ tưới làm thoáng ($q_A$): $20 - 40\text{ m}^3/(\text{m}^2 \cdot \text{h})$ ($8 - 16\text{ gpm/sq.ft}$).
+  - Đáy khay đục lỗ tròn đường kính $d = 5 - 10\text{ mm}$.
+  - Khoảng cách giữa các tâm lỗ trên đáy khay: $t = 25 - 50\text{ mm}$.
+  - Chiều sâu lớp nước duy trì trên mặt khay: $h = 5 - 10\text{ cm}$.
+  - Lớp vật liệu tiếp xúc trên khay: than xỉ, than cốc, hoặc sỏi thạch anh.
+  - Chiều dày lớp vật liệu tiếp xúc: $15 - 20\text{ cm}$, cỡ hạt $20 - 40\text{ mm}$.
+  - Tỷ lệ thể tích không khí và nước ($R_{\text{air/water}}$): $1:1 - 5:1\text{ m}^3/\text{m}^3$.
+- Tác dụng của lớp vật liệu than xỉ trên khay:
+  - Tăng diện tích tiếp xúc giữa các tia nước và không khí.
+  - Bề mặt than xỉ xốp bám dính màng oxit sắt $\text{Fe(OH)}_3$.
+  - Lớp màng oxit đóng vai trò hạt nhân xúc tác dị thể đẩy nhanh phản ứng.
 
-In ionic form, the oxidation of dissolved divalent ferrous ions consumes water molecules and releases hydrogen ions (protons):
-$$4	ext{Fe}^{2+} + 	ext{O}_2 + 10	ext{H}_2	ext{O} ightarrow 4	ext{Fe}(	ext{OH})_3\downarrow + 8	ext{H}^+ \quad 	ext{[eq\_ch04\_002]}$$
-- **Equation ID**: `eq_ch04_002`
-- **Plain Text**: `4Fe(2+) + O2 + 10H2O -> 4Fe(OH)3 + 8H(+)`
-- **Description**: Ionic reaction showing oxidation of dissolved ferrous ions ($	ext{Fe}^{2+}$) to ferric hydroxide precipitate, releasing protons ($	ext{H}^+$) which consume natural alkalinity.
-- **Key Variables & Parameters**:
-  - $	ext{Fe}^{2+}$: Dissolved divalent ferrous cation ($55.85\text{ g/mol}$).
-  - $	ext{O}_2$: Dissolved molecular oxygen oxidant ($32.00\text{ g/mol}$).
-  - $	ext{Fe}(	ext{OH})_3$: Insoluble amorphous ferric hydroxide precipitate.
-  - $	ext{H}^+$: Hydronium ions released into solution.
+##### 4.2.3.2 Tháp Làm thoáng Thổi khí Cưỡng bức (Forced-Draft Packed Tower Aerator)
+- Cấu tạo tháp làm thoáng thổi khí cưỡng bức:
+  - Vỏ tháp hình trụ đứng kín chế tạo bằng composite sợi thủy tinh hoặc inox.
+  - Bên trong tháp chứa khối vật liệu đệm tiếp xúc chuyên dụng.
+  - Các loại đệm thường dùng: vòng Pall ring, đệm Jaeger Tri-Packs, hoặc Raschig ring.
+  - Chiều cao lớp vật liệu đệm tiếp xúc ($H_{\text{bed}}$): $1{,}5 - 3{,}0\text{ m}$.
+  - Diện tích bề mặt tiếp xúc riêng của vật liệu đệm ($a$): $100 - 300\text{ m}^2/\text{m}^3$.
+  - Quạt thổi khí ly tâm đặt dưới chân tháp thổi dòng khí ngược chiều lên trên.
+  - Giàn phân phối nước đỉnh tháp dùng vòi phun áp lực thấp chống tắc.
+  - Tấm khử sương lắp tại đỉnh tháp ngăn giọt nước bay theo khí thải.
+- Thông số kỹ thuật vận hành tháp thổi khí:
+  - Cường độ tưới làm thoáng: $40 - 80\text{ m}^3/(\text{m}^2 \cdot \text{h})$.
+  - Tỷ lệ thể tích khí và nước ($R_{\text{air/water}}$): $10:1 - 30:1\text{ m}^3/\text{m}^3$.
+  - Áp lực tĩnh của quạt thổi gió: $300 - 800\text{ Pa}$.
+  - Hiệu quả khử khí $CO_2$ tự do đạt trên $90\% - 95\%$.
+  - Nồng độ oxy hòa tan sau xử lý đạt $85\% - 95\%$ độ bão hòa.
+  - Thiết bị dùng cho nước chứa sắt trên $10\text{ mg}/\text{L}$ và $CO_2$ trên $40\text{ mg}/\text{L}$.
 
-**Stoichiometric Oxygen Requirement for Iron**:
-From the stoichiometry of `eq_ch04_002`, $4\text{ moles of Fe}^{2+}$ ($4 \times 55.845\text{ g} = 223.38\text{ g Fe}$) react with $1\text{ mole of O}_2$ ($32.00\text{ g O}_2$):
-$$\text{Theoretical Ratio} = \frac{32.00\text{ g O}_2}{223.38\text{ g Fe}} = 0.14326\text{ mg O}_2 / \text{mg Fe} \approx 0.14\text{ mg O}_2 / \text{mg Fe}$$
+##### 4.2.3.3 Thiết bị Thu khí Tự nhiên Ejector Venturi (Venturi Ejector Contactor)
+- Cấu tạo thiết bị Ejector Venturi:
+  - Ejector lắp đặt nối tiếp trực tiếp trên đường ống dẫn nước có áp lực.
+  - Vòi phun thu hẹp tiết diện dòng chảy ở đầu vào.
+  - Buồng hút khí chân không nối với van một chiều và lưới lọc bụi.
+  - Đoạn cổ hẹp trộn khí và nước.
+  - Ống khuếch tán hình nón mở rộng dần ở đầu ra.
+- Nguyên lý hoạt động theo phương trình năng lượng Bernoulli:
+  - Dòng nước áp lực đi qua vòi phun thu hẹp tăng vận tốc lên $15 - 25\text{ m}/\text{s}$.
+  - Vận tốc tăng cao làm áp suất tĩnh giảm xuống dưới áp suất khí quyển.
+  - Áp suất chân không âm tự động hút không khí khí quyển vào buồng trộn.
+  - Lực trượt dòng xoáy thủy lực cực mạnh nghiền luồng khí thành bọt siêu mịn ($0{,}5 - 2\text{ mm}$).
+  - Diện tích bề mặt tiếp xúc lớn thúc đẩy oxy hòa tan nhanh vào nước.
+- Thông số kỹ thuật và đặc tính vận hành:
+  - Áp lực nước cấp đầu vào Ejector: $1{,}5 - 3{,}0\text{ bar}$ ($15 - 30\text{ m H}_2\text{O}$).
+  - Tổn thất áp lực qua Ejector: $30\% - 50\%$ cột áp đầu vào.
+  - Tỷ lệ thể tích khí hút vào nước ($Q_{\text{air}}/Q_{\text{water}}$): $0{,}1 - 0{,}4\text{ m}^3/\text{m}^3$.
+  - Nồng độ oxy hòa tan bổ sung: $3{,}0 - 5{,}0\text{ mg}/\text{L DO}$.
+  - Ưu điểm: Cấu tạo nhỏ gọn, không có chi tiết cơ khí chuyển động, không tốn điện quạt gió.
+  - Nhược điểm: Khả năng đuổi khí $CO_2$ kém do ống kín giữ áp lực cao.
 
-###### Mn(II) Aeration Stoichiometry and Buffer Dynamics
-The molecular oxidation of dissolved manganous sulfate by dissolved oxygen in bicarbonate-buffered water forms solid manganese dioxide:
-$$2	ext{MnSO}_4 + 2	ext{Ca}(	ext{HCO}_3)_2 + 	ext{O}_2 ightarrow 2	ext{MnO}_2\downarrow + 2	ext{CaSO}_4 + 2	ext{H}_2	ext{O} + 4	ext{CO}_2 \quad 	ext{[eq\_ch04\_003]}$$
-- **Equation ID**: `eq_ch04_003`
-- **Plain Text**: `2MnSO4 + 2Ca(HCO3)2 + O2 -> 2MnO2 + 2CaSO4 + 2H2O + 4CO2`
-- **Description**: Molecular stoichiometric equation representing the slow oxidation of dissolved manganous sulfate in the presence of calcium bicarbonate buffer to form solid manganese dioxide precipitate.
-- **Key Variables & Parameters**:
-  - $	ext{MnSO}_4$: Dissolved manganous sulfate.
-  - $	ext{Ca}(	ext{HCO}_3)_2$: Calcium bicarbonate providing buffer capacity.
-  - $	ext{O}_2$: Dissolved oxygen oxidant.
-  - $	ext{MnO}_2$: Solid manganese dioxide precipitate.
-
-In ionic form:
-$$2	ext{Mn}^{2+} + 	ext{O}_2 + 2	ext{H}_2	ext{O} ightarrow 2	ext{MnO}_2\downarrow + 4	ext{H}^+ \quad 	ext{[eq\_ch04\_004]}$$
-- **Equation ID**: `eq_ch04_004`
-- **Plain Text**: `2Mn(2+) + O2 + 2H2O -> 2MnO2 + 4H(+)`
-- **Description**: Ionic reaction for manganous ion oxidation by dissolved oxygen to manganese dioxide, generating 2 equivalents of hydronium ions per mole of manganese.
-- **Key Variables & Parameters**:
-  - $	ext{Mn}^{2+}$: Dissolved divalent manganous cation ($54.94\text{ g/mol}$).
-  - $	ext{O}_2$: Dissolved molecular oxygen ($32.00\text{ g/mol}$).
-  - $	ext{MnO}_2$: Solid tetravalent manganese dioxide.
-  - $	ext{H}^+$: Protons released into solution.
-
-**Stoichiometric Oxygen Requirement for Manganese**:
-From `eq_ch04_004`, $2\text{ moles of Mn}^{2+}$ ($2 \times 54.938\text{ g} = 109.88\text{ g Mn}$) require $1\text{ mole of O}_2$ ($32.00\text{ g O}_2$):
-$$\text{Theoretical Ratio} = \frac{32.00\text{ g O}_2}{109.88\text{ g Mn}} = 0.29124\text{ mg O}_2 / \text{mg Mn} \approx 0.29\text{ mg O}_2 / \text{mg Mn}$$
-
-Combining both metals yields the **Total Dissolved Oxygen Demand for Aeration**:
-$$	ext{DO}_{	ext{demand}} = 0.14 \cdot [	ext{Fe}^{2+}] + 0.29 \cdot [	ext{Mn}^{2+}] \quad 	ext{[eq\_ch04\_018]}$$
-- **Equation ID**: `eq_ch04_018`
-- **Plain Text**: `DO_demand = 0.14 * [Fe2+] + 0.29 * [Mn2+]`
-- **Description**: Calculates the minimum theoretical mass concentration of dissolved oxygen required in aeration towers to completely oxidize co-occurring iron and manganese.
-- **Key Variables & Parameters**:
-  - $	ext{DO}_{	ext{demand}}$: Theoretical dissolved oxygen required ($	ext{mg/L O}_2$).
-  - $[	ext{Fe}^{2+}]$: Raw water dissolved ferrous iron concentration ($	ext{mg/L}$).
-  - $[	ext{Mn}^{2+}]$: Raw water dissolved manganous manganese concentration ($	ext{mg/L}$).
-
-###### Alkalinity Consumption and Acid Production During Hydrolysis
-Both oxidation reactions release hydrogen ions ($	ext{H}^+$), which neutralize natural bicarbonate alkalinity ($	ext{HCO}_3^-$):
-$$\text{H}^+ + \text{HCO}_3^- \rightarrow \text{H}_2\text{O} + \text{CO}_2$$
-- For Iron Oxidation (`eq_ch04_002`): $4\text{ moles of Fe}^{2+}$ release $8\text{ moles of H}^+$, or $2.0\text{ equivalents of H}^+$ per mole of $	ext{Fe}^{2+}$. Expressed in calcium carbonate equivalent ($50,044\text{ mg CaCO}_3/\text{eq}$):
-  $$\text{Alkalinity Consumption} = \frac{2\text{ eq H}^+ \times 50,044\text{ mg CaCO}_3/\text{eq}}{55,845\text{ mg Fe}} = 1.792\text{ mg CaCO}_3 / \text{mg Fe}$$
-- For Manganese Oxidation (`eq_ch04_004`): $2\text{ moles of Mn}^{2+}$ release $4\text{ moles of H}^+$, or $2.0\text{ equivalents of H}^+$ per mole of $	ext{Mn}^{2+}$:
-  $$\text{Alkalinity Consumption} = \frac{2\text{ eq H}^+ \times 50,044\text{ mg CaCO}_3/\text{eq}}{54,938\text{ mg Mn}} = 1.822\text{ mg CaCO}_3 / \text{mg Mn}$$
-In poorly buffered groundwaters (alkalinity $< 50\text{ mg/L as CaCO}_3$), unmitigated iron and manganese oxidation causes substantial solution pH depression, which severely inhibits oxidation reaction rates unless supplemental alkali (lime, soda ash, or sodium hydroxide) is dosed.
-
-##### 4.2.1.2 Free Chlorine ($Cl_2$ / $HOCl$) Chemical Oxidation
-###### Ferrous Iron Oxidation by Free Chlorine
-Free chlorine gas or aqueous hypochlorous acid ($	ext{HOCl}$) is a powerful electron acceptor capable of rapid iron oxidation across a wide pH range:
-$$2	ext{Fe}^{2+} + 	ext{Cl}_2 + 6	ext{H}_2	ext{O} ightarrow 2	ext{Fe}(	ext{OH})_3\downarrow + 2	ext{Cl}^- + 6	ext{H}^+ \quad 	ext{[eq\_ch04\_005]}$$
-- **Equation ID**: `eq_ch04_005`
-- **Plain Text**: `2Fe(2+) + Cl2 + 6H2O -> 2Fe(OH)3 + 2Cl(-) + 6H(+)`
-- **Description**: Stoichiometric chemical oxidation of ferrous iron by free chlorine gas, producing insoluble ferric hydroxide, chloride anions, and hydronium ions.
-- **Key Variables & Parameters**:
-  - $	ext{Fe}^{2+}$: Dissolved ferrous cation ($55.85\text{ g/mol}$).
-  - $	ext{Cl}_2$: Free chlorine oxidant ($70.91\text{ g/mol}$).
-  - $	ext{Fe}(	ext{OH})_3$: Ferric hydroxide precipitate.
-  - $	ext{Cl}^-$: Chloride anion byproduct.
-  - $	ext{H}^+$: Hydronium ions generated.
-
-**Stoichiometric Chlorine Requirement for Iron**:
-$2\text{ moles of Fe}^{2+}$ ($111.69\text{ g Fe}$) react with $1\text{ mole of Cl}_2$ ($70.906\text{ g Cl}_2$):
-$$\text{Theoretical Ratio} = \frac{70.906\text{ g Cl}_2}{111.69\text{ g Fe}} = 0.63485\text{ mg Cl}_2 / \text{mg Fe} \approx 0.63 - 0.64\text{ mg Cl}_2 / \text{mg Fe}$$
-
-###### Manganous Manganese Oxidation by Free Chlorine
-Free chlorine oxidizes manganous manganese to insoluble manganese dioxide:
-$$	ext{Mn}^{2+} + 	ext{Cl}_2 + 2	ext{H}_2	ext{O} ightarrow 	ext{MnO}_2\downarrow + 2	ext{Cl}^- + 4	ext{H}^+ \quad 	ext{[eq\_ch04\_006]}$$
-- **Equation ID**: `eq_ch04_006`
-- **Plain Text**: `Mn(2+) + Cl2 + 2H2O -> MnO2 + 2Cl(-) + 4H(+)`
-- **Description**: Stoichiometric oxidation of manganous ions to manganese dioxide by free chlorine, requiring elevated pH ($> 8.0 - 8.5$) for practical completion.
-- **Key Variables & Parameters**:
-  - $	ext{Mn}^{2+}$: Dissolved manganous cation ($54.94\text{ g/mol}$).
-  - $	ext{Cl}_2$: Free chlorine oxidant ($70.91\text{ g/mol}$).
-  - $	ext{MnO}_2$: Solid manganese dioxide precipitate.
-  - $	ext{Cl}^-$: Chloride anion byproduct.
-
-**Stoichiometric Chlorine Requirement for Manganese**:
-$1\text{ mole of Mn}^{2+}$ ($54.938\text{ g Mn}$) reacts with $1\text{ mole of Cl}_2$ ($70.906\text{ g Cl}_2$):
-$$\text{Theoretical Ratio} = \frac{70.906\text{ g Cl}_2}{54.938\text{ g Mn}} = 1.29065\text{ mg Cl}_2 / \text{mg Mn} \approx 1.28 - 1.29\text{ mg Cl}_2 / \text{mg Mn}$$
-
-Combining both stoichiometric requirements yields the **Total Chlorine Demand**:
-$$	ext{Cl}_{2, 	ext{demand}} = 0.64 \cdot [	ext{Fe}^{2+}] + 1.29 \cdot [	ext{Mn}^{2+}] \quad 	ext{[eq\_ch04\_019]}$$
-- **Equation ID**: `eq_ch04_019`
-- **Plain Text**: `Cl2_demand = 0.64 * [Fe2+] + 1.29 * [Mn2+]`
-- **Description**: Calculates the theoretical chemical chlorine demand required for pre-chlorination of raw water containing dissolved iron and manganese.
-- **Key Variables & Parameters**:
-  - $	ext{Cl}_{2, 	ext{demand}}$: Theoretical chlorine oxidant demand ($	ext{mg/L Cl}_2$).
-  - $[	ext{Fe}^{2+}]$: Dissolved ferrous iron concentration ($	ext{mg/L}$).
-  - $[	ext{Mn}^{2+}]$: Dissolved manganous manganese concentration ($	ext{mg/L}$).
-
-###### Disinfection Byproduct (DBP) Formation Risks During Pre-Chlorination
-Although pre-chlorination is chemically effective and inexpensive, dosing free chlorine into raw surface or shallow groundwater containing Natural Organic Matter (NOM) triggers halogenation substitution reactions. Free chlorine reacts with humic and fulvic precursor molecules to form regulated, carcinogenic Disinfection Byproducts (DBPs):
-- **Total Trihalomethanes (TTHMs)**: Chloroform ($	ext{CHCl}_3$), bromodichloromethane ($	ext{CHBrCl}_2$), dibromochloromethane ($	ext{CHBr}_2	ext{Cl}$), bromoform ($	ext{CHBr}_3$).
-- **Haloacetic Acids (HAA5)**: Monochloroacetic, dichloroacetic, trichloroacetic, monobromoacetic, and dibromoacetic acids.
-Under QCVN 01-1:2018/BYT and US EPA Stage 2 D/DBPR standards, TTHMs must not exceed $0.1\text{ mg/L}$ ($100\;\mu\text{g/L}$) or $80\;\mu\text{g/L}$, and HAA5 must not exceed $60\;\mu\text{g/L}$. Consequently, pre-chlorination should be avoided in raw waters with elevated Total Organic Carbon ($	ext{TOC} > 2.0\text{ mg/L}$), favoring alternative oxidants such as potassium permanganate, ozone, or catalytic media.
-
-##### 4.2.1.3 Potassium Permanganate ($KMnO_4$) Chemical Oxidation
-###### Permanganate Oxidation of Ferrous Iron
-Potassium permanganate ($	ext{KMnO}_4$, molecular weight $158.034\text{ g/mol}$) is a potent oxidizing agent in which manganese undergoes reduction from oxidation state $+7$ to $+4$:
-$$3	ext{Fe}^{2+} + 	ext{KMnO}_4 + 7	ext{H}_2	ext{O} ightarrow 3	ext{Fe}(	ext{OH})_3\downarrow + 	ext{MnO}_2\downarrow + 	ext{K}^+ + 5	ext{H}^+ \quad 	ext{[eq\_ch04\_007]}$$
-- **Equation ID**: `eq_ch04_007`
-- **Plain Text**: `3Fe(2+) + KMnO4 + 7H2O -> 3Fe(OH)3 + MnO2 + K(+) + 5H(+)`
-- **Description**: Stoichiometric oxidation of ferrous iron by potassium permanganate, producing both insoluble ferric hydroxide and solid manganese dioxide precipitates.
-- **Key Variables & Parameters**:
-  - $	ext{Fe}^{2+}$: Dissolved ferrous cation ($55.85\text{ g/mol}$).
-  - $	ext{KMnO}_4$: Potassium permanganate oxidant ($158.03\text{ g/mol}$).
-  - $	ext{Fe}(	ext{OH})_3$: Ferric hydroxide precipitate.
-  - $	ext{MnO}_2$: Manganese dioxide precipitate.
-  - $	ext{K}^+$: Dissolved potassium ion byproduct.
-  - $	ext{H}^+$: Hydronium ions released.
-
-**Stoichiometric Permanganate Requirement for Iron**:
-$3\text{ moles of Fe}^{2+}$ ($3 \times 55.845\text{ g} = 167.535\text{ g Fe}$) react with $1\text{ mole of KMnO}_4$ ($158.034\text{ g KMnO}_4$):
-$$\text{Theoretical Ratio} = \frac{158.034\text{ g KMnO}_4}{167.535\text{ g Fe}} = 0.94329\text{ mg KMnO}_4 / \text{mg Fe}$$
-The standard **operational design ratio** utilized in engineering practice (slide 6 and slide 19) is **$0.94\text{ mg KMnO}_4 / \text{mg Fe}$**:
-$$	ext{Dose}_{	ext{KMnO}_4, 	ext{Fe}} = 0.94 \cdot [	ext{Fe}^{2+}] \quad 	ext{[eq\_ch04\_015]}$$
-- **Equation ID**: `eq_ch04_015`
-- **Plain Text**: `Dose_KMnO4_Fe = 0.94 * [Fe2+]`
-- **Description**: Determines the operational chemical dosing requirement of potassium permanganate needed to completely oxidize soluble iron in raw water.
-
-###### Permanganate Oxidation of Manganous Manganese
-Potassium permanganate rapidly oxidizes manganous ions ($	ext{Mn}^{2+}$) across circumneutral pH ($7.0 - 8.5$), completing within $< 5 - 7\text{ minutes}$:
-$$3	ext{Mn}^{2+} + 2	ext{KMnO}_4 + 2	ext{H}_2	ext{O} ightarrow 5	ext{MnO}_2\downarrow + 2	ext{K}^+ + 4	ext{H}^+ \quad 	ext{[eq\_ch04\_008]}$$
-- **Equation ID**: `eq_ch04_008`
-- **Plain Text**: `3Mn(2+) + 2KMnO4 + 2H2O -> 5MnO2 + 2K(+) + 4H(+)`
-- **Description**: Rapid chemical oxidation of manganous manganese by potassium permanganate, transforming both dissolved reactants into insoluble solid manganese dioxide.
-- **Key Variables & Parameters**:
-  - $	ext{Mn}^{2+}$: Dissolved manganous cation ($54.94\text{ g/mol}$).
-  - $	ext{KMnO}_4$: Potassium permanganate oxidant ($158.03\text{ g/mol}$).
-  - $	ext{MnO}_2$: Solid manganese dioxide precipitate ($86.94\text{ g/mol}$).
-  - $	ext{K}^+$: Potassium cation byproduct.
-  - $	ext{H}^+$: Hydronium ions generated.
-
-**Stoichiometric Permanganate Requirement for Manganese**:
-$3\text{ moles of Mn}^{2+}$ ($3 \times 54.938\text{ g} = 164.814\text{ g Mn}$) react with $2\text{ moles of KMnO}_4$ ($2 \times 158.034\text{ g} = 316.068\text{ g KMnO}_4$):
-$$\text{Theoretical Ratio} = \frac{316.068\text{ g KMnO}_4}{164.814\text{ g Mn}} = 1.91772\text{ mg KMnO}_4 / \text{mg Mn}$$
-The standard **operational design ratio** utilized in engineering practice (slide 6 and slide 19) is **$1.92\text{ mg KMnO}_4 / \text{mg Mn}$**:
-$$	ext{Dose}_{	ext{KMnO}_4, 	ext{Mn}} = 1.92 \cdot [	ext{Mn}^{2+}] \quad 	ext{[eq\_ch04\_016]}$$
-- **Equation ID**: `eq_ch04_016`
-- **Plain Text**: `Dose_KMnO4_Mn = 1.92 * [Mn2+]`
-- **Description**: Determines the operational potassium permanganate dosing concentration required to oxidize dissolved manganese to insoluble manganese dioxide.
-
-Combining both equations gives the **Total Potassium Permanganate Demand for Combined Fe & Mn**:
-$$	ext{Dose}_{	ext{KMnO}_4, 	ext{total}} = 0.94 \cdot [	ext{Fe}^{2+}] + 1.92 \cdot [	ext{Mn}^{2+}] \quad 	ext{[eq\_ch04\_017]}$$
-- **Equation ID**: `eq_ch04_017`
-- **Plain Text**: `Dose_KMnO4_total = 0.94 * [Fe2+] + 1.92 * [Mn2+]`
-- **Description**: Calculates overall potassium permanganate dosage required when both iron and manganese co-occur in the raw water supply.
-
-###### Autocatalytic Co-Precipitation of Solid $MnO_2(s)$
-A major advantage of permanganate oxidation is that the reaction product itself—hydrous manganese dioxide ($	ext{MnO}_2(s)$)—is a potent heterogeneous adsorption catalyst. Newly precipitated colloidal $	ext{MnO}_2$ has a high specific surface area ($> 200 - 300\text{ m}^2/\text{g}$) and an acidic point of zero charge ($	ext{pH}_{pzc} \approx 2.0 - 4.5$). At typical drinking water pH ($6.5 - 8.0$), the $	ext{MnO}_2$ surface is negatively charged, rapidly adsorbing unoxidized $	ext{Mn}^{2+}$ and $	ext{Fe}^{2+}$ cations and accelerating their heterogeneous surface oxidation.
-
-##### 4.2.1.4 Advanced Chemical Oxidants: Ozone ($O_3$) and Chlorine Dioxide ($ClO_2$)
-###### Ozone Oxidation Reactions and Stoichiometry
-Ozone ($	ext{O}_3$, molecular weight $48.00\text{ g/mol}$) is one of the strongest chemical oxidants used in municipal water treatment ($E^\circ = +2.07\text{ V}$). It oxidizes iron in $< 2\text{ minutes}$:
-$$2	ext{Fe}^{2+} + 	ext{O}_3 + 5	ext{H}_2	ext{O} ightarrow 2	ext{Fe}(	ext{OH})_3\downarrow + 	ext{O}_2 + 4	ext{H}^+ \quad 	ext{[eq\_ch04\_009]}$$
-- **Equation ID**: `eq_ch04_009`
-- **Plain Text**: `2Fe(2+) + O3 + 5H2O -> 2Fe(OH)3 + O2 + 4H(+)`
-- **Description**: Rapid stoichiometric oxidation of iron by ozone gas, generating ferric hydroxide and dissolved oxygen without halogenated byproducts.
-- **Key Variables & Parameters**:
-  - $	ext{Fe}^{2+}$: Dissolved ferrous cation ($55.85\text{ g/mol}$).
-  - $	ext{O}_3$: Dissolved ozone oxidant ($48.00\text{ g/mol}$).
-  - $	ext{Fe}(	ext{OH})_3$: Ferric hydroxide precipitate.
-  - $	ext{O}_2$: Dissolved oxygen byproduct.
-
-**Stoichiometric Ozone Requirement for Iron**:
-$2\text{ moles of Fe}^{2+}$ ($111.69\text{ g Fe}$) react with $1\text{ mole of O}_3$ ($48.00\text{ g O}_3$):
-$$\text{Theoretical Ratio} = \frac{48.00\text{ g O}_3}{111.69\text{ g Fe}} = 0.42976\text{ mg O}_3 / \text{mg Fe} \approx 0.43\text{ mg O}_3 / \text{mg Fe}$$
-
-For manganese, ozone completes oxidation in $< 5\text{ minutes}$:
-$$	ext{Mn}^{2+} + 	ext{O}_3 + 	ext{H}_2	ext{O} ightarrow 	ext{MnO}_2\downarrow + 	ext{O}_2 + 2	ext{H}^+ \quad 	ext{[eq\_ch04\_010]}$$
-- **Equation ID**: `eq_ch04_010`
-- **Plain Text**: `Mn(2+) + O3 + H2O -> MnO2 + O2 + 2H(+)`
-- **Description**: Rapid oxidation of manganese by ozone to manganese dioxide and oxygen.
-- **Key Variables & Parameters**:
-  - $	ext{Mn}^{2+}$: Dissolved manganous cation ($54.94\text{ g/mol}$).
-  - $	ext{O}_3$: Ozone oxidant ($48.00\text{ g/mol}$).
-  - $	ext{MnO}_2$: Solid manganese dioxide precipitate.
-  - $	ext{O}_2$: Dissolved oxygen gas.
-
-**Stoichiometric Ozone Requirement for Manganese**:
-$1\text{ mole of Mn}^{2+}$ ($54.938\text{ g Mn}$) reacts with $1\text{ mole of O}_3$ ($48.00\text{ g O}_3$):
-$$\text{Theoretical Ratio} = \frac{48.00\text{ g O}_3}{54.938\text{ g Mn}} = 0.87371\text{ mg O}_3 / \text{mg Mn}$$
-*(Note: Operational literature and slide 6 list the practical demand as **$0.67\text{ mg O}_3 / \text{mg Mn}$**, reflecting secondary catalytic oxidation pathways).*
-
-**Over-oxidation Hazard: Permanganate Pink Water Formation**:
-If ozone is overdosed beyond the stoichiometric manganese demand, ozone oxidizes solid $	ext{MnO}_2$ further to soluble permanganate anion:
-$$\text{MnO}_2(s) + \text{O}_3 + \text{OH}^- \rightarrow \text{MnO}_4^- + \text{O}_2 + \text{H}^+$$
-The soluble permanganate ion ($	ext{MnO}_4^-$) is unfilterable and imparts an intense purple or pink hue to finished water. Plants utilizing ozonation must operate precise residual control or follow ozonation with biologically active carbon (BAC) or granular activated carbon (GAC) filtration to reduce any incidental $	ext{MnO}_4^-$ back to filterable $	ext{MnO}_2$.
-
-###### Chlorine Dioxide Oxidation Reactions and Stoichiometry
-Chlorine dioxide ($	ext{ClO}_2$, molecular weight $67.45\text{ g/mol}$) is a selective oxidant that does not form THMs or HAAs:
-$$	ext{Fe}^{2+} + 	ext{ClO}_2 + 3	ext{H}_2	ext{O} ightarrow 	ext{Fe}(	ext{OH})_3\downarrow + 	ext{ClO}_2^- + 3	ext{H}^+ \quad 	ext{[eq\_ch04\_011]}$$
-- **Equation ID**: `eq_ch04_011`
-- **Plain Text**: `Fe(2+) + ClO2 + 3H2O -> Fe(OH)3 + ClO2(-) + 3H(+)`
-- **Description**: Stoichiometric oxidation of iron by chlorine dioxide, yielding ferric hydroxide and chlorite byproduct.
-- **Stoichiometric Factor**: $1.2\text{ mg ClO}_2 / \text{mg Fe}$ (Slide 6). Reaction completes in $< 5\text{ minutes}$.
-
-For manganese:
-$$	ext{Mn}^{2+} + 2	ext{ClO}_2 + 2	ext{H}_2	ext{O} ightarrow 	ext{MnO}_2\downarrow + 2	ext{ClO}_2^- + 4	ext{H}^+ \quad 	ext{[eq\_ch04\_012]}$$
-- **Equation ID**: `eq_ch04_012`
-- **Plain Text**: `Mn(2+) + 2ClO2 + 2H2O -> MnO2 + 2ClO2(-) + 4H(+)`
-- **Description**: Oxidation of manganese by chlorine dioxide, consuming 2 moles of $	ext{ClO}_2$ per mole of manganese.
-- **Stoichiometric Factor**: $2.4\text{ mg ClO}_2 / \text{mg Mn}$ (Slide 6). Reaction completes in $< 5\text{ minutes}$.
-
-**Chlorite / Chlorate Disinfection Byproduct Regulatory Restrictions**:
-The major drawback of $	ext{ClO}_2$ is that its one-electron reduction produces chlorite anion ($	ext{ClO}_2^-$), which can further disproportionate into chlorate ($	ext{ClO}_3^-$). Both anions cause methemoglobinemia and hemolytic anemia. Under US EPA and WHO standards, chlorite ion in finished water is strictly limited to $\le 1.0	ext{ mg/L}$ (or $0.7	ext{ mg/L}$). Since each milligram of $	ext{ClO}_2$ yields approximately $0.7\text{ mg of ClO}_2^-$, total allowable $	ext{ClO}_2$ dose is capped at $1.2 - 1.4\text{ mg/L}$, severely limiting its application to waters with low combined iron and manganese concentrations.
+##### 4.2.3.4 So sánh Kỹ thuật Các Thiết bị Tiếp xúc Pha khí (Comparative Engineering Matrix of Aeration Contactors)
+| Thông số & Tiêu chí | Giàn mưa nhiều tầng (Multiple Tray) | Tháp thổi khí cưỡng bức (Packed Tower) | Thiết bị Ejector Venturi (Venturi Ejector) | Bậc tràn tiếp xúc (Cascade Aerator) |
+|---|---|---|---|---|
+| **Cơ chế cấp khí** | Thông gió tự nhiên / cửa chớp | Quạt thổi gió cưỡng bức chân tháp | Tự hút khí bằng chân không Venturi | Tiếp xúc bề mặt tự nhiên trên bậc |
+| **Cường độ tưới ($q_A$)** | $20 - 40\text{ m}^3/(\text{m}^2 \cdot \text{h})$ | $40 - 80\text{ m}^3/(\text{m}^2 \cdot \text{h})$ | Theo tiết diện đường ống áp lực | $30 - 60\text{ m}^3/(\text{m}^2 \cdot \text{h})$ |
+| **Tỷ lệ khí/nước ($R_{\text{air/water}}$)** | $1:1 - 5:1\text{ m}^3/\text{m}^3$ | $10:1 - 30:1\text{ m}^3/\text{m}^3$ | $0{,}1 - 0{,}4\text{ m}^3/\text{m}^3$ | $1:1 - 2:1\text{ m}^3/\text{m}^3$ |
+| **Hiệu quả hòa tan DO** | $70\% - 85\%$ bão hòa ($5 - 7\text{ mg}/\text{L}$) | $85\% - 95\%$ bão hòa ($7 - 8\text{ mg}/\text{L}$) | Bổ sung $3 - 5\text{ mg}/\text{L}$ | $50\% - 70\%$ bão hòa ($4 - 6\text{ mg}/\text{L}$) |
+| **Hiệu quả khử $CO_2$** | $75\% - 85\%$ lượng $CO_2$ tự do | $> 90\% - 95\%$ lượng $CO_2$ tự do | Rất thấp ($< 20\%$, do áp lực kín) | $50\% - 65\%$ lượng $CO_2$ tự do |
+| **Tổn thất áp lực nước** | $1{,}5 - 2{,}5\text{ m}$ cột nước | $2{,}5 - 4{,}0\text{ m}$ cột nước | $10 - 15\text{ m}$ cột nước ($30 - 50\%$) | $1{,}5 - 3{,}0\text{ m}$ chiều cao rơi |
+| **Tiêu hao điện năng phụ** | Không tiêu hao điện quạt gió | Tiêu hao điện chạy quạt thổi gió | Mất áp lực đẩy của máy bơm giếng | Không tiêu hao điện năng |
+| **Nguy cơ bám cặn sắt** | Cần xối rửa cặn khay định kỳ | Cặn bám làm tắc nghẽn vật liệu đệm | Bám cặn vòi phun nếu nồng độ quá cao | Ít bị tắc nghẽn, dễ cọ rửa |
 
 ---
 
-#### 4.2.2 Reaction Kinetics, pH Dependency & Empirical Time Profiles
-##### 4.2.2.1 Homogeneous Iron Oxidation Kinetics
-###### Second-Order Hydroxide Dependency (Stumm-Lee Kinetic Law)
-The homogeneous oxidation rate of dissolved ferrous iron by molecular oxygen in aqueous bicarbonate solutions is governed by the classic kinetic rate law formulated by Stumm & Lee (1961):
-$$-rac{d[	ext{Fe}^{2+}]}{dt} = k \cdot [	ext{Fe}^{2+}] \cdot P_{	ext{O}_2} \cdot [	ext{OH}^-]^2$$
-Where:
-- $[	ext{Fe}^{2+}]$: Concentration of dissolved ferrous iron ($	ext{mol/L}$).
-- $P_{	ext{O}_2}$: Partial pressure of oxygen in the gas phase ($	ext{atm}$).
-- $[	ext{OH}^-]$: Hydroxide ion activity ($	ext{mol/L}$).
-- $k$: Apparent kinetic rate constant ($k pprox (8.0 \pm 2.5) 	imes 10^{13} 	ext{ L}^2/(	ext{mol}^2 \cdot 	ext{atm} \cdot 	ext{min})$ at 20°C).
+#### 4.2.4 Quy trình Thiết kế Kỹ thuật và Bài tập Tính toán (Engineering Design Procedures & Sizing Calculations)
+##### 4.2.4.1 Trình tự Thiết kế Tháp Làm thoáng Giàn mưa theo TCXDVN 33:2006 (Step-by-Step Tray Aerator Sizing Procedure)
+1. Xác định lưu lượng nước xử lý tính toán $Q$ ($\text{m}^3/\text{h}$) từ công suất nhà máy.
+2. Đo đạc nồng độ ion sắt hai $[\text{Fe}^{2+}]$, mangan $[\text{Mn}^{2+}]$, và khí $[\text{CO}_2]$ trong nước thô.
+3. Chọn cường độ tưới làm thoáng $q_A$ trong khoảng $20 - 40\text{ m}^3/(\text{m}^2 \cdot \text{h})$ theo quy chuẩn.
+4. Tính toán diện tích mặt bằng tháp làm thoáng: $F = \frac{Q}{q_A}$ ($\text{m}^2$).
+5. Chọn số đơn nguyên tháp làm thoáng ($N_{\text{cell}} \ge 2$) để thuận tiện cô lập cọ rửa cặn.
+6. Xác định kích thước mặt bằng chiều dài $L$ và chiều rộng $B$ cho mỗi đơn nguyên.
+7. Chọn số lượng khay tiếp xúc ($3 - 5\text{ khay}$) và khoảng cách giữa các khay ($0{,}3 - 0{,}5\text{ m}$).
+8. Tính toán tổng diện tích lỗ thoát nước đáy khay theo công thức thủy lực lỗ thoát tự do.
+9. Bố trí đường kính lỗ ($5 - 10\text{ mm}$) và bước lỗ ($25 - 50\text{ mm}$) đều khắp mặt khay.
+10. Thiết kế máng thu nước đáy tháp dẫn sang bể tiếp xúc lắng cặn sắt.
 
-Substituting the ion product of water ($K_w = [	ext{H}^+][	ext{OH}^-]$) into the rate expression yields:
-$$-rac{d[	ext{Fe}^{2+}]}{dt} = k \cdot K_w^2 \cdot rac{[	ext{Fe}^{2+}] \cdot P_{	ext{O}_2}}{[	ext{H}^+]^2} = k' \cdot [	ext{Fe}^{2+}] \cdot P_{	ext{O}_2} \cdot 10^{2\cdot	ext{pH}}$$
-This rate equation reveals an extraordinary second-order dependence on hydroxide activity (or inverse second-order on hydrogen ion concentration):
-$$\mathbf{\Delta	ext{pH} = +1.0 \quad \Longrightarrow \quad 	ext{Oxidation Rate Increases by a Factor of } 10^2 = 100	imes!}$$
-A slight increase in raw water pH from 6.0 to 7.0 accelerates the oxidation rate 100-fold; raising pH from 6.0 to 8.0 accelerates oxidation 10,000-fold. Consequently, stripping dissolved carbon dioxide to elevate pH is the most cost-effective method to accelerate iron removal.
+##### 4.2.4.2 Bài tập Tính toán Thiết kế Giàn mưa Làm thoáng Khử Sắt (Worked Engineering Design Examples)
+<!-- exercise-start: Ví dụ 4-2A: Thiết kế tháp làm thoáng giàn mưa khử sắt công suất 2400 m3/ngày -->
+- **Ví dụ 4-2A: Thiết kế tháp làm thoáng giàn mưa khử sắt công suất 2400 m3/ngày**
+  - Cho:
+    - Lưu lượng nước xử lý: $Q_{\text{day}} = 2400\text{ m}^3/\text{ngày}$.
+    - Thời gian trạm vận hành: $24\text{ h/ngày}$.
+    - Hàm lượng ion sắt hai $[\text{Fe}^{2+}]$ trong nước giếng khoan: $7{,}5\text{ mg}/\text{L}$.
+    - Hàm lượng mangan $[\text{Mn}^{2+}]$: $0{,}2\text{ mg}/\text{L}$.
+    - Hàm lượng khí $CO_2$ tự do: $32\text{ mg}/\text{L}$.
+    - Cường độ tưới chọn theo TCXDVN 33:2006: $q_A = 25\text{ m}^3/(\text{m}^2 \cdot \text{h})$.
+    - Thiết kế tháp gồm 2 đơn nguyên hoạt động song song.
+  - Tìm:
+    - Lưu lượng giờ $Q$ ($\text{m}^3/\text{h}$).
+    - Nhu cầu oxy hòa tan lý thuyết $\text{DO}_{\text{demand}}$ ($\text{mg}/\text{L}$).
+    - Tổng diện tích mặt bằng tháp làm thoáng $F$ ($\text{m}^2$).
+    - Diện tích và kích thước mỗi đơn nguyên tháp ($F_1$, $L \times B$).
+    - Số lượng khay và chiều cao xây dựng tháp giàn mưa.
+  - Phương trình áp dụng:
+    $$Q = \frac{Q_{\text{day}}}{24}$$
+    $$\text{DO}_{\text{demand}} = 0{,}14 \cdot [\text{Fe}^{2+}] + 0{,}29 \cdot [\text{Mn}^{2+}]$$
+    $$F = \frac{Q}{q_A}$$
+    $$F_1 = \frac{F}{2}$$
+    $$H_{\text{tower}} = (N - 1) \cdot S_{\text{tray}} + h_{\text{bottom}} + h_{\text{top}}$$
+  - Các bước giải:
+    1. Tính lưu lượng nước cấp giờ:
+       $$Q = \frac{2400\text{ m}^3/\text{ngày}}{24\text{ h/ngày}} = 100\text{ m}^3/\text{h}$$
+    2. Tính nhu cầu oxy hòa tan lý thuyết:
+       $$\text{DO}_{\text{demand}} = 0{,}14 \cdot 7{,}5 + 0{,}29 \cdot 0{,}2 = 1{,}05 + 0{,}058 = 1{,}108\text{ mg}/\text{L O}_2$$
+    3. Tính tổng diện tích mặt bằng tháp làm thoáng:
+       $$F = \frac{100\text{ m}^3/\text{h}}{25\text{ m}^3/(\text{m}^2 \cdot \text{h})} = 4{,}0\text{ m}^2$$
+    4. Xác định kích thước mặt bằng từng đơn nguyên:
+       $$F_1 = \frac{4{,}0\text{ m}^2}{2} = 2{,}0\text{ m}^2$$
+       Chọn kích thước mặt bằng mỗi đơn nguyên hình vuông: $L \times B = 1{,}42\text{ m} \times 1{,}42\text{ m}$ (diện tích thực tế $F_{\text{thực}} = 2{,}016\text{ m}^2$).
+    5. Chọn số khay và tính chiều cao tháp:
+       Chọn số khay $N = 4\text{ khay}$, khoảng cách giữa các khay $S_{\text{tray}} = 0{,}4\text{ m}$ ($40\text{ cm}$).
+       Chiều cao rơi tự do giữa các tầng khay: $3 \times 0{,}4 = 1{,}2\text{ m}$.
+       Chiều cao thông thủy đáy tháp $h_{\text{bottom}} = 0{,}6\text{ m}$, chiều cao máng cấp nước đỉnh tháp $h_{\text{top}} = 0{,}5\text{ m}$.
+       Tổng chiều cao xây dựng tháp làm thoáng:
+       $$H_{\text{tower}} = 1{,}2 + 0{,}6 + 0{,}5 = 2{,}3\text{ m}$$
+  - **Đáp số**:
+    - `Lưu lượng thiết kế Q = 100 m3/h`
+    - `Nhu cầu oxy hòa tan lý thuyết = 1.11 mg/L`
+    - `Tổng diện tích mặt bằng giàn mưa F = 4.0 m2 (2 đơn nguyên, mỗi đơn nguyên 2.0 m2)`
+    - `Kích thước mỗi đơn nguyên: 1.42 m x 1.42 m, 4 khay khoảng cách 0.4 m, chiều cao 2.3 m`
+<!-- exercise-end -->
 
-###### Temperature Influence and Activation Energy
-The kinetic rate constant exhibits pronounced temperature sensitivity following the Arrhenius relationship:
-$$k(T) = k_{20} \cdot 	heta^{(T - 20)}$$
-Where the temperature coefficient $	heta pprox 1.10 - 1.12$, corresponding to an activation energy of $E_a pprox 96\text{ kJ/mol}$. In cold groundwater ($5 - 10^\circ	ext{C}$), the oxidation rate of $	ext{Fe}^{2+}$ is approximately 3 to 4 times slower than at $20 - 25^\circ	ext{C}$, necessitating larger detention reaction basins.
+<!-- exercise-start: Ví dụ 4-2B: Tính toán tốc độ hòa tan oxy và thời gian tiếp xúc trên khay -->
+- **Ví dụ 4-2B: Tính toán tốc độ hòa tan oxy và thời gian tiếp xúc trên khay**
+  - Cho:
+    - Nhiệt độ nước ngầm: 20°C (nồng độ oxy bão hòa $C_s = 9{,}09\text{ mg}/\text{L}$).
+    - Nồng độ oxy ban đầu trong nước ngầm: $C_0 = 0{,}2\text{ mg}/\text{L}$.
+    - Hệ số truyền khối thể tích của giàn mưa: $K_L a = 0{,}035\text{ s}^{-1}$.
+    - Thời gian hạt nước rơi và tiếp xúc qua 4 tầng khay: $t = 45\text{ s}$.
+  - Tìm:
+    - Nồng độ oxy hòa tan trong nước $C_t$ sau khi qua giàn mưa ($\text{mg}/\text{L}$).
+    - Độ bão hòa oxy hòa tan đạt được so với mức bão hòa (\%).
+  - Phương trình áp dụng:
+    $$C_t = C_s - (C_s - C_0) \cdot e^{-K_L a \cdot t}$$
+    $$\text{Saturation} = \frac{C_t}{C_s} \times 100\%$$
+  - Các bước giải:
+    1. Tính độ hụt oxy ban đầu:
+       $$\Delta C_0 = C_s - C_0 = 9{,}09 - 0{,}20 = 8{,}89\text{ mg}/\text{L}$$
+    2. Tính số mũ suy giảm truyền khối:
+       $$K_L a \cdot t = 0{,}035\text{ s}^{-1} \times 45\text{ s} = 1{,}575$$
+       $$e^{-1{,}575} = 0{,}207$$
+    3. Tính nồng độ oxy hòa tan sau giàn mưa:
+       $$C_t = 9{,}09 - 8{,}89 \times 0{,}207 = 9{,}09 - 1{,}84 = 7{,}25\text{ mg}/\text{L}$$
+    4. Tính tỷ lệ bão hòa oxy:
+       $$\text{Saturation} = \frac{7{,}25}{9{,}09} \times 100\% = 79{,}76\% \approx 80\%$$
+  - **Đáp số**:
+    - `Nồng độ oxy hòa tan sau làm thoáng Ct = 7.25 mg/L`
+    - `Độ bão hòa oxy đạt 80% (thỏa mãn yêu cầu quy chuẩn 70% - 85%)`
+<!-- exercise-end -->
 
-##### 4.2.2.2 Empirical Iron Aeration & Filtration Kinetic Data Analysis
-The empirical groundwater kinetic data presented in lecture **Slide 8** demonstrates the profound impact of pH and contact detention time on iron removal efficiency:
+---
 
-###### Table tbl_ch04_01: Experimental Iron (Fe2+) Removal Kinetics in Groundwater by Aeration Followed by Filtration across Varying pH and Reaction Times (Initial Fe2+ = 10.0 mg/L)
-| Raw Water pH | Initial Fe2+ (mg/L) | Residual Fe2+ after 15 min (mg/L) | Residual Fe2+ after 30 min (mg/L) | Residual Fe2+ after 60 min (mg/L) | Removal Efficiency after 30 min (%) |
+##### 4.2.4.3 Hướng dẫn Vận hành, Bảo dưỡng và Xử lý Sự cố (Operation, Maintenance & Troubleshooting)
+- Quy trình vận hành và bảo dưỡng giàn mưa định kỳ:
+  1. Kiểm tra lưu lượng nước bơm lên tháp hàng ngày qua đồng hồ đo.
+  2. Đo độ sâu lớp nước trên các khay phân phối đảm bảo mức $5 - 10\text{ cm}$.
+  3. Kiểm tra các cửa chớp chắn gió đảm bảo không bị gãy vỡ hoặc nghiêng lệch.
+  4. Đo nồng độ oxy hòa tan và pH nước sau làm thoáng theo ca trực.
+  5. Xối rửa bùn sắt lắng đọng đáy tháp định kỳ mỗi tuần một lần.
+  6. Thau rửa và thay thế lớp vật liệu than xỉ định kỳ mỗi 6 tháng.
+- Bảng ma trận chẩn đoán và khắc phục sự cố kỹ thuật:
+  | Sự cố kỹ thuật | Dấu hiệu nhận biết | Nguyên nhân gốc rễ | Biện pháp kỹ thuật khắc phục |
+  |---|---|---|---|
+  | **Nghẹt lỗ khay làm thoáng** | Nước tràn qua thành mép khay; các tia nước rơi không đều | Bùn oxit sắt $\text{Fe(OH)}_3$ và cặn mangan kết tủa bám kín các lỗ đáy khay | Ngắt dòng nước vào đơn nguyên; dùng vòi nước áp lực cao xịt rửa; dùng que thông cặn từng lỗ |
+  | **Nồng độ DO sau tháp thấp** | Oxy hòa tan sau tháp $< 4{,}0\text{ mg}/\text{L}$; sắt dư không kết tủa hết | Cường độ tưới vượt tải thiết kế; cửa chớp bị che chắn gió; than xỉ bị nén chặt | Giảm lưu lượng bơm về mức tính toán; vệ sinh thông thoáng cửa chớp; xới tơi lớp than xỉ |
+  | **Ejector hút khí yếu** | Không nghe tiếng rít hút khí; nồng độ DO trong ống tăng không đáng kể | Áp lực bơm giếng khoan bị tụt; họng thu vòi phun bị rác hoặc cặn gỉ sắt kẹt | Kiểm tra đồng hồ áp lực đầu vào ($P \ge 1{,}5\text{ bar}$); tháo buồng trộn thông tắc vòi phun |
+  | **Tạt nước ra ngoài tháp** | Nước văng ướt khu vực xung quanh; hao hụt lượng nước khai thác | Gió tự nhiên thổi quá mạnh; các cánh cửa chớp nghiêng không đúng góc 45° | Căn chỉnh lại góc nghiêng cửa chớp; lắp thêm lưới chắn giọt sương mềm bao bọc quanh tháp |
+
+### 4.3 Phương pháp Oxy hóa bằng Hóa chất mạnh và Vật liệu Lọc Xúc tác (Strong Chemical Oxidation & Catalytic Filter Media)
+
+#### 4.3.1 Cơ sở Hóa học và Tỷ lệ Phản ứng của các Hóa chất Oxy hóa Mạnh (Strong Chemical Oxidants Chemistry & Stoichiometry)
+
+##### 4.3.1.1 Clo Tự do (Free Chlorine - $Cl_2$ / $HOCl$)
+- **Mục đích sử dụng**:
+  - Clo tự do oxy hóa sắt hòa tan ($Fe^{2+}$) và mangan hòa tan ($Mn^{2+}$).
+  - Khí clo ($Cl_2$) hoặc axit hypocloro ($HOCl$) nhận electron trực tiếp từ ion kim loại.
+- **Phản ứng oxy hóa sắt bằng clo tự do**:
+  - Phản ứng tạo kết tủa ferric hydroxide và giải phóng ion clorua:
+    $$2\text{Fe}^{2+} + \text{Cl}_2 + 6\text{H}_2\text{O} \rightarrow 2\text{Fe(OH)}_3\downarrow + 2\text{Cl}^- + 6\text{H}^+$$
+    - $\text{Fe}^{2+}$: Ion sắt(II) hòa tan trong nước ngầm ($55.85\text{ g/mol}$).
+    - $\text{Cl}_2$: Khí clo hòa tan hoạt động như chất oxy hóa ($70.91\text{ g/mol}$).
+    - $\text{Fe(OH)}_3$: Kết tủa ferric hydroxide dạng bông cặn không tan.
+    - $\text{Cl}^-$: Ion clorua tạo thành sau phản ứng khử.
+    - $\text{H}^+$: Ion hydro sinh ra làm giảm độ kiềm của nước.
+  - Tỷ lệ stoichiometric lý thuyết:
+    $$\text{Tỷ lệ } Cl_2 / Fe = \frac{70.906\text{ g } Cl_2}{2 \times 55.845\text{ g } Fe} = 0.6349\text{ mg } Cl_2 / \text{mg } Fe$$
+  - Nhu cầu clo thực tế vận hành tiêu tốn $0.63 - 0.64\text{ mg } Cl_2 / \text{mg } Fe$.
+  - Thời gian phản ứng kết thúc nhanh trong khoảng dưới $1\text{ phút}$ đến $60\text{ phút}$.
+- **Phản ứng oxy hóa mangan bằng clo tự do**:
+  - Clo oxy hóa mangan(II) thành kết tủa mangan dioxide rắn:
+    $$\text{Mn}^{2+} + \text{Cl}_2 + 2\text{H}_2\text{O} \rightarrow \text{MnO}_2\downarrow + 2\text{Cl}^- + 4\text{H}^+$$
+    - $\text{Mn}^{2+}$: Ion mangan(II) hòa tan ($54.94\text{ g/mol}$).
+    - $\text{MnO}_2$: Kết tủa mangan dioxide dạng hạt rắn màu nâu đen.
+  - Tỷ lệ stoichiometric lý thuyết:
+    $$\text{Tỷ lệ } Cl_2 / Mn = \frac{70.906\text{ g } Cl_2}{54.938\text{ g } Mn} = 1.2907\text{ mg } Cl_2 / \text{mg } Mn$$
+  - Nhu cầu clo thực tế vận hành tiêu tốn $1.28 - 1.29\text{ mg } Cl_2 / \text{mg } Mn$.
+  - Phản ứng với mangan diễn ra chậm ở pH trung tính.
+  - Kỹ sư duy trì $\text{pH} > 8.0 - 8.5$ để phản ứng hoàn thành sau $15\text{ phút}$ đến $2\text{ giờ}$.
+- **Tổng nhu cầu clo cho hỗn hợp sắt và mangan**:
+  - Phương trình tính tổng lượng clo hóa học yêu cầu:
+    $$\text{Cl}_{2, \text{demand}} = 0.64 \cdot [\text{Fe}^{2+}] + 1.29 \cdot [\text{Mn}^{2+}] + \text{Cl}_{2, \text{residual}}$$
+    - $\text{Cl}_{2, \text{demand}}$: Nhu cầu clo hòa tan tổng cộng ($\text{mg/L}$).
+    - $[\text{Fe}^{2+}]$: Nồng độ sắt(II) ban đầu trong nước thô ($\text{mg/L}$).
+    - $[\text{Mn}^{2+}]$: Nồng độ mangan(II) ban đầu trong nước thô ($\text{mg/L}$).
+    - $\text{Cl}_{2, \text{residual}}$: Nồng độ clo tự do dư cần duy trì ($\text{mg/L}$).
+- **Rủi ro tạo phụ phẩm khử trùng (DBPs)**:
+  - Clo tác dụng với chất hữu cơ tự nhiên hình thành trihalomethane và axit haloacetic.
+  - Tiêu chuẩn QCVN 01-1:2018/BYT khống chế tổng THMs không vượt quá $0.1\text{ mg/L}$.
+  - Nhà máy không dùng tiền clo hóa khi tổng cacbon hữu cơ $\text{TOC} > 2.0\text{ mg/L}$.
+
+##### 4.3.1.2 Kali Pemanganat (Potassium Permanganate - $KMnO_4$)
+- **Đặc tính kỹ thuật của $KMnO_4$**:
+  - Kali pemanganat là chất oxy hóa mạnh với khối lượng mol $158.034\text{ g/mol}$.
+  - Ion pemanganat chứa mangan có hóa trị $+7$.
+  - Quá trình oxy hóa khử chuyển hóa mangan từ hóa trị $+7$ về $+4$.
+- **Phản ứng oxy hóa sắt bằng kali pemanganat**:
+  - Phản ứng sinh ra đồng thời kết tủa ferric hydroxide và mangan dioxide:
+    $$3\text{Fe}^{2+} + \text{KMnO}_4 + 7\text{H}_2\text{O} \rightarrow 3\text{Fe(OH)}_3\downarrow + \text{MnO}_2\downarrow + \text{K}^+ + 5\text{H}^+$$
+    - $\text{KMnO}_4$: Kali pemanganat cung cấp khả năng nhận electron.
+    - $\text{K}^+$: Cation kali hòa tan không gây hại nguồn nước.
+  - Tỷ lệ stoichiometric lý thuyết:
+    $$\text{Tỷ lệ } KMnO_4 / Fe = \frac{158.034\text{ g } KMnO_4}{3 \times 55.845\text{ g } Fe} = 0.9433\text{ mg } KMnO_4 / \text{mg } Fe$$
+  - Định mức thiết kế thực tế dùng $0.94\text{ mg } KMnO_4 / \text{mg } Fe$:
+    $$\text{Dose}_{\text{KMnO}_4, \text{Fe}} = 0.94 \cdot [\text{Fe}^{2+}]$$
+    - $\text{Dose}_{\text{KMnO}_4, \text{Fe}}$: Liều lượng pemanganat để khử sắt ($\text{mg/L}$).
+  - Phản ứng kết thúc hoàn toàn trong thời gian dưới $5\text{ phút}$.
+- **Phản ứng oxy hóa mangan bằng kali pemanganat**:
+  - Dung dịch pemanganat oxy hóa nhanh mangan hòa tan ở dải pH $7.0 - 8.5$:
+    $$3\text{Mn}^{2+} + 2\text{KMnO}_4 + 2\text{H}_2\text{O} \rightarrow 5\text{MnO}_2\downarrow + 2\text{K}^+ + 4\text{H}^+$$
+    - $5\text{MnO}_2$: Năm mol kết tủa mangan dioxide rắn tạo thành.
+  - Tỷ lệ stoichiometric lý thuyết:
+    $$\text{Tỷ lệ } KMnO_4 / Mn = \frac{2 \times 158.034\text{ g } KMnO_4}{3 \times 54.938\text{ g } Mn} = 1.9177\text{ mg } KMnO_4 / \text{mg } Mn$$
+  - Định mức thiết kế thực tế dùng $1.92\text{ mg } KMnO_4 / \text{mg } Mn$:
+    $$\text{Dose}_{\text{KMnO}_4, \text{Mn}} = 1.92 \cdot [\text{Mn}^{2+}]$$
+    - $\text{Dose}_{\text{KMnO}_4, \text{Mn}}$: Liều lượng pemanganat để khử mangan ($\text{mg/L}$).
+  - Thời gian oxy hóa mangan hoàn thành trong khoảng $5 - 7\text{ phút}$.
+- **Tổng liều lượng $KMnO_4$ cho đồng thời sắt và mangan**:
+  - Công thức tính toán tổng lượng hóa chất cần châm:
+    $$\text{Dose}_{\text{KMnO}_4, \text{total}} = 0.94 \cdot [\text{Fe}^{2+}] + 1.92 \cdot [\text{Mn}^{2+}]$$
+    - $\text{Dose}_{\text{KMnO}_4, \text{total}}$: Nồng độ $KMnO_4$ châm vào nước thô ($\text{mg/L}$).
+- **Cơ chế tự xúc tác của kết tủa $MnO_2$**:
+  - Hạt kết tủa keo $MnO_2$ mới sinh sở hữu diện tích bề mặt $200 - 300\text{ m}^2/\text{g}$.
+  - Điểm đẳng điện của hạt $MnO_2$ nằm trong dải $\text{pH}_{pzc} = 2.0 - 4.5$.
+  - Bề mặt hạt tích điện âm ở pH nước uống thông thường.
+  - Lớp bề mặt hấp phụ mạnh cation $Mn^{2+}$ và thúc đẩy phản ứng oxy hóa bề mặt.
+- **Nguy cơ quá liều tạo nước màu hồng (Pink Water)**:
+  - Liều châm vượt quá nhu cầu để lại ion pemanganat ($MnO_4^-$) dư thừa trong nước.
+  - Nồng độ $MnO_4^-$ vượt $0.05\text{ mg/L}$ làm nước sinh hoạt chuyển sang màu hồng tím.
+  - Kỹ sư kiểm soát chặt liều châm bằng thiết bị đo thế oxy hóa khử (ORP).
+
+##### 4.3.1.3 Khí Ozone ($O_3$)
+- **Đặc tính oxy hóa của Ozone**:
+  - Khí ozone sở hữu thế oxy hóa khử tiêu chuẩn cao ($E^\circ = +2.07\text{ V}$).
+  - Ozone hòa tan phá vỡ nhanh các liên kết hữu cơ tạo phức với kim loại.
+- **Phản ứng oxy hóa sắt bằng ozone**:
+  - Quá trình oxy hóa sắt không sinh ra phụ phẩm khử trùng chứa clo:
+    $$2\text{Fe}^{2+} + \text{O}_3 + 5\text{H}_2\text{O} \rightarrow 2\text{Fe(OH)}_3\downarrow + \text{O}_2 + 4\text{H}^+$$
+    - $\text{O}_3$: Khí ozone hòa tan vào nước ($48.00\text{ g/mol}$).
+    - $\text{O}_2$: Khí oxy giải phóng sau quá trình phân hủy ozone.
+  - Tỷ lệ stoichiometric lý thuyết:
+    $$\text{Tỷ lệ } O_3 / Fe = \frac{48.00\text{ g } O_3}{2 \times 55.845\text{ g } Fe} = 0.4298\text{ mg } O_3 / \text{mg } Fe$$
+  - Định mức thiết kế tính toán lấy $0.43\text{ mg } O_3 / \text{mg } Fe$.
+  - Thời gian phản ứng hoàn tất trong thời gian dưới $2\text{ phút}$.
+- **Phản ứng oxy hóa mangan bằng ozone**:
+  - Ozone chuyển hóa nhanh mangan(II) thành hạt mangan dioxide:
+    $$\text{Mn}^{2+} + \text{O}_3 + \text{H}_2\text{O} \rightarrow \text{MnO}_2\downarrow + \text{O}_2 + 2\text{H}^+$$
+  - Tỷ lệ stoichiometric lý thuyết:
+    $$\text{Tỷ lệ } O_3 / Mn = \frac{48.00\text{ g } O_3}{54.938\text{ g } Mn} = 0.8737\text{ mg } O_3 / \text{mg } Mn$$
+  - Nhu cầu thực tế vận hành chỉ tiêu tốn $0.67\text{ mg } O_3 / \text{mg } Mn$.
+  - Phản ứng kết thúc trong khoảng thời gian dưới $5\text{ phút}$.
+- **Nguy cơ oxy hóa quá mức (Over-oxidation)**:
+  - Dư thừa ozone tiếp tục oxy hóa hạt $MnO_2$ thành ion pemanganat hòa tan:
+    $$\text{MnO}_2(s) + \text{O}_3 + \text{OH}^- \rightarrow \text{MnO}_4^- + \text{O}_2 + \text{H}^+$$
+  - Ion $MnO_4^-$ đi xuyên qua bể lọc cát và làm nước có màu hồng.
+  - Nhà máy bố trí thêm bể lọc than hoạt tính sinh học (BAC) để hấp phụ pemanganat dư.
+
+##### 4.3.1.4 Chlorine Dioxide ($ClO_2$)
+- **Đặc tính kỹ thuật của $ClO_2$**:
+  - Chlorine dioxide hòa tan dạng khí mang khối lượng mol $67.45\text{ g/mol}$.
+  - Chất oxy hóa này không tham gia phản ứng thế halogen với chất hữu cơ tự nhiên.
+  - Nước sau xử lý không xuất hiện phụ phẩm THMs hoặc HAAs.
+- **Phản ứng oxy hóa sắt bằng chlorine dioxide**:
+  - Phản ứng khử một electron tạo ion chlorite:
+    $$\text{Fe}^{2+} + \text{ClO}_2 + 3\text{H}_2\text{O} \rightarrow \text{Fe(OH)}_3\downarrow + \text{ClO}_2^- + 3\text{H}^+$$
+    - $\text{ClO}_2^-$: Anion chlorite sinh ra trong dung dịch nước.
+  - Định mức châm hóa chất thực tế yêu cầu $1.2\text{ mg } ClO_2 / \text{mg } Fe$.
+  - Thời gian phản ứng diễn ra dưới $5\text{ phút}$.
+- **Phản ứng oxy hóa mangan bằng chlorine dioxide**:
+  - Hai phân tử chlorine dioxide oxy hóa một ion mangan hòa tan:
+    $$\text{Mn}^{2+} + 2\text{ClO}_2 + 2\text{H}_2\text{O} \rightarrow \text{MnO}_2\downarrow + 2\text{ClO}_2^- + 4\text{H}^+$$
+  - Định mức châm hóa chất thực tế yêu cầu $2.4\text{ mg } ClO_2 / \text{mg } Mn$.
+  - Thời gian phản ứng hoàn thành dưới $5\text{ phút}$.
+- **Rủi ro phụ phẩm chlorite và chlorate**:
+  - Ion chlorite ($\text{ClO}_2^-$) gây biến tính hemoglobin và dẫn đến tan máu.
+  - Tiêu chuẩn US EPA và WHO giới hạn nồng độ chlorite tối đa $\le 0.7 - 1.0\text{ mg/L}$.
+  - Mỗi miligram $ClO_2$ phản ứng tạo ra khoảng $0.7\text{ mg } ClO_2^-$.
+  - Liều châm $ClO_2$ bị giới hạn nghiêm ngặt ở mức dưới $1.2 - 1.4\text{ mg/L}$.
+  - Phương pháp này chỉ phù hợp nguồn nước có hàm lượng sắt và mangan thấp.
+
+##### 4.3.1.5 Bảng So sánh Tổng hợp các Hóa chất Oxy hóa Mạnh
+- **Bảng chỉ tiêu kỹ thuật hóa chất oxy hóa**:
+
+| Chất oxy hóa | Liều cho Sắt (mg/mg Fe) | Liều cho Mangan (mg/mg Mn) | Thời gian phản ứng | Dải pH tối ưu | Phụ phẩm chính và Hạn chế kỹ thuật |
+|---|---|---|---|---|---|
+| **Clo tự do ($Cl_2$)** | $0.63 - 0.64$ | $1.28 - 1.29$ | $1\text{ min} - 2\text{ h}$ | $\text{pH} > 8.0\text{ cho Mn}$ | Tạo trihalomethanes (THMs); không dùng khi $\text{TOC} > 2.0\text{ mg/L}$ |
+| **Kali pemanganat ($KMnO_4$)** | $0.94$ | $1.92$ | $< 5 - 7\text{ min}$ | $\text{pH } 7.0 - 8.5$ | Gây nước màu hồng khi quá liều; cặn $MnO_2$ làm tăng tải lọc |
+| **Khí Ozone ($O_3$)** | $0.43$ | $0.67$ | $< 2 - 5\text{ min}$ | $\text{pH } 6.5 - 8.5$ | Chi phí đầu tư cao; oxy hóa quá mức tạo màu hồng ($MnO_4^-$) |
+| **Chlorine Dioxide ($ClO_2$)** | $1.20$ | $2.40$ | $< 5\text{ min}$ | $\text{pH } 6.0 - 9.0$ | Giới hạn nồng độ chlorite $\le 0.7\text{ mg/L}$; liều châm bị khống chế |
+
+---
+
+#### 4.3.2 Pha chế Dung dịch và Tính toán Định lượng Hóa chất (Chemical Solution Preparation & Dosing Calculations)
+
+##### 4.3.2.1 Nồng độ Phần trăm Khối lượng và Thể tích Bể Pha chế
+- **Công thức nồng độ phần trăm khối lượng ($P_{\text{wt}}$)**:
+  - Biểu thức xác định nồng độ dung dịch hóa chất trong bể:
+    $$P_{\text{wt}} = \left(\frac{m_{\text{solute}}}{m_{\text{solute}} + m_{\text{solvent}}}\right) \times 100\% = \left(\frac{m_{\text{KMnO}_4}}{m_{\text{KMnO}_4} + (\rho_{\text{water}} \cdot V_{\text{water}})}\right) \times 100\%$$
+    - $P_{\text{wt}}$: Nồng độ dung dịch theo phần trăm khối lượng ($\%$).
+    - $m_{\text{solute}}$: Khối lượng hóa chất khô hòa tan ($\text{kg}$).
+    - $m_{\text{solvent}}$: Khối lượng dung môi nước ($\text{kg}$).
+    - $\rho_{\text{water}}$: Khối lượng riêng của nước sạch ($\rho = 1.0\text{ kg/L} = 1000\text{ kg/m}^3$).
+    - $V_{\text{water}}$: Thể tích nước cấp vào bể pha chế ($\text{L}$ hoặc $\text{m}^3$).
+- **Dung tích bể hình trụ và lượng hóa chất khô cần cân**:
+  - Thể tích chất lỏng chứa trong bể hình trụ đứng:
+    $$V_{\text{tank}} = \frac{\pi D^2}{4} H$$
+    - $V_{\text{tank}}$: Thể tích dung tích làm việc của bể ($\text{m}^3$).
+    - $D$: Đường kính trong của bể tròn ($\text{m}$).
+    - $H$: Chiều sâu mực chất lỏng trong bể ($\text{m}$).
+  - Khối lượng hóa chất khô ($m_{\text{chem}}$) để đạt nồng độ mục tiêu $P_{\text{wt}}$:
+    $$m_{\text{chem}} = \left(\frac{P_{\text{wt}}}{100\% - P_{\text{wt}}}\right) \cdot (\rho_{\text{water}} \cdot V_{\text{tank}})$$
+    - $m_{\text{chem}}$: Khối lượng hóa chất nguyên chất cần nạp vào bể ($\text{kg}$).
+
+##### 4.3.2.2 Các Bài tập Tính toán Định lượng Hóa chất Thực tế
+
+<!-- exercise-start: Ví dụ 4-1: Nồng độ dung dịch thuốc tím theo phần trăm khối lượng -->
+- **Ví dụ 4-1: Nồng độ dung dịch thuốc tím theo phần trăm khối lượng**
+  - Cho:
+    - Khối lượng $KMnO_4$ khô: $m_{\text{solute}} = 1.0\text{ kg}$.
+    - Thể tích nước hòa tan: $V_{\text{water}} = 50.0\text{ L}$.
+    - Khối lượng riêng của nước: $\rho_{\text{water}} = 1.0\text{ kg/L}$.
+    - Nồng độ khuyến cáo từ nhà sản xuất: $P_{\text{target}} = 3.0\%$.
+  - Tìm: Nồng độ phần trăm khối lượng của dung dịch vừa pha ($P_{\text{wt}}$).
+  - Phương trình áp dụng:
+    $$P_{\text{wt}} = \left(\frac{m_{\text{solute}}}{m_{\text{solute}} + \rho_{\text{water}} \cdot V_{\text{water}}}\right) \times 100\%$$
+  - Các bước giải:
+    1. Bước 1: Tính khối lượng nước làm dung môi:
+       $$m_{\text{water}} = 50.0\text{ L} \times 1.0\text{ kg/L} = 50.0\text{ kg}$$
+    2. Bước 2: Tính tổng khối lượng dung dịch sau khi hòa tan:
+       $$m_{\text{total}} = 1.0\text{ kg} + 50.0\text{ kg} = 51.0\text{ kg}$$
+    3. Bước 3: Tính nồng độ phần trăm khối lượng thực tế:
+       $$P_{\text{wt}} = \left(\frac{1.0\text{ kg}}{51.0\text{ kg}}\right) \times 100\% = 1.9608\% \approx 1.96\%$$
+    4. Bước 4: Đánh giá kỹ thuật: Dung dịch $1.96\%$ loãng hơn mức khuyến cáo $3.0\%$.
+  - **Đáp số**: `1.96% khối lượng (1.96% wt)`
+<!-- exercise-end -->
+
+---
+
+<!-- exercise-start: Ví dụ 4-2: Khối lượng KMnO4 cho nồng độ mục tiêu trong bể hình trụ -->
+- **Ví dụ 4-2: Khối lượng KMnO4 cho nồng độ mục tiêu trong bể hình trụ**
+  - Cho:
+    - Nồng độ dung dịch mục tiêu: $P_{\text{wt}} = 3.0\%$.
+    - Đường kính trong của bể tròn: $D = 1.2\text{ m}$.
+    - Mực nước làm việc trong bể: $H = 1.5\text{ m}$.
+    - Khối lượng riêng của nước: $\rho_{\text{water}} = 1000\text{ kg/m}^3$.
+  - Tìm: Khối lượng thuốc tím khô cần hòa tan vào bể ($m_{\text{chem}}$).
+  - Phương trình áp dụng:
+    $$V_{\text{tank}} = \frac{\pi D^2}{4} H, \quad m_{\text{chem}} = \left(\frac{P_{\text{wt}}}{100\% - P_{\text{wt}}}\right) \cdot (\rho_{\text{water}} \cdot V_{\text{tank}})$$
+  - Các bước giải:
+    1. Bước 1: Tính diện tích mặt cắt ngang của bể hình trụ:
+       $$A_{\text{tank}} = \frac{\pi \cdot (1.2\text{ m})^2}{4} = 1.1310\text{ m}^2$$
+    2. Bước 2: Tính thể tích nước chứa trong bể:
+       $$V_{\text{tank}} = 1.1310\text{ m}^2 \times 1.5\text{ m} = 1.6965\text{ m}^3 = 1696.5\text{ L}$$
+    3. Bước 3: Tính khối lượng nước dung môi:
+       $$m_{\text{water}} = 1.6965\text{ m}^3 \times 1000\text{ kg/m}^3 = 1696.5\text{ kg}$$
+    4. Bước 4: Tính khối lượng $KMnO_4$ theo công thức khối lượng chính xác:
+       $$m_{\text{chem}} = \left(\frac{0.03}{1 - 0.03}\right) \times 1696.5\text{ kg} = \left(\frac{0.03}{0.97}\right) \times 1696.5\text{ kg} = 52.47\text{ kg}$$
+    5. Bước 5: Kiểm tra theo công thức gần đúng theo thể tích dung dịch:
+       $$m_{\text{chem, approx}} \approx 0.03 \times 1696.5\text{ kg} = 50.89\text{ kg}$$
+  - **Đáp số**: `52.47 kg KMnO4 (tính chính xác theo khối lượng)`
+<!-- exercise-end -->
+
+---
+
+<!-- exercise-start: Ví dụ 4-3: Nhu cầu chất oxy hóa KMnO4 để khử sắt -->
+- **Ví dụ 4-3: Nhu cầu chất oxy hóa KMnO4 để khử sắt**
+  - Cho:
+    - Nồng độ sắt(II) hòa tan trong nước thô: $[\text{Fe}^{2+}] = 1.6\text{ mg/L}$.
+    - Định mức thực tế vận hành: $0.94\text{ mg } KMnO_4 / \text{mg } Fe$.
+    - Tỷ lệ stoichiometric lý thuyết: $0.9433\text{ mg } KMnO_4 / \text{mg } Fe$.
+  - Tìm: Nồng độ $KMnO_4$ cần châm vào dòng nước ($\text{mg/L}$).
+  - Phương trình áp dụng:
+    $$\text{Dose}_{\text{KMnO}_4, \text{Fe}} = 0.94 \cdot [\text{Fe}^{2+}]$$
+  - Các bước giải:
+    1. Bước 1: Tính liều châm theo định mức vận hành thực tế:
+       $$\text{Dose}_{\text{KMnO}_4} = 1.6\text{ mg/L} \times 0.94\text{ mg/mg} = 1.504\text{ mg/L} \approx 1.50\text{ mg/L}$$
+    2. Bước 2: Kiểm tra đối chiếu với stoichiometric lý thuyết:
+       $$\text{Dose}_{\text{theo}} = 1.6\text{ mg/L} \times 0.9433\text{ mg/mg} = 1.5093\text{ mg/L} \approx 1.51\text{ mg/L}$$
+  - **Đáp số**: `1.504 mg/L KMnO4 (định mức thiết kế: 1.50 mg/L)`
+<!-- exercise-end -->
+
+---
+
+<!-- exercise-start: Ví dụ 4-4: Nhu cầu chất oxy hóa KMnO4 để khử mangan -->
+- **Ví dụ 4-4: Nhu cầu chất oxy hóa KMnO4 để khử mangan**
+  - Cho:
+    - Nồng độ mangan(II) hòa tan trong nước thô: $[\text{Mn}^{2+}] = 6.8\text{ mg/L}$.
+    - Định mức thực tế vận hành: $1.92\text{ mg } KMnO_4 / \text{mg } Mn$.
+    - Tỷ lệ stoichiometric lý thuyết: $1.9177\text{ mg } KMnO_4 / \text{mg } Mn$.
+  - Tìm: Nồng độ $KMnO_4$ cần châm vào dòng nước ($\text{mg/L}$).
+  - Phương trình áp dụng:
+    $$\text{Dose}_{\text{KMnO}_4, \text{Mn}} = 1.92 \cdot [\text{Mn}^{2+}]$$
+  - Các bước giải:
+    1. Bước 1: Tính liều châm theo định mức vận hành thực tế:
+       $$\text{Dose}_{\text{KMnO}_4} = 6.8\text{ mg/L} \times 1.92\text{ mg/mg} = 13.056\text{ mg/L} \approx 13.06\text{ mg/L}$$
+    2. Bước 2: Kiểm tra đối chiếu với stoichiometric lý thuyết:
+       $$\text{Dose}_{\text{theo}} = 6.8\text{ mg/L} \times 1.9177\text{ mg/mg} = 13.0404\text{ mg/L} \approx 13.04\text{ mg/L}$$
+  - **Đáp số**: `13.056 mg/L KMnO4 (định mức thiết kế: 13.06 mg/L)`
+<!-- exercise-end -->
+
+---
+
+#### 4.3.3 Công nghệ Vật liệu Lọc Xúc tác Khử Sắt và Mangan (Catalytic Filter Media Technologies)
+
+##### 4.3.3.1 Cát Mangan Greensand và GreensandPlus
+- **Thành phần và cấu trúc vật liệu**:
+  - Manganese Greensand sản xuất từ khoáng glauconite tự nhiên gốc biển.
+  - Hạt glauconite được xử lý bề mặt bằng muối mangan và kali pemanganat.
+  - Phản ứng tạo lớp vỏ mangan oxit hoạt hóa bền vững bọc quanh hạt.
+  - GreensandPlus sử dụng lõi cát thạch anh bọc lớp phủ mangan dioxide.
+  - Hạt GreensandPlus chịu được nhiệt độ cao trên $40^\circ\text{C}$ và mài mòn cơ học tốt hơn.
+- **Chế độ tái sinh liên tục (Continuous Regeneration - CR)**:
+  - Ứng dụng khi nguồn nước có hàm lượng sắt cao ($[\text{Fe}] > 1.0\text{ mg/L}$).
+  - Bơm định lượng châm liên tục dung dịch $KMnO_4$ hoặc clo vào trước lớp vật liệu lọc.
+  - Hạt sắt kết tủa trong khối nước và bị giữ lại trên lớp than antraxite.
+  - Mangan hòa tan tiếp xúc lớp vỏ greensand và bị oxy hóa tức thời.
+  - Lớp cát greensand hoạt động như một lớp đệm hấp thụ pemanganat dư thừa.
+- **Chế độ tái sinh gián đoạn (Intermittent Regeneration - IR)**:
+  - Ứng dụng khi nguồn nước chủ yếu chứa mangan ($[\text{Mn}] > 0.5\text{ mg/L}$) và ít sắt.
+  - Nước thô chảy trực tiếp qua lớp vật liệu mà không cần châm hóa chất phía trước.
+  - Lớp vỏ $MnO_2$ hấp phụ và khử trực tiếp ion $Mn^{2+}$.
+  - Dung lượng oxy hóa của lớp hạt đạt khoảng $650 - 700\text{ g } Mn / \text{m}^3$ vật liệu.
+  - Khi lớp hạt bão hòa, nhà máy ngắt bình lọc để ngâm dung dịch $KMnO_4$.
+  - Liều lượng hóa chất hoàn nguyên yêu cầu $1.5 - 2.0\text{ g } KMnO_4$ cho mỗi lít hạt.
+- **Thông số kỹ thuật vận hành**:
+  - Vận tốc lọc thiết kế: $v_{\text{filt}} = 5 - 12\text{ m/h}$ ($2 - 5\text{ gpm/sq.ft}$).
+  - Dải pH hoạt động an toàn: $\text{pH} = 6.2 - 8.5$.
+  - Cấu trúc tầng lọc hai lớp: $30 - 45\text{ cm}$ than antraxite phủ trên $30 - 45\text{ cm}$ greensand.
+  - Vận tốc rửa ngược bằng nước: $v_{\text{bw}} = 24 - 30\text{ m/h}$ ($10 - 12\text{ gpm/sq.ft}$).
+  - Độ giãn nở tầng lọc khi rửa ngược đạt $30\% - 40\%$.
+
+##### 4.3.3.2 Vật liệu Lọc Xúc tác Birm (Burgess Iron Removal Method)
+- **Đặc tính vật lý và cơ chế hoạt động**:
+  - Hạt Birm là vật liệu xốp aluminosilicate phủ bề mặt bằng mangan dioxide.
+  - Hạt đóng vai trò chất xúc tác chuyển electron thuần túy giữa kim loại và oxy hòa tan.
+  - Vật liệu không bị tiêu hao trong quá trình khử sắt và mangan.
+  - Quá trình vận hành không cần châm hóa chất pemanganat để hoàn nguyên.
+  - Khối lượng riêng đổ đống nhẹ: $\rho_{\text{bulk}} = 700 - 800\text{ kg/m}^3$ ($44 - 50\text{ lb/cu.ft}$).
+  - Kích thước hiệu dụng hạt: $ES = 0.59\text{ mm}$, hệ số không đồng nhất $UC = 1.96$.
+  - Vận tốc lọc dịch vụ thông thường: $v_{\text{filt}} = 8.5 - 12.2\text{ m/h}$ ($3.5 - 5.0\text{ gpm/sq.ft}$).
+- **Điều kiện môi trường vận hành bắt buộc**:
+  - Nồng độ oxy hòa tan tối thiểu:
+    $$[\text{DO}] \ge 0.15 \cdot ([\text{Fe}] + [\text{Mn}])$$
+  - Giới hạn dải pH của nước thô:
+    - Khử sắt: $\text{pH} = 6.8 - 9.0$ (pH dưới 6.8 làm trơ xúc tác).
+    - Khử mangan: $\text{pH} = 8.0 - 9.0$ (nếu có cả sắt và mangan, duy trì $\text{pH} = 8.0 - 8.5$).
+  - Giới hạn clo dư tự do: Duy trì nghiêm ngặt $[\text{Cl}_2] < 0.5\text{ mg/L}$.
+  - Clo tự do nồng độ cao gây bong tróc lớp màng mangan dioxide bọc ngoài.
+  - Tuyệt đối không chứa khí hydro sunfua ($H_2S$): $H_2S$ phản ứng tạo $MnS$ gây ngộ độc trơ hóa vĩnh viễn.
+  - Giới hạn chất hữu cơ: $\text{TOC} < 2.0\text{ mg/L}$; cấm dầu mỡ và hợp chất polyphosphate.
+
+##### 4.3.3.3 Quặng Pyrolusite Tự nhiên Nguyên chất (LayneOx™)
+- **Đặc tính hạt và cấu trúc nguyên khối**:
+  - LayneOx sản xuất từ quặng pyrolusite tự nhiên chọn lọc đạt tiêu chuẩn NSF/ANSI 61.
+  - Hạt không dùng lớp phủ bên ngoài mà chứa $70\% - 80\%$ $MnO_2$ nguyên khối đồng nhất.
+  - Vật liệu không bao giờ bị bong tróc lớp màng xúc tác khi chịu lực xói mòn.
+  - Độ cứng vật liệu cao đạt thang Mohs cấp 5.
+  - Tỷ trọng riêng nặng: $\text{SG} \approx 3.8 - 4.1$, khối lượng thể tích $\rho_{\text{bulk}} \approx 1800 - 2000\text{ kg/m}^3$.
+- **Khả năng lọc tải trọng cao**:
+  - Vận tốc lọc thiết kế đạt mức cao: $v_{\text{filt}} = 20 - 37\text{ m/h}$ ($8 - 15\text{ gpm/sq.ft}$).
+  - Vận tốc này cao gấp ba lần cát greensand truyền thống.
+  - Diện tích trạm xử lý giảm $60\% - 70\%$ so với công nghệ cũ.
+  - Thời gian tiếp xúc qua lớp rỗng tối thiểu: $\text{EBCT} \ge 2.0\text{ phút}$.
+  - Chiều sâu tầng vật liệu lọc yêu cầu $90 - 120\text{ cm}$.
+  - Hiệu quả xử lý đạt trên $99\%$, đưa sắt về dưới $0.05\text{ mg/L}$ và mangan dưới $0.01\text{ mg/L}$.
+- **Cơ chế tái sinh và quy trình rửa lọc**:
+  - Châm clo dư tự do liên tục ($0.5 - 2.0\text{ mg/L}$) ngay trước bình lọc để duy trì hoạt tính.
+  - Công nghệ không cần hóa chất $KMnO_4$ đắt tiền.
+  - Tầng hạt yêu cầu sục khí nén bắt buộc với cường độ $3.0\text{ scfm/sq.ft}$ ($55\text{ m}^3/(\text{m}^2 \cdot \text{h})$).
+  - Vận tốc rửa ngược bằng nước yêu cầu $30 - 37\text{ m/h}$ ($12 - 15\text{ gpm/sq.ft}$).
+  - Hệ thống tự động rửa lọc khi chênh lệch áp lực đạt $\Delta P = 10\text{ psig}$ ($70\text{ kPa}$).
+
+##### 4.3.3.4 Bảng So sánh Tổng hợp các Loại Vật liệu Lọc Xúc tác
+- **Bảng so sánh thông số kỹ thuật các hạt xúc tác**:
+
+| Đặc tính kỹ thuật | Manganese Greensand | GreensandPlus™ | Birm® | LayneOx™ (Pyrolusite) |
+|---|---|---|---|---|
+| **Cốt lõi bên trong** | Glauconite tự nhiên | Cát thạch anh | Hạt aluminosilicate xốp | Không cốt lõi (nguyên khối) |
+| **Hàm lượng / Dạng $MnO_2$** | Lớp màng phủ bề mặt | Lớp màng phủ bề mặt | Lớp màng mỏng bề mặt | Nguyên khối $70 - 80\%\text{ MnO}_2$ |
+| **Tỷ trọng hạt (SG)** | $2.4 - 2.6$ | $2.4 - 2.5$ | $2.0$ | $3.8 - 4.1$ |
+| **Khối lượng thể tích** | $1360\text{ kg/m}^3$ | $1410\text{ kg/m}^3$ | $720\text{ kg/m}^3$ | $1920\text{ kg/m}^3$ |
+| **Dải pH làm việc** | $6.2 - 8.5$ | $6.2 - 8.5$ | $6.8 - 9.0$ ($\text{Mn} \ge 8.0$) | $6.0 - 9.0$ |
+| **Vận tốc lọc dịch vụ** | $5 - 12\text{ m/h}$ | $5 - 12\text{ m/h}$ | $8.5 - 12.2\text{ m/h}$ | $20 - 37\text{ m/h}$ |
+| **Hóa chất tái sinh** | $KMnO_4$ liên tục / ngâm | $KMnO_4$ hoặc clo liên tục | Không dùng (cần DO $\ge 15\%$) | Clo tự do liên tục |
+| **Khả năng chịu clo** | Chịu clo tốt | Chịu clo rất tốt | Kém (phải $< 0.5\text{ mg/L}$) | Chịu clo cực tốt |
+| **Cường độ rửa lọc nước** | $24 - 30\text{ m/h}$ | $24 - 30\text{ m/h}$ | $24 - 30\text{ m/h}$ | $30 - 37\text{ m/h}$ |
+| **Yêu cầu sục khí nén** | Khuyến cáo tùy chọn | Khuyến cáo nên dùng | Không cần thiết | Bắt buộc ($3.0\text{ scfm/sq.ft}$) |
+
+##### 4.3.3.5 Bài tập Tính toán Thiết kế Bình lọc Áp lực Xúc tác GreensandPlus
+
+<!-- exercise-start: Ví dụ 4-6: Tính toán bình lọc áp lực xúc tác GreensandPlus và chu kỳ rửa lọc -->
+- **Ví dụ 4-6: Tính toán bình lọc áp lực xúc tác GreensandPlus và chu kỳ rửa lọc**
+  - Cho:
+    - Lưu lượng trạm cấp nước ngầm: $Q = 240\text{ m}^3/\text{h}$ ($5760\text{ m}^3/\text{ngày}$).
+    - Nồng độ sắt hòa tan: $[\text{Fe}^{2+}] = 1.2\text{ mg/L}$.
+    - Nồng độ mangan hòa tan: $[\text{Mn}^{2+}] = 0.6\text{ mg/L}$.
+    - Chế độ vận hành: Tái sinh liên tục (CR) bằng dung dịch $KMnO_4$.
+    - Vận tốc lọc dịch vụ tính toán: $v_{\text{filt}} = 10.0\text{ m/h}$.
+    - Số lượng bình lọc áp lực làm việc song song: $N = 3\text{ bình}$ (đảm bảo công suất khi 1 bình rửa lọc).
+    - Chiều dày tầng hạt GreensandPlus: $L_{\text{bed}} = 0.90\text{ m}$.
+    - Dung tích giữ cặn của hạt lọc: $S_{\text{cap}} = 2.5\text{ kg cặn rắn}/\text{m}^2\text{ diện tích bề mặt}$.
+    - Vận tốc rửa lọc nước: $v_{\text{bw}} = 28.0\text{ m/h}$, thời gian rửa $t_{\text{bw}} = 10\text{ phút}$.
+    - Thời gian xả rửa đầu (ripening): $t_{\text{rinse}} = 5\text{ phút}$ ở vận tốc lọc $10.0\text{ m/h}$.
+  - Tìm:
+    1. Liều lượng và lượng $KMnO_4$ tiêu thụ mỗi ngày ($\text{kg/ngày}$).
+    2. Diện tích và đường kính trong của mỗi bình lọc ($D$). Kiểm tra vận tốc khi một bình rửa lọc.
+    3. Thời gian tiếp xúc rỗng ($\text{EBCT}$) và chu kỳ lọc liên tục ($T_{\text{run}}$).
+    4. Lưu lượng bơm rửa lọc và tỷ lệ phần trăm nước rửa ngược so với nước sạch sản xuất.
+  - Phương trình áp dụng:
+    $$\text{Dose}_{\text{KMnO}_4} = 0.94 \cdot [\text{Fe}^{2+}] + 1.92 \cdot [\text{Mn}^{2+}]$$
+    $$A_{\text{total}} = \frac{Q}{v_{\text{filt}}}, \quad D = \sqrt{\frac{4 \cdot A_{\text{vessel}}}{\pi}}, \quad \text{EBCT} = \frac{L_{\text{bed}}}{v_{\text{filt}}}$$
+    $$T_{\text{run}} = \frac{S_{\text{cap}}}{\dot{m}_A}, \quad \text{Hao hụt \%} = \left(\frac{V_{\text{rửa}}}{V_{\text{sản xuất}}}\right) \times 100\%$$
+  - Các bước giải:
+    1. Bước 1: Tính liều lượng và khối lượng $KMnO_4$ châm mỗi ngày:
+       $$\text{Dose}_{\text{KMnO}_4} = (0.94 \times 1.2\text{ mg/L}) + (1.92 \times 0.6\text{ mg/L}) = 1.128 + 1.152 = 2.28\text{ mg/L}$$
+       $$\text{Khối lượng } KMnO_4 = 5760\text{ m}^3/\text{ngày} \times 2.28\text{ g/m}^3 \times 10^{-3}\text{ kg/g} = 13.13\text{ kg/ngày}$$
+    2. Bước 2: Tính diện tích mặt bằng lọc và kích thước bình lọc:
+       $$A_{\text{total}} = \frac{240\text{ m}^3/\text{h}}{10.0\text{ m/h}} = 24.0\text{ m}^2$$
+       - Diện tích mỗi bình lọc ($N = 3$):
+       $$A_{\text{vessel}} = \frac{24.0\text{ m}^2}{3} = 8.0\text{ m}^2$$
+       - Đường kính trong của bình lọc:
+       $$D = \sqrt{\frac{4 \times 8.0\text{ m}^2}{\pi}} = \sqrt{10.186} = 3.19\text{ m} \rightarrow \text{Chọn } D = 3.20\text{ m}$$
+       - Diện tích thực tế mỗi bình: $A_{\text{actual}} = \frac{\pi \cdot (3.20\text{ m})^2}{4} = 8.042\text{ m}^2$.
+       - Kiểm tra khi 1 bình rửa lọc, 2 bình còn lại xử lý toàn bộ $240\text{ m}^3/\text{h}$:
+       $$v_{\text{redundant}} = \frac{240\text{ m}^3/\text{h}}{2 \times 8.042\text{ m}^2} = 14.92\text{ m/h} \le 15.0\text{ m/h (Đạt yêu cầu)}$$
+    3. Bước 3: Tính thời gian tiếp xúc rỗng ($\text{EBCT}$):
+       $$\text{EBCT} = \frac{0.90\text{ m}}{10.0\text{ m/h}} = 0.09\text{ h} = 5.40\text{ phút} \ge 2.0\text{ phút (Đạt chuẩn)}$$
+    4. Bước 4: Tính tổng lượng cặn rắn sinh ra và chu kỳ lọc ($T_{\text{run}}$):
+       - Sắt kết tủa thành $\text{Fe(OH)}_3$ (hệ số $106.87 / 55.85 = 1.914$): $1.2 \times 1.914 = 2.297\text{ mg/L}$.
+       - Mangan kết tủa thành $\text{MnO}_2$ (hệ số $86.94 / 54.94 = 1.582$): $0.6 \times 1.582 = 0.949\text{ mg/L}$.
+       - Thuốc tím hoàn nguyên tạo $\text{MnO}_2$ (hệ số $86.94 / 158.03 = 0.550$): $2.28 \times 0.550 = 1.254\text{ mg/L}$.
+       - Tổng nồng độ cặn lơ lửng giữ lại:
+       $$C_{\text{solids}} = 2.297 + 0.949 + 1.254 = 4.50\text{ mg/L} = 4.50\text{ g/m}^3$$
+       - Tốc độ tích lũy cặn trên diện tích mặt lọc:
+       $$\dot{m}_A = 10.0\text{ m/h} \times 4.50\text{ g/m}^3 = 45.0\text{ g}/(\text{m}^2 \cdot \text{h}) = 0.045\text{ kg}/(\text{m}^2 \cdot \text{h})$$
+       - Thời gian chu kỳ lọc đến khi đạt dung lượng cặn:
+       $$T_{\text{run}} = \frac{2.5\text{ kg/m}^2}{0.045\text{ kg}/(\text{m}^2 \cdot \text{h})} = 55.56\text{ giờ} \approx 55\text{ giờ (khoảng 2.3 ngày)}$$
+    5. Bước 5: Tính lưu lượng rửa lọc và cân bằng nước rửa:
+       - Lưu lượng bơm rửa ngược cho một bình:
+       $$Q_{\text{bw}} = 8.042\text{ m}^2 \times 28.0\text{ m/h} = 225.18\text{ m}^3/\text{h} = 3753\text{ L/phút}$$
+       - Lượng nước tiêu thụ cho chu trình rửa $10\text{ phút}$ ($0.1667\text{ h}$):
+       $$V_{\text{bw}} = 225.18\text{ m}^3/\text{h} \times 0.1667\text{ h} = 37.53\text{ m}^3$$
+       - Lượng nước xả rửa lọc đầu trong $5\text{ phút}$ ($0.0833\text{ h}$):
+       $$V_{\text{rinse}} = 8.042\text{ m}^2 \times 10.0\text{ m/h} \times 0.0833\text{ h} = 6.70\text{ m}^3$$
+       - Tổng lượng nước rửa một chu kỳ: $V_{\text{wash}} = 37.53 + 6.70 = 44.23\text{ m}^3$.
+       - Lượng nước sạch một bình sản xuất trong chu kỳ $55\text{ giờ}$:
+       $$V_{\text{produced}} = 8.042\text{ m}^2 \times 10.0\text{ m/h} \times 55\text{ h} = 4423.1\text{ m}^3$$
+       - Tỷ lệ phần trăm nước rửa lọc tiêu hao:
+       $$\%\text{ Nước rửa} = \left(\frac{44.23\text{ m}^3}{4423.1\text{ m}^3}\right) \times 100\% = 1.00\%$$
+  - **Đáp số**:
+    - Nhu cầu $KMnO_4$: `13.13 kg/ngày (liều 2.28 mg/L)`
+    - Quy cách bình lọc: `3 bình áp lực, đường kính trong D = 3.20 m`
+    - Tiếp xúc rỗng và chu kỳ lọc: `EBCT = 5.4 phút; Chu kỳ lọc = 55 giờ`
+    - Lưu lượng bơm rửa lọc và hao hụt: `Q_bw = 225.2 m3/h; Tỷ lệ hao hụt nước rửa = 1.00%`
+<!-- exercise-end -->
+
+---
+
+#### 4.3.4 Quy trình Vận hành và Xử lý Sự cố Công nghệ Lọc Xúc tác (Operation Procedures & Troubleshooting)
+
+##### 4.3.4.1 Quy trình Châm Hóa chất Kali Pemanganat ($KMnO_4$)
+- **Trình tự các bước thực hiện**:
+  1. Bước 1: Thu thập mẫu nước và phân tích nồng độ sắt $[\text{Fe}^{2+}]$, mangan $[\text{Mn}^{2+}]$ và cacbon hữu cơ $\text{TOC}$.
+  2. Bước 2: Tính toán liều lượng stoichiometric cơ sở theo phương trình:
+     $$\text{Dose}_{\text{KMnO}_4} = 0.94 \cdot [\text{Fe}^{2+}] + 1.92 \cdot [\text{Mn}^{2+}]$$
+  3. Bước 3: Tiến hành thí nghiệm Jar test để hiệu chỉnh nhu cầu tiêu hao chất oxy hóa do hợp chất hữu cơ.
+  4. Bước 4: Pha chế dung dịch mẹ $KMnO_4$ nồng độ $1.0\% - 3.0\%$ khối lượng trong bể chứa chống ăn mòn.
+  5. Bước 5: Cài đặt bơm định lượng màng tự động điều tốc theo tín hiệu lưu lượng nước thô.
+  6. Bước 6: Lắp đặt cảm biến đo màu trực tuyến và chỉ số ORP sau lọc để kiểm soát dư lượng pemanganat.
+
+##### 4.3.4.2 Quy trình Rửa ngược Bình lọc Xúc tác
+- **Trình tự các bước thực hiện**:
+  1. Bước 1: Cách ly bình lọc bằng cách đóng van nước thô đầu vào khi áp lực chênh lệch đạt $\Delta P = 10\text{ psig}$ ($70\text{ kPa}$).
+  2. Bước 2: Mở van xả đáy hạ mực nước xuống cách mặt trên lớp vật liệu lọc khoảng $10 - 15\text{ cm}$.
+  3. Bước 3: Bật máy thổi khí nén cấp lưu lượng $3.0\text{ scfm/sq.ft}$ ($55\text{ m}^3/(\text{m}^2 \cdot \text{h})$) trong $3 - 5\text{ phút}$ làm tơi cặn bám.
+  4. Bước 4: Khởi động bơm nước rửa ngược với vận tốc $24 - 37\text{ m/h}$ duy trì độ giãn nở tầng lọc $30\% - 40\%$ trong $10\text{ phút}$.
+  5. Bước 5: Đóng van rửa ngược và mở van lọc xả rửa đầu (Filter-to-waste) trong $5\text{ phút}$ trước khi đưa bình trở lại hoạt động.
+
+##### 4.3.4.3 Chẩn đoán và Xử lý Sự cố Vận hành Điển hình
+- **Sự cố 1: Nước sau xử lý có màu hồng do quá liều $KMnO_4$**:
+  - Dấu hiệu nhận biết: Nước sạch tại bể chứa hoặc vòi tiêu dùng có ánh màu hồng tím nhạt; nồng độ mangan tổng tăng cao do ion pemanganat hòa tan.
+  - Nguyên nhân gốc rễ: Bơm định lượng châm hóa chất vượt quá nhu cầu stoichiometric; lưu lượng nước thô suy giảm nhưng bơm hóa chất không giảm tốc; nhiệt độ nước thay đổi làm chậm tốc độ phản ứng.
+  - Biện pháp khắc phục:
+    1. Giảm ngay lưu lượng bơm định lượng $KMnO_4$.
+    2. Kiểm tra tín hiệu điều khiển lưu lượng kết nối với bơm hóa chất.
+    3. Duy trì tầng cát lọc xúc tác greensand phía sau để hấp thu lượng pemanganat dư thừa.
+    4. Châm bổ sung than hoạt tính bột (PAC) hoặc hydro peroxide ($H_2O_2$) vào trước bể lọc để khử nhanh pemanganat dư trong tình huống khẩn cấp.
+- **Sự cố 2: Hạt xúc tác Birm mất hoạt tính và bị ngộ độc bề mặt**:
+  - Dấu hiệu nhận biết: Hàm lượng sắt và mangan sau lọc tăng cao tương đương nước thô; rửa ngược lớp hạt không cải thiện hiệu quả lọc.
+  - Nguyên nhân gốc rễ: Nguồn nước chứa khí hydro sunfua ($H_2S$) khử lớp vỏ $MnO_2$ thành $MnS$ trơ; nồng độ clo tự do vượt quá ngưỡng $0.5\text{ mg/L}$ làm bong màng oxit; nồng độ oxy hòa tan thấp hơn $15\%$ tổng kim loại; pH nước thô tụt xuống dưới 6.8.
+  - Biện pháp khắc phục:
+    1. Lắp đặt tháp làm thoáng thổi khí cưỡng bức phía trước để tách triệt để $H_2S$ và bão hòa oxy hòa tan.
+    2. Ngắt tiền clo hóa trước bình lọc Birm hoặc khống chế nồng độ clo dưới $0.5\text{ mg/L}$.
+    3. Châm hóa chất kiềm (soda hoặc xút) nâng pH ổn định trong dải $7.2 - 8.2$.
+    4. Thay thế toàn bộ khối vật liệu lọc nếu lớp màng oxit đã bị phá hủy vĩnh viễn.
+- **Sự cố 3: Sắt được khử sạch nhưng mangan không đạt tiêu chuẩn ở pH trung tính**:
+  - Dấu hiệu nhận biết: Nước sau lắng lọc đạt nồng độ sắt $[\text{Fe}] < 0.1\text{ mg/L}$, nhưng nồng độ mangan vẫn vượt ngưỡng $[\text{Mn}] > 0.1\text{ mg/L}$; mạng lưới xuất hiện cặn đen.
+  - Nguyên nhân gốc rễ: Nhà máy chỉ sử dụng giàn mưa làm thoáng ở pH trung tính ($6.5 - 7.5$); oxy hòa tan không đủ thế oxy hóa để khử mangan ở pH thấp; thiếu hóa chất oxy hóa mạnh hoặc thiếu hạt xúc tác tiếp xúc.
+  - Biện pháp khắc phục:
+    1. Lắp đặt hệ thống châm kali pemanganat với liều lượng $1.92\text{ mg } KMnO_4 / \text{mg } Mn$ vào trước bình lọc.
+    2. Bổ sung hoặc thay thế cát lọc thường bằng vật liệu xúc tác Manganese Greensand, GreensandPlus hoặc LayneOx.
+    3. Nếu không dùng hóa chất oxy hóa mạnh, châm vôi nâng pH lên trên $9.5 - 10.0$ kết hợp bể tiếp xúc $60\text{ phút}$ và trung hòa axit sau lọc.
+
+### 4.4 Động học Oxy hóa, Quy trình Thiết kế, Bài toán Tính toán và Xử lý Sự cố Khử Sắt - Mangan (Oxidation Kinetics, Design Procedures, Worked Calculations & Operational Troubleshooting)
+
+#### 4.4.1 Bảng 19 Phương trình Động học và Hợp thức Hóa học Cốt lõi (19 Core Chemical Reaction & Sizing Equations)
+
+Bảng dưới đây tổng hợp 19 phương trình hóa học và công thức định cỡ trong công nghệ khử sắt và mangan:
+
+| Ký hiệu Mã hóa | Tên Phương trình / Phản ứng | Phương trình KaTeX | Ý nghĩa Kỹ thuật và Biến số |
+|---|---|---|---|
+| `eq_ch04_001` | Oxy hóa Ferrous Bicarbonate bằng Oxy Hòa tan (Dạng Phân tử) | $$4\text{Fe}(\text{HCO}_3)_2 + \text{O}_2 + 2\text{H}_2\text{O} \rightarrow 4\text{Fe}(\text{OH})_3\downarrow + 8\text{CO}_2$$ | Phản ứng oxy hóa sắt hòa tan trong nước ngầm kiềm bicarbonate khi làm thoáng.<br>- $\text{Fe}(\text{HCO}_3)_2$: Sắt(II) bicarbonate hòa tan trong nước ngầm.<br>- $\text{O}_2$: Oxy hòa tan từ không khí ($0.14\text{ mg O}_2/\text{mg Fe}$).<br>- $\text{Fe}(\text{OH})_3$: Kết tủa hydroxide sắt(III) không tan.<br>- $\text{CO}_2$: Khí carbonic giải phóng vào nước và thoát ra không khí. |
+| `eq_ch04_002` | Oxy hóa Ion Sắt(II) bằng Oxy Hòa tan (Dạng Ion) | $$4\text{Fe}^{2+} + \text{O}_2 + 10\text{H}_2\text{O} \rightarrow 4\text{Fe}(\text{OH})_3\downarrow + 8\text{H}^+$$ | Phản ứng giải phóng ion $H^+$, làm giảm pH và tiêu thụ độ kiềm.<br>- $\text{Fe}^{2+}$: Cation sắt(II) hòa tan ($55.85\text{ g/mol}$).<br>- $\text{O}_2$: Oxy phân tử hòa tan ($32.00\text{ g/mol}$).<br>- $\text{Fe}(\text{OH})_3$: Cặn bông hydroxide sắt(III).<br>- $\text{H}^+$: Tiêu thụ $1.79\text{ mg CaCO}_3/\text{mg Fe}$ độ kiềm. |
+| `eq_ch04_003` | Oxy hóa Mangan(II) Sulfat bằng Oxy Hòa tan (Dạng Phân tử) | $$2\text{MnSO}_4 + 2\text{Ca}(\text{HCO}_3)_2 + \text{O}_2 \rightarrow 2\text{MnO}_2\downarrow + 2\text{CaSO}_4 + 2\text{H}_2\text{O} + 4\text{CO}_2$$ | Phản ứng oxy hóa mangan hòa tan trong môi trường đệm calcium bicarbonate.<br>- $\text{MnSO}_4$: Muối mangan(II) sulfat hòa tan.<br>- $\text{Ca}(\text{HCO}_3)_2$: Độ kiềm đệm bicarbonate.<br>- $\text{O}_2$: Oxy hòa tan ($0.29\text{ mg O}_2/\text{mg Mn}$).<br>- $\text{MnO}_2$: Kết tủa mangan dioxit màu nâu đen. |
+| `eq_ch04_004` | Oxy hóa Ion Mangan(II) bằng Oxy Hòa tan (Dạng Ion) | $$2\text{Mn}^{2+} + \text{O}_2 + 2\text{H}_2\text{O} \rightarrow 2\text{MnO}_2\downarrow + 4\text{H}^+$$ | Phản ứng oxy hóa ion mangan; tốc độ rất chậm ở pH trung tính.<br>- $\text{Mn}^{2+}$: Cation mangan(II) hòa tan ($54.94\text{ g/mol}$).<br>- $\text{O}_2$: Oxy phân tử hòa tan ($32.00\text{ g/mol}$).<br>- $\text{MnO}_2$: Cặn rắn mangan dioxit ($86.94\text{ g/mol}$).<br>- $\text{H}^+$: Tiêu thụ $1.82\text{ mg CaCO}_3/\text{mg Mn}$ độ kiềm. |
+| `eq_ch04_005` | Oxy hóa Ion Sắt(II) bằng Clo Tự do (Free Chlorine) | $$2\text{Fe}^{2+} + \text{Cl}_2 + 6\text{H}_2\text{O} \rightarrow 2\text{Fe}(\text{OH})_3\downarrow + 2\text{Cl}^- + 6\text{H}^+$$ | Khử sắt nhanh bằng tiền clo hóa mà không phụ thuộc nhiều vào pH.<br>- $\text{Fe}^{2+}$: Cation sắt(II) hòa tan.<br>- $\text{Cl}_2$: Clo tự do hoặc axit hypochlorous ($70.91\text{ g/mol}$).<br>- Tỉ lệ hợp thức: $0.64\text{ mg Cl}_2/\text{mg Fe}$.<br>- $\text{Cl}^-$: Anion chloride sinh ra trong nước. |
+| `eq_ch04_006` | Oxy hóa Ion Mangan(II) bằng Clo Tự do (Free Chlorine) | $$\text{Mn}^{2+} + \text{Cl}_2 + 2\text{H}_2\text{O} \rightarrow \text{MnO}_2\downarrow + 2\text{Cl}^- + 4\text{H}^+$$ | Khử mangan bằng clo; phản ứng chỉ xảy ra nhanh khi $\text{pH} > 8.0 - 8.5$.<br>- $\text{Mn}^{2+}$: Cation mangan(II) hòa tan.<br>- $\text{Cl}_2$: Clo oxy hóa.<br>- Tỉ lệ hợp thức: $1.29\text{ mg Cl}_2/\text{mg Mn}$.<br>- $\text{MnO}_2$: Kết tủa mangan dioxit. |
+| `eq_ch04_007` | Oxy hóa Ion Sắt(II) bằng Kali Pemanganat (KMnO4) | $$3\text{Fe}^{2+} + \text{KMnO}_4 + 7\text{H}_2\text{O} \rightarrow 3\text{Fe}(\text{OH})_3\downarrow + \text{MnO}_2\downarrow + \text{K}^+ + 5\text{H}^+$$ | Oxy hóa sắt hoàn toàn trong thời gian dưới 5 phút.<br>- $\text{Fe}^{2+}$: Ion sắt(II) hòa tan ($55.85\text{ g/mol}$).<br>- $\text{KMnO}_4$: Kali pemanganat ($158.03\text{ g/mol}$).<br>- Tỉ lệ định mức thiết kế: $0.94\text{ mg KMnO}_4/\text{mg Fe}$.<br>- $\text{MnO}_2$: Kết tủa sinh ra đóng vai trò chất hấp phụ xúc tác. |
+| `eq_ch04_008` | Oxy hóa Ion Mangan(II) bằng Kali Pemanganat (KMnO4) | $$3\text{Mn}^{2+} + 2\text{KMnO}_4 + 2\text{H}_2\text{O} \rightarrow 5\text{MnO}_2\downarrow + 2\text{K}^+ + 4\text{H}^+$$ | Oxy hóa mangan nhanh ở $\text{pH } 7.0 - 8.5$, phản ứng xong dưới 5 phút.<br>- $\text{Mn}^{2+}$: Ion mangan(II) hòa tan ($54.94\text{ g/mol}$).<br>- $\text{KMnO}_4$: Kali pemanganat.<br>- Tỉ lệ định mức thiết kế: $1.92\text{ mg KMnO}_4/\text{mg Mn}$.<br>- $5\text{MnO}_2$: Cặn cắn tự xúc tác bề mặt. |
+| `eq_ch04_009` | Oxy hóa Ion Sắt(II) bằng Khí Ozone (O3) | $$2\text{Fe}^{2+} + \text{O}_3 + 5\text{H}_2\text{O} \rightarrow 2\text{Fe}(\text{OH})_3\downarrow + \text{O}_2 + 4\text{H}^+$$ | Oxy hóa sắt siêu tốc trong vòng dưới 2 phút không để lại halogen hóa.<br>- $\text{Fe}^{2+}$: Cation sắt(II).<br>- $\text{O}_3$: Khí ozone hòa tan ($48.00\text{ g/mol}$).<br>- Tỉ lệ định mức: $0.43\text{ mg O}_3/\text{mg Fe}$.<br>- $\text{O}_2$: Khí oxy sản phẩm phụ sạch. |
+| `eq_ch04_010` | Oxy hóa Ion Mangan(II) bằng Khí Ozone (O3) | $$\text{Mn}^{2+} + \text{O}_3 + \text{H}_2\text{O} \rightarrow \text{MnO}_2\downarrow + \text{O}_2 + 2\text{H}^+$$ | Oxy hóa mangan trong thời gian dưới 5 phút.<br>- $\text{Mn}^{2+}$: Cation mangan(II).<br>- $\text{O}_3$: Khí ozone hòa tan.<br>- Tỉ lệ định mức vận hành: $0.67\text{ mg O}_3/\text{mg Mn}$.<br>- Chú ý: Tránh quá liều vì gây màu hồng của ion $\text{MnO}_4^-$. |
+| `eq_ch04_011` | Oxy hóa Ion Sắt(II) bằng Clo Dioxit (ClO2) | $$\text{Fe}^{2+} + \text{ClO}_2 + 3\text{H}_2\text{O} \rightarrow \text{Fe}(\text{OH})_3\downarrow + \text{ClO}_2^- + 3\text{H}^+$$ | Oxy hóa chọn lọc không tạo sản phẩm phụ THMs/HAAs.<br>- $\text{Fe}^{2+}$: Cation sắt(II).<br>- $\text{ClO}_2$: Khí clo dioxit hòa tan ($67.45\text{ g/mol}$).<br>- Tỉ lệ định mức: $1.2\text{ mg ClO}_2/\text{mg Fe}$.<br>- $\text{ClO}_2^-$: Anion chlorite bị giới hạn nồng độ trong nước sạch. |
+| `eq_ch04_012` | Oxy hóa Ion Mangan(II) bằng Clo Dioxit (ClO2) | $$\text{Mn}^{2+} + 2\text{ClO}_2 + 2\text{H}_2\text{O} \rightarrow \text{MnO}_2\downarrow + 2\text{ClO}_2^- + 4\text{H}^+$$ | Oxy hóa mangan bằng clo dioxit hoàn thành dưới 5 phút.<br>- $\text{Mn}^{2+}$: Cation mangan(II).<br>- $\text{ClO}_2$: Chất oxy hóa clo dioxit.<br>- Tỉ lệ định mức: $2.4\text{ mg ClO}_2/\text{mg Mn}$.<br>- $\text{ClO}_2^-$: Sản phẩm phụ chlorite. |
+| `eq_ch04_013` | Nồng độ Phần trăm theo Khối lượng của Dung dịch | $$P_{\text{wt}} = \left(\frac{m_{\text{solute}}}{m_{\text{solute}} + m_{\text{solvent}}}\right) \times 100\%$$ | Tính nồng độ phần trăm khối lượng chính xác của dung dịch hóa chất.<br>- $P_{\text{wt}}$: Nồng độ phần trăm khối lượng ($\%$).<br>- $m_{\text{solute}}$: Khối lượng hóa chất nguyên chất hòa tan ($\text{kg}$).<br>- $m_{\text{solvent}}$: Khối lượng nước dung môi ($\text{kg}$). |
+| `eq_ch04_014` | Thể tích Bể Trụ và Khối lượng Hóa chất Khô Cần Pha | $$V_{\text{tank}} = \frac{\pi D^2}{4} H, \quad m_{\text{chem}} = \left(\frac{P_{\text{wt}}}{100\% - P_{\text{wt}}}\right) \cdot (\rho_{\text{water}} \cdot V_{\text{tank}})$$ | Tính dung tích bể hóa chất hình trụ và khối lượng chất tan cần cân.<br>- $V_{\text{tank}}$: Thể tích chất lỏng trong bể ($\text{m}^3$ hoặc $\text{L}$).<br>- $D$: Đường kính trong của bể trụ ($\text{m}$).<br>- $H$: Chiều sâu ngập nước trong bể ($\text{m}$).<br>- $m_{\text{chem}}$: Khối lượng hóa chất khô cần pha ($\text{kg}$). |
+| `eq_ch04_015` | Liều lượng Châm KMnO4 Khử Sắt (Operational Fe Demand) | $$\text{Dose}_{\text{KMnO}_4, \text{Fe}} = 0.94 \cdot [\text{Fe}^{2+}]$$ | Tính liều lượng kali pemanganat vận hành để oxy hóa sắt.<br>- $\text{Dose}_{\text{KMnO}_4, \text{Fe}}$: Liều lượng pemanganat châm cho sắt ($\text{mg/L}$).<br>- $0.94$: Hệ số tiêu hao vận hành ($\text{mg KMnO}_4/\text{mg Fe}$).<br>- $[\text{Fe}^{2+}]$: Nồng độ sắt(II) hòa tan trong nước nguồn ($\text{mg/L}$). |
+| `eq_ch04_016` | Liều lượng Châm KMnO4 Khử Mangan (Operational Mn Demand) | $$\text{Dose}_{\text{KMnO}_4, \text{Mn}} = 1.92 \cdot [\text{Mn}^{2+}]$$ | Tính liều lượng kali pemanganat vận hành để oxy hóa mangan.<br>- $\text{Dose}_{\text{KMnO}_4, \text{Mn}}$: Liều lượng pemanganat châm cho mangan ($\text{mg/L}$).<br>- $1.92$: Hệ số tiêu hao vận hành ($\text{mg KMnO}_4/\text{mg Mn}$).<br>- $[\text{Mn}^{2+}]$: Nồng độ mangan(II) hòa tan trong nước nguồn ($\text{mg/L}$). |
+| `eq_ch04_017` | Tổng Nhu cầu Châm KMnO4 khi Khử Đồng thời Fe và Mn | $$\text{Dose}_{\text{KMnO}_4, \text{total}} = 0.94 \cdot [\text{Fe}^{2+}] + 1.92 \cdot [\text{Mn}^{2+}]$$ | Tính tổng liều lượng pemanganat khi nước ngầm chứa cả sắt và mangan.<br>- $\text{Dose}_{\text{KMnO}_4, \text{total}}$: Tổng nồng độ $\text{KMnO}_4$ cần châm ($\text{mg/L}$).<br>- $[\text{Fe}^{2+}]$: Nồng độ sắt nguồn ($\text{mg/L}$).<br>- $[\text{Mn}^{2+}]$: Nồng độ mangan nguồn ($\text{mg/L}$). |
+| `eq_ch04_018` | Tổng Nhu cầu Oxy Hòa tan khi Làm thoáng Khử Fe và Mn | $$\text{DO}_{\text{demand}} = 0.14 \cdot [\text{Fe}^{2+}] + 0.29 \cdot [\text{Mn}^{2+}]$$ | Tính lượng oxy hòa tan tối thiểu cần cấp qua tháp làm thoáng.<br>- $\text{DO}_{\text{demand}}$: Nhu cầu oxy hòa tan lý thuyết ($\text{mg/L O}_2$).<br>- $0.14$: Tỉ lệ tiêu thụ oxy của sắt ($\text{mg O}_2/\text{mg Fe}$).<br>- $0.29$: Tỉ lệ tiêu thụ oxy của mangan ($\text{mg O}_2/\text{mg Mn}$). |
+| `eq_ch04_019` | Tổng Nhu cầu Clo Tự do khi Tiền Clo hóa Khử Fe và Mn | $$\text{Cl}_{2, \text{demand}} = 0.64 \cdot [\text{Fe}^{2+}] + 1.29 \cdot [\text{Mn}^{2+}]$$ | Tính nhu cầu clo hóa học trước khi xét đến clo khử trùng.<br>- $\text{Cl}_{2, \text{demand}}$: Tiêu hao clo khử kim loại ($\text{mg/L Cl}_2$).<br>- $0.64$: Định mức clo khử sắt ($\text{mg Cl}_2/\text{mg Fe}$).<br>- $1.29$: Định mức clo khử mangan ($\text{mg Cl}_2/\text{mg Mn}$). |
+
+---
+
+##### 4.4.1.1 Phản ứng Oxy hóa bằng Oxy Hòa tan trong Làm thoáng (Dissolved Oxygen Oxidation)
+- Phản ứng phân tử mô tả quá trình chuyển hóa sắt(II) bicarbonate thành bông cặn ferric hydroxide không tan:
+  $$4\text{Fe}(\text{HCO}_3)_2 + \text{O}_2 + 2\text{H}_2\text{O} \rightarrow 4\text{Fe}(\text{OH})_3\downarrow + 8\text{CO}_2 \quad [\text{eq\_ch04\_001}]$$
+- Phản ứng dạng ion thể hiện sự giải phóng ion $H^+$ gây sụt giảm độ kiềm và pH của nước:
+  $$4\text{Fe}^{2+} + \text{O}_2 + 10\text{H}_2\text{O} \rightarrow 4\text{Fe}(\text{OH})_3\downarrow + 8\text{H}^+ \quad [\text{eq\_ch04\_002}]$$
+  - Mỗi miligam $\text{Fe}^{2+}$ bị oxy hóa tiêu hao $1.79\text{ mg CaCO}_3$ độ kiềm tự nhiên.
+  - Tỉ lệ tiêu hao oxy lý thuyết đạt $0.14\text{ mg O}_2/\text{mg Fe}$.
+- Phản ứng phân tử oxy hóa mangan(II) sulfat tạo cặn mangan dioxit trong dung dịch đệm:
+  $$2\text{MnSO}_4 + 2\text{Ca}(\text{HCO}_3)_2 + \text{O}_2 \rightarrow 2\text{MnO}_2\downarrow + 2\text{CaSO}_4 + 2\text{H}_2\text{O} + 4\text{CO}_2 \quad [\text{eq\_ch04\_003}]$$
+- Phản ứng ion oxy hóa cation mangan(II) bằng oxy phân tử:
+  $$2\text{Mn}^{2+} + \text{O}_2 + 2\text{H}_2\text{O} \rightarrow 2\text{MnO}_2\downarrow + 4\text{H}^+ \quad [\text{eq\_ch04\_004}]$$
+  - Mỗi miligam $\text{Mn}^{2+}$ tiêu hao $1.82\text{ mg CaCO}_3$ độ kiềm tự nhiên.
+  - Tỉ lệ tiêu hao oxy lý thuyết đạt $0.29\text{ mg O}_2/\text{mg Mn}$.
+- Tổng nhu cầu oxy hòa tan tính toán cho nguồn nước chứa cả hai kim loại:
+  $$\text{DO}_{\text{demand}} = 0.14 \cdot [\text{Fe}^{2+}] + 0.29 \cdot [\text{Mn}^{2+}] \quad [\text{eq\_ch04\_018}]$$
+
+##### 4.4.1.2 Phản ứng Oxy hóa bằng Clo Tự do (Free Chlorine Oxidation)
+- Clo tự do oxy hóa sắt(II) nhanh chóng ở dải pH rộng:
+  $$2\text{Fe}^{2+} + \text{Cl}_2 + 6\text{H}_2\text{O} \rightarrow 2\text{Fe}(\text{OH})_3\downarrow + 2\text{Cl}^- + 6\text{H}^+ \quad [\text{eq\_ch04\_005}]$$
+  - Nhu cầu clo lý thuyết đạt $0.64\text{ mg Cl}_2/\text{mg Fe}$.
+- Clo tự do oxy hóa mangan(II) thành mangan dioxit:
+  $$\text{Mn}^{2+} + \text{Cl}_2 + 2\text{H}_2\text{O} \rightarrow \text{MnO}_2\downarrow + 2\text{Cl}^- + 4\text{H}^+ \quad [\text{eq\_ch04\_006}]$$
+  - Phản ứng chỉ đạt hiệu suất cao khi duy trì $\text{pH} > 8.0 - 8.5$.
+  - Nhu cầu clo lý thuyết đạt $1.29\text{ mg Cl}_2/\text{mg Mn}$.
+- Tổng nhu cầu clo hóa học cho cả hai ion kim loại:
+  $$\text{Cl}_{2, \text{demand}} = 0.64 \cdot [\text{Fe}^{2+}] + 1.29 \cdot [\text{Mn}^{2+}] \quad [\text{eq\_ch04\_019}]$$
+  - Chú ý nguy cơ tạo sản phẩm phụ khử trùng THMs và HAAs khi nước thô có hàm lượng chất hữu cơ cao.
+
+##### 4.4.1.3 Phản ứng Oxy hóa bằng Kali Pemanganat (Potassium Permanganate Oxidation)
+- Kali pemanganat oxy hóa sắt(II) tạo kết tủa hỗn hợp ferric hydroxide và mangan dioxit:
+  $$3\text{Fe}^{2+} + \text{KMnO}_4 + 7\text{H}_2\text{O} \rightarrow 3\text{Fe}(\text{OH})_3\downarrow + \text{MnO}_2\downarrow + \text{K}^+ + 5\text{H}^+ \quad [\text{eq\_ch04\_007}]$$
+  - Hệ số hợp thức vận hành thực tế đạt $0.94\text{ mg KMnO}_4/\text{mg Fe}$.
+  - Phản ứng khử sắt xảy ra hoàn toàn trong thời gian dưới 5 phút.
+- Kali pemanganat oxy hóa nhanh chóng mangan(II) ở môi trường trung tính ($\text{pH } 7.0 - 8.5$):
+  $$3\text{Mn}^{2+} + 2\text{KMnO}_4 + 2\text{H}_2\text{O} \rightarrow 5\text{MnO}_2\downarrow + 2\text{K}^+ + 4\text{H}^+ \quad [\text{eq\_ch04\_008}]$$
+  - Hệ số hợp thức vận hành thực tế đạt $1.92\text{ mg KMnO}_4/\text{mg Mn}$.
+  - Phản ứng sinh ra cặn $\text{MnO}_2$ tạo lớp phủ xúc tác trên bề mặt hạt lọc.
+- Phương trình định mức châm kali pemanganat khử sắt riêng biệt:
+  $$\text{Dose}_{\text{KMnO}_4, \text{Fe}} = 0.94 \cdot [\text{Fe}^{2+}] \quad [\text{eq\_ch04\_015}]$$
+- Phương trình định mức châm kali pemanganat khử mangan riêng biệt:
+  $$\text{Dose}_{\text{KMnO}_4, \text{Mn}} = 1.92 \cdot [\text{Mn}^{2+}] \quad [\text{eq\_ch04\_016}]$$
+- Phương trình tổng nhu cầu pemanganat cho nguồn nước ngầm chứa đồng thời sắt và mangan:
+  $$\text{Dose}_{\text{KMnO}_4, \text{total}} = 0.94 \cdot [\text{Fe}^{2+}] + 1.92 \cdot [\text{Mn}^{2+}] \quad [\text{eq\_ch04\_017}]$$
+
+##### 4.4.1.4 Phản ứng Oxy hóa Nâng cao bằng Ozone và Clo Dioxit (Advanced Chemical Oxidation)
+- Khí ozone oxy hóa sắt(II) với tốc độ tức thời và không tạo cặn bẩn hóa chất:
+  $$2\text{Fe}^{2+} + \text{O}_3 + 5\text{H}_2\text{O} \rightarrow 2\text{Fe}(\text{OH})_3\downarrow + \text{O}_2 + 4\text{H}^+ \quad [\text{eq\_ch04\_009}]$$
+  - Định mức tiêu thụ đạt $0.43\text{ mg O}_3/\text{mg Fe}$.
+- Ozone oxy hóa mangan(II) thành hạt mangan dioxit:
+  $$\text{Mn}^{2+} + \text{O}_3 + \text{H}_2\text{O} \rightarrow \text{MnO}_2\downarrow + \text{O}_2 + 2\text{H}^+ \quad [\text{eq\_ch04\_010}]$$
+  - Định mức thực tế đạt $0.67\text{ mg O}_3/\text{mg Mn}$.
+  - Cần kiểm soát liều lượng ozone chặt chẽ để tránh oxy hóa tiếp $\text{MnO}_2$ thành ion pemanganat $\text{MnO}_4^-$ gây nước hồng.
+- Clo dioxit oxy hóa chọn lọc ion sắt(II) mà không halogen hóa chất hữu cơ:
+  $$\text{Fe}^{2+} + \text{ClO}_2 + 3\text{H}_2\text{O} \rightarrow \text{Fe}(\text{OH})_3\downarrow + \text{ClO}_2^- + 3\text{H}^+ \quad [\text{eq\_ch04\_011}]$$
+  - Định mức tiêu thụ đạt $1.2\text{ mg ClO}_2/\text{mg Fe}$.
+- Clo dioxit oxy hóa mangan(II) tạo mangan dioxit và giải phóng anion chlorite:
+  $$\text{Mn}^{2+} + 2\text{ClO}_2 + 2\text{H}_2\text{O} \rightarrow \text{MnO}_2\downarrow + 2\text{ClO}_2^- + 4\text{H}^+ \quad [\text{eq\_ch04\_012}]$$
+  - Định mức tiêu thụ đạt $2.4\text{ mg ClO}_2/\text{mg Mn}$.
+  - Nồng độ chlorite ($\text{ClO}_2^-$) trong nước sau xử lý bị giới hạn ngặt nghèo dưới $0.7 - 1.0\text{ mg/L}$.
+
+##### 4.4.1.5 Phương trình Nồng độ Dung dịch và Dung tích Bể Hóa chất Hình trụ (Solution Chemistry & Tank Sizing)
+- Nồng độ phần trăm khối lượng thực tế tính từ khối lượng chất tan và dung môi:
+  $$P_{\text{wt}} = \left(\frac{m_{\text{solute}}}{m_{\text{solute}} + m_{\text{solvent}}}\right) \times 100\% \quad [\text{eq\_ch04\_013}]$$
+- Dung tích hình học của bể hòa trộn hóa chất dạng trụ tròn đứng:
+  $$V_{\text{tank}} = \frac{\pi D^2}{4} H \quad [\text{eq\_ch04\_014a}]$$
+- Khối lượng hóa chất khô cần cân để đạt đúng nồng độ phần trăm khối lượng mục tiêu:
+  $$m_{\text{chem}} = \left(\frac{P_{\text{wt}}}{100\% - P_{\text{wt}}}\right) \cdot (\rho_{\text{water}} \cdot V_{\text{tank}}) \quad [\text{eq\_ch04\_014b}]$$
+  - Với $\rho_{\text{water}} = 1.0\text{ kg/L} = 1000\text{ kg/m}^3$ ở nhiệt độ bình thường.
+
+---
+
+#### 4.4.2 Động học Oxy hóa Thực nghiệm và Ảnh hưởng của pH (Reaction Kinetics & pH Dependency)
+
+##### 4.4.2.1 Động học Oxy hóa Sắt(II) Đồng thể theo Định luật Stumm-Lee
+- Tốc độ oxy hóa ion sắt(II) bằng oxy phân tử trong dung dịch nước tuân theo định luật động học Stumm-Lee:
+  $$-\frac{d[\text{Fe}^{2+}]}{dt} = k \cdot [\text{Fe}^{2+}] \cdot P_{\text{O}_2} \cdot [\text{OH}^-]^2 = k' \cdot [\text{Fe}^{2+}] \cdot P_{\text{O}_2} \cdot 10^{2\cdot\text{pH}}$$
+- Tốc độ phản ứng tỷ lệ bậc hai với hoạt độ ion hydroxide $[\text{OH}^-]$ (tỉ lệ nghịch bậc hai với $[\text{H}^+]$):
+  - Khi giá trị pH tăng thêm $1.0$ đơn vị, tốc độ phản ứng oxy hóa tăng vọt $10^2 = 100$ lần.
+  - Khi pH tăng từ $6.0$ lên $8.0$, tốc độ phản ứng tăng gấp $10,000$ lần.
+- Đuổi khí carbonic tự do ($\text{CO}_2$) bằng làm thoáng giúp tăng pH tự nhiên, thúc đẩy phản ứng oxy hóa sắt.
+
+##### 4.4.2.2 Phân tích Động học Thực nghiệm Khử Sắt theo pH và Thời gian Tiếp xúc
+Dưới đây là bảng số liệu thực nghiệm làm thoáng kết hợp lọc đối với nước ngầm có nồng độ sắt ban đầu $[\text{Fe}^{2+}]_0 = 10.0\text{ mg/L}$:
+
+| Giá trị pH Nước Thô | Nồng độ $\text{Fe}^{2+}$ Ban đầu (mg/L) | Sắt Dư sau 15 phút (mg/L) | Sắt Dư sau 30 phút (mg/L) | Sắt Dư sau 60 phút (mg/L) | Hiệu suất Khử sau 30 phút (%) |
 |---|---|---|---|---|---|
 | **5.00** | 10.0 | 9.0 | 9.0 | 7.5 | 10.0% |
 | **5.50** | 10.0 | 5.5 | 4.6 | 4.0 | 54.0% |
@@ -409,31 +1267,27 @@ The empirical groundwater kinetic data presented in lecture **Slide 8** demonstr
 | **7.45** | 10.0 | 0.1 | < 0.1 | < 0.1 | > 99.0% |
 | **8.05** | 10.0 | < 0.1 | < 0.1 | < 0.1 | > 99.0% |
 
-###### Threshold pH Criterion for Rapid Iron Oxidation
-Analysis of Table `tbl_ch04_01` establishes the critical engineering threshold:
-1. At $	ext{pH} < 6.0$, iron oxidation by dissolved oxygen is practically halted; even after 60 minutes of detention, residual dissolved iron remains at $3.5 - 7.5\text{ mg/L}$, severely breaching drinking water standards.
-2. Between $	ext{pH } 6.15\text{ and } 6.50$, reaction rates are moderate, requiring $> 60\text{ minutes}$ of contact time to reach $0.3\text{ mg/L}$.
-3. At **$	ext{pH} \ge 6.80$**, the oxidation reaction accelerates dramatically: residual iron drops to $0.2\text{ mg/L}$ within 15 minutes and $< 0.1\text{ mg/L}$ within 30 minutes, comfortably complying with the QCVN 01-1:2018/BYT limit of $\le 0.3\text{ mg/L}$. Therefore, engineering design standards mandate stripping $CO_2$ or dosing alkali to maintain post-aeration reaction basin pH at **$\ge 7.0 - 7.5$** with a minimum detention time of **$30 - 45\text{ minutes}$**.
+- Ngưỡng pH kỹ thuật quyết định tốc độ khử sắt:
+  - Ở $\text{pH} < 6.0$: Phản ứng oxy hóa gần như ngưng trệ, sắt dư sau 60 phút vẫn vượt tiêu chuẩn ăn uống.
+  - Ở dải $\text{pH } 6.15 - 6.50$: Tốc độ trung bình, cần thời gian phản ứng kéo dài trên 60 phút.
+  - Ở ngưỡng **$\text{pH} \ge 6.80$**: Sắt dư giảm xuống dưới $0.2\text{ mg/L}$ trong 15 phút và $< 0.1\text{ mg/L}$ trong 30 phút, đạt chuẩn QCVN 01-1:2018/BYT ($\le 0.3\text{ mg/L}$).
+  - Quy chuẩn thiết kế TCXDVN 33:2006 yêu cầu duy trì pH sau làm thoáng $\ge 7.0 - 7.5$ với thời gian lưu tiếp xúc $30 - 45\text{ phút}$.
 
-##### 4.2.2.3 Homogeneous vs. Heterogeneous Manganese Oxidation Kinetics
-###### Extreme Kinetic Sluggishness of Uncatalyzed Aerobic Mn(II) Oxidation
-Unlike iron, the homogeneous oxidation of divalent manganese ($	ext{Mn}^{2+}$) by dissolved oxygen is exceedingly slow at neutral pH. The uncatalyzed half-life of $	ext{Mn}^{2+}$ in oxygen-saturated water at pH 7.0 is estimated at several hundred days. Even at pH 8.0 to 8.5, hours or days of detention are required for negligible oxidation.
+##### 4.4.2.3 Động học Tự Xúc tác Dị thể Khử Mangan theo Mô hình Morgan-Stumm
+- Khác với sắt, phản ứng đồng thể oxy hóa mangan(II) bằng oxy phân tử diễn ra vô cùng chậm ở pH trung tính.
+- Chu kỳ bán rã của ion $\text{Mn}^{2+}$ trong nước bão hòa oxy ở pH 7.0 kéo dài hàng trăm ngày.
+- Quá trình oxy hóa mangan tuân theo mô hình động học tự xúc tác Morgan-Stumm:
+  $$-\frac{d[\text{Mn}^{2+}]}{dt} = k_0 \cdot [\text{Mn}^{2+}] + k_1 \cdot [\text{Mn}^{2+}] \cdot [\text{MnO}_2]$$
+  - $k_0$: Hằng số tốc độ đồng thể (gần bằng 0 khi $\text{pH} < 9.0$).
+  - $k_1$: Hằng số tốc độ dị thể xúc tác bề mặt.
+  - $[\text{MnO}_2]$: Khối lượng cặn rắn mangan dioxit hiện diện trên bề mặt vật liệu.
+- Phản ứng có giai đoạn trễ cảm ứng kéo dài cho đến khi các mầm tinh thể $\text{MnO}_2$ đầu tiên hình thành.
+- Hạt lọc bọc lớp $\text{MnO}_2$ xúc tác (Greensand, Birm, LayneOx) giúp loại bỏ hoàn toàn giai đoạn trễ cảm ứng này.
 
-###### Autocatalytic Heterogeneous Rate Law (Morgan & Stumm Model)
-Manganese oxidation in water is characterized by an autocatalytic mechanism formulated by Morgan & Stumm (1964):
-$$-rac{d[	ext{Mn}^{2+}]}{dt} = k_0 \cdot [	ext{Mn}^{2+}] + k_1 \cdot [	ext{Mn}^{2+}] \cdot [	ext{MnO}_2]$$
-Where:
-- $k_0$: Homogeneous oxidation rate constant (extremely small, $pprox 0$ at $	ext{pH} < 9.0$).
-- $k_1$: Heterogeneous surface-catalytic rate constant.
-- $[	ext{MnO}_2]$: Mass concentration of solid manganese dioxide present in the system.
+##### 4.4.2.4 Phân tích Động học Thực nghiệm Khử Mangan và Giới hạn Kỹ thuật
+Bảng số liệu thực nghiệm làm thoáng kết hợp lọc đối với nước ngầm có nồng độ mangan ban đầu $[\text{Mn}^{2+}]_0 = 10.0\text{ mg/L}$:
 
-The reaction exhibits a classic sigmoidal kinetic profile: an extended **induction lag phase** during which virtually no manganese is removed, followed by rapid auto-acceleration once initial nuclei of solid $	ext{MnO}_2$ form. The newly precipitated $	ext{MnO}_2$ surfaces adsorb divalent $	ext{Mn}^{2+}$, which coordinates with surface hydroxyl groups ($-	ext{Mn-OH}$) where electron transfer to dissolved oxygen occurs at a vastly lower activation energy. This kinetic mechanism explains why **catalytic filter media** pre-coated with active $	ext{MnO}_2$ (such as Manganese Greensand, Birm, or LayneOx™) can achieve instantaneous manganese removal at circumneutral pH without requiring high chemical pH elevation.
-
-##### 4.2.2.4 Empirical Manganese Aeration & Filtration Kinetic Data Analysis
-The empirical kinetic data for manganese aeration from lecture **Slide 9** demonstrates the operational infeasibility of relying on aeration alone for manganese removal at neutral pH:
-
-###### Table tbl_ch04_02: Experimental Manganese (Mn2+) Removal Kinetics in Groundwater by Aeration Followed by Filtration across Varying pH and Reaction Times (Initial Mn2+ = 10.0 mg/L)
-| Raw Water pH | Initial Mn2+ (mg/L) | Residual Mn2+ after 15 min (mg/L) | Residual Mn2+ after 30 min (mg/L) | Residual Mn2+ after 60 min (mg/L) | Removal Efficiency after 60 min (%) |
+| Giá trị pH Nước Thô | Nồng độ $\text{Mn}^{2+}$ Ban đầu (mg/L) | Mangan Dư sau 15 phút (mg/L) | Mangan Dư sau 30 phút (mg/L) | Mangan Dư sau 60 phút (mg/L) | Hiệu suất Khử sau 60 phút (%) |
 |---|---|---|---|---|---|
 | **8.50** | 10.0 | 10.0 | 10.0 | 10.0 | 0.0% |
 | **9.00** | 10.0 | 10.0 | 10.0 | 9.0 | 10.0% |
@@ -443,573 +1297,262 @@ The empirical kinetic data for manganese aeration from lecture **Slide 9** demon
 | **9.95** | 10.0 | 0.9 | 0.7 | 0.6 | 94.0% |
 | **10.30** | 10.0 | < 0.02 | < 0.02 | < 0.02 | > 99.8% |
 
-###### Critical pH Boundary for Non-Catalyzed Aerobic Mn Oxidation
-Table `tbl_ch04_02` reveals vital engineering insights:
-1. At $	ext{pH} \le 8.50$, **zero manganese is oxidized** even after 60 minutes of intensive aeration; residual $	ext{Mn}^{2+}$ remains at $10.0\text{ mg/L}$.
-2. Between $	ext{pH } 9.00\text{ and } 9.50$, oxidation begins but remains sluggish (after 60 minutes at pH 9.50, residual manganese is $3.2\text{ mg/L}$, far above the $0.1\text{ mg/L}$ regulatory limit).
-3. Near-complete manganese removal via dissolved oxygen requires elevating solution pH to **$\ge 9.70 - 10.0$** with 60 minutes of contact, or **$	ext{pH} \ge 10.30$** for rapid oxidation ($< 0.02\text{ mg/L}$ in $< 15\text{ minutes}$).
-4. **Engineering Design Conclusion**: Elevating municipal water supplies to $	ext{pH} > 9.5 - 10.0$ requires massive chemical doses of hydrated lime ($	ext{Ca(OH)}_2$) or caustic soda ($	ext{NaOH}$), followed by mandatory post-treatment acid re-carbonation ($	ext{CO}_2$ injection) to bring finished water back into the potable range ($	ext{pH } 6.5 - 8.5$). This two-stage pH swing is chemically expensive and creates intense calcium carbonate scaling hazards. Therefore, modern water treatment engineering overwhelmingly abandons high-pH aeration for manganese, replacing it with **chemical oxidants ($	ext{KMnO}_4$)** or **catalytic filtration media (Manganese Greensand, LayneOx™)** operating at circumneutral pH ($7.0 - 8.0$).
+- Giới hạn kỹ thuật của giải pháp làm thoáng khử mangan:
+  - Ở $\text{pH} \le 8.50$: Hiệu suất khử mangan hoàn toàn bằng $0\%$ sau 60 phút sục khí làm thoáng.
+  - Ở dải $\text{pH } 9.00 - 9.50$: Phản ứng diễn ra rất chậm, mangan dư sau 60 phút vẫn ở mức $3.2\text{ mg/L}$.
+  - Để oxy hóa triệt để mangan bằng oxy hòa tan, hệ thống bắt buộc nâng $\text{pH} \ge 9.70 - 10.30$.
+  - Nâng pH lên trên $10$ đòi hỏi lượng vôi rất lớn và phải châm axit trung hòa lại nước sau xử lý.
+  - Do đó, kỹ thuật xử lý nước hiện đại không dùng làm thoáng đơn thuần cho mangan mà chuyển sang dùng chất oxy hóa mạnh ($\text{KMnO}_4$) hoặc hạt lọc xúc tác ở pH trung tính.
 
 ---
 
-### 4.3 Engineering Practice: Aeration Equipment, Flow Trains & Catalytic Media
-#### 4.3.1 Mass Transfer Principles: Absorption vs. Desorption
-##### 4.3.1.1 Two-Film Mass Transfer Theory
-The transfer of volatile gases across the gas-liquid interface during water treatment aeration is governed by Whitman's **Two-Film Theory**. A stagnant gas film of thickness $\delta_g$ and a stagnant liquid film of thickness $\delta_L$ exist on either side of the interface:
-- Within the bulk gas and liquid phases, turbulent eddy mixing maintains uniform concentrations.
-- Across the stagnant boundary films, mass transport occurs exclusively via molecular diffusion governed by Fick's First Law.
-- For sparingly soluble gases (such as oxygen $	ext{O}_2$, carbon dioxide $	ext{CO}_2$, and hydrogen sulfide $	ext{H}_2	ext{S}$), liquid film resistance overwhelmingly dominates ($r_L \gg r_g$), and the overall mass transfer rate per unit volume of water is expressed as:
-$$rac{dC}{dt} = K_L a \cdot (C_s - C)$$
-Where:
-- $C$: Bulk dissolved gas concentration in liquid ($	ext{mg/L}$ or $	ext{g/m}^3$).
-- $C_s$: Equilibrium saturation concentration of the gas in water ($	ext{mg/L}$).
-- $K_L$: Liquid-film mass transfer coefficient ($	ext{m/s}$ or $	ext{m/h}$).
-- $a$: Specific interfacial contact area per unit liquid volume ($a = A_{	ext{interface}} / V_{	ext{liquid}}$, $	ext{m}^2/	ext{m}^3 = 	ext{m}^{-1}$).
-- $K_L a$: Volumetric overall mass transfer coefficient ($	ext{s}^{-1}$ or $	ext{h}^{-1}$).
-- $(C_s - C)$: Concentration gradient driving force across the liquid film.
+#### 4.4.3 Bốn Quy trình Kỹ thuật Thiết kế Hệ thống Khử Sắt và Mangan (Four Engineering Design Procedures)
 
-##### 4.3.1.2 Gas Desorption (Air Stripping) Mechanics
-###### Carbon Dioxide ($CO_2$) Stripping for Natural pH Elevation
-Anaerobic groundwater often contains high levels of dissolved carbon dioxide ($10 - 50\text{ mg/L CO}_2$), suppressing raw water pH to $5.5 - 6.5$. Because the partial pressure of $	ext{CO}_2$ in ambient air is very low ($P_{	ext{CO}_2} pprox 0.00041\text{ atm}$, yielding saturation $C_s pprox 0.5\text{ mg/L}$), the concentration gradient $(C_s - C)$ is strongly negative:
-$$rac{d[	ext{CO}_2]}{dt} = - K_L a \cdot ([	ext{CO}_2] - [	ext{CO}_2]_s) < 0$$
-Aeration aggressively strips dissolved $	ext{CO}_2$ gas into the stripping air stream. Stripping un-ionized $	ext{CO}_2$ shifts the carbonic acid carbonate equilibrium to the left:
-$$\text{HCO}_3^- + \text{H}^+ \rightleftharpoons \text{H}_2\text{CO}_3^* \rightleftharpoons \text{CO}_2(g)\uparrow + \text{H}_2\text{O}$$
-Consuming aqueous hydronium ions ($	ext{H}^+$) naturally elevates the raw water pH from $6.0 - 6.5$ up to **$7.2 - 7.8$** without requiring costly alkaline chemical additions, thereby accelerating iron oxidation kinetics by orders of magnitude.
+##### 4.4.3.1 Quy trình 1: Thiết kế Tháp Làm thoáng và Bể Tiếp xúc Lắng Cặn Sắt (Aeration Contactor & Contact Basin Design Procedure)
+Quy trình tính toán thiết kế cụm công trình làm thoáng và bể phản ứng tiếp xúc gồm 6 bước:
+1. **Khảo sát chất lượng nước nguồn**: Đo lưu lượng thiết kế $Q$ ($\text{m}^3/\text{h}$), nồng độ $[\text{Fe}^{2+}]$, $[\text{Mn}^{2+}]$, $\text{CO}_2$ tự do, $\text{H}_2\text{S}$, độ kiềm và nhiệt độ nước.
+2. **Lựa chọn loại công trình làm thoáng**: Chọn tháp làm thoáng nhiều tầng khay châm than cốc ($3 - 5$ tầng) hoặc dàn làm thoáng bậc thang trọng lực phù hợp với địa hình và áp lực cột nước.
+3. **Tính diện tích bề mặt khay làm thoáng**: Áp dụng tiêu chuẩn TCXDVN 33:2006 với tải trọng thủy lực bề mặt $q_A = 20 - 40\text{ m}^3/(\text{m}^2\cdot\text{h})$:
+   $$A_{\text{tray}} = \frac{Q}{q_A}$$
+4. **Kiểm tra thông số truyền khối khí - nước**: Bố trí khoảng cách giữa các tầng khay từ $30\text{ cm}$ đến $50\text{ cm}$; đảm bảo cấp khí tự nhiên hoặc cưỡng bức đạt nồng độ oxy hòa tan $\ge 80\%$ độ bão hòa ($> 7.5\text{ mg/L}$) và đuổi khí $\text{CO}_2$ nâng $\text{pH} \ge 7.0$.
+5. **Tính dung tích bể phản ứng tiếp xúc lắng cặn**: Xác định thể tích bể tiếp xúc sau làm thoáng với thời gian lưu nước $t_{\text{det}} = 30 - 45\text{ phút}$:
+   $$V_{\text{basin}} = Q \cdot t_{\text{det}}$$
+   Bố trí các vách ngăn hướng dòng (tỉ lệ chiều dài trên chiều rộng $\ge 3:1$) để chống hiện tượng ngắn mạch thủy lực.
+6. **Lựa chọn công trình lắng tiếp theo**: Nếu tổng hàm lượng sắt vượt quá $5.0\text{ mg/L}$, dẫn nước qua bể lắng tiếp xúc hoặc bể lắng lamen trước khi vào bể lọc; nếu sắt dưới $5.0\text{ mg/L}$, dẫn nước trực tiếp vào bể lọc nhanh.
 
-###### Hydrogen Sulfide ($H_2S$) Stripping for Odor and Corrosion Abatement
-Groundwaters containing dissolved sulfide present foul "rotten egg" odors, high oxidant demand, and intense concrete/metal corrosion. Divalent sulfide exists in pH-dependent equilibrium:
-$$\text{H}_2\text{S}(aq) \rightleftharpoons \text{HS}^- + \text{H}^+ \quad (pK_{a1} = 7.05 \text{ at } 25^\circ\text{C})$$
-At $	ext{pH} < 7.0$, the volatile un-ionized gas $	ext{H}_2	ext{S}(aq)$ dominates and is readily stripped during aeration. Removing $	ext{H}_2	ext{S}$ eliminates primary chemical oxidant demand before downstream chemical dosing.
+##### 4.4.3.2 Quy trình 2: Pha chế Dung dịch Hóa chất và Định cỡ Bể Chứa Hình trụ (Chemical Solution Batch Makeup & Feed Tank Sizing Procedure)
+Quy trình định lượng và pha chế hóa chất khô trong nhà hóa chất gồm 6 bước:
+1. **Xác định nồng độ dung dịch mục tiêu**: Chọn nồng độ dung dịch làm việc $P_{\text{wt}}$ theo khuyến nghị an toàn ($1.0\% - 3.0\%$ đối với $\text{KMnO}_4$, $5\% - 10\%$ đối với phèn hoặc vôi).
+2. **Tính toán kích thước hình học bể chứa**: Xác định đường kính trong $D$ và chiều sâu chất lỏng $H$ của bể hòa trộn hình trụ đứng:
+   $$V_{\text{tank}} = \frac{\pi D^2}{4} H$$
+3. **Xác định khối lượng nước dung môi**: Tính khối lượng nước cấp vào bể dựa trên thể tích chất lỏng:
+   $$m_{\text{water}} = \rho_{\text{water}} \cdot V_{\text{tank}}$$
+4. **Tính toán khối lượng hóa chất khô cần cân**: Áp dụng công thức nồng độ phần trăm khối lượng chính xác để tính khối lượng hóa chất nguyên chất:
+   $$m_{\text{chem}} = \left(\frac{P_{\text{wt}}}{100\% - P_{\text{wt}}}\right) \cdot m_{\text{water}}$$
+5. **Vận hành hệ thống khuấy trộn**: Bật cánh khuấy cơ học tốc độ cao trong thời gian $15 - 30\text{ phút}$ để hòa tan hoàn toàn các hạt hóa chất khô, tránh để cặn lắng đọng đáy bể.
+6. **Hiệu chuẩn bơm định lượng**: Cài đặt hành trình và tần số bơm định lượng hóa chất theo lưu lượng xử lý thực tế của trạm.
 
-##### 4.3.1.3 Gas Absorption (Oxygen Dissolution) Mechanics
-For oxygen dissolution, the bulk water is virtually devoid of dissolved oxygen ($C pprox 0\text{ mg/L}$), while ambient air contains $20.95\%\text{ O}_2$ by volume ($P_{	ext{O}_2} pprox 0.2095\text{ atm}$). Under **Henry's Law**:
-$$C_s = H \cdot P_g$$
-At $25^\circ	ext{C}$ at sea level, oxygen saturation is $C_s pprox 8.24\text{ mg/L}$ ($9.09\text{ mg/L}$ at $20^\circ	ext{C}$). The positive driving force $(C_s - C)$ drives rapid molecular flux of $	ext{O}_2$ across the liquid boundary layer into bulk solution. Properly designed aerators achieve **$80\% - 90\%$ dissolved oxygen saturation** ($7.0 - 8.0\text{ mg/L DO}$), providing a vast stoichiometric excess over the $0.14\text{ mg/L O}_2$ needed per mg/L of iron.
+##### 4.4.3.3 Quy trình 3: Tính toán Liều lượng Hóa chất Oxy hóa Kali Pemanganat KMnO4 (Potassium Permanganate Chemical Dosing Procedure)
+Quy trình xác định và kiểm soát liều lượng châm $\text{KMnO}_4$ gồm 6 bước:
+1. **Phân tích hàm lượng kim loại đầu vào**: Phân tích chính xác nồng độ ion sắt $[\text{Fe}^{2+}]$, ion mangan $[\text{Mn}^{2+}]$ và chỉ số chất hữu cơ TOC trong nước thô.
+2. **Tính liều lượng hợp thức lý thuyết**: Tính nồng độ pemanganat tối thiểu theo phương trình tổng hợp lực hóa học:
+   $$\text{Dose}_{\text{stoich}} = 0.94 \cdot [\text{Fe}^{2+}] + 1.92 \cdot [\text{Mn}^{2+}]$$
+3. **Hiệu chỉnh liều lượng bằng thử nghiệm Jar-test**: Thực hiện thử nghiệm jartest để xác định nhu cầu oxy hóa bổ sung do chất hữu cơ và các hợp chất khử khác tiêu tốn.
+4. **Bố trí điểm châm hóa chất**: Châm dung dịch $\text{KMnO}_4$ vào đường ống áp lực trước bể phản ứng xoáy hoặc châm trực tiếp lên lớp nước mặt của bể lọc cát xúc tác.
+5. **Cài đặt hệ thống châm hóa chất tự động**: Kết nối tín hiệu lưu lượng kế điện từ với bơm màng định lượng để điều chỉnh liều châm tỷ lệ thuận với lưu lượng nước nguồn.
+6. **Kiểm soát liên tục màu sắc và thế oxy hóa khử (ORP)**: Lắp đặt thiết bị đo màu trực tuyến và cảm biến ORP trên dòng nước sau lọc; đảm bảo mangan sau lọc $\le 0.05\text{ mg/L}$ và tuyệt đối không xuất hiện màu hồng cánh sen do pemanganat dư.
 
-##### 4.3.1.4 Contactor Classification: Gas-Phase vs. Flooded Dispersed Phase
-Gas-liquid aeration equipment is classified into two hydraulic regimes based on the continuous phase:
-1. **Gas-Phase Contactors (Water-Dispersed)**: Water is atomized or fractured into fine droplets, thin falling films, or trickling sheets that descend through a continuous ambient or forced air space. This category includes multiple tray aerators, stepped cascades, packed towers, and spray nozzles. They provide massive interfacial area ($a$), low electrical pumping heads, and excellent simultaneous stripping of $	ext{CO}_2$ and $	ext{H}_2	ext{S}$.
-2. **Flooded Contactors (Air-Dispersed)**: Atmospheric air or pure oxygen is compressed and dispersed as fine bubbles through submerged porous ceramic/membrane diffusers or mechanical turbine agitators into a continuous liquid pool. While common in wastewater activated sludge, flooded aerators are rarely used for primary groundwater iron removal because compressed air injection does not strip $	ext{CO}_2$ efficiently (often causing $	ext{CO}_2$ re-dissolution) and incurs high electrical blower energy costs.
-
----
-
-#### 4.3.2 Gas-Phase Contactors & Aeration Hardware Configurations
-##### 4.3.2.1 Multiple Tray Aerators (Tháp làm thoáng nhiều tầng)
-###### Structural Configuration and Internals
-Multiple tray aerators consist of a vertical tower holding a vertical stack of **$3 \text{ to } 5\text{ trays}$** supported in a concrete or structural steel tower. Raw water enters the top via an influent distribution manifold and flows into an upper perforated distribution tray or weir pan. Water trickles vertically through the tray stack by gravity, splashing across successive perforated plates, redwood/PVC slats, or trays holding beds of coarse contact media ($5 - 10\text{ cm}$ thick layers of metallurgical coke, crushed volcanic rock, ceramic Raschig rings, or polypropylene Pall rings).
-
-###### Design Criteria and Tray Dimensions
-- **Vertical Tray Spacing ($S_{	ext{tray}}$)**: **$30 - 50\text{ cm}$** ($12 - 20\text{ inches}$). This vertical clearance provides ample velocity head for droplet detachment, turbulence generation, thin-film renewal, and horizontal cross-flow ventilation.
-- **Hydraulic Surface Loading Rate ($q_A$)**: **$20 - 40\text{ m}^3/(\text{m}^2 \cdot \text{h})$** (under Vietnamese Standard **TCXDVN 33:2006**), equivalent to approximately $8 - 16\text{ gpm/sq.ft}$.
-- **Orifice Plate Hydraulics**: Tray bottoms contain round perforated orifices ($5 - 10\text{ mm}$ diameter) spaced uniformly at $25 - 50\text{ mm}$ centers, maintaining a liquid depth of $5 - 10\text{ cm}$ on each tray to ensure uniform water discharge without dead channeling.
-
-###### Ventilation Draft and Droplet Louvers
-Aerators operate under either **natural cross-draft** (equipped with external exterior louvered splash baffles angled at 45° to permit wind entry while containing internal water splash and drift) or **forced-draft blowers** delivering a countercurrent air stream at an **air-to-water volumetric ratio ($R_{	ext{air/water}}$) of $1:1 - 5:1\text{ m}^3\text{ air}/\text{m}^3\text{ water}$**. Coke packing also serves as an active catalytic contact surface where adsorbed iron oxide films accelerate oxidation.
-
-##### 4.3.2.2 Stepped Cascade Weirs (Dàn làm thoáng bậc thang)
-###### Structural Configuration and Geometry
-A cascade aerator consists of a flight of concrete steps or overlapping rectangular weir plates down which water descends by gravity. The total available vertical fall height ($H_{	ext{total}}$) is typically **$1.0 - 3.0\text{ meters}$**, divided into $3 \text{ to } 6\text{ individual steps}$ with step drops of $0.2 - 0.5\text{ m}$ each.
-
-###### Hydraulic Mechanism and Loading Rates
-As water spills over each sharp-crested or broad-crested weir edge, it forms an unsupported thin falling nappe that entrains ambient air. Upon impacting the horizontal step landing below, kinetic energy dissipates in a turbulent **hydraulic jump** characterized by intense roller vortices, surface air bubble entrapment, and rapid surface renewal:
-$$v_{	ext{impact}} = \sqrt{2 g h_{	ext{step}}}$$
-- **Hydraulic Surface Loading**: Typically **$30 - 60\text{ m}^3/(\text{m}^2 \cdot \text{h})$** based on projected horizontal floor footprint.
-- **Weir Crest Loading Rate**: **$10 - 30\text{ m}^3/(\text{h} \cdot \text{m})$** of crest length ($q_W$).
-- **Advantages & Limitations**: Cascade aerators require zero auxiliary blower power, have no internal parts subject to fouling, and operate with absolute reliability. However, they require significant land footprint, require available site hydraulic head, and cannot be operated in cold freezing climates without enclosed heating.
-
-##### 4.3.2.3 Countercurrent Packed Tower Aerators (Tháp đệm tiếp xúc)
-###### Tower Architecture and High-Efficiency Packings
-Packed tower aerators (PTAs) are high-performance mass transfer columns designed for maximum gas stripping efficiency. They consist of a vertical cylindrical shell (fiberglass-reinforced plastic FRP, stainless steel, or aluminum) packed with high-surface-area random dumped packings (polypropylene Jaeger Tri-Packs®, Pall rings) or structured corrugated plastic sheets providing specific surface areas of $a = 100 - 300\text{ m}^2/\text{m}^3$.
-
-###### Countercurrent Hydraulics and Air Blowers
-- Water is pumped to the top and dispersed across the packing via a low-pressure non-clog distribution manifold.
-- A centrifugal forced-draft blower at the base injects clean filtered air upward in a true countercurrent flow regime at high **air-to-water volumetric ratios of $10:1 - 30:1\text{ m}^3/\text{m}^3$**.
-- A chevron-blade mist eliminator (demister) at the column exhaust captures exiting droplets.
-- **Mass Transfer Performance**: Packed towers achieve $> 90 - 95\%\text{ CO}_2\text{ stripping}$ and near $100\%\text{ DO saturation}$, making them ideal when raw water contains high dissolved carbon dioxide ($> 30 - 50\text{ mg/L}$) and volatile organics. However, precipitate scaling requires chemical descaling maintenance.
-
-##### 4.3.2.4 Low-Profile Sieve Tray Aerators & Pressurized Spray Nozzles
-###### Low-Profile Multi-Chamber Sieve Trays
-Low-profile air strippers consist of multiple horizontal stainless steel sieve trays stacked inside an enclosed, compact modular cabinet. Forced air is blown upward through thousands of small perforations ($3 - 5\text{ mm}$) at high velocity, preventing water from draining through the holes (weeping) and creating an intensely frothing, highly turbulent bubbling froth bed ($15 - 25\text{ cm}$ thick) on each tray. Water traverses across the tray and discharges over a weir down a downcomer pipe to the next lower tray. These units achieve remarkable stripping in a low-headroom package.
-
-###### Pressurized Spray Nozzle Manifolds
-Spray aerators pump water through pressurized distribution pipe headers fitted with hollow-cone or full-cone spray nozzles discharging into an open air basin:
-- **Operating Nozzle Pressure**: $70 - 150\text{ kPa}$ ($10 - 22\text{ psi}$).
-- **Droplet Distribution**: Nozzles atomize water into fine droplets ($0.5 - 2.0\text{ mm}$ diameter), creating an enormous specific surface area ($a = 6 / d_{	ext{drop}}$).
-- **Splash Deflection Plates**: Discharging droplets against solid deflection splash plates shatters droplets further into a fine fog, maximizing oxygen absorption. Spray aerators require significant spatial clearance to prevent wind drift loss and incur continuous pumping energy costs.
+##### 4.4.3.4 Quy trình 4: Thiết kế Bể lọc Vật liệu Xúc tác và Thủy lực Rửa lọc (Catalytic Media Filter Sizing & Backwash Hydraulics Procedure)
+Quy trình tính toán kích thước bể lọc xúc tác và hệ thống rửa lọc gồm 6 bước:
+1. **Lựa chọn loại vật liệu lọc xúc tác**: Lựa chọn Manganese Greensand (khử đồng thời Fe/Mn với châm $\text{KMnO}_4$ liên tục), hạt Birm (khử Fe/Mn nhờ oxy hòa tan tự nhiên), hoặc vật liệu quặng pyrolusite đặc ruột LayneOx (vận tốc lọc cao).
+2. **Xác định diện tích bề mặt bể lọc**: Tính tổng diện tích bề mặt lọc theo lưu lượng thiết kế $Q$ và vận tốc lọc lựa chọn $v_{\text{filt}}$ ($5 - 12\text{ m/h}$ cho Greensand/Birm; $20 - 37\text{ m/h}$ cho LayneOx):
+   $$A_{\text{filter}} = \frac{Q}{v_{\text{filt}}}$$
+   Chia thành tối thiểu 2 đến 3 đơn nguyên bể lọc để đảm bảo vận hành liên tục khi có một bể dừng rửa.
+3. **Kiểm tra thời gian tiếp xúc qua lớp vật liệu rỗng (EBCT)**: Chiều dày lớp vật liệu xúc tác $L_{\text{bed}}$ từ $75\text{ cm}$ đến $90\text{ cm}$; kiểm tra thời gian tiếp xúc thực tế:
+   $$\text{EBCT} = \frac{L_{\text{bed}}}{v_{\text{filt}}} \ge 2.0\text{ phút}$$
+4. **Định cỡ chiều cao dự phòng giãn nở (Freeboard)**: Thiết kế chiều cao khoảng không phía trên bề mặt lớp vật liệu lọc đạt tối thiểu $40\% - 50\%$ chiều dày tầng vật liệu để hạt lọc nở đều mà không trôi vào máng thu nước rửa.
+5. **Tính toán lưu lượng bơm rửa lọc nước và sục khí**:
+   - Thiết kế hệ thống sục khí nén tách cặn bề mặt với cường độ $3.0\text{ scfm/sq.ft}$ ($55\text{ m}^3/(\text{m}^2\cdot\text{h})$) trong $3 - 5\text{ phút}$.
+   - Thiết kế bơm rửa nước ngược với vận tốc rửa $v_{\text{bw}} = 24 - 37\text{ m/h}$ ($10 - 15\text{ gpm/sq.ft}$) để đảm bảo độ giãn nở tầng lọc đạt $30\% - 40\%$.
+6. **Tự động hóa chu trình rửa lọc**: Cài đặt cảm biến chênh áp ($\Delta P$) kích hoạt rửa lọc tự động khi tổn thất áp lực qua bể đạt $10\text{ psig}$ ($70\text{ kPa}$) hoặc chu kỳ lọc đạt thời gian tối đa $48 - 72\text{ giờ}$; xả rửa đầu lọc (filter-to-waste) trong $5\text{ phút}$ trước khi đưa bể trở lại làm việc.
 
 ---
 
-#### 4.3.3 Multi-Stage Chemical Treatment Train Architecture
-##### 4.3.3.1 Treatment Train Synthesis Based on Raw Water Mineral Speciation
-The selection of an engineering flow train for iron and manganese removal is strictly dictated by raw water speciation, metal concentration ratios, alkalinity, and organic content:
-1. **Low Iron ($	ext{Fe} < 2.0\text{ mg/L}$), Negligible Manganese ($	ext{Mn} < 0.05\text{ mg/L}$)**:
-   $$\text{Raw Water} \rightarrow \text{Multiple Tray Aerator} \rightarrow \text{Post-Aeration Reaction Basin (30 min)} \rightarrow \text{Rapid Gravity Sand Filter} \rightarrow \text{Chlorination}$$
-2. **Elevated Iron ($	ext{Fe} = 2.0 - 10.0\text{ mg/L}$), Moderate Manganese ($	ext{Mn} = 0.1 - 0.5\text{ mg/L}$)**:
-   $$\text{Raw Water} \rightarrow \text{Cascade/Tray Aerator} \rightarrow \text{Sedimentation/Clarifier} \rightarrow \text{KMnO}_4\text{ Dosing} \rightarrow \text{Dual-Media Catalytic Filter} \rightarrow \text{Disinfection}$$
-3. **High Iron ($	ext{Fe} > 10\text{ mg/L}$), High Manganese ($	ext{Mn} > 0.5\text{ mg/L}$), and High $	ext{CO}_2$ / Low Alkalinity**:
-   Full multi-stage sequential chemical treatment train with intermediate sedimentation.
+#### 4.4.4 Các Bài toán Tính toán Ứng dụng Điển hình (Ví dụ 4-1 đến Ví dụ 4-4) (Worked Engineering Calculation Examples)
 
-##### 4.3.3.2 Stage-by-Stage Multi-Stage Treatment Flowsheet
-Slide 15 illustrates the comprehensive multi-stage process flowsheet engineered for complex, highly mineralized groundwater supplies:
-```mermaid
-flowchart LR
-    RW[Raw Water Supply] --> S1[Stage 1: Aerator<br>Gas Stripping & O2 Transfer]
-    S1 --> S2[Stage 2: pH Neutralization Tank<br>Lime / Caustic Soda Injection]
-    S2 --> S3[Stage 3: Iron Removal Tank<br>Flocculation & Contact Clarification]
-    S3 --> S4[Stage 4: Manganese Removal Tank<br>KMnO4 / Cl2 Chemical Oxidation]
-    S4 --> S5[Stage 5: Dual-Media Filtration<br>Anthracite & Catalytic Media]
-    S5 --> S6[Stage 6: Disinfection Contact Basin<br>Finished Potable Water]
-```
+##### 4.4.4.1 Ví dụ 4-1: Tính Nồng độ Phần trăm Khối lượng Dung dịch Pemanganat
 
-- **Stage 1 (Aeration & Gas Stripping)**: Raw groundwater enters an open multiple tray or cascade aerator. Atmospheric contact strips free $	ext{CO}_2$ and $	ext{H}_2	ext{S}$ to elevate pH and saturates water with dissolved oxygen ($7.5 - 8.5\text{ mg/L}$).
-- **Stage 2 (pH Neutralization Tank)**: Water enters a rapid-mix neutralization chamber equipped with a mechanical flash mixer. Alkaline chemicals (hydrated lime $	ext{Ca(OH)}_2$, sodium hydroxide $	ext{NaOH}$, or soda ash $	ext{Na}_2	ext{CO}_3$) are metered in under automated feedback pH control to maintain solution pH at **$7.2 - 7.6$**, compensating for acid produced during iron hydrolysis.
-- **Stage 3 (Iron Removal Reaction & Clarification Basin)**: Water flows into a flocculation and sedimentation tank or contact clarifier with a hydraulic retention time of **$30 - 60\text{ minutes}$**. Soluble ferrous iron oxidizes completely into insoluble $	ext{Fe(OH)}_3$ flocs, which agglomerate and settle to the bottom. Removing the bulk iron solids ($> 80 - 90\%$) upstream prevents premature blinding, high headloss, and rapid mudballing of downstream filter beds.
-- **Stage 4 (Manganese Removal Oxidation Contactor)**: Settled water enters a dedicated manganese reaction chamber. Because dissolved oxygen cannot oxidize $	ext{Mn}^{2+}$ efficiently at pH 7.5, potassium permanganate ($	ext{KMnO}_4$) or free chlorine is injected at stoichiometric dosage ($1.92\text{ mg KMnO}_4/\text{mg Mn}$). The reaction completes in **$< 5 - 10\text{ minutes}$**, converting soluble $	ext{Mn}^{2+}$ into insoluble colloidal $	ext{MnO}_2(s)$.
-- **Stage 5 (Dual-Media Catalytic Filtration)**: Clarified water passes through deep-bed dual-media gravity or pressure filters comprising an upper coarse anthracite coal cap ($40 - 50\text{ cm}$, $ES = 0.9 - 1.2\text{ mm}$) over a catalytic media layer (Manganese Greensand or silica sand, $30 - 45\text{ cm}$, $ES = 0.5 - 0.6\text{ mm}$). Flocculated $	ext{Fe(OH)}_3$ and $	ext{MnO}_2$ solids are captured within the pore interstices.
-- **Stage 6 (Disinfection & Clearwell Storage)**: Sodium hypochlorite or chlorine gas is injected to provide terminal disinfection and maintain a stable distribution network free chlorine residual of **$0.5 - 1.0\text{ mg/L}$** under QCVN 01-1:2018/BYT.
-
-##### 4.3.3.3 Hydraulic Detention Basins and Contact Clarifiers
-- **Post-Aeration Reaction Basin Sizing**: In systems without upstream chemical coagulants, a dedicated post-aeration contact basin must provide a minimum theoretical detention time of **$t_{	ext{det}} = 30 - 45\text{ minutes}$** (TCXDVN 33:2006):
-  $$V_{	ext{basin}} = Q \cdot t_{	ext{det}}$$
-- **Contact Clarifiers (Bể lắng tiếp xúc)**: Contact clarifiers utilize recirculated sludge blankets or upward contact through a suspended floc layer. Precipitated ferric hydroxide flocs act as pre-existing nuclei, capturing freshly formed microcrystals via contact flocculation and dramatically reducing required sedimentation volume.
+<!-- exercise-start: Ví dụ 4-1: Tính Nồng độ Phần trăm Khối lượng Dung dịch Pemanganat -->
+- **Ví dụ 4-1: Tính Nồng độ Phần trăm Khối lượng Dung dịch Pemanganat**
+  - Cho:
+    - Khối lượng hóa chất $\text{KMnO}_4$ khô đem hòa tan: $m_{\text{solute}} = 1.0\text{ kg}$.
+    - Thể tích nước dung môi: $V_{\text{water}} = 50.0\text{ L}$.
+    - Khối lượng riêng của nước: $\rho_{\text{water}} = 1.0\text{ kg/L}$.
+    - Nồng độ dung dịch khuyến nghị của nhà sản xuất hóa chất: $3.0\%$.
+  - Tìm:
+    - Nồng độ phần trăm theo khối lượng của dung dịch vừa pha ($P_{\text{wt}}$).
+    - Đánh giá kỹ thuật so với mức khuyến nghị $3.0\%$.
+  - Phương trình áp dụng:
+    $$m_{\text{water}} = V_{\text{water}} \cdot \rho_{\text{water}}$$
+    $$m_{\text{total}} = m_{\text{solute}} + m_{\text{water}}$$
+    $$P_{\text{wt}} = \left(\frac{m_{\text{solute}}}{m_{\text{total}}}\right) \times 100\% \quad [\text{eq\_ch04\_013}]$$
+  - Các bước giải:
+    1. Bước 1: Tính khối lượng nước dung môi:
+       $$m_{\text{water}} = 50.0\text{ L} \times 1.0\text{ kg/L} = 50.0\text{ kg}$$
+    2. Bước 2: Tính tổng khối lượng của toàn bộ dung dịch sau khi hòa tan:
+       $$m_{\text{total}} = 1.0\text{ kg} + 50.0\text{ kg} = 51.0\text{ kg}$$
+    3. Bước 3: Tính nồng độ phần trăm theo khối lượng của dung dịch theo `eq_ch04_013`:
+       $$P_{\text{wt}} = \left(\frac{1.0\text{ kg}}{51.0\text{ kg}}\right) \times 100\% = 1.96078\% \approx 1.96\% \text{ (theo khối lượng)}$$
+    4. Bước 4: Đánh giá kỹ thuật:
+       Dung dịch vừa pha có nồng độ $1.96\%$, loãng hơn mức khuyến nghị $3.0\%$ của nhà sản xuất. Muốn đạt đúng nồng độ $3.0\%$, người vận hành cần hòa tan thêm hóa chất pemanganat.
+  - **Đáp số**: `1.96% theo khối lượng (1.96% wt)`
+<!-- exercise-end -->
 
 ---
 
-#### 4.3.4 Catalytic Filtration Media: Greensand, Birm & LayneOx™
-##### 4.3.4.1 Manganese Greensand (Glauconite) and GreensandPlus
-###### Media Composition and Structure
-Manganese Greensand is an engineered granular filter medium produced from natural greensand (**glauconite**), an iron-potassium-aluminosilicate mineral of marine origin. The glauconite substrate is processed by ion-exchange conditioning with manganous salt solutions ($	ext{MnSO}_4$) followed by oxidation with potassium permanganate ($	ext{KMnO}_4$), precipitating a dense, chemically bonded coating of higher-valence manganese oxides ($	ext{MnO}_2 \cdot \text{Mn}_2\text{O}_3$) over every grain. **GreensandPlus™** is a synthetic successor utilizing a high-purity silica sand core coated with manganese dioxide, providing superior structural durability, resistance to low-silica waters, higher operating temperatures ($> 40^\circ	ext{C}$), and resistance to physical attrition during vigorous backwash.
+##### 4.4.4.2 Ví dụ 4-2: Khối lượng KMnO4 Cần Pha để Đạt Nồng độ Mục tiêu trong Bể Trụ
 
-###### Operational Modes: Continuous Regeneration (CR) vs. Intermittent Regeneration (IR)
-1. **Continuous Regeneration (CR)**: Ideal for surface water and groundwater containing significant iron concentrations ($	ext{Fe} > 1.0\text{ mg/L}$). A pre-mixed solution of potassium permanganate ($	ext{KMnO}_4$) or chlorine plus $	ext{KMnO}_4$ is injected continuously into the raw water pipeline ahead of the filter bed. Iron is oxidized in the water column and captured in the anthracite cap; dissolved manganese is oxidized at the catalytic greensand grain surface. Any slight excess of $	ext{KMnO}_4$ is instantly absorbed by the greensand bed, preventing downstream pink water.
-2. **Intermittent Regeneration (IR / Batch)**: Employed when raw water contains primarily manganese ($	ext{Mn} > 0.5\text{ mg/L}$) and very low iron ($	ext{Fe} < 0.5\text{ mg/L}$). The raw water is filtered directly through the bed without chemical pre-dosing. Dissolved $	ext{Mn}^{2+}$ is adsorbed and oxidized by the active $	ext{MnO}_2$ surface coating. Once the bed's oxidative adsorption capacity ($650 - 700\text{ g Mn/m}^3\text{ media}$) is exhausted, the filter is taken offline and backwashed with a concentrated batch solution of $	ext{KMnO}_4$ ($1.5 - 2.0\text{ g KMnO}_4\text{ per liter of media}$) to regenerate the catalytic coating.
-
-###### Design Criteria and Operating Envelope
-- **Filtration Velocity ($v_{	ext{filt}}$)**: **$5 - 12\text{ m/h}$** ($2 - 5\text{ gpm/sq.ft}$).
-- **Operating pH Window**: **$6.2 - 8.5$**.
-- **Bed Stratification**: Dual-media configuration typically features $30 - 45\text{ cm}$ ($12 - 18\text{ in}$) of anthracite coal over $30 - 45\text{ cm}$ of Manganese Greensand, supported on graded garnet and silica gravel.
-- **Backwash Hydraulic Expansion**: Requires a backwash wash rate of **$24 - 30\text{ m/h}$** ($10 - 12\text{ gpm/sq.ft}$) to achieve **$30\% - 40\%$ bed expansion** at $20^\circ	ext{C}$.
-
-##### 4.3.4.2 Birm Catalytic Filter Media
-###### Physical Properties and Operating Mechanism
-**Birm®** (Burgess Iron Removal Method) is an insoluble, granular catalytic aluminosilicate filter medium manufactured with an active manganese dioxide surface coating. Birm functions as an **electron transfer catalyst** between dissolved oxygen and dissolved iron/manganese, without being consumed in the reaction and without requiring chemical regeneration with $	ext{KMnO}_4$:
-- Bulk Density: $44 - 50\text{ lbs/cu.ft}$ ($700 - 800\text{ kg/m}^3$).
-- Effective Size ($ES$): $0.59\text{ mm}$; Uniformity Coefficient ($UC$): $1.96$.
-- Service Loading Velocity: **$8.5 - 12.2\text{ m/h}$** ($3.5 - 5.0\text{ gpm/sq.ft}$).
-
-###### Environmental Constraints and Media Poisoning Vulnerabilities
-Birm operates under strict raw water quality prerequisites:
-1. **Dissolved Oxygen Requirement**: Dissolved oxygen content must be at least **$15\%$ of the combined iron and manganese concentration** ($[	ext{DO}] \ge 0.15 \cdot ([	ext{Fe}] + [	ext{Mn}])$). If insufficient, pre-aeration must be provided.
-2. **Operating pH Range**:
-   - For Iron Removal: **$	ext{pH } 6.8 - 9.0$**. Below pH 6.8, catalytic activity ceases.
-   - For Manganese Removal: **$	ext{pH } 8.0 - 9.0$** (if both Fe and Mn are present, pH should be maintained at $8.0 - 8.5$).
-3. **Free Chlorine Limit**: Free chlorine residual must be **$< 0.5\text{ ppm (mg/L)}$**. Excessive chlorine degrades and strips the active catalytic surface coating.
-4. **Hydrogen Sulfide ($H_2S$) Prohibition**: Raw water must be completely free of hydrogen sulfide ($H_2S$). Sulfide permanently poisons the catalytic sites by reducing active $	ext{MnO}_2$ to inactive manganese sulfide.
-5. **Oil and Organic Contamination**: Organic matter must be low ($	ext{TOC} < 2.0\text{ mg/L}$); oil, grease, and polyphosphates must be entirely absent.
-
-##### 4.3.4.3 High-Purity Granular Pyrolusite (LayneOx™)
-###### Media Matrix and Solid Composition
-**LayneOx™** is an engineered catalytic filter media derived from natural, high-purity **pyrolusite ore** ($	ext{MnO}_2$), certified under **NSF/ANSI Standard 61**:
-- Unlike Manganese Greensand or Birm—which feature thin coatings applied over inert substrate cores—LayneOx consists of a **solid, uniform matrix containing $70\% - 80\%\text{ by weight active MnO}_2$** throughout the entire granular particulate.
-- It exhibits extraordinary physical hardness (Mohs hardness ~5) and structural density (specific gravity $	ext{SG} pprox 3.8 - 4.1$; bulk density $pprox 1,800 - 2,000\text{ kg/m}^3$), making it completely impervious to surface coating peel-off, attrition, or chemical dissolution.
-
-###### High-Rate Filtration Capabilities and Process Footprint
-- **Service Filtration Velocity**: Operates at ultra-high surface loading rates of **$20 - 37\text{ m/h}$** (**$8 - 15\text{ gpm/sq.ft}$**), more than three times the loading rate of conventional greensand filters. This capability reduces the required footprint of filtration buildings by $60 - 70\%$.
-- **Minimum Empty Bed Contact Time (EBCT)**: **$	ext{EBCT} \ge 2.0\text{ minutes}$**.
-- **Bed Depth**: **$90 - 120\text{ cm}$** ($36 - 48\text{ inches}$).
-- **Removal Efficiency**: Consistently achieves **$> 99\%$ removal efficiency**, producing finished water with total iron $< 0.05\text{ mg/L}$ and manganese $< 0.01\text{ mg/L}$.
-- **Oxidant Pairing**: Operates with a continuous chemical feed of free chlorine ($0.5 - 2.0\text{ mg/L}$ free $	ext{Cl}_2$ residual across the bed), which continuously regenerates the catalytic pyrolusite surface without requiring costly $	ext{KMnO}_4$.
-
-##### 4.3.4.4 Filter Bed Stratification, Dual-Media Configurations, and Underdrain Hydraulics
-###### Media Comparison Matrix
-| Parameter / Property | Manganese Greensand | GreensandPlus™ | Birm® | LayneOx™ (Pyrolusite) |
-|---|---|---|---|---|
-| **Substrate Core** | Natural Glauconite | Silica Sand | Aluminosilicate | None (Solid Matrix) |
-| **Active Coating** | $	ext{MnO}_2$ coating | $	ext{MnO}_2$ coating | $	ext{MnO}_2$ surface | $70 - 80\%\text{ MnO}_2$ solid |
-| **Specific Gravity** | $2.4 - 2.6$ | $2.4 - 2.5$ | $2.0$ | $3.8 - 4.1$ |
-| **Bulk Density** | $1,360\text{ kg/m}^3$ ($85\text{ lb/cf}$) | $1,410\text{ kg/m}^3$ ($88\text{ lb/cf}$) | $720\text{ kg/m}^3$ ($45\text{ lb/cf}$) | $1,920\text{ kg/m}^3$ ($120\text{ lb/cf}$) |
-| **Operating pH Range** | $6.2 - 8.5$ | $6.2 - 8.5$ | $6.8 - 9.0$ ($>8.0\text{ for Mn}$) | $6.0 - 9.0$ |
-| **Service Flow Rate** | $5 - 12\text{ m/h}$ ($2 - 5\text{ gpm/sf}$) | $5 - 12\text{ m/h}$ ($2 - 5\text{ gpm/sf}$) | $8.5 - 12.2\text{ m/h}$ ($3.5 - 5\text{ gpm/sf}$) | $20 - 37\text{ m/h}$ ($8 - 15\text{ gpm/sf}$) |
-| **Regeneration Method** | Continuous $	ext{KMnO}_4$ / Batch | Continuous $	ext{KMnO}_4$ / $	ext{Cl}_2$ | None (Requires DO) | Continuous $	ext{Cl}_2$ residual |
-| **Chlorine Tolerance** | High | High | Low ($< 0.5\text{ ppm}$) | Extremely High |
-| **Backwash Rate** | $24 - 30\text{ m/h}$ ($10 - 12\text{ gpm/sf}$) | $24 - 30\text{ m/h}$ ($10 - 12\text{ gpm/sf}$) | $24 - 30\text{ m/h}$ ($10 - 12\text{ gpm/sf}$) | $30 - 37\text{ m/h}$ ($12 - 15\text{ gpm/sf}$) |
-| **Air Scour Requirement** | Optional | Recommended | Not Required | Mandatory ($3\text{ scfm/sq.ft}$) |
-
-###### Filter Run Termination and Backwash Hydraulics
-Filters are operated until reaching one of two terminal breakthrough limits:
-1. **Turbidity/Filtration Breakthrough**: Effluent manganese $> 0.02\text{ mg/L}$ or turbidity $> 0.3\text{ NTU}$.
-2. **Terminal Differential Head Loss**: Clean bed pressure drop increases across the media bed until reaching terminal differential headloss:
-   $$\Delta P_{	ext{terminal}} = 10\text{ psig} \; (\sim 70\text{ kPa} \approx 7.0\text{ m H}_2\text{O})$$
-Upon reaching terminal head loss, automated PLC valve sequencing initiates backwash:
-- **Drain-Down**: Water level is lowered to $10 - 15\text{ cm}$ above media surface.
-- **Air Scour**: Compressed air is injected through bottom underdrain nozzles at **$3.0\text{ scfm/sq.ft}$** ($55\text{ m}^3/(\text{m}^2 \cdot \text{h})$) for $3 - 5\text{ minutes}$ to shatter adhered ferric flocs and dislodge interstitial particulates.
-- **Fluidized Water Backwash**: Upward water wash at $24 - 37\text{ m/h}$ ($10 - 15\text{ gpm/sq.ft}$) fluidizes the bed to $30\% - 40\%$ expansion, carrying liberated flocs out to the backwash troughs.
-- **Filter-to-Waste (Ripening)**: Re-filtered water is discharged to waste for $5 - 10\text{ minutes}$ until effluent turbidity drops below $0.1\text{ NTU}$.
+<!-- exercise-start: Ví dụ 4-2: Khối lượng KMnO4 Cần Pha để Đạt Nồng độ Mục tiêu trong Bể Trụ -->
+- **Ví dụ 4-2: Khối lượng KMnO4 Cần Pha để Đạt Nồng độ Mục tiêu trong Bể Trụ**
+  - Cho:
+    - Nồng độ dung dịch mục tiêu theo khối lượng: $P_{\text{wt}} = 3.0\%$.
+    - Đường kính trong của bể hòa trộn hình trụ: $D = 1.2\text{ m}$.
+    - Chiều sâu ngập nước thực tế trong bể: $H = 1.5\text{ m}$.
+    - Khối lượng riêng của nước: $\rho_{\text{water}} = 1000.0\text{ kg/m}^3$ ($1.0\text{ kg/L}$).
+  - Tìm:
+    - Khối lượng hóa chất khô $\text{KMnO}_4$ cần hòa tan vào bể ($m_{\text{chem}}$).
+  - Phương trình áp dụng:
+    $$A = \frac{\pi D^2}{4}$$
+    $$V_{\text{tank}} = A \cdot H \quad [\text{eq\_ch04\_014a}]$$
+    $$m_{\text{water}} = V_{\text{tank}} \cdot \rho_{\text{water}}$$
+    $$m_{\text{chem}} = \left(\frac{P_{\text{wt}}}{100\% - P_{\text{wt}}}\right) \cdot m_{\text{water}} \quad [\text{eq\_ch04\_014b}]$$
+  - Các bước giải:
+    1. Bước 1: Tính diện tích mặt cắt ngang hình tròn của bể trụ:
+       $$A = \frac{\pi \cdot (1.2\text{ m})^2}{4} = \frac{\pi \cdot 1.44}{4} = 1.130973\text{ m}^2$$
+    2. Bước 2: Tính thể tích nước chứa trong bể theo chiều sâu ngập nước:
+       $$V_{\text{tank}} = 1.130973\text{ m}^2 \times 1.5\text{ m} = 1.69646\text{ m}^3 = 1,696.46\text{ L}$$
+    3. Bước 3: Tính khối lượng nước dung môi có sẵn trong bể:
+       $$m_{\text{water}} = 1.69646\text{ m}^3 \times 1000.0\text{ kg/m}^3 = 1,696.46\text{ kg}$$
+    4. Bước 4: Tính khối lượng $\text{KMnO}_4$ khô cần hòa tan:
+       - **Phương pháp tính chuẩn xác theo khối lượng (Gravimetric Method)**:
+         $$P_{\text{wt}} = \frac{m_{\text{chem}}}{m_{\text{chem}} + m_{\text{water}}} = 0.03$$
+         $$m_{\text{chem}} = \left(\frac{0.03}{1 - 0.03}\right) \cdot m_{\text{water}} = \left(\frac{0.03}{0.97}\right) \times 1696.46\text{ kg} = 52.4678\text{ kg} \approx 52.47\text{ kg}$$
+       - **Phương pháp tính gần đúng danh định theo thể tích (Nominal Dilution)**:
+         $$m_{\text{chem, nominal}} \approx 0.03 \times 1696.46\text{ kg} = 50.89\text{ kg}$$
+  - **Đáp số**: `52.47 kg KMnO4 (tính chính xác theo khối lượng, 52.5 kg) [hoặc 50.89 kg theo nồng độ gần đúng danh định]`
+<!-- exercise-end -->
 
 ---
 
-### 4.4 Engineering Calculations, Design Procedures & Worked Examples
-#### 4.4.1 Solution Chemistry, Batch Makeup & Chemical Feed Tank Sizing
-##### 4.4.1.1 Gravimetric Weight Percentage Concentration Formulation
-In water treatment chemical preparation rooms, dry granular chemicals (such as potassium permanganate $	ext{KMnO}_4$, soda ash $	ext{Na}_2	ext{CO}_3$, or alum) are dissolved in water to prepare stock solutions of specified percent concentration by weight ($P_{	ext{wt}}$):
-$$P_{	ext{wt}} = \left(rac{m_{	ext{solute}}}{m_{	ext{solute}} + m_{	ext{solvent}}}ight) 	imes 100\% = \left(rac{m_{	ext{KMnO}_4}}{m_{	ext{KMnO}_4} + (ho_{	ext{water}} \cdot V_{	ext{water}})}ight) 	imes 100\% \quad 	ext{[eq\_ch04\_013]}$$
-- **Equation ID**: `eq_ch04_013`
-- **Plain Text**: `P_wt = [m_solute / (m_solute + m_solvent)] * 100%`
-- **Description**: Calculates the true gravimetric weight percentage concentration of an aqueous chemical solution prepared in the water treatment chemical feed facility.
-- **Key Variables & Parameters**:
-  - $P_{	ext{wt}}$: Percent concentration by weight ($\%$).
-  - $m_{	ext{solute}}$: Mass of dissolved dry chemical solute ($	ext{kg}$).
-  - $m_{	ext{solvent}}$: Mass of water solvent ($	ext{kg}$, where $1\text{ L water} = 1.0\text{ kg}$ at $4^\circ	ext{C}$).
-  - $ho_{	ext{water}}$: Density of water ($1.0\text{ kg/L} = 1000\text{ kg/m}^3$).
-  - $V_{	ext{water}}$: Volume of water solvent added ($	ext{L}$ or $	ext{m}^3$).
+##### 4.4.4.3 Ví dụ 4-3: Nhu cầu Chất Oxy hóa KMnO4 để Khử Sắt
 
-##### 4.4.1.2 Cylindrical Feed Tank Sizing and Dry Chemical Batch Charge
-For a cylindrical chemical solution tank of diameter $D$ and liquid fill depth $H$, the liquid volume is:
-$$V_{	ext{tank}} = rac{\pi D^2}{4} H \quad 	ext{[eq\_ch04\_014a]}$$
-Rearranging the weight percentage definition to solve for the exact dry chemical mass ($m_{	ext{chem}}$) needed to achieve a target weight percent ($P_{	ext{wt}}$) in this water volume:
-$$P_{	ext{wt}} = rac{m_{	ext{chem}}}{m_{	ext{chem}} + m_{	ext{water}}} \quad \Longrightarrow \quad m_{	ext{chem}} = \left(rac{P_{	ext{wt}}}{100\% - P_{	ext{wt}}}ight) \cdot (ho_{	ext{water}} \cdot V_{	ext{tank}}) \quad 	ext{[eq\_ch04\_014b]}$$
-- **Equation ID**: `eq_ch04_014`
-- **Plain Text**: `V_tank = (pi * D^2 / 4) * H; m_chem = [P_wt / (100% - P_wt)] * rho_water * V_tank`
-- **Description**: Calculates the liquid volume of a cylindrical chemical preparation tank and the exact mass of dry chemical required to achieve a target weight percent solution.
-- **Key Variables & Parameters**:
-  - $V_{	ext{tank}}$: Filled liquid volume of cylindrical solution tank ($	ext{m}^3$ or $	ext{L}$).
-  - $D$: Internal diameter of the cylindrical tank ($	ext{m}$).
-  - $H$: Liquid depth in the tank ($	ext{m}$).
-  - $m_{	ext{chem}}$: Mass of dry chemical to dissolve ($	ext{kg}$).
-  - $P_{	ext{wt}}$: Target solution concentration by weight ($\%$).
-
-##### 4.4.1.3 Worked Example 4-1: Permanganate Solution Concentration by Weight (Slide 19)
-###### Problem Statement
-A chemical supplier recommends a $3\%$ permanganate solution. If $1\text{ kg KMnO}_4$ are dissolved in $50\text{ liters}$ of water, what is the percent by weight?
-
-###### Given Data
-- Mass of dissolved $	ext{KMnO}_4$ ($m_{	ext{solute}}$): $1.0\text{ kg}$.
-- Volume of water ($V_{	ext{water}}$): $50.0\text{ L}$.
-- Density of water ($ho_{	ext{water}}$): $1.0\text{ kg/L}$.
-- Recommended supplier concentration: $3.0\%$.
-
-###### Step-by-Step Solution
-1. **Calculate the mass of water solvent ($m_{	ext{solvent}}$)**:
-   $$m_{	ext{water}} = V_{	ext{water}} \cdot ho_{	ext{water}} = 50.0	ext{ L} 	imes 1.0	ext{ kg/L} = 50.0	ext{ kg}$$
-2. **Calculate the total mass of prepared solution ($m_{	ext{total}}$)**:
-   $$m_{	ext{total}} = m_{	ext{solute}} + m_{	ext{water}} = 1.0	ext{ kg} + 50.0	ext{ kg} = 51.0	ext{ kg}$$
-3. **Calculate the percent concentration by weight ($P_{	ext{wt}}$)** using `eq_ch04_013`:
-   $$P_{	ext{wt}} = \left(rac{m_{	ext{solute}}}{m_{	ext{total}}}ight) 	imes 100\% = \left(rac{1.0	ext{ kg}}{51.0	ext{ kg}}ight) 	imes 100\% = 1.96078\% pprox 1.96\% 	ext{ (by weight)}$$
-4. **Engineering Assessment**:
-   The prepared solution concentration of **$1.96\%\text{ wt}$** is substantially more dilute than the supplier's recommended $3.0\%$ target. To achieve $3.0\%$, additional permanganate must be added.
-
-###### Final Answer
-$$\mathbf{P_{	ext{wt}} = 1.96\%	ext{ by weight (1.96\% wt)}}$$
+<!-- exercise-start: Ví dụ 4-3: Nhu cầu Chất Oxy hóa KMnO4 để Khử Sắt -->
+- **Ví dụ 4-3: Nhu cầu Chất Oxy hóa KMnO4 để Khử Sắt**
+  - Cho:
+    - Nồng độ sắt hòa tan trong nước thô: $[\text{Fe}^{2+}] = 1.6\text{ mg/L}$.
+    - Hệ số tiêu hao pemanganat theo định mức vận hành thực tế: $0.94\text{ mg KMnO}_4/\text{mg Fe}$.
+    - Tỉ lệ hợp thức lý thuyết: $\frac{MW(\text{KMnO}_4)}{3 \cdot MW(\text{Fe})} = \frac{158.034}{3 \times 55.845} = 0.9433\text{ mg KMnO}_4/\text{mg Fe}$.
+    - Khối lượng mol phân tử: $\text{KMnO}_4 = 158.034\text{ g/mol}$, $\text{Fe} = 55.845\text{ g/mol}$.
+  - Tìm:
+    - Nồng độ kali pemanganat cần châm vào nước để xử lý hết sắt ($\text{Dose}_{\text{KMnO}_4}$).
+  - Phương trình áp dụng:
+    $$3\text{Fe}^{2+} + \text{KMnO}_4 + 7\text{H}_2\text{O} \rightarrow 3\text{Fe}(\text{OH})_3\downarrow + \text{MnO}_2\downarrow + \text{K}^+ + 5\text{H}^+ \quad [\text{eq\_ch04\_007}]$$
+    $$\text{Dose}_{\text{KMnO}_4} = 0.94 \cdot [\text{Fe}^{2+}] \quad [\text{eq\_ch04\_015}]$$
+  - Các bước giải:
+    1. Bước 1: Thiết lập phương trình phản ứng hóa học:
+       $3\text{ mol Fe}$ tương đương $3 \times 55.845\text{ g} = 167.535\text{ g Fe}$ cần phản ứng với $1\text{ mol KMnO}_4$ tương đương $158.034\text{ g}$.
+       Tỉ lệ phản ứng lý thuyết $= \frac{158.034}{167.535} = 0.94329\text{ mg KMnO}_4/\text{mg Fe}$.
+    2. Bước 2: Chọn hệ số định mức vận hành chuẩn kỹ thuật:
+       Theo tài liệu bài giảng, định mức thực hành thiết kế là $0.94\text{ mg KMnO}_4/\text{mg Fe}$.
+    3. Bước 3: Tính liều lượng hóa chất pemanganat cần châm:
+       - Theo định mức vận hành thiết kế ($0.94\text{ mg/mg}$):
+         $$\text{Dose}_{\text{KMnO}_4} = 1.6\text{ mg/L} \times 0.94\text{ mg/mg} = 1.504\text{ mg/L} \approx 1.50\text{ mg/L}$$
+       - Theo tỉ lệ hợp thức lý thuyết ($0.9433\text{ mg/mg}$):
+         $$\text{Dose}_{\text{KMnO}_4, \text{theo}} = 1.6\text{ mg/L} \times 0.94329\text{ mg/mg} = 1.5093\text{ mg/L} \approx 1.51\text{ mg/L}$$
+  - **Đáp số**: `1.504 mg/L KMnO4 (vận hành: 1.50 mg/L; lý thuyết: 1.51 mg/L)`
+<!-- exercise-end -->
 
 ---
 
-##### 4.4.1.4 Worked Example 4-2: Mass of $KMnO_4$ for Target Solution Concentration in Cylindrical Tank (Slide 19)
-###### Problem Statement
-To produce a $3\%$ solution, how many kgs $	ext{KMnO}_4$ should be dissolved in a tank $1.2\text{ meter}$ in diameter and filled to a depth of $1.5\text{ meters}$?
+##### 4.4.4.4 Ví dụ 4-4: Nhu cầu Chất Oxy hóa KMnO4 để Khử Mangan
 
-###### Given Data
-- Target solution concentration ($P_{	ext{wt}}$): $3.0\%$.
-- Tank internal diameter ($D$): $1.2\text{ m}$.
-- Liquid water depth ($H$): $1.5\text{ m}$.
-- Density of water ($ho_{	ext{water}}$): $1000.0\text{ kg/m}^3$ ($1.0\text{ kg/L}$).
-
-###### Step-by-Step Solution
-1. **Calculate the circular cross-sectional area of the cylindrical tank ($A$)**:
-   $$A = rac{\pi \cdot D^2}{4} = rac{\pi \cdot (1.2	ext{ m})^2}{4} = rac{\pi \cdot 1.44}{4} = 1.130973	ext{ m}^2$$
-2. **Calculate the liquid volume of water in the tank ($V_{	ext{tank}}$)**:
-   $$V_{	ext{tank}} = A \cdot H = 1.130973	ext{ m}^2 	imes 1.5	ext{ m} = 1.69646	ext{ m}^3 = 1,696.46	ext{ L}$$
-3. **Calculate the mass of water solvent in the tank ($m_{	ext{water}}$)**:
-   $$m_{	ext{water}} = V_{	ext{tank}} \cdot ho_{	ext{water}} = 1.69646	ext{ m}^3 	imes 1000	ext{ kg/m}^3 = 1,696.46	ext{ kg}$$
-4. **Calculate the required mass of dry $	ext{KMnO}_4$ solute ($m_{	ext{chem}}$)**:
-   - **Method A: Exact Gravimetric Weight Formulation** (accounting for solute mass in total solution weight, using `eq_ch04_014`):
-     $$P_{	ext{wt}} = rac{m_{	ext{chem}}}{m_{	ext{chem}} + m_{	ext{water}}} = 0.03$$
-     $$m_{	ext{chem}} = 0.03 \cdot m_{	ext{chem}} + 0.03 \cdot m_{	ext{water}}$$
-     $$m_{	ext{chem}} \cdot (1 - 0.03) = 0.03 \cdot m_{	ext{water}}$$
-     $$m_{	ext{chem}} = \left(rac{0.03}{0.97}ight) \cdot m_{	ext{water}} = \left(rac{0.03}{0.97}ight) 	imes 1696.46	ext{ kg} = 52.4678	ext{ kg} pprox \mathbf{52.47	ext{ kg}}$$
-   - **Method B: Nominal Volumetric Dilution Approximation** (simplified engineering approximation assuming $1\text{ L solution} pprox 1\text{ kg}$ total):
-     $$m_{	ext{chem, nominal}} pprox 0.03 	imes 1,696.46	ext{ kg} = \mathbf{50.89	ext{ kg}}$$
-
-###### Final Answer
-$$\mathbf{m_{	ext{chem}} = 52.47	ext{ kg KMnO}_4 \quad 	ext{(Exact gravimetric: 52.5 kg; Nominal approximation: 50.89 kg)}}$$
-
----
-
-#### 4.4.2 Stoichiometric Oxidant Demand & Chemical Feed Calculations
-##### 4.4.2.1 Superposition of Metal Demands and Total Oxidant Dosing Rates
-When raw groundwater contains co-occurring iron and manganese, total chemical oxidant dosing is determined by superimposing individual stoichiometric demands:
-- **Total $	ext{KMnO}_4$ Demand**:
-  $$	ext{Dose}_{	ext{KMnO}_4} = 0.94 \cdot [	ext{Fe}^{2+}] + 1.92 \cdot [	ext{Mn}^{2+}] + 	ext{NOM}_{	ext{demand}}$$
-- **Total Chlorine Demand**:
-  $$	ext{Dose}_{	ext{Cl}_2} = 0.64 \cdot [	ext{Fe}^{2+}] + 1.29 \cdot [	ext{Mn}^{2+}] + 	ext{Cl}_{2,	ext{residual}}$$
-- **Total Dissolved Oxygen Demand**:
-  $$	ext{DO}_{	ext{demand}} = 0.14 \cdot [	ext{Fe}^{2+}] + 0.29 \cdot [	ext{Mn}^{2+}]$$
-
-##### 4.4.2.2 Worked Example 4-3: $KMnO_4$ Oxidant Requirement for Iron Removal (Slide 19)
-###### Problem Statement
-A plant's raw water has $1.6\text{ mg/L}$ of iron. How much $	ext{KMnO}_4$ should be used to treat the iron?
-
-###### Given Data
-- Raw water dissolved iron concentration ($[	ext{Fe}^{2+}]$): $1.6\text{ mg/L}$.
-- Operational $	ext{KMnO}_4$ oxidant demand factor per mg Fe: $0.94\text{ mg KMnO}_4 / \text{mg Fe}$.
-- Theoretical stoichiometric ratio ($MW(	ext{KMnO}_4) / (3 \cdot MW(	ext{Fe}))$): $0.9433\text{ mg KMnO}_4 / \text{mg Fe}$.
-- Molar mass of $	ext{KMnO}_4$: $158.034\text{ g/mol}$; Molar mass of $	ext{Fe}$: $55.845\text{ g/mol}$.
-
-###### Step-by-Step Solution
-1. **Stoichiometric Chemical Reaction**:
-   $$3	ext{Fe}^{2+} + 	ext{KMnO}_4 + 7	ext{H}_2	ext{O} ightarrow 3	ext{Fe}(	ext{OH})_3\downarrow + 	ext{MnO}_2\downarrow + 	ext{K}^+ + 5	ext{H}^+$$
-2. **Calculate Chemical Demand**:
-   - **Method A: Standard Operational Factor ($0.94\text{ mg/mg}$)** from lecture slides:
-     $$	ext{Dose}_{	ext{KMnO}_4} = [	ext{Fe}^{2+}] 	imes 0.94	ext{ mg KMnO}_4/	ext{mg Fe} = 1.6	ext{ mg/L} 	imes 0.94	ext{ mg/mg} = \mathbf{1.504	ext{ mg/L}} pprox \mathbf{1.50	ext{ mg/L}}$$
-   - **Method B: Theoretical Stoichiometric Factor ($0.9433\text{ mg/mg}$)**:
-     $$	ext{Dose}_{	ext{KMnO}_4,	ext{theo}} = 1.6	ext{ mg/L} 	imes 0.94329	ext{ mg/mg} = 1.5093	ext{ mg/L} pprox \mathbf{1.51	ext{ mg/L}}$$
-
-###### Final Answer
-$$\mathbf{	ext{Dose}_{	ext{KMnO}_4} = 1.504	ext{ mg/L (Operational: 1.50 mg/L; Theoretical: 1.51 mg/L)}}$$
+<!-- exercise-start: Ví dụ 4-4: Nhu cầu Chất Oxy hóa KMnO4 để Khử Mangan -->
+- **Ví dụ 4-4: Nhu cầu Chất Oxy hóa KMnO4 để Khử Mangan**
+  - Cho:
+    - Nồng độ mangan hòa tan trong nước thô: $[\text{Mn}^{2+}] = 6.8\text{ mg/L}$.
+    - Hệ số tiêu hao pemanganat theo định mức vận hành thực tế: $1.92\text{ mg KMnO}_4/\text{mg Mn}$.
+    - Tỉ lệ hợp thức lý thuyết: $\frac{2 \cdot MW(\text{KMnO}_4)}{3 \cdot MW(\text{Mn})} = \frac{2 \times 158.034}{3 \times 54.938} = 1.9177\text{ mg KMnO}_4/\text{mg Mn}$.
+    - Khối lượng mol phân tử: $\text{KMnO}_4 = 158.034\text{ g/mol}$, $\text{Mn} = 54.938\text{ g/mol}$.
+  - Tìm:
+    - Nồng độ kali pemanganat cần châm vào nước để xử lý hết mangan ($\text{Dose}_{\text{KMnO}_4}$).
+  - Phương trình áp dụng:
+    $$3\text{Mn}^{2+} + 2\text{KMnO}_4 + 2\text{H}_2\text{O} \rightarrow 5\text{MnO}_2\downarrow + 2\text{K}^+ + 4\text{H}^+ \quad [\text{eq\_ch04\_008}]$$
+    $$\text{Dose}_{\text{KMnO}_4} = 1.92 \cdot [\text{Mn}^{2+}] \quad [\text{eq\_ch04\_016}]$$
+  - Các bước giải:
+    1. Bước 1: Thiết lập phương trình phản ứng hóa học:
+       $3\text{ mol Mn}$ tương đương $3 \times 54.938\text{ g} = 164.814\text{ g Mn}$ phản ứng hoàn toàn với $2\text{ mol KMnO}_4$ tương đương $2 \times 158.034\text{ g} = 316.068\text{ g}$.
+       Tỉ lệ phản ứng lý thuyết $= \frac{316.068}{164.814} = 1.91772\text{ mg KMnO}_4/\text{mg Mn}$.
+    2. Bước 2: Chọn hệ số định mức vận hành chuẩn kỹ thuật:
+       Theo tài liệu bài giảng, định mức thực hành thiết kế là $1.92\text{ mg KMnO}_4/\text{mg Mn}$.
+    3. Bước 3: Tính liều lượng hóa chất pemanganat cần châm:
+       - Theo định mức vận hành thiết kế ($1.92\text{ mg/mg}$):
+         $$\text{Dose}_{\text{KMnO}_4} = 6.8\text{ mg/L} \times 1.92\text{ mg/mg} = 13.056\text{ mg/L} \approx 13.06\text{ mg/L}$$
+       - Theo tỉ lệ hợp thức lý thuyết ($1.9177\text{ mg/mg}$):
+         $$\text{Dose}_{\text{KMnO}_4, \text{theo}} = 6.8\text{ mg/L} \times 1.91772\text{ mg/mg} = 13.0405\text{ mg/L} \approx 13.04\text{ mg/L}$$
+  - **Đáp số**: `13.056 mg/L KMnO4 (vận hành: 13.06 mg/L; lý thuyết: 13.04 mg/L)`
+<!-- exercise-end -->
 
 ---
 
-##### 4.4.2.3 Worked Example 4-4: $KMnO_4$ Oxidant Requirement for Manganese Removal (Slide 19)
-###### Problem Statement
-A plant's raw water has $6.8\text{ mg/L}$ of manganese. How much $	ext{KMnO}_4$ should be used to treat the manganese?
+#### 4.4.5 Cẩm nang Chẩn đoán và Xử lý 5 Sự cố Vận hành Điển hình (Plant Troubleshooting & Operational Diagnostics)
 
-###### Given Data
-- Raw water dissolved manganese concentration ($[	ext{Mn}^{2+}]$): $6.8\text{ mg/L}$.
-- Operational $	ext{KMnO}_4$ oxidant demand factor per mg Mn: $1.92\text{ mg KMnO}_4 / \text{mg Mn}$.
-- Theoretical stoichiometric ratio ($(2 \cdot MW(	ext{KMnO}_4)) / (3 \cdot MW(	ext{Mn}))$): $1.9177\text{ mg KMnO}_4 / \text{mg Mn}$.
-- Molar mass of $	ext{KMnO}_4$: $158.034\text{ g/mol}$; Molar mass of $	ext{Mn}$: $54.938\text{ g/mol}$.
+##### 4.4.5.1 Sự cố 1: Màng nhầy vi khuẩn sắt và mangan phát triển trong mạng lưới cấp nước
+- **Dấu hiệu nhận biết**:
+  - Xuất hiện màng nhầy sinh học nhớt màu nâu đỏ hoặc đen bám chặt mặt trong thành ống dẫn nước.
+  - Tổn thất áp lực đường ống tăng vọt, hệ số lưu lượng Hazen-Williams suy giảm nghiêm trọng ($C < 80$).
+  - Nồng độ clo khử trùng dư giảm nhanh bất thường tại các điểm cuối mạng lưới.
+  - Vi khuẩn chỉ thị Coliform phát hiện ẩn nấp bên trong lớp nhớt sinh học.
+- **Nguyên nhân gốc rễ**:
+  - Nước sau xử lý còn sót lại ion sắt $\text{Fe}^{2+}$ và mangan $\text{Mn}^{2+}$ chưa oxy hóa hết lọt qua bể lọc.
+  - Các kim loại hòa tan này đóng vai trò chất dinh dưỡng năng lượng cho các vi khuẩn hóa tự dưỡng (*Gallionella*, *Leptothrix*, *Crenothrix*).
+  - Vi khuẩn tiết ra lớp chất nhớt polymer ngoại bào (EPS) dày ngăn cản clo tiếp xúc tiêu diệt vi sinh vật.
+- **Biện pháp kỹ thuật khắc phục**:
+  1. Kiểm soát quá trình oxy hóa và lọc tại nhà máy để nước ra đạt $\text{Fe} < 0.1\text{ mg/L}$ và $\text{Mn} < 0.02\text{ mg/L}$.
+  2. Tăng cường nồng độ clo tự do dư từ $0.5\text{ mg/L}$ đến $1.0\text{ mg/L}$ tại mọi vị trí trên mạng lưới.
+  3. Triển khai quy trình súc xả đường ống định hướng (Unidirectional Flushing - UDF) với vận tốc xói mòn $> 1.8\text{ m/s}$.
+  4. Thông thoi cơ học (pigging) cạo sạch màng nhầy bám dính tại các đoạn ống cụt và ống phân phối lâu năm.
 
-###### Step-by-Step Solution
-1. **Stoichiometric Chemical Reaction**:
-   $$3	ext{Mn}^{2+} + 2	ext{KMnO}_4 + 2	ext{H}_2	ext{O} ightarrow 5	ext{MnO}_2\downarrow + 2	ext{K}^+ + 4	ext{H}^+$$
-2. **Calculate Chemical Demand**:
-   - **Method A: Standard Operational Factor ($1.92\text{ mg/mg}$)** from lecture slides:
-     $$	ext{Dose}_{	ext{KMnO}_4} = [	ext{Mn}^{2+}] 	imes 1.92	ext{ mg KMnO}_4/	ext{mg Mn} = 6.8	ext{ mg/L} 	imes 1.92	ext{ mg/mg} = \mathbf{13.056	ext{ mg/L}} pprox \mathbf{13.06	ext{ mg/L}}$$
-   - **Method B: Theoretical Stoichiometric Factor ($1.9177\text{ mg/mg}$)**:
-     $$	ext{Dose}_{	ext{KMnO}_4,	ext{theo}} = 6.8	ext{ mg/L} 	imes 1.91772	ext{ mg/mg} = 13.0405	ext{ mg/L} pprox \mathbf{13.04	ext{ mg/L}}$$
+##### 4.4.5.2 Sự cố 2: Oxy hóa mangan thất bại khi làm thoáng ở pH trung tính
+- **Dấu hiệu nhận biết**:
+  - Nước sau bể lọc khử sạch sắt ($\text{Fe} < 0.1\text{ mg/L}$) nhưng hàm lượng mangan hầu như không suy giảm ($\text{Mn} > 0.5 - 1.5\text{ mg/L}$).
+  - Khách hàng khiếu nại nước sinh hoạt làm ố đen quần áo giặt và xuất hiện cặn đen ở bồn cầu vệ sinh.
+- **Nguyên nhân gốc rễ**:
+  - Vận hành nhầm lẫn khi tin rằng làm thoáng bằng oxy không khí có thể khử được cả sắt và mangan ở pH trung tính.
+  - Năng lượng hoạt hóa oxy hóa ion $\text{Mn}^{2+}$ bằng oxy phân tử rất cao; phản ứng oxy hóa đồng thể thực tế không diễn ra ở $\text{pH} < 9.0$.
+- **Biện pháp kỹ thuật khắc phục**:
+  1. Chuyển đổi công nghệ sang dùng chất oxy hóa hóa học mạnh: châm kali pemanganat ($\text{KMnO}_4$) với liều $1.92\text{ mg/mg Mn}$ trước bể lọc.
+  2. Bổ sung hoặc thay thế lớp cát thạch anh bằng vật liệu lọc xúc tác tráng oxit mangan (GreensandPlus hoặc LayneOx).
+  3. Nếu vẫn dùng oxy làm thoáng, châm vôi hoặc kiềm nâng $\text{pH} \ge 9.5 - 10.0$ trước bể tiếp xúc 60 phút, rồi châm khí $\text{CO}_2$ trung hòa lại pH trước khi cấp nước.
 
-###### Final Answer
-$$\mathbf{	ext{Dose}_{	ext{KMnO}_4} = 13.056	ext{ mg/L (Operational: 13.06 mg/L; Theoretical: 13.04 mg/L)}}$$
+##### 4.4.5.3 Sự cố 3: Hạt lọc xúc tác Birm bị trơ hóa và ngộ độc bề mặt
+- **Dấu hiệu nhận biết**:
+  - Bể lọc hạt Birm đột ngột mất hoàn toàn hiệu quả khử sắt và mangan.
+  - Hàm lượng kim loại trong nước sau lọc tăng vọt bằng với nồng độ nước nguồn dù đã rửa lọc sạch sẽ.
+- **Nguyên nhân gốc rễ**:
+  - Nước ngầm cấp vào có chứa khí hydro sunfua ($\text{H}_2\text{S}$) làm ngộ độc và khử lớp xúc tác $\text{MnO}_2$ thành mangan sunfua trơ.
+  - Tiền clo hóa quá liều (clo tự do vượt quá $0.5\text{ ppm}$) phá hủy và hòa tan lớp màng oxit mangan phủ trên bề mặt hạt.
+  - Hàm lượng oxy hòa tan trong nước thô không đạt mức tối thiểu $15\%$ tổng nồng độ $[\text{Fe} + \text{Mn}]$.
+  - Giá trị pH của nước nguồn rơi xuống dưới $6.8$ (đối với sắt) hoặc dưới $8.0$ (đối với mangan).
+- **Biện pháp kỹ thuật khắc phục**:
+  1. Bổ sung công trình tháp làm thoáng phía trước bể lọc Birm để đuổi sạch khí $\text{H}_2\text{S}$ và hòa tan oxy đạt bão hòa.
+  2. Cắt hoàn toàn hệ thống châm clo trước bể Birm hoặc khống chế lượng clo tự do nghiêm ngặt dưới mức $0.5\text{ ppm}$.
+  3. Châm hóa chất kiềm (soda ash hoặc $\text{NaOH}$) kiểm soát pH nước đầu vào bể lọc luôn nằm trong khoảng $7.2 - 8.2$.
+  4. Thay thế lớp vật liệu Birm mới nếu lớp bọc xúc tác bề mặt đã bị axít hoặc sunfua phá hủy hoàn toàn.
 
----
+##### 4.4.5.4 Sự cố 4: Bùng phát hiện tượng nước đỏ và nước đen do xáo động thủy lực
+- **Dấu hiệu nhận biết**:
+  - Nước tại vòi tiêu dùng của người dân đột ngột đổi sang màu nâu đỏ hoặc đen đục sau các sự cố vận hành mạng lưới.
+  - Nước cấp tại trạm bơm xử lý trung tâm vẫn trong suốt và đạt đầy đủ tiêu chuẩn chất lượng.
+  - Sự cố bùng phát trùng thời điểm trạm bơm khởi động lại, vỡ đường ống truyền tải, hoặc diễn tập mở trụ cứu hỏa.
+- **Nguyên nhân gốc rễ**:
+  - Bông cặn kết tủa sắt ferric hydroxide và mangan dioxit lắng đọng tích tụ lâu ngày tại các đoạn ống cụt và vùng nước chảy chậm.
+  - Biến động thủy lực làm vận tốc dòng chảy tăng vọt ($> 2.5\text{ m/s}$) hoặc đổi chiều dòng nước.
+  - Ứng suất cắt thủy lực đáy thành ống vượt ngưỡng cản xói mòn, cuốn phăng các mảng cặn lắng vào dòng nước sạch.
+- **Biện pháp kỹ thuật khắc phục**:
+  1. Nâng cao hiệu quả giữ cặn tại trạm xử lý, kiểm soát độ đục nước sau lọc duy trì dưới $0.1\text{ NTU}$.
+  2. Nối vòng liên thông các tuyến ống cụt trên mạng lưới phân phối để duy trì vận tốc lưu thông liên tục.
+  3. Lập kế hoạch súc xả mạng lưới định kỳ 6 tháng một lần theo quy trình xả một chiều UDF qua trụ cứu hỏa.
+  4. Châm bổ sung hóa chất ức chế ăn mòn polyphosphate hoặc orthophosphate liều lượng $0.5 - 1.5\text{ mg/L}$ để cố định lớp cáu cặn trên thành ống.
 
-##### 4.4.2.4 Comprehensive Engineering Worked Example 4-5: Multiple Tray Aerator Tower & Contact Basin Sizing
-###### Problem Statement
-A municipal groundwater treatment plant is being designed to process a design raw water capacity of $Q = 12,000	ext{ m}^3/	ext{day}$ ($500	ext{ m}^3/	ext{h}$). Raw water quality testing reveals:
-- Dissolved ferrous iron $[	ext{Fe}^{2+}] = 6.5	ext{ mg/L}$.
-- Dissolved manganese $[	ext{Mn}^{2+}] = 0.4	ext{ mg/L}$.
-- Dissolved carbon dioxide $[	ext{CO}_2] = 32.0	ext{ mg/L}$; $	ext{pH} = 6.20$.
-- Temperature $T = 25^\circ	ext{C}$.
-
-Design a multiple tray aeration facility and post-aeration reaction basin complying with **TCXDVN 33:2006** standards. Specifically determine:
-1. Theoretical dissolved oxygen demand for metal oxidation ($	ext{mg/L O}_2$ and $	ext{kg O}_2/	ext{day}$).
-2. Required plan surface area of the aeration trays ($A_{	ext{tray}}$) assuming a hydraulic loading rate $q_A = 25	ext{ m}^3/(	ext{m}^2 \cdot 	ext{h})$.
-3. Dimensions of a square tray aerator tower (width $W$, length $L$), number of trays ($N$), and vertical spacing ($S$).
-4. Required post-aeration reaction basin volume ($V_{	ext{basin}}$) and dimensions for a detention time $t_{	ext{det}} = 35	ext{ minutes}$.
-
-###### Step-by-Step Solution
-1. **Calculate Theoretical Dissolved Oxygen Demand**:
-   Using `eq_ch04_018`:
-   $$	ext{DO}_{	ext{demand}} = 0.14 \cdot [	ext{Fe}^{2+}] + 0.29 \cdot [	ext{Mn}^{2+}]$$
-   $$	ext{DO}_{	ext{demand}} = (0.14 	imes 6.5	ext{ mg/L}) + (0.29 	imes 0.4	ext{ mg/L}) = 0.910 + 0.116 = 1.026	ext{ mg/L O}_2$$
-   Total daily mass oxygen consumption:
-   $$\dot{m}_{	ext{O}_2} = Q 	imes 	ext{DO}_{	ext{demand}} = 12,000	ext{ m}^3/	ext{day} 	imes 1.026	ext{ g/m}^3 	imes 10^{-3}	ext{ kg/g} = \mathbf{12.31	ext{ kg O}_2/	ext{day}}$$
-   *(Note: Since multiple tray aerators dissolve $6 - 8	ext{ mg/L DO}$, oxygen supply is in vast $6	imes - 8	imes$ stoichiometric excess).*
-
-2. **Calculate Aeration Tray Surface Area**:
-   Design hourly flow rate $Q_{	ext{hr}} = rac{12,000	ext{ m}^3/	ext{day}}{24	ext{ h/day}} = 500	ext{ m}^3/	ext{h}$.
-   Selected hydraulic surface loading rate $q_A = 25	ext{ m}^3/(	ext{m}^2 \cdot 	ext{h})$ (within TCXDVN 33:2006 recommended range of $20 - 40	ext{ m}^3/(	ext{m}^2 \cdot 	ext{h})$):
-   $$A_{	ext{tray}} = rac{Q_{	ext{hr}}}{q_A} = rac{500	ext{ m}^3/	ext{h}}{25	ext{ m}^3/(	ext{m}^2 \cdot 	ext{h})} = 20.0	ext{ m}^2$$
-
-3. **Determine Aerator Hardware Sizing**:
-   - Provide two parallel aerator towers for operational redundancy ($N_{	ext{towers}} = 2$):
-     $$A_{	ext{tray, each}} = rac{20.0	ext{ m}^2}{2} = 10.0	ext{ m}^2$$
-   - Tray plan dimensions: For square trays, width $W = \sqrt{10.0} pprox 3.16	ext{ m}$. Select standard dimensions:
-     $$W = 3.20	ext{ m}, \quad L = 3.20	ext{ m} \quad (A_{	ext{actual}} = 10.24	ext{ m}^2 	imes 2 = 20.48	ext{ m}^2)$$
-   - Actual surface loading rate $q_{	ext{actual}} = rac{500}{20.48} = 24.41	ext{ m}^3/(	ext{m}^2 \cdot 	ext{h})$ (PASS).
-   - Number of trays: Select $N = 4	ext{ trays}$ per tower containing $8	ext{ cm}$ deep coke beds.
-   - Vertical tray spacing: Select $S = 40	ext{ cm}$ ($0.40	ext{ m}$).
-   - Total vertical fall height $H_{	ext{aerator}} = (4 - 1) 	imes 0.40	ext{ m} + 0.60	ext{ m freeboard} = 1.80	ext{ m}$.
-
-4. **Size Post-Aeration Reaction Detention Basin**:
-   Detention time $t_{	ext{det}} = 35	ext{ minutes} = rac{35}{60}	ext{ h} = 0.5833	ext{ h}$.
-   $$V_{	ext{basin}} = Q_{	ext{hr}} 	imes t_{	ext{det}} = 500	ext{ m}^3/	ext{h} 	imes 0.5833	ext{ h} = 291.67	ext{ m}^3$$
-   Provide two parallel baffled reaction compartments ($V_{	ext{comp}} = 145.83	ext{ m}^3$ each).
-   Assuming effective liquid water depth $H_{	ext{basin}} = 3.0	ext{ m}$ (with $0.5	ext{ m}$ freeboard):
-   $$	ext{Plan Area per compartment } A_{	ext{basin}} = rac{145.83	ext{ m}^3}{3.0	ext{ m}} = 48.61	ext{ m}^2$$
-   Select compartment width $W_{	ext{basin}} = 4.0	ext{ m}$, length $L_{	ext{basin}} = 12.2	ext{ m}$ (length-to-width ratio $3:1$ with over-and-under baffles to prevent hydraulic short-circuiting).
-
-###### Final Answer
-- Theoretical DO demand: **$1.026	ext{ mg/L O}_2$ ($12.31	ext{ kg O}_2/	ext{day}$)**.
-- Total aeration tray surface area: **$20.48	ext{ m}^2$ (2 towers of $3.20	ext{ m} 	imes 3.20	ext{ m}$)**.
-- Aerator configuration: **4 trays per tower with $40	ext{ cm}$ vertical spacing**.
-- Post-aeration reaction basin: **$V = 291.7	ext{ m}^3$ (2 compartments of $4.0	ext{ m} 	imes 12.2	ext{ m} 	imes 3.0	ext{ m}$ depth)**.
-
----
-
-##### 4.4.2.5 Comprehensive Engineering Worked Example 4-6: Catalytic Filter Vessel Sizing, Run Time & Backwash Water Budget
-###### Problem Statement
-A groundwater facility treats $Q = 240	ext{ m}^3/	ext{h}$ ($4,000	ext{ L/min}$) containing $1.2	ext{ mg/L Fe}^{2+}$ and $0.6	ext{ mg/L Mn}^{2+}$ using pressure filtration vessels loaded with **GreensandPlus™** catalytic media operating in Continuous Regeneration (CR) mode with potassium permanganate dosing:
-1. Calculate daily stoichiometric $	ext{KMnO}_4$ chemical feed mass ($	ext{kg/day}$).
-2. Size a battery of cylindrical vertical pressure vessels operating at a service filtration velocity $v_{	ext{filt}} = 10.0	ext{ m/h}$ ($4.1\text{ gpm/sq.ft}$), providing at least 3 parallel filter vessels such that design flow can be maintained with one unit offline for backwash.
-3. Determine vessel internal diameter ($D$), verify media Empty Bed Contact Time ($	ext{EBCT}$) for a media depth of $0.90	ext{ m}$ ($36	ext{ in}$), and calculate total filter run time to terminal headloss if media solids storage capacity is $2.5	ext{ kg total metal solids}/	ext{m}^2	ext{ bed area}$.
-4. Size backwash pumps for $30\%\text{ bed expansion}$ at $v_{	ext{bw}} = 28.0	ext{ m/h}$ ($11.5\text{ gpm/sq.ft}$) for a 10-minute backwash cycle, and determine backwash water consumption as a percentage of treated water.
-
-###### Step-by-Step Solution
-1. **Daily Permanganate Chemical Feed Mass**:
-   Using `eq_ch04_017`:
-   $$	ext{Dose}_{	ext{KMnO}_4} = 0.94 \cdot [	ext{Fe}^{2+}] + 1.92 \cdot [	ext{Mn}^{2+}]$$
-   $$	ext{Dose}_{	ext{KMnO}_4} = (0.94 	imes 1.2	ext{ mg/L}) + (1.92 	imes 0.6	ext{ mg/L}) = 1.128 + 1.152 = 2.28	ext{ mg/L KMnO}_4$$
-   Daily water production $Q_{	ext{day}} = 240	ext{ m}^3/	ext{h} 	imes 24	ext{ h/day} = 5,760	ext{ m}^3/	ext{day}$.
-   $$	ext{Daily KMnO}_4	ext{ Mass} = 5,760	ext{ m}^3/	ext{day} 	imes 2.28	ext{ g/m}^3 	imes 10^{-3}	ext{ kg/g} = \mathbf{13.13	ext{ kg KMnO}_4/	ext{day}}$$
-
-2. **Filter Battery Surface Area and Redundancy**:
-   With $N = 3	ext{ filter vessels}$ operating in parallel:
-   Under normal operation with all 3 online, each filter processes $Q_1 = rac{240}{3} = 80	ext{ m}^3/	ext{h}$.
-   Required total cross-sectional filter area at $v_{	ext{filt}} = 10.0	ext{ m/h}$:
-   $$A_{	ext{total}} = rac{Q}{v_{	ext{filt}}} = rac{240	ext{ m}^3/	ext{h}}{10.0	ext{ m/h}} = 24.0	ext{ m}^2$$
-   Area per filter vessel $A_{	ext{vessel}} = rac{24.0}{3} = 8.0	ext{ m}^2$.
-   - Redundancy Check: If 1 vessel is offline for backwash, remaining 2 vessels process $rac{240}{2} = 120	ext{ m}^3/	ext{h}$ each:
-     $$v_{	ext{redundant}} = rac{120	ext{ m}^3/	ext{h}}{8.0	ext{ m}^2} = 15.0	ext{ m/h} \quad (\le 15.0	ext{ m/h allowable peak rate, PASS})$$
-
-3. **Vessel Diameter, EBCT, and Filter Run Time**:
-   - Internal vessel diameter:
-     $$A_{	ext{vessel}} = rac{\pi D^2}{4} \quad \Longrightarrow \quad D = \sqrt{rac{4 \cdot A_{	ext{vessel}}}{\pi}} = \sqrt{rac{4 	imes 8.0}{\pi}} = \sqrt{10.186} = 3.19	ext{ m}$$
-     Select standard pressure vessel diameter **$D = 3.20	ext{ m}$** ($A_{	ext{actual}} = 8.042	ext{ m}^2$).
-   - Empty Bed Contact Time ($	ext{EBCT}$) for media bed depth $L_{	ext{bed}} = 0.90	ext{ m}$:
-     $$	ext{EBCT} = rac{L_{	ext{bed}}}{v_{	ext{filt}}} = rac{0.90	ext{ m}}{10.0	ext{ m/h}} = 0.090	ext{ h} = 5.40	ext{ minutes} \quad (\ge 2.0	ext{ min, PASS})$$
-   - Total Precipitated Solids Loading Rate:
-     Iron precipitates as $	ext{Fe(OH)}_3$ ($MW = 106.87\text{ g/mol}$ vs $	ext{Fe} = 55.85\text{ g/mol}$, factor $1.914\text{ mg/mg}$).
-     Manganese precipitates as $	ext{MnO}_2$ ($MW = 86.94\text{ g/mol}$ vs $	ext{Mn} = 54.94\text{ g/mol}$, factor $1.582\text{ mg/mg}$).
-     Permanganate also precipitates as $	ext{MnO}_2$ ($86.94 / 158.03 = 0.550\text{ mg/mg KMnO}_4$).
-     Total dry suspended solids concentration:
-     $$C_{	ext{solids}} = (1.2 	imes 1.914) + (0.6 	imes 1.582) + (2.28 	imes 0.550) = 2.297 + 0.949 + 1.254 = 4.50	ext{ mg/L} = 4.50	ext{ g/m}^3$$
-   - Filter Run Time ($T_{	ext{run}}$):
-     Areal solids accumulation rate $\dot{m}_A = v_{	ext{filt}} 	imes C_{	ext{solids}} = 10.0	ext{ m/h} 	imes 4.50	ext{ g/m}^3 = 45.0	ext{ g}/(	ext{m}^2 \cdot 	ext{h}) = 0.045	ext{ kg}/(	ext{m}^2 \cdot 	ext{h})$.
-     $$T_{	ext{run}} = rac{	ext{Solids Capacity}}{\dot{m}_A} = rac{2.5	ext{ kg/m}^2}{0.045	ext{ kg}/(	ext{m}^2 \cdot 	ext{h})} = 55.56	ext{ hours} pprox \mathbf{55	ext{ hours (2.3 days)}}$$
-
-4. **Backwash Hydraulics and Water Budget**:
-   - Backwash flow rate per vessel at $v_{	ext{bw}} = 28.0	ext{ m/h}$:
-     $$Q_{	ext{bw}} = A_{	ext{actual}} 	imes v_{	ext{bw}} = 8.042	ext{ m}^2 	imes 28.0	ext{ m/h} = \mathbf{225.18	ext{ m}^3/	ext{h}} = 3,753	ext{ L/min}$$
-   - Water volume consumed during a $10	ext{-minute}$ ($0.1667	ext{ h}$) backwash cycle:
-     $$V_{	ext{bw}} = 225.18	ext{ m}^3/	ext{h} 	imes 0.1667	ext{ h} = \mathbf{37.53	ext{ m}^3	ext{ per backwash}}$$
-   - Filter-to-waste ripening ($5	ext{ minutes}$ at $10	ext{ m/h}$):
-     $$V_{	ext{rinse}} = 8.042	ext{ m}^2 	imes 10.0	ext{ m/h} 	imes rac{5}{60}	ext{ h} = 6.70	ext{ m}^3$$
-     Total wash water per cycle $= 37.53 + 6.70 = 44.23	ext{ m}^3$.
-   - Treated water produced during a $55	ext{-hour}$ filter run:
-     $$V_{	ext{produced}} = 8.042	ext{ m}^2 	imes 10.0	ext{ m/h} 	imes 55	ext{ h} = 4,423.1	ext{ m}^3$$
-   - Backwash Water Loss Percentage:
-     $$\%\text{ Backwash Loss} = \left(rac{44.23	ext{ m}^3}{4,423.1	ext{ m}^3}ight) 	imes 100\% = \mathbf{1.00\%} \quad (\le 2 - 3\%\text{ industry standard, EXCELLENT})$$
-
-###### Final Answer
-- Daily $	ext{KMnO}_4$ demand: **$13.13	ext{ kg/day}$** ($2.28	ext{ mg/L}$).
-- Filter vessels: **3 pressure vessels of $D = 3.20	ext{ m}$ ($A = 8.04	ext{ m}^2$ each)**.
-- Empty Bed Contact Time: **$	ext{EBCT} = 5.4	ext{ minutes}$**; Filter run time: **$55	ext{ hours}$**.
-- Backwash pump flow rate: **$225.2	ext{ m}^3/	ext{h}$**; Net backwash water loss: **$1.00\%$**.
-
----
-
-### 4.5 Engineering Design Procedures, Quality Standards & Plant Troubleshooting
-#### 4.5.1 Comprehensive Engineering Design Procedures
-##### 4.5.1.1 Aeration & Post-Aeration Detention Basin Sizing Procedure
-1. **Raw Water Hydrogeochemical Characterization**: Measure design flow $Q$ ($	ext{m}^3/	ext{h}$ or $	ext{m}^3/	ext{day}$), dissolved ferrous iron $[	ext{Fe}^{2+}]$, manganous manganese $[	ext{Mn}^{2+}]$, initial pH, total alkalinity, dissolved $	ext{CO}_2$, dissolved $	ext{H}_2	ext{S}$, and seasonal water temperature.
-2. **Aerator Contactor Selection**: Select a multiple tray aerator ($3 - 5	ext{ coke/slat trays}$ with $30 - 50	ext{ cm}$ spacing) or stepped cascade aerator based on available hydraulic head and raw $	ext{CO}_2$ concentration.
-3. **Tray Surface Area Sizing**: Calculate required tray plan area using standard hydraulic surface loading rates under TCXDVN 33:2006:
-   $$A_{	ext{tray}} = rac{Q}{q_A} \quad 	ext{where } q_A = 20 - 40	ext{ m}^3/(	ext{m}^2 \cdot 	ext{h})$$
-4. **Mass Transfer Verification**: Evaluate oxygen absorption and carbon dioxide stripping. Verify that dissolved oxygen reaches $80\% - 90\%$ saturation ($> 7.5	ext{ mg/L}$) and $	ext{CO}_2$ stripping elevates pH to $\ge 7.0 - 7.5$.
-5. **Post-Aeration Detention Basin Sizing**: Size the contact reaction basin to provide a minimum hydraulic retention time of $t_{	ext{det}} = 30 - 45	ext{ minutes}$:
-   $$V_{	ext{basin}} = Q 	imes t_{	ext{det}}$$
-   Provide internal baffles (length-to-width ratio $\ge 3:1$) to suppress hydraulic dead zones.
-6. **Downstream Clarification Routing**: If total iron exceeds $5.0\text{ mg/L}$, route effluent through a contact clarifier or tube settler before media filtration; if iron $< 5.0\text{ mg/L}$, route directly to rapid dual-media gravity or pressure filters.
-
-##### 4.5.1.2 Potassium Permanganate Chemical Oxidation Dosing Procedure
-1. **Influent Water Analysis**: Quantify dissolved iron $[	ext{Fe}^{2+}]$, dissolved manganese $[	ext{Mn}^{2+}]$, and background natural organic matter (TOC/DOC).
-2. **Stoichiometric Demand Computation**: Compute the baseline stoichiometric $	ext{KMnO}_4$ feed concentration:
-   $$	ext{Dose}_{	ext{stoich}} = 0.94 \cdot [	ext{Fe}^{2+}] + 1.92 \cdot [	ext{Mn}^{2+}] \quad (	ext{mg/L})$$
-3. **Laboratory Jar Test Optimization**: Perform jar tests to evaluate additional background oxidant demand exerted by organics ($	ext{TOC}$) or sulfides, determining the optimum operational dose.
-4. **Stock Solution Batching**: Prepare concentrated $	ext{KMnO}_4$ stock solution ($1.0\% - 3.0\%$ by weight) in a corrosion-resistant mixing tank:
-   $$m_{	ext{KMnO}_4} = \left(rac{P_{	ext{wt}}}{100\% - P_{	ext{wt}}}ight) \cdot ho_{	ext{water}} \cdot V_{	ext{tank}}$$
-5. **Chemical Feed Pump Calibration**: Configure metering chemical injection pumps (diaphragm or peristaltic) paced to raw water flow to deliver the target dosage ahead of the rapid-mix chamber or directly onto the filter influent.
-6. **Online Color & ORP Monitoring**: Continuously monitor filtered water color and oxidation-reduction potential (ORP) to ensure effluent manganese $\le 0.05\text{ mg/L}$ while preventing overdosing of unreacted pink $	ext{MnO}_4^-$.
-
-##### 4.5.1.3 Catalytic Filter Media Sizing & Backwash Hydraulic Design Procedure
-1. **Catalytic Media Selection**: Select media matching raw water chemistry:
-   - *Birm*: If $	ext{DO} \ge 15\%\text{ of metal content}$, $	ext{pH} \ge 6.8 - 8.0$, free $	ext{Cl}_2 < 0.5\text{ ppm}$, and $	ext{H}_2	ext{S} = 0$.
-   - *Manganese Greensand / GreensandPlus*: For combined Fe and Mn with continuous $	ext{KMnO}_4$ or chlorine feed.
-   - *LayneOx™*: For high-rate municipal applications ($8 - 15\text{ gpm/sq.ft}$), high Mn concentrations, and compact footprints.
-2. **Filter Bed Area Computation**: Calculate total cross-sectional bed area:
-   $$A_{	ext{filter}} = rac{Q}{v_{	ext{filt}}} \quad 	ext{where } v_{	ext{filt}} = 5 - 12	ext{ m/h (Greensand/Birm)} 	ext{ or } 20 - 37	ext{ m/h (LayneOx)}$$
-3. **Bed Depth & Contact Time Verification**: Establish bed depth ($75 - 90\text{ cm}$) and confirm Empty Bed Contact Time:
-   $$	ext{EBCT} = rac{L_{	ext{bed}}}{v_{	ext{filt}}} \ge 2.0	ext{ minutes}$$
-4. **Vessel Freeboard Provision**: Provide a minimum vertical freeboard above the media surface equal to $40\% - 50\%$ of the media bed depth to accommodate bed expansion without media loss during backwash.
-5. **Backwash Hydraulic System Design**: Size backwash pumps and distribution piping for fluidization velocities of $24 - 37\text{ m/h}$ ($10 - 15\text{ gpm/sq.ft}$) plus auxiliary air scour ($3\text{ scfm/sq.ft}$) to achieve $30\% - 40\%$ bed expansion.
-6. **Instrumentation & Automated Initiation**: Install differential pressure transmitters across the bed to automatically initiate backwashing when terminal headloss reaches $\Delta P = 10\text{ psig}$ ($70\text{ kPa}$) or after a maximum preset run time ($48 - 72\text{ hours}$).
-
----
-
-#### 4.5.2 Regulatory Standards & Potable Water Quality Thresholds
-##### 4.5.2.1 QCVN 01-1:2018/BYT Domestic Water Quality Standard
-- **Issuing Authority**: Ministry of Health of Vietnam (Bộ Y tế).
-- **Scope of Enforcement**: Mandatory quality regulation governing all piped domestic water supply systems, water utilities, and treatment plants across Vietnam.
-- **Key Mandatory Limits**:
-  - **Total Iron ($	ext{Fe}$)**: $\le \mathbf{0.3	ext{ mg/L}}$ (Group A parameter).
-  - **Total Manganese ($	ext{Mn}$)**: $\le \mathbf{0.1	ext{ mg/L}}$ (Group A parameter; lowered from $0.3	ext{ mg/L}$ to protect public health and prevent black staining).
-  - **Turbidity**: $\le \mathbf{2.0	ext{ NTU}}$ (Group A parameter).
-  - **Color**: $\le \mathbf{15	ext{ TCU}}$ (True Color Units).
-  - **pH**: $\mathbf{6.0 - 8.5}$.
-  - **Free Chlorine Residual**: $\mathbf{0.2 - 1.0	ext{ mg/L}}$ at consumer taps.
-
-##### 4.5.2.2 QCVN 01:2009/BYT Historical Quality Framework
-- **Historical Baseline Limits**: Iron $\le 0.3\text{ mg/L}$; Manganese $\le 0.3\text{ mg/L}$.
-- **Regulatory Modernization Rationale**: Replaced by QCVN 01-1:2018/BYT to align with updated toxicological findings regarding manganese neurotoxicity and aesthetic staining at levels above $0.1\text{ mg/L}$.
-
-##### 4.5.2.3 TCXDVN 33:2006 National Construction Standard for Water Supply
-- **Issuing Authority**: Ministry of Construction of Vietnam (Bộ Xây dựng).
-- **Design Mandates for Iron & Manganese Facilities**:
-  - **Aeration Loading Rate**: $20 - 40\text{ m}^3/(\text{m}^2 \cdot \text{h})$ for multiple tray aerators.
-  - **Post-Aeration Reaction Time**: $30 - 45\text{ minutes}$ minimum detention in contact basins.
-  - **Filtration Rate**: $5 - 10\text{ m/h}$ for rapid gravity sand filters treating aerated iron flocs.
-
----
-
-#### 4.5.3 Plant Troubleshooting & Operational Diagnostic Guide
-##### 4.5.3.1 Diagnostic 1: Biological Biofilm Fouling and Iron/Manganese Bacteria Outbreaks
-- **Observed Symptoms**: Jelly-like reddish-brown or black biological slime accumulating on pipe walls, severe chlorine demand spikes in distribution mains, loss of pipeline carrying capacity ($C$ factor drops below 80), and presence of coliform bacteria shielded within slime.
-- **Probable Root Cause**: Unoxidized $	ext{Fe}^{2+}$ and $	ext{Mn}^{2+}$ escaping filtration enter the distribution network, providing an ongoing energy substrate for autotrophic bacteria (*Gallionella*, *Leptothrix*, *Crenothrix*), which synthesize protective extracellular polymeric slime (EPS).
-- **Corrective Engineering Actions**:
-  1. Optimize upstream plant oxidation and filtration to guarantee effluent $	ext{Fe} < 0.1\text{ mg/L}$ and $	ext{Mn} < 0.02\text{ mg/L}$.
-  2. Maintain a continuous free chlorine residual of $0.5 - 1.0\text{ mg/L}$ throughout all extremities of the distribution network.
-  3. Execute automated unidirectional flushing (UDF) at scouring velocities ($> 1.8\text{ m/s}$) and perform mechanical swabbing/pigging in heavily encrusted dead-end mains.
-
-##### 4.5.3.2 Diagnostic 2: Manganese Oxidation Failure During Aeration at Neutral pH
-- **Observed Symptoms**: Finished water filtered through rapid sand filters exhibits complete iron removal ($	ext{Fe} < 0.1\text{ mg/L}$) but virtually zero manganese removal ($	ext{Mn}$ remains $> 0.5 - 1.5\text{ mg/L}$), producing black water complaints and laundry staining in the distribution network.
-- **Probable Root Cause**: Operating engineers mistakenly rely on aeration to oxidize manganese. While aeration rapidly oxidizes iron at pH 7.0–7.5, the homogeneous oxidation of $	ext{Mn}^{2+}$ by dissolved oxygen has an extremely high activation energy and is negligible below pH 9.5 (Table `tbl_ch04_02`).
-- **Corrective Engineering Actions**:
-  1. Switch immediately to strong chemical oxidants: dose Potassium Permanganate at $1.92\text{ mg KMnO}_4/\text{mg Mn}$ into the filter influent, or dose free chlorine ($1.29\text{ mg Cl}_2/\text{mg Mn}$) at $	ext{pH} > 8.0$.
-  2. Retrofit filter beds by capping or replacing sand media with active catalytic media (Manganese Greensand, GreensandPlus, or LayneOx™).
-  3. Alternatively, install chemical feed systems (lime or caustic soda) to elevate reaction pH to $\ge 9.5 - 10.0$ ahead of a 60-minute contact tank, followed by acid re-carbonation.
-
-##### 4.5.3.3 Diagnostic 3: Catalytic Media (Birm) Inactivation and Surface Poisoning
-- **Observed Symptoms**: Birm filter vessels experience sudden loss of iron and manganese removal efficiency; effluent metal concentrations spike to match raw water levels despite proper backwashing.
-- **Probable Root Cause**: Chemical poisoning or passivation of the active $	ext{MnO}_2$ surface coating caused by: (a) raw water $	ext{H}_2	ext{S}$ poisoning the media; (b) pre-chlorination exceeding the $0.5\text{ ppm}$ tolerance limit, stripping the manganese coating; (c) raw water dissolved oxygen falling below $15\%$ of metal content; or (d) water pH falling below $6.8$ (for Fe) or below $8.0$ (for Mn).
-- **Corrective Engineering Actions**:
-  1. Inspect raw water for $	ext{H}_2	ext{S}$ and install upstream forced-draft aeration to strip hydrogen sulfide and restore dissolved oxygen saturation to $> 80\%$.
-  2. Cease pre-chlorination ahead of Birm beds or restrict free chlorine feed to strictly $< 0.5\text{ ppm}$.
-  3. Dose caustic soda or soda ash to elevate and maintain influent pH within the required window ($7.2 - 8.2$).
-  4. If the catalytic coating has been permanently stripped by acid or sulfide, replace the media bed.
-
-##### 4.5.3.4 Diagnostic 4: Distribution Red/Black Water Resuspension from Hydraulic Shock
-- **Observed Symptoms**: Sudden, massive surges of reddish-brown or black turbid water at consumer taps following fire hydrant testing, main line breaks, or distribution pump restarts, despite normal clear effluent at the treatment plant.
-- **Probable Root Cause**: Unoxidized or post-precipitated iron and manganese flocs accumulate over months in dead-end mains and low-velocity zones. When a hydraulic transient surges velocity ($> 2.5\text{ m/s}$) or reverses flow direction, bed shear stress exceeds the threshold for floc erosion ($	au_w > 	au_c$), instantly sloughing sediment into the water stream.
-- **Corrective Engineering Actions**:
-  1. Optimize filtration solids capture at the treatment facility (effluent turbidity $\le 0.1\text{ NTU}$).
-  2. Implement an aggressive distribution pipe looping program to eliminate hydraulic dead-ends.
-  3. Conduct systematic unidirectional flushing (UDF) twice annually to purge accumulated pipe sediments.
-  4. Dose polyphosphates or orthophosphates at low levels ($0.5 - 1.5\text{ mg/L}$) as sequestering agents and corrosion inhibitors to stabilize internal pipe scales.
-
-##### 4.5.3.5 Diagnostic 5: Permanganate Overdosing Producing Pink Water in Distribution
-- **Observed Symptoms**: Treated water in the clearwell or distribution taps exhibits a distinct pink, rose, or purple hue; consumer complaints of chemical discoloration.
-- **Probable Root Cause**: Potassium permanganate is overfed beyond the stoichiometric chemical demand of iron, manganese, and background organics. Unreduced permanganate anion ($	ext{MnO}_4^-$) is highly soluble, passes unhindered through media filters, and colors water pink at concentrations as low as $0.05\text{ mg/L}$.
-- **Corrective Engineering Actions**:
-  1. Immediately reduce or trim the $	ext{KMnO}_4$ feed rate; install flow-paced and online color/ORP feedback control on chemical metering pumps.
-  2. Maintain a downstream catalytic Manganese Greensand filter bed: active greensand media acts as a chemical buffer, adsorbing and utilizing excess $	ext{KMnO}_4$ to regenerate its catalytic coating and preventing downstream pink water breakthrough.
-  3. In emergency breakthrough situations, dose low concentrations of powdered activated carbon (PAC) or hydrogen peroxide ($	ext{H}_2	ext{O}_2$) ahead of filtration to reduce residual permanganate to insoluble $	ext{MnO}_2$.
+##### 4.4.5.5 Sự cố 5: Châm thừa kali pemanganat gây hiện tượng nước hồng trên mạng lưới
+- **Dấu hiệu nhận biết**:
+  - Nước tại bể chứa nước sạch hoặc vòi sử dụng xuất hiện màu hồng cánh sen, màu đỏ tươi hoặc ánh tím nhạt.
+  - Khách hàng phản ánh nước có mùi vị lạ và lo ngại nhiễm độc hóa chất.
+- **Nguyên nhân gốc rễ**:
+  - Bơm định lượng châm quá nhiều kali pemanganat vượt quá tổng nhu cầu phản ứng của sắt, mangan và hợp chất hữu cơ.
+  - Ion pemanganat dư ($\text{MnO}_4^-$) tan hoàn toàn trong nước, dễ dàng đi xuyên qua khe hở lớp cát lọc thông thường.
+  - Màu hồng nhận biết rõ bằng mắt thường ngay khi nồng độ pemanganat dư chỉ đạt từ $0.05\text{ mg/L}$.
+- **Biện pháp kỹ thuật khắc phục**:
+  1. Giảm ngay liều lượng châm $\text{KMnO}_4$; kết nối điều khiển tự động bơm châm theo lưu lượng và chỉ số màu/ORP trực tuyến.
+  2. Bố trí lớp vật liệu lọc Manganese Greensand ở đáy hoặc phía sau bể lọc; lớp vật liệu này đóng vai trò bộ đệm hóa học tự hấp phụ và tiêu thụ lượng $\text{KMnO}_4$ dư.
+  3. Trong tình huống khẩn cấp, châm than hoạt tính dạng bột (PAC) hoặc dung dịch hydro peroxit ($\text{H}_2\text{O}_2$) trước bể lọc để khử tức thời ion $\text{MnO}_4^-$ dư về cặn rắn $\text{MnO}_2$ không tan.
